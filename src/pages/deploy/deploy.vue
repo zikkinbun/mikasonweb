@@ -84,7 +84,7 @@
         let project = this.selectedproject;
         let branch = this.selectedbranch;
         let tag = this.selectedtag;
-        this.axios.post('http://127.0.0.1:8000/api/pushTest/', {
+        this.axios.post('http://112.74.164.242:8000/api/pushTest/', {
           project: project,
           branch: branch,
           tag: tag,
