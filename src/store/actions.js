@@ -1,7 +1,6 @@
-export default {
-  register ({ commit }, userId) {
-    setTimeout(() => {
-      commit('register', userId)
-    }, 500)
-  }
+export const increment = ({commit}) => {
+    commit('INCREMENT')
+}
+export const decrement = ({commit}) => {
+    commit('DECREMENT')
 }

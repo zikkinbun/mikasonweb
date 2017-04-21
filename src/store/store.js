@@ -1,23 +1,29 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import * as actions from './actions'
+import * as getters from './getters'
+
 Vue.use(Vuex)
 
-import getters from './getters'
-import mutations from './mutations'
-import actions from './actions'
-
+// 应用初始状态
 const state = {
-  users: [
-      {id: 1, name: 'Kevin', registered: false},
-      {id: 3, name: 'Aqua', registered: false},
-      {id: 2, name: 'Jim', registered: false}
-  ],
-  registrations: []
+    count: 10
 }
 
-export const store = new Vuex.Store({
-  state,
-  getters,
-  mutations,
-  actions
+// 定义所需的 mutations
+const mutations = {
+    INCREMENT(state) {
+        state.count++
+    },
+    DECREMENT(state) {
+        state.count--
+    }
+}
+
+// 创建 store 实例
+export default new Vuex.Store({
+    actions,
+    getters,
+    state,
+    mutations
 })

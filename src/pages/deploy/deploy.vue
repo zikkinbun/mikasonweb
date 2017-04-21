@@ -27,6 +27,7 @@
         selectedproject: '',
         selectedbranch: '',
         selectedtag: '',
+        msg: '',
       }
     },
     created() {
@@ -84,7 +85,7 @@
         let project = this.selectedproject;
         let branch = this.selectedbranch;
         let tag = this.selectedtag;
-        this.axios.post('http://112.74.164.242:8000/api/pushTest/', {
+        this.axios.post('http://112.74.164.242:8010/api/pushTest/', {
           project: project,
           branch: branch,
           tag: tag,
@@ -94,7 +95,11 @@
             'Content-Type': 'application/x-www-form-urlencoded'}
         })
         .then((response) => {
-           return response.data
+          // return response.data
+           this.msg = response.data;
+           this.$alert(this.msg.retdata, '发布情况', {
+             confirmButtonText: '确定',
+           });
         })
         .catch(function (error) {
           console.log(error);
@@ -104,7 +109,7 @@
         let project = this.selectedproject;
         let branch = this.selectedbranch;
         let tag = this.selectedtag;
-        this.axios.post('http://127.0.0.1:8000/api/pushProd/', {
+        this.axios.post('http://112.74.164.242:8010/api/pushProd/', {
           project: project,
           branch: branch,
           tag: tag,
@@ -114,7 +119,11 @@
             'Content-Type': 'application/x-www-form-urlencoded'}
         })
         .then((response) => {
-           return response.data
+          return response.data
+           this.msg = response.data;
+           this.$alert(this.msg.retdata, '发布情况', {
+             confirmButtonText: '确定',
+           });
         })
         .catch(function (error) {
           console.log(error);
@@ -129,7 +138,7 @@
 }
 .pushbottun {
   margin:0 auto;
-  width:40%;
+  width:30%;
   height:90%;
   display:block;
 }
