@@ -38,6 +38,7 @@
 				this.$confirm('确认退出吗?', '提示', {
 				}).then(() => {
 					sessionStorage.removeItem('user');
+          sessionStorage.removeItem('token');
 					_this.$router.push('/login');
 				}).catch(() => {
 				});

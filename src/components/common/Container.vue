@@ -62,6 +62,7 @@ export default {
     background-color: #fff;
     box-sizing: border-box;
     width:100%;
+    height: 25px;
     float:left;
   }
 }

@@ -45,7 +45,12 @@
       drawUptime: function () {
         this.chartUptime = echarts.init(document.getElementById('chartUptime'));
         // this.chartColumn.showLoading()
-        this.axios.get('http://127.0.0.1:8000/zabbixapi/uptime/').then((response) => {
+        this.axios.get('http://operapi.uco2.com/zabbixapi/uptime/', {
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'Authorization': JSON.parse(sessionStorage.getItem('token'))
+          }
+        }).then((response) => {
           this.uptime_data = response.data;
           this.chartUptime.setOption({
             title: { text: '在线时间' },
@@ -96,7 +101,12 @@
       },
       drawProcess: function () {
         this.chartProc = echarts.init(document.getElementById('chartProc'));
-        this.axios.get('http://127.0.0.1:8000/zabbixapi/runprocess/').then((response) => {
+        this.axios.get('http://operapi.uco2.com/zabbixapi/runprocess/', {
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'Authorization': JSON.parse(sessionStorage.getItem('token'))
+          }
+        }).then((response) => {
           this.proc_data = response.data
           this.chartProc.setOption({
             title: { text: '进程数' },

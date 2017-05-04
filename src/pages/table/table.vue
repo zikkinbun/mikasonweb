@@ -54,8 +54,9 @@
         prop="NetCard">
       </el-table-column>
       <el-table-column
-        label="状态"
-        prop="Status">
+        label="状态" prop="Status">
+        <!-- <el-tag type="success" v-if="(Status == '在线')">标签四</el-tag>
+        <el-tag type="danger" v-else="(Status == '不在线')">标签四</el-tag> -->
       </el-table-column>
       <el-table-column label="操作">
         <template scope="scope">
@@ -241,7 +242,12 @@
     },
     methods: {
       getServer: function () {
-        this.axios.get('http://127.0.0.1:8000/asset/list/').then((response) => {
+        this.axios.get('http://operapi.uco2.com/asset/list/', {
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'Authorization': JSON.parse(sessionStorage.getItem('token'))
+          }
+        }).then((response) => {
           this.servers = response.data;
         }).then(function(response) {
           console.log(response)
@@ -272,12 +278,17 @@
         this.editForm = Object.assign({}, row);
       },
       handleDelete: function (index, row) {
-        let url = 'http://127.0.0.1:8000/asset/delserver/' + row.id + '/'
+        let url = 'http://operapi.uco2.com/asset/delserver/' + row.id + '/'
         this.$confirm('确认删除该记录吗?', '提示', {
           type: 'warning'
         }).then(() => {
           this.listLoading = true;
-          this.axios.post(url).then((response, callback) => {
+          this.axios.post(url, {
+            headers: {
+              'Content-Type': 'application/x-www-form-urlencoded',
+              'Authorization': JSON.parse(sessionStorage.getItem('token'))
+            }
+          }).then((response, callback) => {
             this.listLoading = false;
             this.$message({
               message: '删除成功',
@@ -300,7 +311,7 @@
         formData.append('HDDStorage', this.editForm.HDDStorage)
         formData.append('NetCard', this.editForm.NetCard)
         formData.append('Status', this.editForm.Status)
-        let url = 'http://127.0.0.1:8000/asset/detail/' + this.editForm.id + '/'
+        let url = 'http://operapi.uco2.com/asset/detail/' + this.editForm.id + '/'
         this.$refs.editForm.validate((valid) => {
           if(valid) {
             this.$confirm('确认提交吗？', '提示', {}).then(() => {
@@ -309,7 +320,9 @@
               this.axios.post(url, formData,
               {
                 headers: {
-                  'Content-Type': 'application/x-www-form-urlencoded'}
+                  'Content-Type': 'application/x-www-form-urlencoded',
+                  'Authorization': JSON.parse(sessionStorage.getItem('token'))
+                }
               })
               .then((response) => {
                 this.editLoading = false;
@@ -336,10 +349,12 @@
         formData.append('HDDStorage', this.addForm.HDDStorage)
         formData.append('NetCard', this.addForm.NetCard)
         formData.append('Status', this.addForm.Status)
-        this.axios.post('http://127.0.0.1:8000/asset/list/', formData,
+        this.axios.post('http://operapi.uco2.com/asset/list/', formData,
         {
           headers: {
-            'Content-Type': 'application/x-www-form-urlencoded'}
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'Authorization': JSON.parse(sessionStorage.getItem('token'))
+          }
         })
         .then((response) => {
           // return response.data;

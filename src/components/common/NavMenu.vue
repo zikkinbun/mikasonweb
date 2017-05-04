@@ -7,25 +7,26 @@
       </router-link>
     </div>
     <el-submenu index="1">
-      <template slot="title"><i class="el-icon-menu"></i>资源管理</template>
-      <el-menu-item index="1-1"><router-link to="/table" class="nav-link"><i class="el-icon-edit "></i>云服务器(ECS)列表</router-link></el-menu-item>
-      <el-menu-item index="1-1"><router-link to="/docker" class="nav-link"><i class="el-icon-edit "></i>Docker镜像列表</router-link></el-menu-item>
-      <el-menu-item index="1-1"><router-link to="/docker" class="nav-link"><i class="el-icon-edit "></i>Docker实例列表</router-link></el-menu-item>
+      <template slot="title"><i class="el-icon-setting"></i>资源管理</template>
+      <el-menu-item index="1-1"><router-link to="/table" class="nav-link"><i class="el-icon-view"></i>云服务器(ECS)列表</router-link></el-menu-item>
+      <el-menu-item index="1-1"><router-link to="/image" class="nav-link"><i class="el-icon-document"></i>Docker镜像列表</router-link></el-menu-item>
+      <el-menu-item index="1-1"><router-link to="/container" class="nav-link"><i class="el-icon-menu"></i>Docker容器列表</router-link></el-menu-item>
     </el-submenu>
     <el-submenu index="2">
-      <template slot="title"><i class="el-icon-menu"></i>发布管理</template>
+      <template slot="title"><i class="el-icon-upload"></i>发布管理</template>
       <el-menu-item index="2-1"><router-link to="/deploy" class="nav-link"><i class="el-icon-edit "></i>一键发布</router-link></el-menu-item>
     </el-submenu>
     <el-submenu index="3">
-      <template slot="title"><i class="el-icon-menu"></i>在线监控</template>
-      <el-menu-item index="3-1"><router-link to="/monitor" class="nav-link"><i class="el-icon-date "></i>基本监控</router-link></el-menu-item>
-      <el-menu-item index="3-2"><router-link to="/monitor" class="nav-link"><i class="el-icon-date "></i>CPU监控</router-link></el-menu-item>
-      <el-menu-item index="3-3"><router-link to="/monitor" class="nav-link"><i class="el-icon-date "></i>MEM监控</router-link></el-menu-item>
-      <el-menu-item index="3-4"><router-link to="/monitor" class="nav-link"><i class="el-icon-date "></i>流量监控</router-link></el-menu-item>
+      <template slot="title"><i class="el-icon-information"></i>在线监控</template>
+      <el-menu-item index="3-1"><router-link to="/monitor" class="nav-link"><i class="el-icon-picture "></i>基本监控</router-link></el-menu-item>
+      <el-menu-item index="3-2"><router-link to="/docker" class="nav-link"><i class="el-icon-date "></i>Docker实例监控</router-link></el-menu-item>
+      <el-menu-item index="3-2"><router-link to="/cpu" class="nav-link"><i class="el-icon-date "></i>CPU监控</router-link></el-menu-item>
+      <el-menu-item index="3-3"><router-link to="/mem" class="nav-link"><i class="el-icon-date "></i>内存监控</router-link></el-menu-item>
+      <el-menu-item index="3-4"><router-link to="/loadbalance" class="nav-link"><i class="el-icon-date "></i>流量监控</router-link></el-menu-item>
     </el-submenu>
     <el-submenu index="4">
-      <template slot="title"><i class="el-icon-menu"></i>任务管理</template>
-      <el-menu-item index="4-1"><router-link to="/work" class="nav-link"><i class="el-icon-date "></i>脚本执行</router-link></el-menu-item>
+      <template slot="title"><i class="el-icon-time"></i>任务管理</template>
+      <el-menu-item index="4-1"><router-link to="/quickwork" class="nav-link"><i class="el-icon-date "></i>脚本执行</router-link></el-menu-item>
       <el-menu-item index="4-2"><router-link to="/manage" class="nav-link"><i class="el-icon-date "></i>文件分发</router-link></el-menu-item>
       <el-menu-item index="4-3"><router-link to="/manage" class="nav-link"><i class="el-icon-date "></i>批量执行</router-link></el-menu-item>
       <el-menu-item index="4-4"><router-link to="/manage" class="nav-link"><i class="el-icon-date "></i>定制任务</router-link></el-menu-item>
@@ -33,7 +34,7 @@
       <el-menu-item index="４-6"><router-link to="/manage" class="nav-link"><i class="el-icon-date "></i>灰度计划</router-link></el-menu-item>
     </el-submenu>
     <el-submenu index="5">
-      <template slot="title"><i class="el-icon-menu"></i>配置管理</template>
+      <template slot="title"><i class="el-icon-plus"></i>配置管理</template>
       <el-menu-item index="5-1"><router-link to="/manage" class="nav-link"><i class="el-icon-date "></i>帐号管理</router-link></el-menu-item>
       <el-menu-item index="5-2"><router-link to="/manage" class="nav-link"><i class="el-icon-date "></i>文件管理</router-link></el-menu-item>
       <el-menu-item index="5-3"><router-link to="/manage" class="nav-link"><i class="el-icon-date "></i>脚本管理</router-link></el-menu-item>
