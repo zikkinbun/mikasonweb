@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import * as types from './types'
 
 Vue.use(Vuex)
 
@@ -11,19 +10,20 @@ const state = {
 }
 
 const mutations = {
-  [types.LOGIN]: (state, data) => {
-      sessionStorage.token = data;
-      state.token = data;
+  LOGIN_SUCCESS: () => {
+    console.log('login success')
   },
-  [types.LOGOUT]: (state) => {
-      sessionStorage.removeItem('token');
-      state.token = null
+  LOGOUT_USER: (state) => {
+    state.user = '';
+  },
+  SET_TOKEN: (state, token) => {
+    state.token = token;
   },
 }
 
 const actions = {
-  [actions.LOGIN]: ({commit}, token) => {
-    commit(mutations.LOGIN, token)
+  getToken: ({commit, state}) => {
+    commit('SET_TOKEN', state.token)
   }
 }
 

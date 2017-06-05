@@ -3,14 +3,14 @@
     <el-form autoComplete="on" :model="ruleForm2" :rules="rules2" ref="ruleForm2" label-position="left"
               label-width="0px"
               class="card-box login-form">
-      <h3 class="title">Mikason运维管理平台</h3>
+      <h3 class="title">Mikason运维平台</h3>
       <el-form-item prop="account">
-        <span class="svg-container"></span>
+        <span class="svg-container"><wscn-icon-svg icon-class="jiedianyoujian"/></span>
         <el-input name="account" type="text" v-model="ruleForm2.account" autoComplete="on"
                   placeholder="帐号"></el-input>
         </el-form-item>
         <el-form-item prop="checkPass">
-          <span class="svg-container"></span>
+          <span class="svg-container"><wscn-icon-svg icon-class="mima"/></span>
           <el-input name="checkPass" type="password" @keyup.enter.native="getToken" v-model="ruleForm2.checkPass"
                          autoComplete="on" placeholder="密码"></el-input>
         </el-form-item>
@@ -29,12 +29,12 @@
   export default {
     data() {
       return {
+        logining: false,
         token: '',
         ruleForm2: {
           account: '',
           checkPass: ''
         },
-        loading: false,
         rules2: {
           account: [
             { required: true, message: '请输入账号', trigger: 'blur' },
@@ -57,6 +57,7 @@
         this.$refs.ruleForm2.validate((valid) => {
           if (valid) {
             //_this.$router.replace('/table');
+            this.logining = true;
             //NProgress.start();
             var loginParams = { username: this.ruleForm2.account, password: this.ruleForm2.checkPass };
 						this.axios.post('http://operapi.uco2.com/user/login/', loginParams, {
@@ -84,7 +85,6 @@
         this.$refs.ruleForm2.validate((valid) => {
           if (valid) {
             // var loginParams = { username: this.ruleForm2.account, password: this.ruleForm2.checkPass };
-            this.loading = true;
             var loginParams = new URLSearchParams();
             loginParams.append('username', this.ruleForm2.account)
             loginParams.append('password', this.ruleForm2.checkPass)
@@ -98,7 +98,6 @@
                     type: 'error'
                   });
                 } else {
-                  this.loading = false;
                   this.token = 'Token ' + response.data.token;
                   sessionStorage.setItem('token', JSON.stringify(this.token));
                   sessionStorage.setItem('user', JSON.stringify(this.ruleForm2.account));

@@ -3,11 +3,13 @@
 import 'normalize.css'
 import 'element-ui/lib/theme-default/index.css'
 import Element from 'element-ui'
+import 'iview/dist/styles/iview.css'
+import iView from 'iview'
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from './App'
 import routes from './routes'
-import { store } from './store/store'
+import store from './store/store'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 import Vuex from 'vuex'
@@ -15,6 +17,7 @@ import Vuex from 'vuex'
 // import Home from './components/common/Home.vue'
 
 Vue.use(Element)
+Vue.use(iView)
 Vue.use(VueRouter)
 Vue.use(VueAxios, axios)
 Vue.use(Vuex)

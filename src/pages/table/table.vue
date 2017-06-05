@@ -1,6 +1,5 @@
 <template>
   <section>
-
     <!--工具条-->
 		<el-col :span="24" class="toolbar" style="padding-bottom: 0px;">
 			<el-form :inline="true" :model="filters">
@@ -54,9 +53,17 @@
         prop="NetCard">
       </el-table-column>
       <el-table-column
-        label="状态" prop="Status">
-        <!-- <el-tag type="success" v-if="(Status == '在线')">标签四</el-tag>
-        <el-tag type="danger" v-else="(Status == '不在线')">标签四</el-tag> -->
+        prop="Status"
+        label="状态"
+        width="100"
+        :filters="[{ text: '在线', value: '在线' }, { text: '离线', value: '离线' }]"
+        :filter-method="filterTag"
+        filter-placement="bottom-end">
+        <template scope="scope">
+          <el-tag
+            :type="scope.row.Status === '在线' ? 'success' : 'danger'"
+            close-transition>{{scope.row.Status}}</el-tag>
+        </template>
       </el-table-column>
       <el-table-column label="操作">
         <template scope="scope">
@@ -256,6 +263,9 @@
       tableSelectionChange: function(val) {
           console.log(val);
           this.selected = val;
+      },
+      filterTag(value, row) {
+        return row.status === value;
       },
       //显示新增界面
       handleAdd: function () {

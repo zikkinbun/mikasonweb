@@ -18,7 +18,7 @@
     </el-submenu>
     <el-submenu index="3">
       <template slot="title"><i class="el-icon-information"></i>在线监控</template>
-      <el-menu-item index="3-1"><router-link to="/monitor" class="nav-link"><i class="el-icon-picture "></i>基本监控</router-link></el-menu-item>
+      <el-menu-item index="3-1"><router-link to="/monitor" class="nav-link"><i class="el-icon-picture "></i>基线监控</router-link></el-menu-item>
       <el-menu-item index="3-2"><router-link to="/docker" class="nav-link"><i class="el-icon-date "></i>Docker实例监控</router-link></el-menu-item>
       <el-menu-item index="3-2"><router-link to="/cpu" class="nav-link"><i class="el-icon-date "></i>CPU监控</router-link></el-menu-item>
       <el-menu-item index="3-3"><router-link to="/mem" class="nav-link"><i class="el-icon-date "></i>内存监控</router-link></el-menu-item>

@@ -31,6 +31,19 @@
         <el-button type="primary" v-on:click="pushProd" v-loading="loading2">提交生产</el-button>
       </el-col>
     </el-row>
+    <el-row :gutter="20" type="flex">
+      <el-col :span="10">
+        <el-steps :space="100" :active="active" finish-status="success">
+          <el-step title="目录克隆"></el-step>
+          <el-step title="移动目录"></el-step>
+          <el-step title="打包目录"></el-step>
+          <el-step title="上传目录"></el-step>
+          <el-step title="配置文件初始化"></el-step>
+          <el-step title="运行目录配置"></el-step>
+          <el-step title="初始化并启动项目"></el-step>
+        </el-steps>
+      </el-col>
+    </el-row>
   </div>
 </template>
 
@@ -47,6 +60,7 @@
         msg: '',
         loading1: false,
         loading2: false,
+        active: 0
       }
     },
     created() {

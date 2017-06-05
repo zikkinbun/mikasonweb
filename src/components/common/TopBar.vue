@@ -7,7 +7,7 @@
           <i class="el-icon-arrow-down"></i>
           <div class="drop-menu">
             <ul>
-              <li><i class="iconfont">&#xe603;</i>管理员</li>
+              <li><i class="iconfont">&#xe603;</i>{{ user }}</li>
               <li @click="signOut"><i class="iconfont">&#xe602;</i>退出</li>
             </ul>
           </div>
@@ -29,9 +29,15 @@
   export default {
     data () {
       return {
-        avatar_url: ''
+        avatar_url: '',
+        user: JSON.parse(sessionStorage.getItem('user'))
       }
     },
+    // computed: {
+    //   user () {
+    //     return this.$store.state.user
+    //   }
+    // },
     methods: {
       signOut () {
         var _this = this;

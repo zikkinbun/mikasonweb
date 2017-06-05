@@ -1,15 +1,102 @@
 <template>
-<div>
-  <Table :context="self" :columns="columns1" :data="containers" border>
-  </Table>
-</div>
-</template>
+  <section>
+  <!--工具条-->
+  <el-col :span="24" class="toolbar" style="padding-bottom: 0px;">
+    <el-form :inline="true" :model="filters">
+      <el-form-item>
+        <el-input v-model="filters.Name" placeholder="容器"></el-input>
+      </el-form-item>
+      <el-form-item>
+        <el-button type="primary" v-on:click="getContainers">查询</el-button>
+      </el-form-item>
+    </el-form>
+  </el-col>
 
+  <el-table
+    :data="containers"
+    style="width: 100%"
+    highlight-current-row
+    @selection-change="tableSelectionChange">
+    <el-table-column
+      label="容器Id"
+      prop="containerId">
+      <template scope="scope">
+        <el-button
+        size="small"
+        type="info"
+        @click="getContainersDetail(scope.$index, scope.row)">{{ scope.row.containerId }}</el-button>
+      </template>
+    </el-table-column>
+    <el-table-column
+    label="托管主机"
+    prop="hostName">
+  </el-table-column>
+    <el-table-column
+      label="容器名"
+      prop="containerName">
+    </el-table-column>
+    <el-table-column
+      label="镜像名"
+      prop="imageName">
+    </el-table-column>
+    <el-table-column
+      label="启动命令"
+      prop="command">
+    </el-table-column>
+    <el-table-column
+      label="创建时间"
+      prop="created">
+    </el-table-column>
+    <el-table-column
+      prop="status"
+      label="状态"
+      width="100"
+      :filters="[{ text: 'running', value: '运行中' }, { text: 'exited', value: '离线' }]"
+      :filter-method="filterTag"
+      filter-placement="bottom-end">
+      <template scope="scope">
+        <el-tag
+          :type="scope.row.status === 'running' ? 'success' : 'danger'"
+          close-transition>{{scope.row.status}}</el-tag>
+      </template>
+    </el-table-column>
+    <el-table-column label="操作">
+      <template scope="scope">
+        <!-- <div class="button"> -->
+        <!-- <el-button
+        size="small"
+        type="info"
+        @click="getContainersDetail(scope.$index, scope.row)">查看详情</el-button> -->
+        <el-button
+        size="small"
+        type="success"
+        @click="startContainer(scope.$index, scope.row)">开启容器</el-button>
+        <el-button
+        size="small"
+        type="warning"
+        @click="stopContainer(scope.$index, scope.row)">停止容器</el-button>
+        <!-- <el-button
+        size="small"
+        type="danger"
+        @click="getContainersDetail(scope.$index, scope.row)">删除容器</el-button> -->
+      <!-- </div> -->
+      </template>
+    </el-table-column>
+  </el-table>
+
+  <el-dialog title="容器详情" v-model="detailVisible" :close-on-click-modal="false">
+    <el-table :data="detail">
+      <el-table-column property="COMMAND" label="执行命令"></el-table-column>
+      <el-table-column property="CPU" label="CPU"></el-table-column>
+      <el-table-column property="MEM" label="内存"></el-table-column>
+    </el-table>
+  </el-dialog>
+</section>
+</template>
 <script>
   export default {
     data () {
       return {
-        self: this,
         containers: [],
         selected: [],
         filters: {
@@ -17,55 +104,6 @@
         },
         detail: [],
         detailVisible: false,
-        columns1: [{
-          title: '容器Id',
-          key: 'containerId',
-          width: 100,
-          sortable: true
-        },
-        {
-          title: '托管主机',
-          key: 'hostName',
-          width: 100,
-          sortable: true
-        },
-        {
-          title: '容器名称',
-          key: 'containerName',
-          width: 100,
-          sortable: true
-        },
-        {
-          title: '所属镜像名称',
-          key: 'imageName',
-          width: 100,
-          sortable: true
-        },
-        {
-          title: '启动命令',
-          key: 'command',
-          width: 100,
-          sortable: true
-        },
-        {
-          title: '状态',
-          key: 'status',
-          width: 100,
-          sortable: true,
-          render(row) {
-            const color = row.status == 0 ? 'green' : row.status == 1 ? 'red' : 'blue';
-            const text = row.status == 0 ? '运行中' : row.status == 1 ? '离线' : '启动中';
-            return `<Tag type="dot" color="${color}">${text}</Tag>`;
-          }
-        },
-        {
-          title: '操作',
-          key: 'action',
-          width: 170,
-          render (row, column, index) {
-            return `<Button type="primary" size="small" @click="show(${index})">查看</Button> <Button type="error" size="small" @click="remove(${index})">删除</Button>`;
-          }
-        }]
       }
     },
     created () {
@@ -93,6 +131,9 @@
         }).then(function(response) {
           console.log(response)
         });
+      },
+      filterTag(value, row) {
+        return row.status === value;
       },
       tableSelectionChange: function(val) {
           console.log(val);
@@ -161,7 +202,11 @@
 </script>
 
 <style>
-.container {
-    margin: 20px 0;
+.button {
+  margin-left:auto;
+  margin-right:auto;
+  width:70%;
+  padding:0;
+  position:absolute;
 }
 </style>
