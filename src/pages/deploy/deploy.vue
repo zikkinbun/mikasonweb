@@ -78,21 +78,19 @@
     },
     methods: {
       getProject: function() {
-        this.axios.get('http://operapi.uco2.com/api/getproject/').then((response) => {
-          this.projects = response.data;
+        var self = this;
+        self.$http.post('/Interface/GetProjects').then((response) => {
+          self.projects = response.data.retdata;
         }).then(function(response) {
           console.log(response)
         });
       },
       getTags: function(id) {
-        this.axios.post('http://operapi.uco2.com/api/gettags/', {
-          project_id: id},
-        {
-          headers: {
-            'Content-Type': 'application/x-www-form-urlencoded'}
-        })
-        .then((response) => {
-          this.tags = response.data;
+        var self = this;
+        self.$http.post('/Interface/GetTags', {
+          project_id: id
+        }).then((response) => {
+          self.tags = response.data.retdata;
           // console.log(response);
           // return tags
         })
@@ -101,63 +99,52 @@
         });
       },
       getBranches: function(id) {
-        this.axios.post('http://operapi.uco2.com/api/getbranches/', {
-          project_id: id},
-        {
-          headers: {
-            'Content-Type': 'application/x-www-form-urlencoded'}
-        })
-        .then((response) => {
-           this.branches = response.data;
+        var self = this;
+        self.$http.post('/Interface/GetBranchs', {
+          project_id: id
+        }).then((response) => {
+           self.branches = response.data.retdata;
         })
         .catch(function (error) {
           console.log(error);
         });
       },
       pushTest: function() {
+        var self = this;
         let project = this.selectedproject;
         let branch = this.selectedbranch;
         let tag = this.selectedtag;
-        this.loading1 = true;
-        this.axios.post('http://112.74.164.242:8010/api/pushTest/', {
+        self.loading1 = true;
+        self.$http.post('/Interface/OneKeyDeployTest', {
           project: project,
           branch: branch,
           tag: tag,
-          },
-        {
-          headers: {
-            'Content-Type': 'application/x-www-form-urlencoded'}
-        })
-        .then((response) => {
+          }).then((response) => {
           // return response.data
-           this.msg = response.data;
-           this.$alert(this.msg.retdata, '发布情况', {
+           self.msg = response.data;
+           self.$alert(self.msg.retmsg, '发布情况', {
              confirmButtonText: '确定',
            });
-           this.loading1 = false;
+           self.loading1 = false;
         })
         .catch(function (error) {
           console.log(error);
         });
       },
       pushProd: function() {
+        var self = this;
         let project = this.selectedproject;
         let branch = this.selectedbranch;
         let tag = this.selectedtag;
-        this.loading2 = true;
-        this.axios.post('http://112.74.164.242:8010/api/pushProd/', {
+        self.loading2 = true;
+        self.$http.post('/Interface/OneKeyDeployProd', {
           project: project,
           branch: branch,
           tag: tag,
-          },
-        {
-          headers: {
-            'Content-Type': 'application/x-www-form-urlencoded'}
-        })
-        .then((response) => {
+          }).then((response) => {
           // return response.data
-           this.msg = response.data;
-           this.$alert(this.msg.retdata, '发布情况', {
+           self.msg = response.data;
+           self.$alert(self.msg.retdata, '发布情况', {
              confirmButtonText: '确定',
            });
            this.loading2 = false;

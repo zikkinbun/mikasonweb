@@ -1,0 +1,544 @@
+10:21:29:[ RequestURL ]/getToken
+
+10:21:29:[ RequestMethod ]POST
+
+10:21:29:[ RequestParams ]{"username":"benson","password":"benson"}
+
+10:21:29:[ RequestURL ]/login
+
+10:21:29:[ RequestMethod ]POST
+
+10:21:29:[ RequestParams ]{"username":"benson","password":"benson"}
+
+10:21:30:[ Response ]登陆操作成功
+
+10:21:30:请求结束
+
+
+
+11:29:23:[ RequestURL ]/getToken
+
+11:29:23:[ RequestMethod ]POST
+
+11:29:23:[ RequestParams ]{"username":"benson","password":"benson"}
+
+11:29:23:[ RequestURL ]/login
+
+11:29:23:[ RequestMethod ]POST
+
+11:29:23:[ RequestParams ]{"username":"benson","password":"benson"}
+
+11:29:23:[ Response ]登陆操作成功
+
+11:29:23:请求结束
+
+
+
+13:30:09:[ RequestURL ]/getToken
+
+13:30:09:[ RequestMethod ]POST
+
+13:30:09:[ RequestParams ]{"username":"benson","password":"benson"}
+
+13:30:09:[ RequestURL ]/login
+
+13:30:09:[ RequestMethod ]POST
+
+13:30:09:[ RequestParams ]{"username":"benson","password":"benson"}
+
+13:30:09:[ Response ]登陆操作成功
+
+13:30:09:请求结束
+
+
+
+15:26:49:[ RequestURL ]/getToken
+
+15:26:49:[ RequestMethod ]POST
+
+15:26:49:[ RequestParams ]{"username":"benson","password":"benson"}
+
+15:26:49:[ RequestURL ]/login
+
+15:26:49:[ RequestMethod ]POST
+
+15:26:49:[ RequestParams ]{"username":"benson","password":"benson"}
+
+15:26:50:[ Response ]登陆操作成功
+
+15:26:50:请求结束
+
+
+
+15:37:27:[ RequestURL ]/ServerList/
+
+15:37:27:[ RequestMethod ]GET
+
+15:37:27:[ RequestParams ]{}
+
+15:37:42:请求结束
+
+
+
+15:51:12:[ RequestURL ]/ServerList/
+
+15:51:12:[ RequestMethod ]GET
+
+15:51:12:[ RequestParams ]{}
+
+15:51:27:请求结束
+
+
+
+15:52:09:[ RequestURL ]/getToken
+
+15:52:09:[ RequestMethod ]POST
+
+15:52:09:[ RequestParams ]{"username":"benson","password":"benson"}
+
+15:52:09:[ RequestURL ]/login
+
+15:52:09:[ RequestMethod ]POST
+
+15:52:09:[ RequestParams ]{"username":"benson","password":"benson"}
+
+15:52:09:请求结束
+
+
+
+15:53:01:[ RequestURL ]/getToken
+
+15:53:01:[ RequestMethod ]POST
+
+15:53:01:[ RequestParams ]{"username":"benson","password":"benson"}
+
+15:53:01:[ RequestURL ]/login
+
+15:53:01:[ RequestMethod ]POST
+
+15:53:01:[ RequestParams ]{"username":"benson","password":"benson"}
+
+15:53:01:请求结束
+
+
+
+15:53:55:[ RequestURL ]/getToken
+
+15:53:55:[ RequestMethod ]POST
+
+15:53:55:[ RequestParams ]{"username":"benson","password":"benson"}
+
+15:53:55:[ RequestURL ]/login
+
+15:53:55:[ RequestMethod ]POST
+
+15:53:55:[ RequestParams ]{"username":"benson","password":"benson"}
+
+15:53:55:[ Response ]登陆操作成功
+
+15:53:55:请求结束
+
+
+
+15:54:01:[ RequestURL ]/ServerList/
+
+15:54:01:[ RequestMethod ]GET
+
+15:54:01:[ RequestParams ]{}
+
+15:54:16:请求结束
+
+
+
+15:54:28:[ RequestURL ]/ServerList
+
+15:54:28:[ RequestMethod ]GET
+
+15:54:28:[ RequestParams ]{}
+
+15:54:32:[ RequestURL ]/ServerList
+
+15:54:32:[ RequestMethod ]GET
+
+15:54:32:[ RequestParams ]{}
+
+15:54:43:请求结束
+
+
+
+15:55:14:[ RequestURL ]/ServerList
+
+15:55:14:[ RequestMethod ]GET
+
+15:55:14:[ RequestParams ]{}
+
+15:55:29:请求结束
+
+
+
+15:55:43:[ RequestURL ]/ServerList
+
+15:55:43:[ RequestMethod ]GET
+
+15:55:43:[ RequestParams ]{}
+
+15:55:58:请求结束
+
+
+
+16:03:10:[ RequestURL ]/ServerList
+
+16:03:10:[ RequestMethod ]GET
+
+16:03:10:[ RequestParams ]{}
+
+16:03:25:请求结束
+
+
+
+16:04:03:[ RequestURL ]/ServerList
+
+16:04:03:[ RequestMethod ]GET
+
+16:04:03:[ RequestParams ]{}
+
+16:04:18:请求结束
+
+
+
+16:18:08:[ RequestURL ]/ServerList
+
+16:18:08:[ RequestMethod ]GET
+
+16:18:08:[ RequestParams ]{}
+
+16:18:23:请求结束
+
+
+
+16:18:54:[ RequestURL ]/ServerList
+
+16:18:54:[ RequestMethod ]GET
+
+16:18:54:[ RequestParams ]{}
+
+16:18:58:[ RequestURL ]/ServerList
+
+16:18:58:[ RequestMethod ]GET
+
+16:18:58:[ RequestParams ]{}
+
+16:19:09:请求结束
+
+
+
+16:42:44:[ RequestURL ]/getToken
+
+16:42:44:[ RequestMethod ]POST
+
+16:42:44:[ RequestParams ]{"username":"benson","password":"benson"}
+
+16:42:44:[ RequestURL ]/login
+
+16:42:44:[ RequestMethod ]POST
+
+16:42:44:[ RequestParams ]{"username":"benson","password":"benson"}
+
+16:42:47:[ Response ]登陆操作成功
+
+16:42:47:请求结束
+
+
+
+16:42:50:[ RequestURL ]/ServerList
+
+16:42:50:[ RequestMethod ]GET
+
+16:42:50:[ RequestParams ]{}
+
+16:43:05:请求结束
+
+
+
+16:44:48:[ RequestURL ]/ServerList
+
+16:44:48:[ RequestMethod ]GET
+
+16:44:48:[ RequestParams ]{}
+
+16:45:00:[ RequestURL ]/ServerList
+
+16:45:00:[ RequestMethod ]GET
+
+16:45:00:[ RequestParams ]{}
+
+16:45:03:请求结束
+
+
+
+16:45:30:[ RequestURL ]/getToken
+
+16:45:30:[ RequestMethod ]POST
+
+16:45:30:[ RequestParams ]{"username":"benson","password":"benson"}
+
+16:45:30:[ RequestURL ]/login
+
+16:45:30:[ RequestMethod ]POST
+
+16:45:30:[ RequestParams ]{"username":"benson","password":"benson"}
+
+16:45:30:[ Response ]登陆操作成功
+
+16:45:30:请求结束
+
+
+
+16:45:33:[ RequestURL ]/ServerList
+
+16:45:33:[ RequestMethod ]GET
+
+16:45:33:[ RequestParams ]{}
+
+16:45:48:请求结束
+
+
+
+16:49:55:[ RequestURL ]/ServerList
+
+16:49:55:[ RequestMethod ]GET
+
+16:49:55:[ RequestParams ]{}
+
+16:50:10:请求结束
+
+
+
+16:50:17:[ RequestURL ]/ServerList
+
+16:50:17:[ RequestMethod ]POST
+
+16:50:17:[ RequestParams ]{}
+
+16:50:17:请求结束
+
+
+
+16:50:46:[ RequestURL ]/ServerList
+
+16:50:46:[ RequestMethod ]GET
+
+16:50:46:[ RequestParams ]{}
+
+16:50:52:[ RequestURL ]/ServerList
+
+16:50:52:[ RequestMethod ]GET
+
+16:50:52:[ RequestParams ]{}
+
+16:51:01:请求结束
+
+
+
+16:56:10:[ RequestURL ]/ServerList
+
+16:56:10:[ RequestMethod ]GET
+
+16:56:10:[ RequestParams ]{}
+
+16:56:16:[ RequestURL ]/ServerList
+
+16:56:16:[ RequestMethod ]GET
+
+16:56:16:[ RequestParams ]{}
+
+16:56:25:请求结束
+
+
+
+16:56:27:[ RequestURL ]/ServerList
+
+16:56:27:[ RequestMethod ]GET
+
+16:56:27:[ RequestParams ]{}
+
+16:56:42:请求结束
+
+
+
+17:00:51:[ RequestURL ]/ServerList
+
+17:00:51:[ RequestMethod ]POST
+
+17:00:51:[ RequestParams ]{"headers":{"Authorization":"Token undefined"}}
+
+17:00:51:请求结束
+
+
+
+17:00:56:[ RequestURL ]/ServerList
+
+17:00:56:[ RequestMethod ]POST
+
+17:00:56:[ RequestParams ]{"headers":{"Authorization":"Token undefined"}}
+
+17:00:56:请求结束
+
+
+
+17:02:10:[ RequestURL ]/ServerList
+
+17:02:10:[ RequestMethod ]POST
+
+17:02:10:[ RequestParams ]{}
+
+17:02:10:请求结束
+
+
+
+17:06:37:[ RequestURL ]/ServerList
+
+17:06:37:[ RequestMethod ]POST
+
+17:06:37:[ RequestParams ]{}
+
+17:06:37:请求结束
+
+
+
+17:39:17:[ RequestURL ]/getToken
+
+17:39:17:[ RequestMethod ]POST
+
+17:39:17:[ RequestParams ]{"username":"benson","password":"benson"}
+
+17:39:17:[ RequestURL ]/login
+
+17:39:17:[ RequestMethod ]POST
+
+17:39:17:[ RequestParams ]{"username":"benson","password":"benson"}
+
+17:39:18:[ Response ]登陆操作成功
+
+17:39:18:请求结束
+
+
+
+17:39:21:[ RequestURL ]/ServerList
+
+17:39:21:[ RequestMethod ]POST
+
+17:39:21:[ RequestParams ]{}
+
+17:39:21:请求结束
+
+
+
+17:40:59:[ RequestURL ]/ServerList
+
+17:40:59:[ RequestMethod ]POST
+
+17:40:59:[ RequestParams ]{}
+
+17:40:59:请求结束
+
+
+
+17:41:29:[ RequestURL ]/ServerList
+
+17:41:29:[ RequestMethod ]POST
+
+17:41:29:[ RequestParams ]{}
+
+17:41:29:请求结束
+
+
+
+17:41:43:[ RequestURL ]/ServerList
+
+17:41:43:[ RequestMethod ]POST
+
+17:41:43:[ RequestParams ]{}
+
+17:41:43:请求结束
+
+
+
+17:42:12:[ RequestURL ]/ServerList
+
+17:42:12:[ RequestMethod ]POST
+
+17:42:12:[ RequestParams ]{}
+
+17:42:12:请求结束
+
+
+
+17:43:35:[ RequestURL ]/ServerList
+
+17:43:35:[ RequestMethod ]POST
+
+17:43:35:[ RequestParams ]{}
+
+17:43:35:请求结束
+
+
+
+18:07:48:[ RequestURL ]/ServerList
+
+18:07:48:[ RequestMethod ]POST
+
+18:07:48:[ RequestParams ]{}
+
+18:07:48:请求结束
+
+
+
+18:08:18:[ RequestURL ]/ServerList
+
+18:08:18:[ RequestMethod ]POST
+
+18:08:18:[ RequestParams ]{}
+
+18:08:18:请求结束
+
+
+
+18:16:52:[ RequestURL ]/getToken
+
+18:16:52:[ RequestMethod ]POST
+
+18:16:52:[ RequestParams ]{"username":"benson","password":"benson"}
+
+18:16:52:[ RequestURL ]/login
+
+18:16:52:[ RequestMethod ]POST
+
+18:16:52:[ RequestParams ]{"username":"benson","password":"benson"}
+
+18:16:52:[ Response ]登陆操作成功
+
+18:16:52:请求结束
+
+
+
+18:16:56:[ RequestURL ]/ServerList
+
+18:16:56:[ RequestMethod ]POST
+
+18:16:56:[ RequestParams ]{}
+
+18:16:56:请求结束
+
+
+
+18:17:23:[ RequestURL ]/ServerList
+
+18:17:23:[ RequestMethod ]POST
+
+18:17:23:[ RequestParams ]{}
+
+18:17:23:请求结束
+
+
+

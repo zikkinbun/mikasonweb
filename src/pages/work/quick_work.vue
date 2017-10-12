@@ -21,13 +21,20 @@
         <el-radio-group v-model="radio" @change="upload">
           <el-radio :label="3">手工录入</el-radio>
           <el-radio :label="6">本地上传</el-radio>
-          <el-radio :label="9">服务器上传</el-radio>
         </el-radio-group>
       </div>
       </div>
       <label class="rtf-label" v-show="editor_show">在线编辑</label>
       <div class="rtf-content" v-show="editor_show">
-        <quill-editor ref="Editor" v-model="content" :config="editorOption"　@change="onEditorChange($event)"></quill-editor>
+        <!-- <quill-editor ref="Editor" v-model="content" :config="editorOption"　@change="onEditorChange($event)"></quill-editor> -->
+        <el-input
+          type="textarea"
+          autosize
+          placeholder="请输入内容"
+          v-model="formItem.content">
+        </el-input>
+        <el-button type="primary" @click.native="editorCommit" :loading="addLoading">提交</el-button>
+        <el-button @click.native="">重置</el-button>
       </div>
       <label class="rtf-label" v-show="upload_show">上传脚本</label>
       <div class="upload">
@@ -53,22 +60,22 @@
     data () {
       return {
         activeName: 'first',
+        addLoading: false,
         formItem: {
           'name': '',
           'user': '',
-          'target': '',
-          'data': '',
-          'params': ''
+          'params': '',
+          'origin': '',
+          'content': ''
         },
+        users: '',
         upload_show: false,
         editor_show: true,
         radio: 3,
         content: '',
-        editorOption: {}
+        editorOption: {},
+        selected: ''
       }
-    },
-    components: {
-      quillEditor
     },
     methods: {
       upload: function () {
@@ -84,10 +91,47 @@
             break;
         }
       },
+      editorCommit: function () {
+        this.formItem.origin = 1;
+        var formData = new URLSearchParams();
+        formData.append('name', this.formItem.name)
+        formData.append('user', this.formItem.user)
+        formData.append('params', this.formItem.params)
+        formData.append('origin', this.formItem.origin)
+        formData.append('content', this.formItem.content)
+        this.axios.post('http://127.0.0.1:8000/work/editor/', formData, {
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'Authorization': JSON.parse(sessionStorage.getItem('token'))
+          }
+        })
+        .then((response) => {
+          let msg = response.retmsg;
+          return msg;
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
+      },
       handleClick: function (tab, event) {
         console.log(tab, event);
-      }
-    }
+      },
+    },
+    getUsers: function () {
+      this.axios.get('http://127.0.0.1:8000/work/users/', {
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+          'Authorization': JSON.parse(sessionStorage.getItem('token'))
+        }
+      })
+      .then((response) => {
+        this.users = response.data;
+      })
+    },
+    tableSelectionChange: function(val) {
+        console.log(val);
+        this.selected = val;
+    },
   }
 </script>
 

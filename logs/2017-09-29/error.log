@@ -1,0 +1,754 @@
+15:52:09:[ Response ] ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:355:11)
+    
+
+15:52:09:[ Response ] unKnownError : Error: "value" required in setHeader("Authorization", value)
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:355:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Promise (/Users/benson/Projects/MikasonOperWeb/global/http.js:138:28)
+    at Promise._execute (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/debuggability.js:300:9)
+    at Promise._resolveFromExecutor (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:483:18)
+    at new Promise (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:79:10)
+    at Object.exports.request (/Users/benson/Projects/MikasonOperWeb/global/http.js:137:9)
+    at Controller.request (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:30:14)
+    at Controller.ctrl.login (/Users/benson/Projects/MikasonOperWeb/application/controller/actionController.js:15:14)
+    at Promise.try (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:51:14)
+    at tryCatcher (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Function.Promise.attempt.Promise.try (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/method.js:39:29)
+    at Controller.safeMode (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:50:13)
+    at Controller.(anonymous function) (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:13:10)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Function.Promise.attempt.Promise.try (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/method.js:29:9)
+    at Controller.safeMode (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:50:13)
+    at Controller.(anonymous function) (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:13:10)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:335:12)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:127:14)
+    at router.all (/Users/benson/Projects/MikasonOperWeb/routes/mainRouter.js:28:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:354:14)
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:410:3)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+
+15:52:09:请求结束
+
+
+
+15:53:01:[ Response ] ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:355:11)
+    
+
+15:53:01:[ Response ] unKnownError : Error: "value" required in setHeader("Authorization", value)
+    at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:355:11)
+    at new ClientRequest (_http_client.js:85:14)
+    at Object.exports.request (http.js:31:10)
+    at Promise (/Users/benson/Projects/MikasonOperWeb/global/http.js:138:28)
+    at Promise._execute (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/debuggability.js:300:9)
+    at Promise._resolveFromExecutor (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:483:18)
+    at new Promise (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:79:10)
+    at Object.exports.request (/Users/benson/Projects/MikasonOperWeb/global/http.js:137:9)
+    at Controller.request (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:30:14)
+    at Controller.ctrl.login (/Users/benson/Projects/MikasonOperWeb/application/controller/actionController.js:15:14)
+    at Promise.try (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:51:14)
+    at tryCatcher (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Function.Promise.attempt.Promise.try (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/method.js:39:29)
+    at Controller.safeMode (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:50:13)
+    at Controller.(anonymous function) (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:13:10)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Function.Promise.attempt.Promise.try (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/method.js:29:9)
+    at Controller.safeMode (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:50:13)
+    at Controller.(anonymous function) (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:13:10)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:335:12)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:127:14)
+    at router.all (/Users/benson/Projects/MikasonOperWeb/routes/mainRouter.js:28:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:354:14)
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:410:3)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+
+15:53:01:请求结束
+
+
+
+16:50:17:[ Response ] http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    
+
+16:50:17:[ Response ] unKnownError : Error
+    at http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    at tryCatcher (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Function.Promise.attempt.Promise.try (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/method.js:29:9)
+    at Controller.safeMode (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:50:13)
+    at Controller.(anonymous function) (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:13:10)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:335:12)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:127:14)
+    at router.all (/Users/benson/Projects/MikasonOperWeb/routes/mainRouter.js:28:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:354:14)
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:410:3)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+
+16:50:17:请求结束
+
+
+
+17:00:51:[ Response ] http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    
+
+17:00:51:[ Response ] unKnownError : Error
+    at http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    at tryCatcher (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Function.Promise.attempt.Promise.try (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/method.js:29:9)
+    at Controller.safeMode (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:50:13)
+    at Controller.(anonymous function) (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:13:10)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:335:12)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:127:14)
+    at router.all (/Users/benson/Projects/MikasonOperWeb/routes/mainRouter.js:28:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:354:14)
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:410:3)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+
+17:00:51:请求结束
+
+
+
+17:00:56:[ Response ] http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    
+
+17:00:56:[ Response ] unKnownError : Error
+    at http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    at tryCatcher (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Function.Promise.attempt.Promise.try (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/method.js:29:9)
+    at Controller.safeMode (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:50:13)
+    at Controller.(anonymous function) (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:13:10)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:335:12)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:127:14)
+    at router.all (/Users/benson/Projects/MikasonOperWeb/routes/mainRouter.js:28:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:354:14)
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:410:3)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+
+17:00:56:请求结束
+
+
+
+17:02:10:[ Response ] http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    
+
+17:02:10:[ Response ] unKnownError : Error
+    at http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    at tryCatcher (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Function.Promise.attempt.Promise.try (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/method.js:29:9)
+    at Controller.safeMode (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:50:13)
+    at Controller.(anonymous function) (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:13:10)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:335:12)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:127:14)
+    at router.all (/Users/benson/Projects/MikasonOperWeb/routes/mainRouter.js:28:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:354:14)
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:410:3)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+
+17:02:10:请求结束
+
+
+
+17:06:37:[ Response ] http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    
+
+17:06:37:[ Response ] unKnownError : Error
+    at http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    at tryCatcher (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Function.Promise.attempt.Promise.try (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/method.js:29:9)
+    at Controller.safeMode (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:50:13)
+    at Controller.(anonymous function) (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:13:10)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:335:12)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:127:14)
+    at router.all (/Users/benson/Projects/MikasonOperWeb/routes/mainRouter.js:28:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:354:14)
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:410:3)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+
+17:06:37:请求结束
+
+
+
+17:39:21:[ Response ] http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    
+
+17:39:21:[ Response ] unKnownError : Error
+    at http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    at tryCatcher (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Function.Promise.attempt.Promise.try (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/method.js:29:9)
+    at Controller.safeMode (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:50:13)
+    at Controller.(anonymous function) (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:13:10)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:335:12)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:127:14)
+    at router.all (/Users/benson/Projects/MikasonOperWeb/routes/mainRouter.js:28:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:354:14)
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:410:3)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+
+17:39:21:请求结束
+
+
+
+17:40:59:[ Response ] http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    
+
+17:40:59:[ Response ] unKnownError : Error
+    at http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    at tryCatcher (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Function.Promise.attempt.Promise.try (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/method.js:29:9)
+    at Controller.safeMode (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:50:13)
+    at Controller.(anonymous function) (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:13:10)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:335:12)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:127:14)
+    at router.all (/Users/benson/Projects/MikasonOperWeb/routes/mainRouter.js:28:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:354:14)
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:410:3)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+
+17:40:59:请求结束
+
+
+
+17:41:29:[ Response ] http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    
+
+17:41:29:[ Response ] unKnownError : Error
+    at http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    at tryCatcher (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Function.Promise.attempt.Promise.try (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/method.js:29:9)
+    at Controller.safeMode (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:50:13)
+    at Controller.(anonymous function) (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:13:10)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:335:12)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:127:14)
+    at router.all (/Users/benson/Projects/MikasonOperWeb/routes/mainRouter.js:28:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:354:14)
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:410:3)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+
+17:41:29:请求结束
+
+
+
+17:41:43:[ Response ] http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    
+
+17:41:43:[ Response ] unKnownError : Error
+    at http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    at tryCatcher (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Function.Promise.attempt.Promise.try (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/method.js:29:9)
+    at Controller.safeMode (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:50:13)
+    at Controller.(anonymous function) (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:13:10)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:335:12)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:127:14)
+    at router.all (/Users/benson/Projects/MikasonOperWeb/routes/mainRouter.js:28:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:354:14)
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:410:3)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+
+17:41:43:请求结束
+
+
+
+17:42:12:[ Response ] http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    
+
+17:42:12:[ Response ] unKnownError : Error
+    at http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    at tryCatcher (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Function.Promise.attempt.Promise.try (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/method.js:29:9)
+    at Controller.safeMode (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:50:13)
+    at Controller.(anonymous function) (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:13:10)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:335:12)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:127:14)
+    at router.all (/Users/benson/Projects/MikasonOperWeb/routes/mainRouter.js:28:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:354:14)
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:410:3)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+
+17:42:12:请求结束
+
+
+
+17:43:35:[ Response ] http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    
+
+17:43:35:[ Response ] unKnownError : Error
+    at http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    at tryCatcher (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Function.Promise.attempt.Promise.try (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/method.js:29:9)
+    at Controller.safeMode (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:50:13)
+    at Controller.(anonymous function) (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:13:10)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:335:12)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:127:14)
+    at router.all (/Users/benson/Projects/MikasonOperWeb/routes/mainRouter.js:28:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:354:14)
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:410:3)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+
+17:43:35:请求结束
+
+
+
+18:07:48:[ Response ] http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    
+
+18:07:48:[ Response ] unKnownError : Error
+    at http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    at tryCatcher (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Function.Promise.attempt.Promise.try (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/method.js:29:9)
+    at Controller.safeMode (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:50:13)
+    at Controller.(anonymous function) (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:13:10)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:335:12)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:127:14)
+    at router.all (/Users/benson/Projects/MikasonOperWeb/routes/mainRouter.js:28:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:354:14)
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:410:3)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+
+18:07:48:请求结束
+
+
+
+18:08:18:[ Response ] http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    
+
+18:08:18:[ Response ] unKnownError : Error
+    at http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    at tryCatcher (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Function.Promise.attempt.Promise.try (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/method.js:29:9)
+    at Controller.safeMode (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:50:13)
+    at Controller.(anonymous function) (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:13:10)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:335:12)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:127:14)
+    at router.all (/Users/benson/Projects/MikasonOperWeb/routes/mainRouter.js:28:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:354:14)
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:410:3)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+
+18:08:18:请求结束
+
+
+
+18:16:56:[ Response ] http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    
+
+18:16:56:[ Response ] unKnownError : Error
+    at http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    at tryCatcher (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Function.Promise.attempt.Promise.try (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/method.js:29:9)
+    at Controller.safeMode (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:50:13)
+    at Controller.(anonymous function) (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:13:10)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:335:12)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:127:14)
+    at router.all (/Users/benson/Projects/MikasonOperWeb/routes/mainRouter.js:28:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:354:14)
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:410:3)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+
+18:16:56:请求结束
+
+
+
+18:17:23:[ Response ] http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    
+
+18:17:23:[ Response ] unKnownError : Error
+    at http.request.then.result (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:42:10)
+    at tryCatcher (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:672:20)
+    at tryOnImmediate (timers.js:645:5)
+    at processImmediate [as _immediateCallback] (timers.js:617:5)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Function.Promise.attempt.Promise.try (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/method.js:29:9)
+    at Controller.safeMode (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:50:13)
+    at Controller.(anonymous function) (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:13:10)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:335:12)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:127:14)
+    at router.all (/Users/benson/Projects/MikasonOperWeb/routes/mainRouter.js:28:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:354:14)
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:410:3)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+
+18:17:23:请求结束
+
+
+

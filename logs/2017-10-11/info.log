@@ -1,0 +1,1132 @@
+10:23:48:[ RequestURL ]/getToken
+
+10:23:48:[ RequestMethod ]POST
+
+10:23:48:[ RequestParams ]{"username":"benson","password":"benson"}
+
+10:23:48:[ RequestURL ]/login
+
+10:23:48:[ RequestMethod ]POST
+
+10:23:48:[ RequestParams ]{"username":"benson","password":"benson"}
+
+10:23:49:[ Response ]登陆操作成功
+
+10:23:49:请求结束
+
+
+
+10:46:42:[ RequestURL ]/ServerList
+
+10:46:42:[ RequestMethod ]POST
+
+10:46:42:[ RequestParams ]{}
+
+10:46:42:[ Response ]获取服务器列表操作成功
+
+10:46:42:请求结束
+
+
+
+10:46:42:[ RequestURL ]/ContainerList
+
+10:46:42:[ RequestMethod ]POST
+
+10:46:42:[ RequestParams ]{}
+
+10:46:43:[ Response ]获取容器列表操作成功
+
+10:46:43:请求结束
+
+
+
+10:46:44:[ RequestURL ]/ImageList
+
+10:46:44:[ RequestMethod ]POST
+
+10:46:44:[ RequestParams ]{}
+
+10:46:45:[ Response ]获取镜像列表操作成功
+
+10:46:45:请求结束
+
+
+
+10:47:31:[ RequestURL ]/ImageList
+
+10:47:31:[ RequestMethod ]POST
+
+10:47:31:[ RequestParams ]{}
+
+10:47:31:[ Response ]获取镜像列表操作成功
+
+10:47:31:请求结束
+
+
+
+11:33:30:[ RequestURL ]/GetProjects
+
+11:33:30:[ RequestMethod ]POST
+
+11:33:30:[ RequestParams ]{}
+
+11:33:45:请求结束
+
+
+
+11:34:23:[ RequestURL ]/GetProjects
+
+11:34:23:[ RequestMethod ]POST
+
+11:34:23:[ RequestParams ]{}
+
+11:34:38:请求结束
+
+
+
+11:34:45:[ RequestURL ]/GetProjects
+
+11:34:45:[ RequestMethod ]POST
+
+11:34:45:[ RequestParams ]{}
+
+11:35:00:请求结束
+
+
+
+11:35:38:[ RequestURL ]/GetProjects
+
+11:35:38:[ RequestMethod ]POST
+
+11:35:38:[ RequestParams ]{}
+
+11:35:41:[ RequestURL ]/GetProjects
+
+11:35:41:[ RequestMethod ]POST
+
+11:35:41:[ RequestParams ]{}
+
+11:35:53:请求结束
+
+
+
+11:45:00:[ RequestURL ]/getToken
+
+11:45:00:[ RequestMethod ]POST
+
+11:45:00:[ RequestParams ]{"username":"benson","password":"benson"}
+
+11:45:00:[ RequestURL ]/login
+
+11:45:00:[ RequestMethod ]POST
+
+11:45:00:[ RequestParams ]{"username":"benson","password":"benson"}
+
+11:45:00:[ Response ]登陆操作成功
+
+11:45:00:请求结束
+
+
+
+11:45:03:[ RequestURL ]/GetProjects
+
+11:45:03:[ RequestMethod ]POST
+
+11:45:03:[ RequestParams ]{}
+
+11:45:04:[ Response ]获取gitlab上的项目操作成功
+
+11:45:04:请求结束
+
+
+
+11:47:36:[ RequestURL ]/getToken
+
+11:47:36:[ RequestMethod ]POST
+
+11:47:36:[ RequestParams ]{"username":"benson","password":"benson"}
+
+11:47:36:[ RequestURL ]/login
+
+11:47:36:[ RequestMethod ]POST
+
+11:47:36:[ RequestParams ]{"username":"benson","password":"benson"}
+
+11:47:37:[ Response ]登陆操作成功
+
+11:47:37:请求结束
+
+
+
+11:48:11:[ RequestURL ]/GetProjects
+
+11:48:11:[ RequestMethod ]POST
+
+11:48:11:[ RequestParams ]{}
+
+11:48:12:[ Response ]获取gitlab上的项目操作成功
+
+11:48:12:请求结束
+
+
+
+11:48:14:[ RequestURL ]/GetTags
+
+11:48:14:[ RequestMethod ]POST
+
+11:48:14:[ RequestParams ]{"project_id":3}
+
+11:48:14:[ RequestURL ]/GetBranchs
+
+11:48:14:[ RequestMethod ]POST
+
+11:48:14:[ RequestParams ]{"project_id":3}
+
+11:48:15:[ Response ]获取gitlab上的项目标签操作成功
+
+11:48:15:请求结束
+
+
+
+11:48:15:[ Response ]获取gitlab上的项目分支操作成功
+
+11:48:15:请求结束
+
+
+
+11:51:43:[ RequestURL ]/ContainerList
+
+11:51:43:[ RequestMethod ]POST
+
+11:51:43:[ RequestParams ]{}
+
+11:51:43:请求结束
+
+
+
+15:46:37:[ RequestURL ]/getToken
+
+15:46:37:[ RequestMethod ]POST
+
+15:46:37:[ RequestParams ]{"username":"benson","password":"benson"}
+
+15:46:37:[ RequestURL ]/login
+
+15:46:37:[ RequestMethod ]POST
+
+15:46:37:[ RequestParams ]{"username":"benson","password":"benson"}
+
+15:46:37:[ Response ]登陆操作成功
+
+15:46:37:请求结束
+
+
+
+15:46:40:[ RequestURL ]/ServerList
+
+15:46:40:[ RequestMethod ]POST
+
+15:46:40:[ RequestParams ]{}
+
+15:46:40:[ Response ]获取服务器列表操作成功
+
+15:46:40:请求结束
+
+
+
+15:46:40:[ RequestURL ]/ContainerList
+
+15:46:40:[ RequestMethod ]POST
+
+15:46:40:[ RequestParams ]{}
+
+15:46:41:[ Response ]获取容器列表操作成功
+
+15:46:41:请求结束
+
+
+
+15:46:41:[ RequestURL ]/ImageList
+
+15:46:41:[ RequestMethod ]POST
+
+15:46:41:[ RequestParams ]{}
+
+15:46:41:[ Response ]获取镜像列表操作成功
+
+15:46:41:请求结束
+
+
+
+15:46:42:[ RequestURL ]/ContainerList
+
+15:46:42:[ RequestMethod ]POST
+
+15:46:42:[ RequestParams ]{}
+
+15:46:42:[ Response ]获取容器列表操作成功
+
+15:46:42:请求结束
+
+
+
+15:46:46:[ RequestURL ]/GetProjects
+
+15:46:46:[ RequestMethod ]POST
+
+15:46:46:[ RequestParams ]{}
+
+15:46:47:[ Response ]获取gitlab上的项目操作成功
+
+15:46:47:请求结束
+
+
+
+15:46:48:[ RequestURL ]/GetTags
+
+15:46:48:[ RequestMethod ]POST
+
+15:46:48:[ RequestParams ]{"project_id":70}
+
+15:46:48:[ RequestURL ]/GetBranchs
+
+15:46:48:[ RequestMethod ]POST
+
+15:46:48:[ RequestParams ]{"project_id":70}
+
+15:46:49:[ Response ]获取gitlab上的项目分支操作成功
+
+15:46:49:请求结束
+
+
+
+15:46:49:[ Response ]获取gitlab上的项目标签操作成功
+
+15:46:49:请求结束
+
+
+
+15:46:53:[ RequestURL ]/GetTags
+
+15:46:53:[ RequestMethod ]POST
+
+15:46:53:[ RequestParams ]{"project_id":3}
+
+15:46:53:[ RequestURL ]/GetBranchs
+
+15:46:53:[ RequestMethod ]POST
+
+15:46:53:[ RequestParams ]{"project_id":3}
+
+15:46:53:[ Response ]获取gitlab上的项目标签操作成功
+
+15:46:53:请求结束
+
+
+
+15:46:53:[ Response ]获取gitlab上的项目分支操作成功
+
+15:46:53:请求结束
+
+
+
+15:46:59:[ RequestURL ]/GetProjects
+
+15:46:59:[ RequestMethod ]POST
+
+15:46:59:[ RequestParams ]{}
+
+15:47:00:[ Response ]获取gitlab上的项目操作成功
+
+15:47:00:请求结束
+
+
+
+17:14:30:[ RequestURL ]/GetProjects
+
+17:14:30:[ RequestMethod ]POST
+
+17:14:30:[ RequestParams ]{}
+
+17:14:31:[ Response ]获取gitlab上的项目操作成功
+
+17:14:31:请求结束
+
+
+
+17:14:46:[ RequestURL ]/GetTags
+
+17:14:46:[ RequestMethod ]POST
+
+17:14:46:[ RequestParams ]{"project_id":34}
+
+17:14:46:[ RequestURL ]/GetBranchs
+
+17:14:46:[ RequestMethod ]POST
+
+17:14:46:[ RequestParams ]{"project_id":34}
+
+17:14:46:[ Response ]获取gitlab上的项目标签操作成功
+
+17:14:46:请求结束
+
+
+
+17:14:46:[ Response ]获取gitlab上的项目分支操作成功
+
+17:14:46:请求结束
+
+
+
+17:15:02:[ RequestURL ]/GetProjects
+
+17:15:02:[ RequestMethod ]POST
+
+17:15:02:[ RequestParams ]{}
+
+17:15:03:[ Response ]获取gitlab上的项目操作成功
+
+17:15:03:请求结束
+
+
+
+17:16:43:[ RequestURL ]/GetProjects
+
+17:16:43:[ RequestMethod ]POST
+
+17:16:43:[ RequestParams ]{}
+
+17:16:44:[ Response ]获取gitlab上的项目操作成功
+
+17:16:44:请求结束
+
+
+
+17:17:17:[ RequestURL ]/GetProjects
+
+17:17:17:[ RequestMethod ]POST
+
+17:17:17:[ RequestParams ]{}
+
+17:17:18:[ Response ]获取gitlab上的项目操作成功
+
+17:17:18:请求结束
+
+
+
+17:17:20:[ RequestURL ]/GetProjects
+
+17:17:20:[ RequestMethod ]POST
+
+17:17:20:[ RequestParams ]{}
+
+17:17:21:[ Response ]获取gitlab上的项目操作成功
+
+17:17:21:请求结束
+
+
+
+17:17:47:[ RequestURL ]/GetProjects
+
+17:17:47:[ RequestMethod ]POST
+
+17:17:47:[ RequestParams ]{}
+
+17:17:48:[ Response ]获取gitlab上的项目操作成功
+
+17:17:48:请求结束
+
+
+
+17:17:54:[ RequestURL ]/GetProjects
+
+17:17:54:[ RequestMethod ]POST
+
+17:17:54:[ RequestParams ]{}
+
+17:17:55:[ Response ]获取gitlab上的项目操作成功
+
+17:17:55:请求结束
+
+
+
+17:18:12:[ RequestURL ]/GetProjects
+
+17:18:12:[ RequestMethod ]POST
+
+17:18:12:[ RequestParams ]{}
+
+17:18:13:[ Response ]获取gitlab上的项目操作成功
+
+17:18:13:请求结束
+
+
+
+17:18:21:[ RequestURL ]/GetProjects
+
+17:18:21:[ RequestMethod ]POST
+
+17:18:21:[ RequestParams ]{}
+
+17:18:22:[ Response ]获取gitlab上的项目操作成功
+
+17:18:22:请求结束
+
+
+
+17:18:32:[ RequestURL ]/GetProjects
+
+17:18:32:[ RequestMethod ]POST
+
+17:18:32:[ RequestParams ]{}
+
+17:18:33:[ Response ]获取gitlab上的项目操作成功
+
+17:18:33:请求结束
+
+
+
+17:18:33:[ RequestURL ]/GetProjects
+
+17:18:33:[ RequestMethod ]POST
+
+17:18:33:[ RequestParams ]{}
+
+17:18:34:[ Response ]获取gitlab上的项目操作成功
+
+17:18:34:请求结束
+
+
+
+17:18:55:[ RequestURL ]/GetProjects
+
+17:18:55:[ RequestMethod ]POST
+
+17:18:55:[ RequestParams ]{}
+
+17:18:56:[ Response ]获取gitlab上的项目操作成功
+
+17:18:56:请求结束
+
+
+
+17:21:55:[ RequestURL ]/GetProjects
+
+17:21:55:[ RequestMethod ]POST
+
+17:21:55:[ RequestParams ]{}
+
+17:21:56:[ Response ]获取gitlab上的项目操作成功
+
+17:21:56:请求结束
+
+
+
+17:22:41:[ RequestURL ]/GetTags
+
+17:22:41:[ RequestMethod ]POST
+
+17:22:41:[ RequestParams ]{"project_id":18}
+
+17:22:41:[ RequestURL ]/GetBranchs
+
+17:22:41:[ RequestMethod ]POST
+
+17:22:41:[ RequestParams ]{"project_id":18}
+
+17:22:41:[ Response ]获取gitlab上的项目标签操作成功
+
+17:22:41:请求结束
+
+
+
+17:22:41:[ Response ]获取gitlab上的项目分支操作成功
+
+17:22:41:请求结束
+
+
+
+17:22:45:[ RequestURL ]/OneKeyDeployTest
+
+17:22:45:[ RequestMethod ]POST
+
+17:22:45:[ RequestParams ]{"project":"uco2Notice","branch":"v1.6.0","tag":"release"}
+
+17:22:46:请求结束
+
+
+
+17:57:00:[ RequestURL ]/getToken
+
+17:57:00:[ RequestMethod ]POST
+
+17:57:00:[ RequestParams ]{"username":"benson","password":"benson"}
+
+17:57:00:[ RequestURL ]/login
+
+17:57:00:[ RequestMethod ]POST
+
+17:57:00:[ RequestParams ]{"username":"benson","password":"benson"}
+
+17:57:01:[ Response ]登陆操作成功
+
+17:57:01:请求结束
+
+
+
+17:57:03:[ RequestURL ]/GetProjects
+
+17:57:03:[ RequestMethod ]POST
+
+17:57:03:[ RequestParams ]{}
+
+17:57:06:[ Response ]获取gitlab上的项目操作成功
+
+17:57:06:请求结束
+
+
+
+17:57:06:[ RequestURL ]/ContainerList
+
+17:57:06:[ RequestMethod ]POST
+
+17:57:06:[ RequestParams ]{}
+
+17:57:07:[ Response ]获取容器列表操作成功
+
+17:57:07:请求结束
+
+
+
+17:57:08:[ RequestURL ]/ServerList
+
+17:57:08:[ RequestMethod ]POST
+
+17:57:08:[ RequestParams ]{}
+
+17:57:08:[ Response ]获取服务器列表操作成功
+
+17:57:08:请求结束
+
+
+
+17:57:10:[ RequestURL ]/ImageList
+
+17:57:10:[ RequestMethod ]POST
+
+17:57:10:[ RequestParams ]{}
+
+17:57:11:[ Response ]获取镜像列表操作成功
+
+17:57:11:请求结束
+
+
+
+17:57:12:[ RequestURL ]/ContainerList
+
+17:57:12:[ RequestMethod ]POST
+
+17:57:12:[ RequestParams ]{}
+
+17:57:12:[ Response ]获取容器列表操作成功
+
+17:57:12:请求结束
+
+
+
+19:17:44:[ RequestURL ]/ContainerList
+
+19:17:44:[ RequestMethod ]POST
+
+19:17:44:[ RequestParams ]{}
+
+19:17:44:[ Response ]获取容器列表操作成功
+
+19:17:44:请求结束
+
+
+
+19:17:59:[ RequestURL ]/ContainerDetail
+
+19:17:59:[ RequestMethod ]POST
+
+19:17:59:[ RequestParams ]{"container_id":"419529c41b7d"}
+
+19:18:14:请求结束
+
+
+
+19:18:15:[ RequestURL ]/ContainerList
+
+19:18:15:[ RequestMethod ]POST
+
+19:18:15:[ RequestParams ]{}
+
+19:18:15:[ Response ]获取容器列表操作成功
+
+19:18:15:请求结束
+
+
+
+19:18:17:[ RequestURL ]/ContainerDetail
+
+19:18:17:[ RequestMethod ]POST
+
+19:18:17:[ RequestParams ]{"container_id":"5a447d6fa2f1"}
+
+19:18:32:请求结束
+
+
+
+19:20:11:[ RequestURL ]/GetProjects
+
+19:20:11:[ RequestMethod ]POST
+
+19:20:11:[ RequestParams ]{}
+
+19:20:12:[ Response ]获取gitlab上的项目操作成功
+
+19:20:12:请求结束
+
+
+
+19:30:54:[ RequestURL ]/getToken
+
+19:30:54:[ RequestMethod ]POST
+
+19:30:54:[ RequestParams ]{"username":"benson","password":"benson"}
+
+19:30:55:请求结束
+
+
+
+19:30:55:[ RequestURL ]/login
+
+19:30:55:[ RequestMethod ]POST
+
+19:30:55:[ RequestParams ]{"username":"benson","password":"benson"}
+
+19:30:55:[ Response ]登陆操作成功
+
+19:30:55:请求结束
+
+
+
+20:10:38:[ RequestURL ]/getToken
+
+20:10:38:[ RequestMethod ]POST
+
+20:10:38:[ RequestParams ]{"username":"benson","password":"benson"}
+
+20:10:38:[ RequestURL ]/login
+
+20:10:38:[ RequestMethod ]POST
+
+20:10:38:[ RequestParams ]{"username":"benson","password":"benson"}
+
+20:10:39:[ Response ]登陆操作成功
+
+20:10:39:请求结束
+
+
+
+20:17:12:[ RequestURL ]/GetProjects
+
+20:17:12:[ RequestMethod ]POST
+
+20:17:12:[ RequestParams ]{}
+
+20:17:13:[ Response ]获取gitlab上的项目操作成功
+
+20:17:13:请求结束
+
+
+
+21:04:18:[ RequestURL ]/getToken
+
+21:04:18:[ RequestMethod ]POST
+
+21:04:18:[ RequestParams ]{"username":"benson","password":"benson"}
+
+21:04:18:[ RequestURL ]/login
+
+21:04:18:[ RequestMethod ]POST
+
+21:04:18:[ RequestParams ]{"username":"benson","password":"benson"}
+
+21:04:19:[ Response ]登陆操作成功
+
+21:04:19:请求结束
+
+
+
+21:04:21:[ RequestURL ]/GetProjectInfo
+
+21:04:21:[ RequestMethod ]POST
+
+21:04:21:[ RequestParams ]{}
+
+21:04:27:[ Response ]获取所有的项目操作成功
+
+21:04:27:请求结束
+
+
+
+21:05:26:[ RequestURL ]/GetProjectInfo
+
+21:05:26:[ RequestMethod ]POST
+
+21:05:26:[ RequestParams ]{}
+
+21:05:33:[ Response ]获取所有的项目操作成功
+
+21:05:33:请求结束
+
+
+
+21:08:27:[ RequestURL ]/GetProjectInfo
+
+21:08:27:[ RequestMethod ]POST
+
+21:08:27:[ RequestParams ]{}
+
+21:08:33:[ Response ]获取所有的项目操作成功
+
+21:08:33:请求结束
+
+
+
+21:08:35:[ RequestURL ]/GetProjectInfo
+
+21:08:35:[ RequestMethod ]POST
+
+21:08:35:[ RequestParams ]{}
+
+21:08:41:[ Response ]获取所有的项目操作成功
+
+21:08:41:请求结束
+
+
+
+21:08:50:[ RequestURL ]/GetProjectInfo
+
+21:08:50:[ RequestMethod ]POST
+
+21:08:50:[ RequestParams ]{}
+
+21:08:56:[ Response ]获取所有的项目操作成功
+
+21:08:56:请求结束
+
+
+
+21:11:42:[ RequestURL ]/GetProjectInfo
+
+21:11:42:[ RequestMethod ]POST
+
+21:11:42:[ RequestParams ]{}
+
+21:11:47:[ Response ]获取所有的项目操作成功
+
+21:11:47:请求结束
+
+
+
+21:19:03:[ RequestURL ]/GetProjectInfo
+
+21:19:03:[ RequestMethod ]POST
+
+21:19:03:[ RequestParams ]{}
+
+21:19:09:[ Response ]获取所有的项目操作成功
+
+21:19:09:请求结束
+
+
+
+21:19:51:[ RequestURL ]/GetProjectInfo
+
+21:19:51:[ RequestMethod ]POST
+
+21:19:51:[ RequestParams ]{}
+
+21:19:58:[ Response ]获取所有的项目操作成功
+
+21:19:58:请求结束
+
+
+
+21:20:53:[ RequestURL ]/GetProjectInfo
+
+21:20:53:[ RequestMethod ]POST
+
+21:20:53:[ RequestParams ]{}
+
+21:20:59:[ Response ]获取所有的项目操作成功
+
+21:20:59:请求结束
+
+
+
+21:25:12:[ RequestURL ]/GetProjectInfo
+
+21:25:12:[ RequestMethod ]POST
+
+21:25:12:[ RequestParams ]{}
+
+21:25:18:[ Response ]获取所有的项目操作成功
+
+21:25:18:请求结束
+
+
+
+21:28:33:[ RequestURL ]/GetProjectInfo
+
+21:28:33:[ RequestMethod ]POST
+
+21:28:33:[ RequestParams ]{}
+
+21:28:38:[ Response ]获取所有的项目操作成功
+
+21:28:38:请求结束
+
+
+
+21:29:10:[ RequestURL ]/GetProjectInfo
+
+21:29:10:[ RequestMethod ]POST
+
+21:29:10:[ RequestParams ]{}
+
+21:29:16:[ Response ]获取所有的项目操作成功
+
+21:29:16:请求结束
+
+
+
+21:32:14:[ RequestURL ]/GetProjectInfo
+
+21:32:14:[ RequestMethod ]POST
+
+21:32:14:[ RequestParams ]{}
+
+21:32:20:[ Response ]获取所有的项目操作成功
+
+21:32:20:请求结束
+
+
+
+21:33:13:[ RequestURL ]/GetProjectInfo
+
+21:33:13:[ RequestMethod ]POST
+
+21:33:13:[ RequestParams ]{}
+
+21:33:19:[ Response ]获取所有的项目操作成功
+
+21:33:19:请求结束
+
+
+
+21:35:26:[ RequestURL ]/GetProjectInfo
+
+21:35:26:[ RequestMethod ]POST
+
+21:35:26:[ RequestParams ]{}
+
+21:35:32:[ Response ]获取所有的项目操作成功
+
+21:35:32:请求结束
+
+
+
+21:36:42:[ RequestURL ]/GetProjectInfo
+
+21:36:42:[ RequestMethod ]POST
+
+21:36:42:[ RequestParams ]{}
+
+21:36:48:[ Response ]获取所有的项目操作成功
+
+21:36:48:请求结束
+
+
+
+21:38:09:[ RequestURL ]/GetProjectInfo
+
+21:38:09:[ RequestMethod ]POST
+
+21:38:09:[ RequestParams ]{}
+
+21:38:15:[ Response ]获取所有的项目操作成功
+
+21:38:15:请求结束
+
+
+
+21:38:46:[ RequestURL ]/GetProjectInfo
+
+21:38:46:[ RequestMethod ]POST
+
+21:38:46:[ RequestParams ]{}
+
+21:38:52:[ Response ]获取所有的项目操作成功
+
+21:38:52:请求结束
+
+
+
+21:40:01:[ RequestURL ]/GetProjectInfo
+
+21:40:01:[ RequestMethod ]POST
+
+21:40:01:[ RequestParams ]{}
+
+21:40:16:请求结束
+
+
+
+21:40:26:[ Response ]获取所有的项目操作成功
+
+21:40:26:请求结束
+
+
+
+21:42:53:[ RequestURL ]/GetProjectInfo
+
+21:42:53:[ RequestMethod ]POST
+
+21:42:53:[ RequestParams ]{}
+
+21:42:59:[ Response ]获取所有的项目操作成功
+
+21:42:59:请求结束
+
+
+
+21:43:35:[ RequestURL ]/GetProjectInfo
+
+21:43:35:[ RequestMethod ]POST
+
+21:43:35:[ RequestParams ]{}
+
+21:43:42:[ Response ]获取所有的项目操作成功
+
+21:43:42:请求结束
+
+
+
+21:43:50:[ RequestURL ]/GetProjectInfo
+
+21:43:50:[ RequestMethod ]POST
+
+21:43:50:[ RequestParams ]{}
+
+21:43:56:[ Response ]获取所有的项目操作成功
+
+21:43:56:请求结束
+
+
+
+21:45:01:[ RequestURL ]/GetProjectInfo
+
+21:45:01:[ RequestMethod ]POST
+
+21:45:01:[ RequestParams ]{}
+
+21:45:07:[ Response ]获取所有的项目操作成功
+
+21:45:07:请求结束
+
+
+
+21:57:27:[ RequestURL ]/GetProjectInfo
+
+21:57:27:[ RequestMethod ]POST
+
+21:57:27:[ RequestParams ]{}
+
+21:57:27:[ Response ]获取所有的项目操作成功
+
+21:57:27:请求结束
+
+
+
+22:01:48:[ RequestURL ]/GetProjectInfo
+
+22:01:48:[ RequestMethod ]POST
+
+22:01:48:[ RequestParams ]{}
+
+22:01:48:[ Response ]获取所有的项目操作成功
+
+22:01:48:请求结束
+
+
+
+22:04:21:[ RequestURL ]/GetProjectInfo
+
+22:04:21:[ RequestMethod ]POST
+
+22:04:21:[ RequestParams ]{}
+
+22:04:21:[ Response ]获取所有的项目操作成功
+
+22:04:21:请求结束
+
+
+
+22:04:52:[ RequestURL ]/GetProjectInfo
+
+22:04:52:[ RequestMethod ]POST
+
+22:04:52:[ RequestParams ]{}
+
+22:04:52:[ Response ]获取所有的项目操作成功
+
+22:04:52:请求结束
+
+
+
+22:05:24:[ RequestURL ]/GetProjectInfo
+
+22:05:24:[ RequestMethod ]POST
+
+22:05:24:[ RequestParams ]{}
+
+22:05:24:[ Response ]获取所有的项目操作成功
+
+22:05:24:请求结束
+
+
+
+22:07:03:[ RequestURL ]/getToken
+
+22:07:03:[ RequestMethod ]POST
+
+22:07:03:[ RequestParams ]{"username":"benson","password":"benson"}
+
+22:07:03:[ RequestURL ]/login
+
+22:07:03:[ RequestMethod ]POST
+
+22:07:03:[ RequestParams ]{"username":"benson","password":"benson"}
+
+22:07:04:[ Response ]登陆操作成功
+
+22:07:04:请求结束
+
+
+
+22:07:05:[ RequestURL ]/GetProjectInfo
+
+22:07:05:[ RequestMethod ]POST
+
+22:07:05:[ RequestParams ]{}
+
+22:07:06:[ Response ]获取所有的项目操作成功
+
+22:07:06:请求结束
+
+
+

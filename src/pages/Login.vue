@@ -11,11 +11,11 @@
         </el-form-item>
         <el-form-item prop="checkPass">
           <span class="svg-container"></span>
-          <el-input name="checkPass" type="password" @keyup.enter.native="getToken" v-model="ruleForm2.checkPass"
+          <el-input name="checkPass" type="password" @keyup.enter.native="handleSubmit2" v-model="ruleForm2.checkPass"
                          autoComplete="on" placeholder="密码"></el-input>
         </el-form-item>
         <el-form-item>
-          <el-button type="primary" style="width:100%;" :loading="loading" @click.native.prevent="getToken">
+          <el-button type="primary" style="width:100%;" :loading="loading" @click.native.prevent="handleSubmit2">
                 登录
           </el-button>
         </el-form-item>
@@ -24,9 +24,10 @@
 </template>
 
 <script>
-  // import { requestLogin } from '../api/api';
-  //import NProgress from 'nprogress'
+  import router from "../router";
+
   export default {
+    name: "login",
     data() {
       return {
         token: '',
@@ -37,13 +38,15 @@
         loading: false,
         rules2: {
           account: [
-            { required: true, message: '请输入账号', trigger: 'blur' },
-            //{ validator: validaePass }
-          ],
+            { required: true,
+              message: '请输入账号',
+              trigger: 'blur'
+            }],
           checkPass: [
-            { required: true, message: '请输入密码', trigger: 'blur' },
-            //{ validator: validaePass2 }
-          ]
+            { required: true,
+              message: '请输入密码',
+              trigger: 'blur'
+            }]
         },
         checked: true
       };
@@ -52,64 +55,39 @@
       handleReset2() {
         this.$refs.ruleForm2.resetFields();
       },
-      handleSubmit2(ev) {
-        var _this = this;
-        this.$refs.ruleForm2.validate((valid) => {
+      handleSubmit2() {
+        var self = this;
+        self.$refs.ruleForm2.validate(function(valid) {
           if (valid) {
-            //_this.$router.replace('/table');
-            //NProgress.start();
-            var loginParams = { username: this.ruleForm2.account, password: this.ruleForm2.checkPass };
-						this.axios.post('http://operapi.uco2.com/user/login/', loginParams, {
-							headers: {
-								'Content-Type': 'application/x-www-form-urlencoded'}
-						}).then((response, callback) => {
-							let data = { code: response.data.retcode, user: response.data.retdata, msg: response.data.retmsg };
-							if (data.code !== 0) {
-								this.$message({
-                  message: data.msg,
-                  type: 'error'
-                });
-							} else {
-								sessionStorage.setItem('user', JSON.stringify(data.user));
-								this.$router.push({ path: '/table' });
-							}
-						});
+            var loginParams = { username: self.ruleForm2.account, password: self.ruleForm2.checkPass };
+            self.$http.post('/Interface/getToken', loginParams).then(function(response) {
+              switch (response.status) {
+                case 200:
+                  self.token = 'Token ' + response.data.token;
+                  sessionStorage.setItem('token', JSON.stringify(self.token));
+                  self.$http.post('/Interface/login', loginParams).then(function(response) {
+                    var data = response.data;
+                    switch (data.retcode) {
+                      case 0:
+                        router.replace({
+                          name: 'dashboard'
+                        });
+                        break;
+                      case 1:
+                        self.$message.error(data.retmsg);
+                      default:
+                        self.$message.error(data.retmsg);
+                    }
+                  });
+              }
+            })
 					} else {
-						console.log('error submit!!');
-						return false;
+						self.$message.error("表单验证失败！");
 					}
 				});
 			},
-      getToken(ev) {
-        this.$refs.ruleForm2.validate((valid) => {
-          if (valid) {
-            // var loginParams = { username: this.ruleForm2.account, password: this.ruleForm2.checkPass };
-            this.loading = true;
-            var loginParams = new URLSearchParams();
-            loginParams.append('username', this.ruleForm2.account)
-            loginParams.append('password', this.ruleForm2.checkPass)
-            this.axios.post('http://operapi.uco2.com/user/api-token-auth/', loginParams, {
-              headers: {
-                'Content-Type': 'application/x-www-form-urlencoded'}
-              }).then((response, callback) => {
-                if (response.status !== 200) {
-                  this.$message({
-                    message: response.data,
-                    type: 'error'
-                  });
-                } else {
-                  this.loading = false;
-                  this.token = 'Token ' + response.data.token;
-                  sessionStorage.setItem('token', JSON.stringify(this.token));
-                  sessionStorage.setItem('user', JSON.stringify(this.ruleForm2.account));
-                  this.$router.push({ path: '/table' });
-                }
-              });
-            }
-          });
-        }
-      }
     }
+  }
 </script>
 
 <style rel="stylesheet/scss" lang="scss">

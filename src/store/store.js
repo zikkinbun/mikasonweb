@@ -6,7 +6,7 @@ Vue.use(Vuex)
 // 应用初始状态
 const state = {
   user: JSON.parse(sessionStorage.getItem('user')),
-  token: JSON.parse(sessionStorage.getItem('token')),
+  token: '2|0949e95b|4d12312c8cfc8fb9351ee716f65940ed|1506075890',
 }
 
 const mutations = {
@@ -30,5 +30,6 @@ const actions = {
 // 创建 store 实例
 export default new Vuex.Store({
     state,
-    mutations
+    mutations,
+    // actions
 })

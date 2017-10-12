@@ -1,0 +1,1060 @@
+14:09:32:[ RequestURL ]/getToken
+
+14:09:32:[ RequestMethod ]POST
+
+14:09:32:[ RequestParams ]{"username":"benson","password":"benson"}
+
+14:09:32:[ RequestURL ]/login
+
+14:09:32:[ RequestMethod ]POST
+
+14:09:32:[ RequestParams ]{"username":"benson","password":"benson"}
+
+14:09:32:请求结束
+
+
+
+14:11:01:[ RequestURL ]/getToken
+
+14:11:01:[ RequestMethod ]POST
+
+14:11:01:[ RequestParams ]{"username":"benson","password":"benson"}
+
+14:11:01:[ RequestURL ]/login
+
+14:11:01:[ RequestMethod ]POST
+
+14:11:01:[ RequestParams ]{"username":"benson","password":"benson"}
+
+14:11:01:[ Response ]登陆操作成功
+
+14:11:01:请求结束
+
+
+
+14:11:05:[ RequestURL ]/ServerList
+
+14:11:05:[ RequestMethod ]POST
+
+14:11:05:[ RequestParams ]{}
+
+14:11:06:请求结束
+
+
+
+14:11:46:[ RequestURL ]/ServerList
+
+14:11:46:[ RequestMethod ]POST
+
+14:11:46:[ RequestParams ]{}
+
+14:11:46:请求结束
+
+
+
+15:51:05:[ RequestURL ]/ServerList
+
+15:51:05:[ RequestMethod ]POST
+
+15:51:05:[ RequestParams ]{}
+
+15:51:05:请求结束
+
+
+
+16:07:50:[ RequestURL ]/ServerList
+
+16:07:50:[ RequestMethod ]POST
+
+16:07:50:[ RequestParams ]{}
+
+16:07:50:请求结束
+
+
+
+16:07:56:[ RequestURL ]/ServerList
+
+16:07:56:[ RequestMethod ]POST
+
+16:07:56:[ RequestParams ]{}
+
+16:07:56:请求结束
+
+
+
+16:45:36:[ RequestURL ]/getToken
+
+16:45:36:[ RequestMethod ]POST
+
+16:45:36:[ RequestParams ]{"username":"benson","password":"benson"}
+
+16:45:36:[ RequestURL ]/login
+
+16:45:36:[ RequestMethod ]POST
+
+16:45:36:[ RequestParams ]{"username":"benson","password":"benson"}
+
+16:45:36:[ Response ]登陆操作成功
+
+16:45:36:请求结束
+
+
+
+16:45:39:[ RequestURL ]/ServerList
+
+16:45:39:[ RequestMethod ]POST
+
+16:45:39:[ RequestParams ]{}
+
+16:45:39:[ Response ]获取服务器列表操作成功
+
+16:45:39:请求结束
+
+
+
+16:46:48:[ RequestURL ]/ServerList
+
+16:46:48:[ RequestMethod ]POST
+
+16:46:48:[ RequestParams ]{}
+
+16:46:48:[ Response ]获取服务器列表操作成功
+
+16:46:48:请求结束
+
+
+
+16:50:37:[ RequestURL ]/ServerList
+
+16:50:37:[ RequestMethod ]POST
+
+16:50:37:[ RequestParams ]{}
+
+16:50:37:[ Response ]获取服务器列表操作成功
+
+16:50:37:请求结束
+
+
+
+16:50:53:[ RequestURL ]/ServerList
+
+16:50:53:[ RequestMethod ]POST
+
+16:50:53:[ RequestParams ]{}
+
+16:50:54:[ Response ]获取服务器列表操作成功
+
+16:50:54:请求结束
+
+
+
+16:53:21:[ RequestURL ]/ServerList
+
+16:53:21:[ RequestMethod ]POST
+
+16:53:21:[ RequestParams ]{}
+
+16:53:21:[ Response ]获取服务器列表操作成功
+
+16:53:21:请求结束
+
+
+
+17:29:56:[ RequestURL ]/ServerList
+
+17:29:56:[ RequestMethod ]POST
+
+17:29:56:[ RequestParams ]{}
+
+17:29:56:请求结束
+
+
+
+17:35:42:[ RequestURL ]/ServerList
+
+17:35:42:[ RequestMethod ]POST
+
+17:35:42:[ RequestParams ]{}
+
+17:35:42:请求结束
+
+
+
+17:47:39:[ RequestURL ]/ServerList
+
+17:47:39:[ RequestMethod ]POST
+
+17:47:39:[ RequestParams ]{}
+
+17:47:39:请求结束
+
+
+
+17:47:45:[ RequestURL ]/ServerList
+
+17:47:45:[ RequestMethod ]POST
+
+17:47:45:[ RequestParams ]{}
+
+17:47:45:请求结束
+
+
+
+17:47:47:[ RequestURL ]/ServerList
+
+17:47:47:[ RequestMethod ]POST
+
+17:47:47:[ RequestParams ]{}
+
+17:47:47:请求结束
+
+
+
+17:48:37:[ RequestURL ]/ServerList
+
+17:48:37:[ RequestMethod ]POST
+
+17:48:37:[ RequestParams ]{}
+
+17:48:37:请求结束
+
+
+
+17:49:42:[ RequestURL ]/getToken
+
+17:49:42:[ RequestMethod ]POST
+
+17:49:42:[ RequestParams ]{"username":"benson","password":"benson"}
+
+17:49:42:[ RequestURL ]/login
+
+17:49:42:[ RequestMethod ]POST
+
+17:49:42:[ RequestParams ]{"username":"benson","password":"benson"}
+
+17:49:42:[ Response ]登陆操作成功
+
+17:49:42:请求结束
+
+
+
+17:49:45:[ RequestURL ]/ServerList
+
+17:49:45:[ RequestMethod ]POST
+
+17:49:45:[ RequestParams ]{}
+
+17:49:45:[ Response ]获取服务器列表操作成功
+
+17:49:45:请求结束
+
+
+
+17:55:36:[ RequestURL ]/ServerList
+
+17:55:36:[ RequestMethod ]POST
+
+17:55:36:[ RequestParams ]{}
+
+17:55:36:[ Response ]获取服务器列表操作成功
+
+17:55:36:请求结束
+
+
+
+17:56:25:[ RequestURL ]/getToken
+
+17:56:25:[ RequestMethod ]POST
+
+17:56:25:[ RequestParams ]{"username":"benson","password":"benson"}
+
+17:56:25:[ RequestURL ]/login
+
+17:56:25:[ RequestMethod ]POST
+
+17:56:25:[ RequestParams ]{"username":"benson","password":"benson"}
+
+17:56:26:[ Response ]登陆操作成功
+
+17:56:26:请求结束
+
+
+
+17:56:28:[ RequestURL ]/ServerList
+
+17:56:28:[ RequestMethod ]POST
+
+17:56:28:[ RequestParams ]{}
+
+17:56:28:[ Response ]获取服务器列表操作成功
+
+17:56:28:请求结束
+
+
+
+17:56:35:[ RequestURL ]/EditDetail
+
+17:56:35:[ RequestMethod ]POST
+
+17:56:35:[ RequestParams ]{"Name":"uco2_dev","System":"Centos6","GlobalIpAddr":"39.108.141.79","PrivateIpAddr":"192.168.1.211","CpuStat":"4","MemoryStat":"16","HDDStorage":"200","NetCard":"10","Status":"在线"}
+
+17:56:35:请求结束
+
+
+
+17:56:35:[ RequestURL ]/ServerList
+
+17:56:35:[ RequestMethod ]POST
+
+17:56:35:[ RequestParams ]{}
+
+17:56:35:[ Response ]获取服务器列表操作成功
+
+17:56:35:请求结束
+
+
+
+17:57:34:[ RequestURL ]/ServerList
+
+17:57:34:[ RequestMethod ]POST
+
+17:57:34:[ RequestParams ]{}
+
+17:57:34:[ Response ]获取服务器列表操作成功
+
+17:57:34:请求结束
+
+
+
+17:57:47:[ RequestURL ]/ServerList
+
+17:57:47:[ RequestMethod ]POST
+
+17:57:47:[ RequestParams ]{}
+
+17:57:47:[ Response ]获取服务器列表操作成功
+
+17:57:47:请求结束
+
+
+
+17:57:54:[ RequestURL ]/ServerList
+
+17:57:54:[ RequestMethod ]POST
+
+17:57:54:[ RequestParams ]{}
+
+17:57:54:[ Response ]获取服务器列表操作成功
+
+17:57:54:请求结束
+
+
+
+17:58:03:[ RequestURL ]/EditDetail
+
+17:58:03:[ RequestMethod ]POST
+
+17:58:03:[ RequestParams ]{"Name":"uco2_dev","System":"Centos6","GlobalIpAddr":"39.108.141.79","PrivateIpAddr":"192.168.1.211","CpuStat":"4","MemoryStat":"16","HDDStorage":"200","NetCard":"10","Status":"在线"}
+
+17:58:03:请求结束
+
+
+
+17:58:03:[ RequestURL ]/ServerList
+
+17:58:03:[ RequestMethod ]POST
+
+17:58:03:[ RequestParams ]{}
+
+17:58:03:[ Response ]获取服务器列表操作成功
+
+17:58:03:请求结束
+
+
+
+18:51:14:[ RequestURL ]/ServerList
+
+18:51:14:[ RequestMethod ]POST
+
+18:51:14:[ RequestParams ]{}
+
+18:51:14:[ Response ]获取服务器列表操作成功
+
+18:51:14:请求结束
+
+
+
+18:51:20:[ RequestURL ]/EditDetail
+
+18:51:20:[ RequestMethod ]POST
+
+18:51:20:[ RequestParams ]{"Name":"uco2_dev","System":"Centos6","GlobalIpAddr":"39.108.141.79","PrivateIpAddr":"192.168.1.211","CpuStat":"4","MemoryStat":"16","HDDStorage":"200","NetCard":"10","Status":"在线"}
+
+18:51:20:请求结束
+
+
+
+18:51:21:[ RequestURL ]/ServerList
+
+18:51:21:[ RequestMethod ]POST
+
+18:51:21:[ RequestParams ]{}
+
+18:51:21:[ Response ]获取服务器列表操作成功
+
+18:51:21:请求结束
+
+
+
+20:20:27:[ RequestURL ]/EditDetail
+
+20:20:27:[ RequestMethod ]POST
+
+20:20:27:[ RequestParams ]{"Name":"uco2_dev","System":"Centos7","GlobalIpAddr":"39.108.141.79","PrivateIpAddr":"192.168.1.211","CpuStat":"8","MemoryStat":"16","HDDStorage":"200","NetCard":"10","Status":"在线"}
+
+20:20:27:[ RequestURL ]/ServerList
+
+20:20:27:[ RequestMethod ]POST
+
+20:20:27:[ RequestParams ]{}
+
+20:20:38:[ RequestURL ]/getToken
+
+20:20:38:[ RequestMethod ]POST
+
+20:20:38:[ RequestParams ]{"username":"benson","password":"benson"}
+
+20:20:38:[ RequestURL ]/login
+
+20:20:38:[ RequestMethod ]POST
+
+20:20:38:[ RequestParams ]{"username":"benson","password":"benson"}
+
+20:20:38:[ Response ]登陆操作成功
+
+20:20:38:请求结束
+
+
+
+20:20:41:[ RequestURL ]/ServerList
+
+20:20:41:[ RequestMethod ]POST
+
+20:20:41:[ RequestParams ]{}
+
+20:20:41:[ Response ]获取服务器列表操作成功
+
+20:20:41:请求结束
+
+
+
+20:20:52:[ RequestURL ]/EditDetail
+
+20:20:52:[ RequestMethod ]POST
+
+20:20:52:[ RequestParams ]{"Name":"uco2_dev","System":"Centos7","GlobalIpAddr":"39.108.141.79","PrivateIpAddr":"192.168.1.211","CpuStat":"8","MemoryStat":"16","HDDStorage":"200","NetCard":"10","Status":"在线"}
+
+20:20:52:请求结束
+
+
+
+20:20:52:[ RequestURL ]/ServerList
+
+20:20:52:[ RequestMethod ]POST
+
+20:20:52:[ RequestParams ]{}
+
+20:20:53:[ Response ]获取服务器列表操作成功
+
+20:20:53:请求结束
+
+
+
+20:22:40:[ RequestURL ]/CreateServer
+
+20:22:40:[ RequestMethod ]POST
+
+20:22:40:[ RequestParams ]{"Name":"test","System":"Centos7","GlobalIpAddr":"test","PrivateIpAddr":"test","CpuStat":"16","MemoryStat":"16","HDDStorage":"200","NetCard":"100","Status":""}
+
+20:22:40:[ Response ]新建服务器详情操作成功
+
+20:22:40:请求结束
+
+
+
+20:22:40:[ RequestURL ]/ServerList
+
+20:22:40:[ RequestMethod ]POST
+
+20:22:40:[ RequestParams ]{}
+
+20:22:40:[ Response ]获取服务器列表操作成功
+
+20:22:40:请求结束
+
+
+
+20:23:01:[ RequestURL ]/ServerDelete
+
+20:23:01:[ RequestMethod ]POST
+
+20:23:01:[ RequestParams ]{"id":1}
+
+20:23:01:请求结束
+
+
+
+20:23:01:[ RequestURL ]/ServerList
+
+20:23:01:[ RequestMethod ]POST
+
+20:23:01:[ RequestParams ]{}
+
+20:23:01:[ Response ]获取服务器列表操作成功
+
+20:23:01:请求结束
+
+
+
+20:25:24:[ RequestURL ]/ServerList
+
+20:25:24:[ RequestMethod ]POST
+
+20:25:24:[ RequestParams ]{}
+
+20:25:24:[ Response ]获取服务器列表操作成功
+
+20:25:24:请求结束
+
+
+
+20:40:25:[ RequestURL ]/CreateServer
+
+20:40:25:[ RequestMethod ]POST
+
+20:40:25:[ RequestParams ]{"Name":"uco2_dev","System":"Centos7","GlobalIpAddr":"39.108.141.79","PrivateIpAddr":"192.168.1.211","CpuStat":"4","MemoryStat":"16","HDDStorage":"100","NetCard":"10","Status":""}
+
+20:40:25:[ Response ]新建服务器详情操作成功
+
+20:40:25:请求结束
+
+
+
+20:40:26:[ RequestURL ]/ServerList
+
+20:40:26:[ RequestMethod ]POST
+
+20:40:26:[ RequestParams ]{}
+
+20:40:26:[ Response ]获取服务器列表操作成功
+
+20:40:26:请求结束
+
+
+
+20:40:46:[ RequestURL ]/ServerDelete
+
+20:40:46:[ RequestMethod ]POST
+
+20:40:46:[ RequestParams ]{"id":8}
+
+20:40:46:请求结束
+
+
+
+20:40:46:[ RequestURL ]/ServerList
+
+20:40:46:[ RequestMethod ]POST
+
+20:40:46:[ RequestParams ]{}
+
+20:40:46:[ Response ]获取服务器列表操作成功
+
+20:40:46:请求结束
+
+
+
+20:40:51:[ RequestURL ]/ServerList
+
+20:40:51:[ RequestMethod ]POST
+
+20:40:51:[ RequestParams ]{}
+
+20:40:51:[ Response ]获取服务器列表操作成功
+
+20:40:51:请求结束
+
+
+
+20:41:34:[ RequestURL ]/ServerList
+
+20:41:34:[ RequestMethod ]POST
+
+20:41:34:[ RequestParams ]{}
+
+20:41:35:[ Response ]获取服务器列表操作成功
+
+20:41:35:请求结束
+
+
+
+20:41:41:[ RequestURL ]/EditDetail
+
+20:41:41:[ RequestMethod ]POST
+
+20:41:41:[ RequestParams ]{"Name":"uco2_dev","System":"Centos7","GlobalIpAddr":"39.108.141.79","PrivateIpAddr":"192.168.1.211","CpuStat":"4","MemoryStat":"8","HDDStorage":"100","NetCard":"10","Status":"在线"}
+
+20:41:41:请求结束
+
+
+
+20:41:42:[ RequestURL ]/ServerList
+
+20:41:42:[ RequestMethod ]POST
+
+20:41:42:[ RequestParams ]{}
+
+20:41:42:[ Response ]获取服务器列表操作成功
+
+20:41:42:请求结束
+
+
+
+20:48:20:[ RequestURL ]/ServerList
+
+20:48:20:[ RequestMethod ]POST
+
+20:48:20:[ RequestParams ]{}
+
+20:48:20:[ Response ]获取服务器列表操作成功
+
+20:48:20:请求结束
+
+
+
+20:51:59:[ RequestURL ]/getToken
+
+20:51:59:[ RequestMethod ]POST
+
+20:51:59:[ RequestParams ]{"username":"benson","password":"benson"}
+
+20:51:59:[ RequestURL ]/login
+
+20:51:59:[ RequestMethod ]POST
+
+20:51:59:[ RequestParams ]{"username":"benson","password":"benson"}
+
+20:52:00:[ Response ]登陆操作成功
+
+20:52:00:请求结束
+
+
+
+20:52:03:[ RequestURL ]/ServerList
+
+20:52:03:[ RequestMethod ]POST
+
+20:52:03:[ RequestParams ]{}
+
+20:52:03:[ Response ]获取服务器列表操作成功
+
+20:52:03:请求结束
+
+
+
+20:53:12:[ RequestURL ]/EditServer
+
+20:53:12:[ RequestMethod ]POST
+
+20:53:12:[ RequestParams ]{"Name":"uco2_test","System":"Centos7","GlobalIpAddr":"119.23.211.28","PrivateIpAddr":"192.168.1.209","CpuStat":"4","MemoryStat":"16","HDDStorage":"200","NetCard":"10","Status":"在线"}
+
+20:53:12:请求结束
+
+
+
+20:53:12:[ RequestURL ]/ServerList
+
+20:53:12:[ RequestMethod ]POST
+
+20:53:12:[ RequestParams ]{}
+
+20:53:12:[ Response ]获取服务器列表操作成功
+
+20:53:12:请求结束
+
+
+
+20:59:27:[ RequestURL ]/ServerList
+
+20:59:27:[ RequestMethod ]POST
+
+20:59:27:[ RequestParams ]{}
+
+20:59:27:[ Response ]获取服务器列表操作成功
+
+20:59:27:请求结束
+
+
+
+20:59:37:[ RequestURL ]/ServerList
+
+20:59:37:[ RequestMethod ]POST
+
+20:59:37:[ RequestParams ]{}
+
+20:59:37:[ Response ]获取服务器列表操作成功
+
+20:59:37:请求结束
+
+
+
+20:59:45:[ RequestURL ]/EditServer
+
+20:59:45:[ RequestMethod ]POST
+
+20:59:45:[ RequestParams ]{"id":9,"Name":"uco2_dev","System":"Centos7","GlobalIpAddr":"39.108.141.79","PrivateIpAddr":"192.168.1.211","CpuStat":"8","MemoryStat":"16","HDDStorage":"100G","NetCard":"10M","Status":"在线"}
+
+20:59:45:请求结束
+
+
+
+20:59:45:[ RequestURL ]/ServerList
+
+20:59:45:[ RequestMethod ]POST
+
+20:59:45:[ RequestParams ]{}
+
+20:59:45:[ Response ]获取服务器列表操作成功
+
+20:59:45:请求结束
+
+
+
+20:59:52:[ RequestURL ]/ServerList
+
+20:59:52:[ RequestMethod ]POST
+
+20:59:52:[ RequestParams ]{}
+
+20:59:52:[ Response ]获取服务器列表操作成功
+
+20:59:52:请求结束
+
+
+
+21:00:56:[ RequestURL ]/getToken
+
+21:00:56:[ RequestMethod ]POST
+
+21:00:56:[ RequestParams ]{"username":"benson","password":"benson"}
+
+21:00:56:[ RequestURL ]/login
+
+21:00:56:[ RequestMethod ]POST
+
+21:00:56:[ RequestParams ]{"username":"benson","password":"benson"}
+
+21:00:57:[ Response ]登陆操作成功
+
+21:00:57:请求结束
+
+
+
+21:00:59:[ RequestURL ]/ServerList
+
+21:00:59:[ RequestMethod ]POST
+
+21:00:59:[ RequestParams ]{}
+
+21:00:59:[ Response ]获取服务器列表操作成功
+
+21:00:59:请求结束
+
+
+
+21:01:13:[ RequestURL ]/EditServer
+
+21:01:13:[ RequestMethod ]POST
+
+21:01:13:[ RequestParams ]{"id":9,"Name":"uco2_dev","System":"Centos7","GlobalIpAddr":"39.108.141.79","PrivateIpAddr":"192.168.1.211","CpuStat":"8","MemoryStat":"16","HDDStorage":"100","NetCard":"10","Status":"在线"}
+
+21:01:13:请求结束
+
+
+
+21:01:13:[ RequestURL ]/ServerList
+
+21:01:13:[ RequestMethod ]POST
+
+21:01:13:[ RequestParams ]{}
+
+21:01:13:[ Response ]获取服务器列表操作成功
+
+21:01:13:请求结束
+
+
+
+21:01:25:[ RequestURL ]/EditServer
+
+21:01:25:[ RequestMethod ]POST
+
+21:01:25:[ RequestParams ]{"id":9,"Name":"uco2_dev","System":"Centos7","GlobalIpAddr":"39.108.141.79","PrivateIpAddr":"192.168.1.211","CpuStat":"4","MemoryStat":"16","HDDStorage":"100","NetCard":"10","Status":"在线"}
+
+21:01:25:请求结束
+
+
+
+21:01:25:[ RequestURL ]/ServerList
+
+21:01:25:[ RequestMethod ]POST
+
+21:01:25:[ RequestParams ]{}
+
+21:01:25:[ Response ]获取服务器列表操作成功
+
+21:01:25:请求结束
+
+
+
+21:01:33:[ RequestURL ]/ServerList
+
+21:01:33:[ RequestMethod ]POST
+
+21:01:33:[ RequestParams ]{}
+
+21:01:33:[ Response ]获取服务器列表操作成功
+
+21:01:33:请求结束
+
+
+
+21:01:41:[ RequestURL ]/ServerList
+
+21:01:41:[ RequestMethod ]POST
+
+21:01:41:[ RequestParams ]{}
+
+21:01:42:[ Response ]获取服务器列表操作成功
+
+21:01:42:请求结束
+
+
+
+21:16:10:[ RequestURL ]/ContainerList
+
+21:16:10:[ RequestMethod ]POST
+
+21:16:10:[ RequestParams ]{}
+
+21:16:15:[ RequestURL ]/ContainerList
+
+21:16:15:[ RequestMethod ]POST
+
+21:16:15:[ RequestParams ]{}
+
+21:16:25:请求结束
+
+
+
+21:16:29:[ RequestURL ]/ContainerList
+
+21:16:29:[ RequestMethod ]POST
+
+21:16:29:[ RequestParams ]{}
+
+21:16:44:请求结束
+
+
+
+21:17:36:[ RequestURL ]/getToken
+
+21:17:36:[ RequestMethod ]POST
+
+21:17:36:[ RequestParams ]{"username":"benson","password":"benson"}
+
+21:17:36:[ RequestURL ]/login
+
+21:17:36:[ RequestMethod ]POST
+
+21:17:36:[ RequestParams ]{"username":"benson","password":"benson"}
+
+21:17:37:[ Response ]登陆操作成功
+
+21:17:37:请求结束
+
+
+
+21:17:39:[ RequestURL ]/ContainerList
+
+21:17:39:[ RequestMethod ]POST
+
+21:17:39:[ RequestParams ]{}
+
+21:17:39:[ Response ]获取容器列表操作成功
+
+21:17:39:请求结束
+
+
+
+21:23:24:[ RequestURL ]/getToken
+
+21:23:24:[ RequestMethod ]POST
+
+21:23:24:[ RequestParams ]{"username":"benson","password":"benson"}
+
+21:23:24:[ RequestURL ]/login
+
+21:23:24:[ RequestMethod ]POST
+
+21:23:24:[ RequestParams ]{"username":"benson","password":"benson"}
+
+21:23:24:[ Response ]登陆操作成功
+
+21:23:24:请求结束
+
+
+
+21:23:26:[ RequestURL ]/ServerList
+
+21:23:26:[ RequestMethod ]POST
+
+21:23:26:[ RequestParams ]{}
+
+21:23:26:[ Response ]获取服务器列表操作成功
+
+21:23:26:请求结束
+
+
+
+21:23:27:[ RequestURL ]/ContainerList
+
+21:23:27:[ RequestMethod ]POST
+
+21:23:27:[ RequestParams ]{}
+
+21:23:27:[ Response ]获取容器列表操作成功
+
+21:23:27:请求结束
+
+
+
+21:24:02:[ RequestURL ]/ServerList
+
+21:24:02:[ RequestMethod ]POST
+
+21:24:02:[ RequestParams ]{}
+
+21:24:02:[ Response ]获取服务器列表操作成功
+
+21:24:02:请求结束
+
+
+
+21:24:02:[ RequestURL ]/ContainerList
+
+21:24:02:[ RequestMethod ]POST
+
+21:24:02:[ RequestParams ]{}
+
+21:24:02:[ Response ]获取容器列表操作成功
+
+21:24:02:请求结束
+
+
+
+21:24:03:[ RequestURL ]/ImageList
+
+21:24:03:[ RequestMethod ]GET
+
+21:24:03:[ RequestParams ]{}
+
+21:24:18:请求结束
+
+
+
+21:25:14:[ RequestURL ]/getToken
+
+21:25:14:[ RequestMethod ]POST
+
+21:25:14:[ RequestParams ]{"username":"benson","password":"benson"}
+
+21:25:14:[ RequestURL ]/login
+
+21:25:14:[ RequestMethod ]POST
+
+21:25:14:[ RequestParams ]{"username":"benson","password":"benson"}
+
+21:25:14:[ Response ]登陆操作成功
+
+21:25:14:请求结束
+
+
+
+21:25:16:[ RequestURL ]/ServerList
+
+21:25:16:[ RequestMethod ]POST
+
+21:25:16:[ RequestParams ]{}
+
+21:25:16:[ Response ]获取服务器列表操作成功
+
+21:25:16:请求结束
+
+
+
+21:25:17:[ RequestURL ]/ContainerList
+
+21:25:17:[ RequestMethod ]POST
+
+21:25:17:[ RequestParams ]{}
+
+21:25:17:[ Response ]获取容器列表操作成功
+
+21:25:17:请求结束
+
+
+
+21:25:17:[ RequestURL ]/ImageList
+
+21:25:17:[ RequestMethod ]GET
+
+21:25:17:[ RequestParams ]{}
+
+21:25:32:请求结束
+
+
+
+21:26:07:[ RequestURL ]/ImageList
+
+21:26:07:[ RequestMethod ]GET
+
+21:26:07:[ RequestParams ]{}
+
+21:26:22:请求结束
+
+
+
+21:29:48:[ RequestURL ]/ImageList
+
+21:29:48:[ RequestMethod ]POST
+
+21:29:48:[ RequestParams ]{}
+
+21:29:48:[ Response ]获取镜像列表操作成功
+
+21:29:48:请求结束
+
+
+
+21:30:03:[ RequestURL ]/ContainerList
+
+21:30:03:[ RequestMethod ]POST
+
+21:30:03:[ RequestParams ]{}
+
+21:30:03:[ Response ]获取容器列表操作成功
+
+21:30:03:请求结束
+
+
+

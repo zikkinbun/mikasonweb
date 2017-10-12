@@ -126,7 +126,7 @@
             xAxis : [
               {
                 type : 'category',
-                data : ['get_dev', 'gdr_test', 'gdr_rd_prod', 'gdr_sql_mt', 'gdr_sql_sl', 'gdr_web_prod', 'zabbix_server', ],
+                data : ['gdr_dev', 'gdr_test', 'gdr_rd_prod', 'gdr_sql_mt', 'gdr_sql_sl', 'gdr_web_prod', 'zabbix_server', ],
                 axisTick: {
                   alignWithLabel: true
                 }
