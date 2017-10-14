@@ -19,8 +19,8 @@
             </el-select>
           </el-form-item>
           <el-form-item>
-            <el-button type="primary" v-on:click="pushTest" v-loading="loading1">提交测试</el-button>
-            <el-button type="primary" v-on:click="pushProd" v-loading="loading2">提交生产</el-button>
+            <el-button type="warning" v-on:click="pushTest" v-loading="loading1">提交测试</el-button>
+            <el-button type="danger" v-on:click="pushProd" v-loading="loading2">提交生产</el-button>
           </el-form-item>
           <el-col :span="10">
           <el-form-item>

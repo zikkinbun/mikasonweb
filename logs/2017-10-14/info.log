@@ -3516,3 +3516,115 @@
 
 
 
+22:16:10:[ RequestURL ]/getToken
+
+22:16:10:[ RequestMethod ]POST
+
+22:16:10:[ RequestParams ]{"username":"benson","password":"benson"}
+
+22:16:10:[ RequestURL ]/login
+
+22:16:10:[ RequestMethod ]POST
+
+22:16:10:[ RequestParams ]{"username":"benson","password":"benson"}
+
+22:16:11:[ Response ]登陆操作成功
+
+22:16:11:请求结束
+
+
+
+22:16:11:[ RequestURL ]/queryUpTime
+
+22:16:11:[ RequestMethod ]POST
+
+22:16:11:[ RequestParams ]{}
+
+22:16:11:[ RequestURL ]/queryRunProcess
+
+22:16:11:[ RequestMethod ]POST
+
+22:16:11:[ RequestParams ]{}
+
+22:16:11:[ Response ]获取进程状态操作成功
+
+22:16:11:请求结束
+
+
+
+22:16:11:[ Response ]获取在线状态操作成功
+
+22:16:11:请求结束
+
+
+
+22:16:17:[ RequestURL ]/GetProjects
+
+22:16:17:[ RequestMethod ]POST
+
+22:16:17:[ RequestParams ]{}
+
+22:16:18:[ Response ]获取gitlab上的项目操作成功
+
+22:16:18:请求结束
+
+
+
+22:17:42:[ RequestURL ]/GetProjects
+
+22:17:42:[ RequestMethod ]POST
+
+22:17:42:[ RequestParams ]{}
+
+22:17:42:[ Response ]获取gitlab上的项目操作成功
+
+22:17:42:请求结束
+
+
+
+22:18:42:[ RequestURL ]/getToken
+
+22:18:42:[ RequestMethod ]POST
+
+22:18:42:[ RequestParams ]{"username":"benson","password":"benson"}
+
+22:18:43:请求结束
+
+
+
+22:18:43:[ RequestURL ]/login
+
+22:18:43:[ RequestMethod ]POST
+
+22:18:43:[ RequestParams ]{"username":"benson","password":"benson"}
+
+22:18:43:[ Response ]登陆操作成功
+
+22:18:43:请求结束
+
+
+
+22:18:43:[ RequestURL ]/queryUpTime
+
+22:18:43:[ RequestMethod ]POST
+
+22:18:43:[ RequestParams ]{}
+
+22:18:43:[ RequestURL ]/queryRunProcess
+
+22:18:43:[ RequestMethod ]POST
+
+22:18:43:[ RequestParams ]{}
+
+22:18:44:[ Response ]获取进程状态操作成功
+
+22:18:44:请求结束
+
+
+
+22:18:44:[ Response ]获取在线状态操作成功
+
+22:18:44:请求结束
+
+
+
