@@ -1,22 +1,13 @@
 <template>
   <section class="chart-container">
-        <Row>
-            <i-col :span="12">
-                <div id="chartUptime" style="width:100%; height:400px;"></div>
-            </i-col>
-            <i-col :span="12">
-                <div id="chartProc" style="width:100%; height:400px;"></div>
-            </i-col>
-            <i-col :span="12">
-                <div id="chartLine" style="width:100%; height:400px;"></div>
-            </i-col>
-            <i-col :span="12">
-                <div id="chartPie" style="width:100%; height:400px;"></div>
-            </i-col>
-            <!-- <i-col :span="24">
-                <a href="http://echarts.baidu.com/examples.html" target="_blank" style="float: right;">more>></a>
-            </i-col> -->
-        </Row>
+    <el-row>
+      <el-col :span="12">
+        <div id="chartUptime" style="width:100%; height:400px;"></div>
+      </el-col>
+      <el-col :span="12">
+        <div id="chartProc" style="width:100%; height:400px;"></div>
+      </el-col>
+    </el-row>
 </section>
 </template>
 <script>
@@ -27,14 +18,11 @@
       return {
         chartUptime: null,
         chartProc: null,
-        // chartLine: null,
-        // chartPie: null,
         proc_data: null,
         uptime_data: null,
       }
     },
     mounted () {
-      // var _this = this;
       //基于准备好的dom，初始化echarts实例
       this.$nextTick(function() {
           this.drawUptime();
@@ -43,16 +31,12 @@
     },
     methods: {
       drawUptime: function () {
-        this.chartUptime = echarts.init(document.getElementById('chartUptime'));
-        // this.chartColumn.showLoading()
-        this.axios.get('http://operapi.uco2.com/zabbixapi/uptime/', {
-          headers: {
-            'Content-Type': 'application/x-www-form-urlencoded',
-            'Authorization': JSON.parse(sessionStorage.getItem('token'))
-          }
+        var self = this;
+        self.chartUptime = echarts.init(document.getElementById('chartUptime'));
+        self.$http.post('/Interface/queryUpTime', {
         }).then((response) => {
-          this.uptime_data = response.data;
-          this.chartUptime.setOption({
+          self.uptime_data = response.data.retdata;
+          self.chartUptime.setOption({
             title: { text: '在线时间' },
             tooltip: {
               trigger: 'axis',
@@ -93,22 +77,19 @@
                   opacity: 1
                 }
               },
-              data: this.uptime_data,
+              data: self.uptime_data,
               z: 10
             }]
           });
         });
       },
       drawProcess: function () {
-        this.chartProc = echarts.init(document.getElementById('chartProc'));
-        this.axios.get('http://operapi.uco2.com/zabbixapi/runprocess/', {
-          headers: {
-            'Content-Type': 'application/x-www-form-urlencoded',
-            'Authorization': JSON.parse(sessionStorage.getItem('token'))
-          }
+        var self = this;
+        self.chartProc = echarts.init(document.getElementById('chartProc'));
+        self.$http.post('/Interface/queryRunProcess', {
         }).then((response) => {
-          this.proc_data = response.data
-          this.chartProc.setOption({
+          self.proc_data = response.data.retdata;
+          self.chartProc.setOption({
             title: { text: '进程数' },
             color: ['#3398DB'],
             tooltip : {
@@ -142,7 +123,7 @@
                 name:'proc_num',
                 type:'bar',
                 barWidth: '60%',
-                data: this.proc_data,
+                data: self.proc_data,
               }
             ]
           });

@@ -16,13 +16,12 @@
 			      <template slot="title"><i class="el-icon-upload"></i>发布管理</template>
 						<el-menu-item index="/dashboard/Projects"><i class="el-icon-edit"></i>项目一览</el-menu-item>
 			      <el-menu-item index="/dashboard/Deploy"><i class="el-icon-edit"></i>一键发布</el-menu-item>
+						<el-menu-item index="/dashboard/deployRecord"><i class="el-icon-edit"></i>发布记录</el-menu-item>
 			    </el-submenu>
 			    <el-submenu index="3">
 			      <template slot="title"><i class="el-icon-information"></i>在线监控</template>
-			      <el-menu-item index="3-1"><i class="el-icon-picture "></i>基线监控</el-menu-item>
-			      <el-menu-item index="3-2"><i class="el-icon-date "></i>Docker实例监控</el-menu-item>
-			      <el-menu-item index="3-2"><i class="el-icon-date "></i>CPU监控</el-menu-item>
-			      <el-menu-item index="3-3"><i class="el-icon-date "></i>内存监控</el-menu-item>
+			      <el-menu-item index="/dashboard/cpu"><i class="el-icon-date "></i>CPU监控</el-menu-item>
+			      <el-menu-item index="/dashboard/mem"><i class="el-icon-date "></i>内存监控</el-menu-item>
 			      <el-menu-item index="3-4"><i class="el-icon-date "></i>流量监控</el-menu-item>
 			    </el-submenu>
 			    <el-submenu index="4">

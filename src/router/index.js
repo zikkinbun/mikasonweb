@@ -8,6 +8,10 @@ import ContainerList from '@/pages/Servers/ContainerList'
 import ImageList from '@/pages/Servers/ImageList'
 import Deploy from '@/pages/deploy/Deploy'
 import Projects from '@/pages/deploy/Projects'
+import deployRecord from '@/pages/deploy/deployRecord'
+import cpu from '@/pages/monitor/cpu'
+import mem from '@/pages/monitor/mem'
+import monitor from '@/pages/monitor/monitor'
 
 const router = new Router({
 	mode: "history",
@@ -17,9 +21,12 @@ const router = new Router({
 		component: Login
 	}, {
 		path: "/dashboard",
-		name: "dashboard",
 		component: Home,
 		children: [{
+			path: "",
+			name: "dashboard",
+			component: monitor
+		},{
 			path: "ServerList",
 			name: "ServerList",
 			component: ServerList
@@ -39,6 +46,18 @@ const router = new Router({
 			path: "Projects",
 			name: "Projects",
 			component: Projects
+		}, {
+			path: "deployRecord",
+			name: "deployRecord",
+			component: deployRecord
+		}, {
+			path: "cpu",
+			name: "cpu",
+			component: cpu
+		}, {
+			path: "mem",
+			name: "mem",
+			component: mem
 		}]
 	}]
 });

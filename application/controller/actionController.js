@@ -232,6 +232,23 @@ ctrl.OneKeyDeployProd = function(req) {
   });
 };
 
+// 项目上线
+ctrl.ProjectDeploy = function(req) {
+  return this.request(req, "/deploy/PtDeploy", {
+    project: req.body.project,
+		branch: req.body.branch,
+		tag: req.body.tag,
+		env: req.body.env,
+		configfile: req.body.configfile
+  }).then(
+    result => {
+      return {
+        data: result,
+        str: "项目上线"
+      };
+  });
+};
+
 // 获取gitlab上的项目
 ctrl.GetProjects = function(req) {
   return this.request(req, "/deploy/GetProjects", {
@@ -247,7 +264,7 @@ ctrl.GetProjects = function(req) {
 // 获取gitlab上的项目分支
 ctrl.GetBranchs = function(req) {
   return this.request(req, "/deploy/GetBranchs", {
-    project_id: req.body.project_id
+    project: req.body.project
   }).then(
     result => {
       return {
@@ -260,7 +277,7 @@ ctrl.GetBranchs = function(req) {
 // 获取gitlab上的项目标签
 ctrl.GetTags = function(req) {
   return this.request(req, "/deploy/GetTags", {
-    project_id: req.body.project_id
+    project: req.body.project
   }).then(
     result => {
       return {
@@ -295,6 +312,114 @@ ctrl.SetProjectInfo = function(req) {
         str: "设置项目的类型与配置文件"
       };
   });
+};
+
+// 获取所有发布记录
+ctrl.GetRecords = function(req) {
+  return this.request(req, "/deploy/GetRecords", {
+  }).then(
+    result => {
+      return {
+        data: result,
+        str: "获取所有发布记录"
+      };
+  });
+};
+
+// 获取CPU负载
+ctrl.queryCpuLoad = function(req) {
+  return this.request(req, "/zabbixapi/CpuLoad", {
+  }).then(
+    result => {
+      return {
+        data: result,
+        str: "获取CPU负载"
+      };
+  });
+};
+
+// 获取单台CPU负载
+ctrl.queryCpuLoadByIp = function(req) {
+  return this.request(req, "/zabbixapi/CpuLoadByIp", {
+		hostip: req.body.hostip
+  }).then(
+    result => {
+      return {
+        data: result,
+        str: "获取单台CPU负载"
+      };
+  });
+};
+
+// 获取CPU状态
+ctrl.queryCpuStat = function(req) {
+  return this.request(req, "/zabbixapi/CpuStat", {
+  }).then(
+    result => {
+      return {
+        data: result,
+        str: "获取CPU状态"
+      };
+  });
+};
+
+// 获取内存状态
+ctrl.queryMemStat = function(req) {
+  return this.request(req, "/zabbixapi/MemStat", {
+  }).then(
+    result => {
+      return {
+        data: result,
+        str: "获取内存状态"
+      };
+  });
+};
+
+// 获取单台内存状态
+ctrl.queryMemStatByIp = function(req) {
+  return this.request(req, "/zabbixapi/MemStatByIp", {
+		hostip: req.body.hostip
+  }).then(
+    result => {
+      return {
+        data: result,
+        str: "获取单台内存状态"
+      };
+  });
+};
+
+// 获取进程状态
+ctrl.queryRunProcess = function(req) {
+  return this.request(req, "/zabbixapi/RunProcess", {
+  }).then(
+    result => {
+      return {
+        data: result,
+        str: "获取进程状态"
+      };
+	});
+};
+// 获取在线状态
+ctrl.queryUpTime = function(req) {
+	 return this.request(req, "/zabbixapi/UpTime", {
+	 }).then(
+	   result => {
+	     return {
+	       data: result,
+	       str: "获取在线状态"
+	    };
+	});
+};
+// 获取在线总时长
+ctrl.queryBootTime = function(req) {
+	 return this.request(req, "/zabbixapi/BootTime", {
+	 }).then(
+	   result => {
+	     return {
+	       data: result,
+	       str: "获取在线总时长"
+	    };
+	});
 };
 
 module.exports = new BaseController(ctrl);

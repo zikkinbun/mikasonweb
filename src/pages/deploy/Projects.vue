@@ -204,10 +204,12 @@
       pushTest: function(index, row) {
         var self = this;
         self.loadTest = true;
-        self.$http.post('/Interface/OneKeyDeployTest', {
+        self.$http.post('/Interface/ProjectDeploy', {
           project: row.name,
           branch: self.branch,
           tag: self.tag,
+          env: 'test',
+          configfile: row.configfile
           }).then((response) => {
            self.msg = response.data;
            self.$alert(self.msg.retmsg, '发布情况', {
@@ -222,10 +224,12 @@
       pushProd: function(index, row) {
         var self = this;
         self.loadProd = true;
-        self.$http.post('/Interface/OneKeyDeployProd', {
+        self.$http.post('/Interface/ProjectDeploy', {
           project: row.name,
           branch: self.branch,
           tag: self.tag,
+          env: 'prod',
+          configfile: row.configfile
           }).then((response) => {
            self.msg = response.data;
            self.$alert(self.msg.retmsg, '发布情况', {

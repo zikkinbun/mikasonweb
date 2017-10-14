@@ -1,0 +1,1242 @@
+09:54:09:[ RequestURL ]/getToken
+
+09:54:09:[ RequestMethod ]POST
+
+09:54:09:[ RequestParams ]{"username":"benson","password":"benson"}
+
+09:54:09:[ RequestURL ]/login
+
+09:54:09:[ RequestMethod ]POST
+
+09:54:09:[ RequestParams ]{"username":"benson","password":"benson"}
+
+09:54:09:[ Response ]登陆操作成功
+
+09:54:09:请求结束
+
+
+
+10:01:14:[ RequestURL ]/ServerList
+
+10:01:14:[ RequestMethod ]POST
+
+10:01:14:[ RequestParams ]{}
+
+10:01:15:[ Response ]获取服务器列表操作成功
+
+10:01:15:请求结束
+
+
+
+10:59:05:[ RequestURL ]/GetProjectInfo
+
+10:59:05:[ RequestMethod ]POST
+
+10:59:05:[ RequestParams ]{}
+
+10:59:05:[ Response ]获取所有的项目操作成功
+
+10:59:05:请求结束
+
+
+
+11:24:52:[ RequestURL ]/GetProjectInfo
+
+11:24:52:[ RequestMethod ]POST
+
+11:24:52:[ RequestParams ]{}
+
+11:24:52:[ Response ]获取所有的项目操作成功
+
+11:24:52:请求结束
+
+
+
+11:26:40:[ RequestURL ]/getToken
+
+11:26:40:[ RequestMethod ]POST
+
+11:26:40:[ RequestParams ]{"username":"benson","password":"benson"}
+
+11:26:40:[ RequestURL ]/login
+
+11:26:40:[ RequestMethod ]POST
+
+11:26:40:[ RequestParams ]{"username":"benson","password":"benson"}
+
+11:26:41:[ Response ]登陆操作成功
+
+11:26:41:请求结束
+
+
+
+11:26:49:[ RequestURL ]/GetRecords
+
+11:26:49:[ RequestMethod ]POST
+
+11:26:49:[ RequestParams ]{}
+
+11:26:49:[ Response ]获取所有发布记录操作成功
+
+11:26:49:请求结束
+
+
+
+11:27:03:[ RequestURL ]/GetProjects
+
+11:27:03:[ RequestMethod ]POST
+
+11:27:03:[ RequestParams ]{}
+
+11:27:05:[ Response ]获取gitlab上的项目操作成功
+
+11:27:05:请求结束
+
+
+
+11:27:38:[ RequestURL ]/GetProjectInfo
+
+11:27:38:[ RequestMethod ]POST
+
+11:27:38:[ RequestParams ]{}
+
+11:27:38:[ Response ]获取所有的项目操作成功
+
+11:27:38:请求结束
+
+
+
+11:27:48:[ RequestURL ]/GetRecords
+
+11:27:48:[ RequestMethod ]POST
+
+11:27:48:[ RequestParams ]{}
+
+11:27:48:[ Response ]获取所有发布记录操作成功
+
+11:27:48:请求结束
+
+
+
+11:27:50:[ RequestURL ]/GetProjects
+
+11:27:50:[ RequestMethod ]POST
+
+11:27:50:[ RequestParams ]{}
+
+11:27:51:[ RequestURL ]/GetProjectInfo
+
+11:27:51:[ RequestMethod ]POST
+
+11:27:51:[ RequestParams ]{}
+
+11:27:51:[ Response ]获取所有的项目操作成功
+
+11:27:51:请求结束
+
+
+
+11:27:51:[ Response ]获取gitlab上的项目操作成功
+
+11:27:51:请求结束
+
+
+
+11:27:52:[ RequestURL ]/GetRecords
+
+11:27:52:[ RequestMethod ]POST
+
+11:27:52:[ RequestParams ]{}
+
+11:27:53:[ Response ]获取所有发布记录操作成功
+
+11:27:53:请求结束
+
+
+
+11:27:54:[ RequestURL ]/ServerList
+
+11:27:54:[ RequestMethod ]POST
+
+11:27:54:[ RequestParams ]{}
+
+11:27:54:[ Response ]获取服务器列表操作成功
+
+11:27:54:请求结束
+
+
+
+11:28:12:[ RequestURL ]/ContainerList
+
+11:28:12:[ RequestMethod ]POST
+
+11:28:12:[ RequestParams ]{}
+
+11:28:12:[ Response ]获取容器列表操作成功
+
+11:28:12:请求结束
+
+
+
+11:28:47:[ RequestURL ]/ContainerList
+
+11:28:47:[ RequestMethod ]POST
+
+11:28:47:[ RequestParams ]{}
+
+11:28:47:[ Response ]获取容器列表操作成功
+
+11:28:47:请求结束
+
+
+
+11:29:08:[ RequestURL ]/ContainerList
+
+11:29:08:[ RequestMethod ]POST
+
+11:29:08:[ RequestParams ]{}
+
+11:29:09:[ Response ]获取容器列表操作成功
+
+11:29:09:请求结束
+
+
+
+11:35:27:[ RequestURL ]/ContainerDetail
+
+11:35:27:[ RequestMethod ]POST
+
+11:35:27:[ RequestParams ]{"container_id":"5a447d6fa2f1"}
+
+11:35:27:[ Response ]容器内部详情操作成功
+
+11:35:27:请求结束
+
+
+
+11:35:30:[ RequestURL ]/ContainerDetail
+
+11:35:30:[ RequestMethod ]POST
+
+11:35:30:[ RequestParams ]{"container_id":"43d7641f9743"}
+
+11:35:30:[ Response ]容器内部详情操作成功
+
+11:35:30:请求结束
+
+
+
+11:35:42:[ RequestURL ]/ServerList
+
+11:35:42:[ RequestMethod ]POST
+
+11:35:42:[ RequestParams ]{}
+
+11:35:42:[ Response ]获取服务器列表操作成功
+
+11:35:42:请求结束
+
+
+
+11:35:43:[ RequestURL ]/ContainerList
+
+11:35:43:[ RequestMethod ]POST
+
+11:35:43:[ RequestParams ]{}
+
+11:35:43:[ Response ]获取容器列表操作成功
+
+11:35:43:请求结束
+
+
+
+11:35:44:[ RequestURL ]/ImageList
+
+11:35:44:[ RequestMethod ]POST
+
+11:35:44:[ RequestParams ]{}
+
+11:35:45:[ Response ]获取镜像列表操作成功
+
+11:35:45:请求结束
+
+
+
+11:35:46:[ RequestURL ]/GetProjectInfo
+
+11:35:46:[ RequestMethod ]POST
+
+11:35:46:[ RequestParams ]{}
+
+11:35:46:[ Response ]获取所有的项目操作成功
+
+11:35:46:请求结束
+
+
+
+11:35:55:[ RequestURL ]/GetProjects
+
+11:35:55:[ RequestMethod ]POST
+
+11:35:55:[ RequestParams ]{}
+
+11:35:56:[ Response ]获取gitlab上的项目操作成功
+
+11:35:56:请求结束
+
+
+
+11:35:56:[ RequestURL ]/GetRecords
+
+11:35:56:[ RequestMethod ]POST
+
+11:35:56:[ RequestParams ]{}
+
+11:35:56:[ Response ]获取所有发布记录操作成功
+
+11:35:56:请求结束
+
+
+
+11:35:58:[ RequestURL ]/GetProjectInfo
+
+11:35:58:[ RequestMethod ]POST
+
+11:35:58:[ RequestParams ]{}
+
+11:35:59:[ Response ]获取所有的项目操作成功
+
+11:35:59:请求结束
+
+
+
+11:44:23:[ RequestURL ]/SetProjectInfo
+
+11:44:23:[ RequestMethod ]POST
+
+11:44:23:[ RequestParams ]{"name":"beeHive","type":"NodeJS PHP","config":"['/Interface/application/config.php', '/Global/config.js']"}
+
+11:44:23:[ Response ]设置项目的类型与配置文件操作成功
+
+11:44:23:请求结束
+
+
+
+11:44:23:[ RequestURL ]/GetProjectInfo
+
+11:44:23:[ RequestMethod ]POST
+
+11:44:23:[ RequestParams ]{}
+
+11:44:23:[ Response ]获取所有的项目操作成功
+
+11:44:23:请求结束
+
+
+
+11:44:34:[ RequestURL ]/SetProjectInfo
+
+11:44:34:[ RequestMethod ]POST
+
+11:44:34:[ RequestParams ]{"name":"platformService","type":"NodeJS","config":"['/Global/config.js']"}
+
+11:44:34:[ Response ]设置项目的类型与配置文件操作成功
+
+11:44:34:请求结束
+
+
+
+11:44:34:[ RequestURL ]/GetProjectInfo
+
+11:44:34:[ RequestMethod ]POST
+
+11:44:34:[ RequestParams ]{}
+
+11:44:34:[ Response ]获取所有的项目操作成功
+
+11:44:34:请求结束
+
+
+
+11:44:43:[ RequestURL ]/SetProjectInfo
+
+11:44:43:[ RequestMethod ]POST
+
+11:44:43:[ RequestParams ]{"name":"uco2Web","type":"NodeJS","config":"['/Global/config.js']"}
+
+11:44:43:[ Response ]设置项目的类型与配置文件操作成功
+
+11:44:43:请求结束
+
+
+
+11:44:43:[ RequestURL ]/GetProjectInfo
+
+11:44:43:[ RequestMethod ]POST
+
+11:44:43:[ RequestParams ]{}
+
+11:44:43:[ Response ]获取所有的项目操作成功
+
+11:44:43:请求结束
+
+
+
+11:45:10:[ RequestURL ]/SetProjectInfo
+
+11:45:10:[ RequestMethod ]POST
+
+11:45:10:[ RequestParams ]{"name":"uco2Micro","type":"NodeJS","config":"['/Global/config.js']"}
+
+11:45:10:[ Response ]设置项目的类型与配置文件操作成功
+
+11:45:10:请求结束
+
+
+
+11:45:10:[ RequestURL ]/GetProjectInfo
+
+11:45:10:[ RequestMethod ]POST
+
+11:45:10:[ RequestParams ]{}
+
+11:45:10:[ Response ]获取所有的项目操作成功
+
+11:45:10:请求结束
+
+
+
+11:45:17:[ RequestURL ]/SetProjectInfo
+
+11:45:17:[ RequestMethod ]POST
+
+11:45:17:[ RequestParams ]{"name":"kalachakraWeb","type":"NodeJS","config":"['/Global/config.js']"}
+
+11:45:17:[ Response ]设置项目的类型与配置文件操作成功
+
+11:45:17:请求结束
+
+
+
+11:45:17:[ RequestURL ]/GetProjectInfo
+
+11:45:17:[ RequestMethod ]POST
+
+11:45:17:[ RequestParams ]{}
+
+11:45:17:[ Response ]获取所有的项目操作成功
+
+11:45:17:请求结束
+
+
+
+11:45:25:[ RequestURL ]/SetProjectInfo
+
+11:45:25:[ RequestMethod ]POST
+
+11:45:25:[ RequestParams ]{"name":"kalachakraService","type":"NodeJS","config":"['/Global/config.js']"}
+
+11:45:26:[ Response ]设置项目的类型与配置文件操作成功
+
+11:45:26:请求结束
+
+
+
+11:45:26:[ RequestURL ]/GetProjectInfo
+
+11:45:26:[ RequestMethod ]POST
+
+11:45:26:[ RequestParams ]{}
+
+11:45:26:[ Response ]获取所有的项目操作成功
+
+11:45:26:请求结束
+
+
+
+11:45:32:[ RequestURL ]/SetProjectInfo
+
+11:45:32:[ RequestMethod ]POST
+
+11:45:32:[ RequestParams ]{"name":"uco2H5","type":"NodeJS","config":"['/Global/config.js']"}
+
+11:45:32:[ Response ]设置项目的类型与配置文件操作成功
+
+11:45:32:请求结束
+
+
+
+11:45:33:[ RequestURL ]/GetProjectInfo
+
+11:45:33:[ RequestMethod ]POST
+
+11:45:33:[ RequestParams ]{}
+
+11:45:33:[ Response ]获取所有的项目操作成功
+
+11:45:33:请求结束
+
+
+
+11:45:39:[ RequestURL ]/SetProjectInfo
+
+11:45:39:[ RequestMethod ]POST
+
+11:45:39:[ RequestParams ]{"name":"providerSystem","type":"NodeJS","config":"['/Global/config.js']"}
+
+11:45:39:[ Response ]设置项目的类型与配置文件操作成功
+
+11:45:39:请求结束
+
+
+
+11:45:39:[ RequestURL ]/GetProjectInfo
+
+11:45:39:[ RequestMethod ]POST
+
+11:45:39:[ RequestParams ]{}
+
+11:45:39:[ Response ]获取所有的项目操作成功
+
+11:45:39:请求结束
+
+
+
+11:45:45:[ RequestURL ]/SetProjectInfo
+
+11:45:45:[ RequestMethod ]POST
+
+11:45:45:[ RequestParams ]{"name":"YoungBody","type":"NodeJS","config":"['/Global/config.js']"}
+
+11:45:46:[ Response ]设置项目的类型与配置文件操作成功
+
+11:45:46:请求结束
+
+
+
+11:45:46:[ RequestURL ]/GetProjectInfo
+
+11:45:46:[ RequestMethod ]POST
+
+11:45:46:[ RequestParams ]{}
+
+11:45:46:[ Response ]获取所有的项目操作成功
+
+11:45:46:请求结束
+
+
+
+11:45:53:[ RequestURL ]/SetProjectInfo
+
+11:45:53:[ RequestMethod ]POST
+
+11:45:53:[ RequestParams ]{"name":"uco2Mobile","type":"NodeJS","config":"['/Global/config.js']"}
+
+11:45:54:[ Response ]设置项目的类型与配置文件操作成功
+
+11:45:54:请求结束
+
+
+
+11:45:54:[ RequestURL ]/GetProjectInfo
+
+11:45:54:[ RequestMethod ]POST
+
+11:45:54:[ RequestParams ]{}
+
+11:45:54:[ Response ]获取所有的项目操作成功
+
+11:45:54:请求结束
+
+
+
+11:45:59:[ RequestURL ]/SetProjectInfo
+
+11:45:59:[ RequestMethod ]POST
+
+11:45:59:[ RequestParams ]{"name":"s2s","type":"Python","config":"['./setting.py']"}
+
+11:45:59:[ Response ]设置项目的类型与配置文件操作成功
+
+11:45:59:请求结束
+
+
+
+11:45:59:[ RequestURL ]/GetProjectInfo
+
+11:45:59:[ RequestMethod ]POST
+
+11:45:59:[ RequestParams ]{}
+
+11:45:59:[ Response ]获取所有的项目操作成功
+
+11:45:59:请求结束
+
+
+
+11:46:05:[ RequestURL ]/SetProjectInfo
+
+11:46:05:[ RequestMethod ]POST
+
+11:46:05:[ RequestParams ]{"name":"blackfaceServer","type":"NodeJS","config":"['/Global/config.js']"}
+
+11:46:05:[ Response ]设置项目的类型与配置文件操作成功
+
+11:46:05:请求结束
+
+
+
+11:46:05:[ RequestURL ]/GetProjectInfo
+
+11:46:05:[ RequestMethod ]POST
+
+11:46:05:[ RequestParams ]{}
+
+11:46:05:[ Response ]获取所有的项目操作成功
+
+11:46:05:请求结束
+
+
+
+11:46:10:[ RequestURL ]/SetProjectInfo
+
+11:46:10:[ RequestMethod ]POST
+
+11:46:10:[ RequestParams ]{"name":"blackfaceManage","type":"NodeJS","config":"['/Global/config.js']"}
+
+11:46:11:[ Response ]设置项目的类型与配置文件操作成功
+
+11:46:11:请求结束
+
+
+
+11:46:11:[ RequestURL ]/GetProjectInfo
+
+11:46:11:[ RequestMethod ]POST
+
+11:46:11:[ RequestParams ]{}
+
+11:46:11:[ Response ]获取所有的项目操作成功
+
+11:46:11:请求结束
+
+
+
+11:46:18:[ RequestURL ]/SetProjectInfo
+
+11:46:18:[ RequestMethod ]POST
+
+11:46:18:[ RequestParams ]{"name":"blackfaceWap","type":"NodeJS","config":"['/Global/config.js']"}
+
+11:46:18:[ Response ]设置项目的类型与配置文件操作成功
+
+11:46:18:请求结束
+
+
+
+11:46:18:[ RequestURL ]/GetProjectInfo
+
+11:46:18:[ RequestMethod ]POST
+
+11:46:18:[ RequestParams ]{}
+
+11:46:18:[ Response ]获取所有的项目操作成功
+
+11:46:18:请求结束
+
+
+
+11:46:47:[ RequestURL ]/SetProjectInfo
+
+11:46:47:[ RequestMethod ]POST
+
+11:46:47:[ RequestParams ]{"name":"blackFaceWeb","type":"NodeJS","config":"['/Global/config.js']"}
+
+11:46:47:[ Response ]设置项目的类型与配置文件操作成功
+
+11:46:47:请求结束
+
+
+
+11:46:47:[ RequestURL ]/GetProjectInfo
+
+11:46:47:[ RequestMethod ]POST
+
+11:46:47:[ RequestParams ]{}
+
+11:46:47:[ Response ]获取所有的项目操作成功
+
+11:46:47:请求结束
+
+
+
+11:47:03:[ RequestURL ]/SetProjectInfo
+
+11:47:03:[ RequestMethod ]POST
+
+11:47:03:[ RequestParams ]{"name":"uco2Notice","type":"NodeJS","config":"['/Global/config.js']"}
+
+11:47:03:[ Response ]设置项目的类型与配置文件操作成功
+
+11:47:03:请求结束
+
+
+
+11:47:03:[ RequestURL ]/GetProjectInfo
+
+11:47:03:[ RequestMethod ]POST
+
+11:47:03:[ RequestParams ]{}
+
+11:47:03:[ Response ]获取所有的项目操作成功
+
+11:47:03:请求结束
+
+
+
+13:28:13:[ RequestURL ]/GetProjects
+
+13:28:13:[ RequestMethod ]POST
+
+13:28:13:[ RequestParams ]{}
+
+13:28:14:[ RequestURL ]/GetRecords
+
+13:28:14:[ RequestMethod ]POST
+
+13:28:14:[ RequestParams ]{}
+
+13:28:22:[ RequestURL ]/getToken
+
+13:28:22:[ RequestMethod ]POST
+
+13:28:22:[ RequestParams ]{"username":"benson","password":"benson"}
+
+13:28:22:[ RequestURL ]/login
+
+13:28:22:[ RequestMethod ]POST
+
+13:28:22:[ RequestParams ]{"username":"benson","password":"benson"}
+
+13:28:22:[ Response ]登陆操作成功
+
+13:28:22:请求结束
+
+
+
+13:28:26:[ RequestURL ]/ServerList
+
+13:28:26:[ RequestMethod ]POST
+
+13:28:26:[ RequestParams ]{}
+
+13:28:26:[ Response ]获取服务器列表操作成功
+
+13:28:26:请求结束
+
+
+
+13:28:27:[ RequestURL ]/ContainerList
+
+13:28:27:[ RequestMethod ]POST
+
+13:28:27:[ RequestParams ]{}
+
+13:28:27:[ Response ]获取容器列表操作成功
+
+13:28:27:请求结束
+
+
+
+13:28:29:[ RequestURL ]/ImageList
+
+13:28:29:[ RequestMethod ]POST
+
+13:28:29:[ RequestParams ]{}
+
+13:28:29:[ Response ]获取镜像列表操作成功
+
+13:28:29:请求结束
+
+
+
+13:28:30:[ RequestURL ]/ContainerList
+
+13:28:30:[ RequestMethod ]POST
+
+13:28:30:[ RequestParams ]{}
+
+13:28:30:[ Response ]获取容器列表操作成功
+
+13:28:30:请求结束
+
+
+
+13:28:31:[ RequestURL ]/ServerList
+
+13:28:31:[ RequestMethod ]POST
+
+13:28:31:[ RequestParams ]{}
+
+13:28:31:[ Response ]获取服务器列表操作成功
+
+13:28:31:请求结束
+
+
+
+13:28:35:[ RequestURL ]/GetProjectInfo
+
+13:28:35:[ RequestMethod ]POST
+
+13:28:35:[ RequestParams ]{}
+
+13:28:35:[ Response ]获取所有的项目操作成功
+
+13:28:35:请求结束
+
+
+
+13:28:47:[ RequestURL ]/GetRecords
+
+13:28:47:[ RequestMethod ]POST
+
+13:28:47:[ RequestParams ]{}
+
+13:28:47:[ Response ]获取所有发布记录操作成功
+
+13:28:47:请求结束
+
+
+
+13:34:48:[ RequestURL ]/ServerList
+
+13:34:48:[ RequestMethod ]POST
+
+13:34:48:[ RequestParams ]{}
+
+13:34:48:[ Response ]获取服务器列表操作成功
+
+13:34:48:请求结束
+
+
+
+13:34:49:[ RequestURL ]/ContainerList
+
+13:34:49:[ RequestMethod ]POST
+
+13:34:49:[ RequestParams ]{}
+
+13:34:49:[ Response ]获取容器列表操作成功
+
+13:34:49:请求结束
+
+
+
+13:34:50:[ RequestURL ]/ImageList
+
+13:34:50:[ RequestMethod ]POST
+
+13:34:50:[ RequestParams ]{}
+
+13:34:50:[ Response ]获取镜像列表操作成功
+
+13:34:50:请求结束
+
+
+
+13:34:51:[ RequestURL ]/GetProjectInfo
+
+13:34:51:[ RequestMethod ]POST
+
+13:34:51:[ RequestParams ]{}
+
+13:34:51:[ Response ]获取所有的项目操作成功
+
+13:34:51:请求结束
+
+
+
+13:34:55:[ RequestURL ]/GetProjects
+
+13:34:55:[ RequestMethod ]POST
+
+13:34:55:[ RequestParams ]{}
+
+13:34:56:[ Response ]获取gitlab上的项目操作成功
+
+13:34:56:请求结束
+
+
+
+13:34:57:[ RequestURL ]/GetRecords
+
+13:34:57:[ RequestMethod ]POST
+
+13:34:57:[ RequestParams ]{}
+
+13:34:57:[ Response ]获取所有发布记录操作成功
+
+13:34:57:请求结束
+
+
+
+13:51:23:[ RequestURL ]/GetProjects
+
+13:51:23:[ RequestMethod ]POST
+
+13:51:23:[ RequestParams ]{}
+
+13:51:24:[ RequestURL ]/GetProjectInfo
+
+13:51:24:[ RequestMethod ]POST
+
+13:51:24:[ RequestParams ]{}
+
+13:51:24:[ Response ]获取所有的项目操作成功
+
+13:51:24:请求结束
+
+
+
+13:51:24:[ Response ]获取gitlab上的项目操作成功
+
+13:51:24:请求结束
+
+
+
+13:51:39:[ RequestURL ]/SetProjectInfo
+
+13:51:39:[ RequestMethod ]POST
+
+13:51:39:[ RequestParams ]{"name":"blackfaceWap","type":"NodeJS","config":"['/global/config.js']"}
+
+13:51:39:[ Response ]设置项目的类型与配置文件操作成功
+
+13:51:39:请求结束
+
+
+
+13:51:39:[ RequestURL ]/GetProjectInfo
+
+13:51:39:[ RequestMethod ]POST
+
+13:51:39:[ RequestParams ]{}
+
+13:51:39:[ Response ]获取所有的项目操作成功
+
+13:51:39:请求结束
+
+
+
+13:51:45:[ RequestURL ]/SetProjectInfo
+
+13:51:45:[ RequestMethod ]POST
+
+13:51:45:[ RequestParams ]{"name":"blackfaceManage","type":"NodeJS","config":"['/global/config.js']"}
+
+13:51:45:[ Response ]设置项目的类型与配置文件操作成功
+
+13:51:45:请求结束
+
+
+
+13:51:45:[ RequestURL ]/GetProjectInfo
+
+13:51:45:[ RequestMethod ]POST
+
+13:51:45:[ RequestParams ]{}
+
+13:51:45:[ Response ]获取所有的项目操作成功
+
+13:51:45:请求结束
+
+
+
+13:51:50:[ RequestURL ]/SetProjectInfo
+
+13:51:50:[ RequestMethod ]POST
+
+13:51:50:[ RequestParams ]{"name":"blackfaceServer","type":"NodeJS","config":"['/global/config.js']"}
+
+13:51:50:[ Response ]设置项目的类型与配置文件操作成功
+
+13:51:50:请求结束
+
+
+
+13:51:50:[ RequestURL ]/GetProjectInfo
+
+13:51:50:[ RequestMethod ]POST
+
+13:51:50:[ RequestParams ]{}
+
+13:51:50:[ Response ]获取所有的项目操作成功
+
+13:51:50:请求结束
+
+
+
+13:51:55:[ RequestURL ]/SetProjectInfo
+
+13:51:55:[ RequestMethod ]POST
+
+13:51:55:[ RequestParams ]{"name":"uco2Mobile","type":"NodeJS","config":"['/global/config.js']"}
+
+13:51:56:[ Response ]设置项目的类型与配置文件操作成功
+
+13:51:56:请求结束
+
+
+
+13:51:56:[ RequestURL ]/GetProjectInfo
+
+13:51:56:[ RequestMethod ]POST
+
+13:51:56:[ RequestParams ]{}
+
+13:51:56:[ Response ]获取所有的项目操作成功
+
+13:51:56:请求结束
+
+
+
+13:52:01:[ RequestURL ]/SetProjectInfo
+
+13:52:01:[ RequestMethod ]POST
+
+13:52:01:[ RequestParams ]{"name":"tempSystem","type":"NodeJS","config":"/global/config.js"}
+
+13:52:01:[ Response ]设置项目的类型与配置文件操作成功
+
+13:52:01:请求结束
+
+
+
+13:52:01:[ RequestURL ]/GetProjectInfo
+
+13:52:01:[ RequestMethod ]POST
+
+13:52:01:[ RequestParams ]{}
+
+13:52:01:[ Response ]获取所有的项目操作成功
+
+13:52:01:请求结束
+
+
+
+13:52:07:[ RequestURL ]/SetProjectInfo
+
+13:52:07:[ RequestMethod ]POST
+
+13:52:07:[ RequestParams ]{"name":"YoungBody","type":"NodeJS","config":"['/global/config.js']"}
+
+13:52:07:[ Response ]设置项目的类型与配置文件操作成功
+
+13:52:07:请求结束
+
+
+
+13:52:07:[ RequestURL ]/GetProjectInfo
+
+13:52:07:[ RequestMethod ]POST
+
+13:52:07:[ RequestParams ]{}
+
+13:52:07:[ Response ]获取所有的项目操作成功
+
+13:52:07:请求结束
+
+
+
+13:52:13:[ RequestURL ]/SetProjectInfo
+
+13:52:13:[ RequestMethod ]POST
+
+13:52:13:[ RequestParams ]{"name":"providerSystem","type":"NodeJS","config":"['/global/config.js']"}
+
+13:52:13:[ Response ]设置项目的类型与配置文件操作成功
+
+13:52:13:请求结束
+
+
+
+13:52:13:[ RequestURL ]/GetProjectInfo
+
+13:52:13:[ RequestMethod ]POST
+
+13:52:13:[ RequestParams ]{}
+
+13:52:14:[ Response ]获取所有的项目操作成功
+
+13:52:14:请求结束
+
+
+
+13:52:20:[ RequestURL ]/SetProjectInfo
+
+13:52:20:[ RequestMethod ]POST
+
+13:52:20:[ RequestParams ]{"name":"kalachakraService","type":"NodeJS","config":"['/global/config.js']"}
+
+13:52:20:[ Response ]设置项目的类型与配置文件操作成功
+
+13:52:20:请求结束
+
+
+
+13:52:20:[ RequestURL ]/GetProjectInfo
+
+13:52:20:[ RequestMethod ]POST
+
+13:52:20:[ RequestParams ]{}
+
+13:52:20:[ Response ]获取所有的项目操作成功
+
+13:52:20:请求结束
+
+
+
+13:52:23:[ RequestURL ]/SetProjectInfo
+
+13:52:23:[ RequestMethod ]POST
+
+13:52:23:[ RequestParams ]{"name":"uco2H5","type":"NodeJS","config":"['/global/config.js']"}
+
+13:52:23:[ Response ]设置项目的类型与配置文件操作成功
+
+13:52:23:请求结束
+
+
+
+13:52:23:[ RequestURL ]/GetProjectInfo
+
+13:52:23:[ RequestMethod ]POST
+
+13:52:23:[ RequestParams ]{}
+
+13:52:24:[ Response ]获取所有的项目操作成功
+
+13:52:24:请求结束
+
+
+
+13:52:29:[ RequestURL ]/SetProjectInfo
+
+13:52:29:[ RequestMethod ]POST
+
+13:52:29:[ RequestParams ]{"name":"kalachakraWeb","type":"NodeJS","config":"['/global/config.js']"}
+
+13:52:29:[ Response ]设置项目的类型与配置文件操作成功
+
+13:52:29:请求结束
+
+
+
+13:52:29:[ RequestURL ]/GetProjectInfo
+
+13:52:29:[ RequestMethod ]POST
+
+13:52:29:[ RequestParams ]{}
+
+13:52:29:[ Response ]获取所有的项目操作成功
+
+13:52:29:请求结束
+
+
+
+13:52:34:[ RequestURL ]/SetProjectInfo
+
+13:52:34:[ RequestMethod ]POST
+
+13:52:34:[ RequestParams ]{"name":"uco2Micro","type":"NodeJS","config":"['/global/config.js']"}
+
+13:52:34:[ Response ]设置项目的类型与配置文件操作成功
+
+13:52:34:请求结束
+
+
+
+13:52:34:[ RequestURL ]/GetProjectInfo
+
+13:52:34:[ RequestMethod ]POST
+
+13:52:34:[ RequestParams ]{}
+
+13:52:34:[ Response ]获取所有的项目操作成功
+
+13:52:34:请求结束
+
+
+
+13:52:40:[ RequestURL ]/SetProjectInfo
+
+13:52:40:[ RequestMethod ]POST
+
+13:52:40:[ RequestParams ]{"name":"uco2Notice","type":"NodeJS","config":"['/global/config.js']"}
+
+13:52:40:[ Response ]设置项目的类型与配置文件操作成功
+
+13:52:40:请求结束
+
+
+
+13:52:40:[ RequestURL ]/GetProjectInfo
+
+13:52:40:[ RequestMethod ]POST
+
+13:52:40:[ RequestParams ]{}
+
+13:52:40:[ Response ]获取所有的项目操作成功
+
+13:52:40:请求结束
+
+
+
+13:52:46:[ RequestURL ]/SetProjectInfo
+
+13:52:46:[ RequestMethod ]POST
+
+13:52:46:[ RequestParams ]{"name":"uco2Web","type":"NodeJS","config":"['/global/config.js']"}
+
+13:52:46:[ Response ]设置项目的类型与配置文件操作成功
+
+13:52:46:请求结束
+
+
+
+13:52:46:[ RequestURL ]/GetProjectInfo
+
+13:52:46:[ RequestMethod ]POST
+
+13:52:46:[ RequestParams ]{}
+
+13:52:46:[ Response ]获取所有的项目操作成功
+
+13:52:46:请求结束
+
+
+
+13:52:51:[ RequestURL ]/SetProjectInfo
+
+13:52:51:[ RequestMethod ]POST
+
+13:52:51:[ RequestParams ]{"name":"platformService","type":"NodeJS","config":"['/global/config.js']"}
+
+13:52:51:[ Response ]设置项目的类型与配置文件操作成功
+
+13:52:51:请求结束
+
+
+
+13:52:51:[ RequestURL ]/GetProjectInfo
+
+13:52:51:[ RequestMethod ]POST
+
+13:52:51:[ RequestParams ]{}
+
+13:52:51:[ Response ]获取所有的项目操作成功
+
+13:52:51:请求结束
+
+
+

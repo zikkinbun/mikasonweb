@@ -14,16 +14,6 @@ ctrl.queryLogin = function( req ){
 	}
 };
 
-ctrl.queryDetail = function( req ){
-	this.validEmpty( "id" );
-	return this.request( "/info/provider/providerDetail", { providerId : req.session.user.id } ).then( result => {
-		return {
-			data	:	result,
-			str		:	"获取服务商详情"
-		};
-	});
-};
-
 ctrl.queryIndustry = function( req ){
 	return this.request( "/info/provider/industryInfo" ).then( result => {
 		return {

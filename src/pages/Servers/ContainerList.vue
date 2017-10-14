@@ -66,24 +66,14 @@
     </el-table-column>
     <el-table-column label="操作">
       <template scope="scope">
-        <!-- <div class="button"> -->
-        <!-- <el-button
-        size="small"
-        type="info"
-        @click="getContainersDetail(scope.$index, scope.row)">查看详情</el-button> -->
         <el-button
         size="small"
         type="success"
-        @click="startContainer(scope.$index, scope.row)">开启容器</el-button>
+        @click="startContainer(scope.$index, scope.row)">开 启</el-button>
         <el-button
         size="small"
         type="warning"
-        @click="stopContainer(scope.$index, scope.row)">停止容器</el-button>
-        <!-- <el-button
-        size="small"
-        type="danger"
-        @click="getContainersDetail(scope.$index, scope.row)">删除容器</el-button> -->
-      <!-- </div> -->
+        @click="stopContainer(scope.$index, scope.row)">停 止</el-button>
       </template>
     </el-table-column>
   </el-table>

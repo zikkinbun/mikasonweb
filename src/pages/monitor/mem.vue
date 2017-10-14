@@ -1,28 +1,28 @@
 <template>
   <section class="chart-container">
-        <Row>
-            <i-col :span="12">
+        <el-row>
+            <el-col :span="12">
                 <div id="chart_gdrDev" style="width:100%; height:400px;"></div>
-            </i-col>
-            <i-col :span="12">
+            </el-col>
+            <el-col :span="12">
                 <div id="chart_gdrTest" style="width:100%; height:400px;"></div>
-            </i-col>
-            <i-col :span="12">
+            </el-col>
+            <el-col :span="12">
                 <div id="chart_gdrOper" style="width:100%; height:400px;"></div>
-            </i-col>
-            <i-col :span="12">
+            </el-col>
+            <el-col :span="12">
                 <div id="chart_gdrSqlMt" style="width:100%; height:400px;"></div>
-            </i-col>
-            <i-col :span="12">
+            </el-col>
+            <el-col :span="12">
                 <div id="chart_gdrSqlSl" style="width:100%; height:400px;"></div>
-            </i-col>
-            <i-col :span="12">
+            </el-col>
+            <el-col :span="12">
                 <div id="chart_gdrWebProd" style="width:100%; height:400px;"></div>
-            </i-col>
-            <i-col :span="12">
+            </el-col>
+            <el-col :span="12">
                 <div id="chart_gdrRdProd" style="width:100%; height:400px;"></div>
-            </i-col>
-        </Row>
+            </el-col>
+        </el-row>
  </section>
 </template>
 <script>
@@ -42,7 +42,6 @@
       }
     },
     mounted () {
-      // var _this = this;
       //基于准备好的dom，初始化echarts实例
       this.$nextTick(function() {
           this.drawGdrDevMemStatData();
@@ -56,31 +55,21 @@
     },
     methods: {
       drawGdrDevMemStatData: function () {
+        var self = this;
         var available = []
         var total = []
-        var formData = new URLSearchParams();
-        formData.append('hostip', '192.168.1.3')
-        this.chart_gdrDev = echarts.init(document.getElementById('chart_gdrDev'));
-        this.axios.post('http://operapi.uco2.com/zabbixapi/memstat/', formData, {
-          headers: {
-            'Content-Type': 'application/x-www-form-urlencoded',
-            'Authorization': JSON.parse(sessionStorage.getItem('token'))
-          }
+        self.chart_gdrDev = echarts.init(document.getElementById('chart_gdrDev'));
+        self.$http.post('/Interface/queryMemStatByIp', {
+          hostip: '192.168.1.211'
         }).then((response) => {
-          this.mem_load_data = response.data;
-          for (let data of this.mem_load_data) {
+          self.mem_load_data = response.data.retdata;
+          for (let data of self.mem_load_data) {
             available.push(data.available);
             total.push(data.total);
           };
-          this.chart_gdrDev.setOption({
+          self.chart_gdrDev.setOption({
             title: {
-              text: 'gdr_dev',
-              textStyle: {
-                fontWeight: 'lighter',
-                fontSize: 14,
-              },
-              left: '10%',
-              bottom: '90%'
+              text: 'uco2_dev',
             },
             tooltip : {
               trigger: 'axis'
@@ -89,7 +78,19 @@
               data:['available','total'],
               bottom: '90%'
             },
-            calculable : true,
+            grid: {
+              left: '3%',
+              right: '4%',
+              bottom: '3%',
+              containLabel: true
+            },
+            // calculable : true,
+            toolbox: {
+               show : true,
+                feature: {
+                    saveAsImage: {show:true}
+                }
+            },
             xAxis : [
               {
                 type : 'category',
@@ -107,14 +108,14 @@
                 name:'available',
                 type:'line',
                 stack: '总量',
-                areaStyle: {normal: {}},
+                // areaStyle: {normal: {}},
                 data: available
               },
               {
                 name:'total',
                 type:'line',
                 stack: '总量',
-                areaStyle: {normal: {}},
+                // areaStyle: {normal: {}},
                 data: total
               },
             ]
@@ -122,31 +123,21 @@
         })
       },
       drawGdrTestMemStatData: function () {
+        var self = this;
         var available = []
         var total = []
-        var formData = new URLSearchParams();
-        formData.append('hostip', '192.168.1.1')
-        this.chart_gdrTest = echarts.init(document.getElementById('chart_gdrTest'));
-        this.axios.post('http://operapi.uco2.com/zabbixapi/memstat/', formData, {
-          headers: {
-            'Content-Type': 'application/x-www-form-urlencoded',
-            'Authorization': JSON.parse(sessionStorage.getItem('token'))
-          }
+        self.chart_gdrTest = echarts.init(document.getElementById('chart_gdrTest'));
+        self.$http.post('/Interface/queryMemStatByIp', {
+          hostip: '192.168.1.209'
         }).then((response) => {
-          this.mem_load_data = response.data;
-          for (let data of this.mem_load_data) {
+          self.mem_load_data = response.data.retdata;
+          for (let data of self.mem_load_data) {
             available.push(data.available);
             total.push(data.total);
           };
-          this.chart_gdrTest.setOption({
+          self.chart_gdrTest.setOption({
             title: {
-              text: 'gdr_test',
-              textStyle: {
-                fontWeight: 'lighter',
-                fontSize: 14,
-              },
-              left: '10%',
-              bottom: '90%'
+              text: 'uco2_test',
             },
             tooltip : {
               trigger: 'axis'
@@ -155,7 +146,19 @@
               data:['available','total'],
               bottom: '90%'
             },
-            calculable : true,
+            grid: {
+              left: '3%',
+              right: '4%',
+              bottom: '3%',
+              containLabel: true
+            },
+            // calculable : true,
+            toolbox: {
+               show : true,
+                feature: {
+                    saveAsImage: {show:true}
+                }
+            },
             xAxis : [
               {
                 type : 'category',
@@ -173,14 +176,14 @@
                 name:'available',
                 type:'line',
                 stack: '总量',
-                areaStyle: {normal: {}},
+                // areaStyle: {normal: {}},
                 data: available
               },
               {
                 name:'total',
                 type:'line',
                 stack: '总量',
-                areaStyle: {normal: {}},
+                // areaStyle: {normal: {}},
                 data: total
               },
             ]
@@ -188,31 +191,21 @@
         })
       },
       drawGdrOperMemStatData: function () {
+        var self = this;
         var available = []
         var total = []
-        var formData = new URLSearchParams();
-        formData.append('hostip', '127.0.0.1')
-        this.chart_gdrOper = echarts.init(document.getElementById('chart_gdrOper'));
-        this.axios.post('http://operapi.uco2.com/zabbixapi/memstat/', formData, {
-          headers: {
-            'Content-Type': 'application/x-www-form-urlencoded',
-            'Authorization': JSON.parse(sessionStorage.getItem('token'))
-          }
+        self.chart_gdrOper = echarts.init(document.getElementById('chart_gdrOper'));
+        self.$http.post('/Interface/queryMemStatByIp', {
+          hostip: '127.0.0.1'
         }).then((response) => {
-          this.mem_load_data = response.data;
-          for (let data of this.mem_load_data) {
+          self.mem_load_data = response.data.retdata;
+          for (let data of self.mem_load_data) {
             available.push(data.available);
             total.push(data.total);
           };
-          this.chart_gdrOper.setOption({
+          self.chart_gdrOper.setOption({
             title: {
-              text: 'gdr_oper',
-              textStyle: {
-                fontWeight: 'lighter',
-                fontSize: 14,
-              },
-              left: '10%',
-              bottom: '90%'
+              text: 'uco2_oper',
             },
             tooltip : {
               trigger: 'axis'
@@ -239,14 +232,14 @@
                 name:'available',
                 type:'line',
                 stack: '总量',
-                areaStyle: {normal: {}},
+                // areaStyle: {normal: {}},
                 data: available
               },
               {
                 name:'total',
                 type:'line',
                 stack: '总量',
-                areaStyle: {normal: {}},
+                // areaStyle: {normal: {}},
                 data: total
               },
             ]
@@ -254,31 +247,21 @@
         })
       },
       drawGdrSQLMtMemStatData: function () {
+        var self = this;
         var available = []
         var total = []
-        var formData = new URLSearchParams();
-        formData.append('hostip', '192.168.1.9')
-        this.chart_gdrSqlMt = echarts.init(document.getElementById('chart_gdrSqlMt'));
-        this.axios.post('http://operapi.uco2.com/zabbixapi/memstat/', formData, {
-          headers: {
-            'Content-Type': 'application/x-www-form-urlencoded',
-            'Authorization': JSON.parse(sessionStorage.getItem('token'))
-          }
+        self.chart_gdrSqlMt = echarts.init(document.getElementById('chart_gdrSqlMt'));
+        self.$http.post('/Interface/queryMemStatByIp', {
+          hostip: '192.168.1.214'
         }).then((response) => {
-          this.mem_load_data = response.data;
-          for (let data of this.mem_load_data) {
+          self.mem_load_data = response.data.retdata;
+          for (let data of self.mem_load_data) {
             available.push(data.available);
             total.push(data.total);
           };
-          this.chart_gdrSqlMt.setOption({
+          self.chart_gdrSqlMt.setOption({
             title: {
-              text: 'gdr_sql_mt',
-              textStyle: {
-                fontWeight: 'lighter',
-                fontSize: 14,
-              },
-              left: '10%',
-              bottom: '90%'
+              text: 'uco2_sql_mt',
             },
             tooltip : {
               trigger: 'axis'
@@ -287,7 +270,19 @@
               data:['available','total'],
               bottom: '90%'
             },
-            calculable : true,
+            grid: {
+              left: '3%',
+              right: '4%',
+              bottom: '3%',
+              containLabel: true
+            },
+            // calculable : true,
+            toolbox: {
+               show : true,
+                feature: {
+                    saveAsImage: {show:true}
+                }
+            },
             xAxis : [
               {
                 type : 'category',
@@ -305,14 +300,14 @@
                 name:'available',
                 type:'line',
                 stack: '总量',
-                areaStyle: {normal: {}},
+                // areaStyle: {normal: {}},
                 data: available
               },
               {
                 name:'total',
                 type:'line',
                 stack: '总量',
-                areaStyle: {normal: {}},
+                // areaStyle: {normal: {}},
                 data: total
               },
             ]
@@ -320,31 +315,21 @@
         })
       },
       drawGdrSQLSlMemStatData: function () {
+        var self = this;
         var available = []
         var total = []
-        var formData = new URLSearchParams();
-        formData.append('hostip', '192.168.1.8')
-        this.chart_gdrSqlSl = echarts.init(document.getElementById('chart_gdrSqlSl'));
-        this.axios.post('http://operapi.uco2.com/zabbixapi/memstat/', formData, {
-          headers: {
-            'Content-Type': 'application/x-www-form-urlencoded',
-            'Authorization': JSON.parse(sessionStorage.getItem('token'))
-          }
+        self.chart_gdrSqlSl = echarts.init(document.getElementById('chart_gdrSqlSl'));
+        self.$http.post('/Interface/queryMemStatByIp', {
+          hostip: '192.168.1.215'
         }).then((response) => {
-          this.mem_load_data = response.data;
-          for (let data of this.mem_load_data) {
+          self.mem_load_data = response.data.retdata;
+          for (let data of self.mem_load_data) {
             available.push(data.available);
             total.push(data.total);
           };
-          this.chart_gdrSqlSl.setOption({
+          self.chart_gdrSqlSl.setOption({
             title: {
-              text: 'gdr_sql_sl',
-              textStyle: {
-                fontWeight: 'lighter',
-                fontSize: 14,
-              },
-              left: '10%',
-              bottom: '90%'
+              text: 'uco2_sql_sl',
             },
             tooltip : {
               trigger: 'axis'
@@ -353,7 +338,19 @@
               data:['available','total'],
               bottom: '90%'
             },
-            calculable : true,
+            grid: {
+              left: '3%',
+              right: '4%',
+              bottom: '3%',
+              containLabel: true
+            },
+            // calculable : true,
+            toolbox: {
+               show : true,
+                feature: {
+                    saveAsImage: {show:true}
+                }
+            },
             xAxis : [
               {
                 type : 'category',
@@ -371,14 +368,14 @@
                 name:'available',
                 type:'line',
                 stack: '总量',
-                areaStyle: {normal: {}},
+                // areaStyle: {normal: {}},
                 data: available
               },
               {
                 name:'total',
                 type:'line',
                 stack: '总量',
-                areaStyle: {normal: {}},
+                // areaStyle: {normal: {}},
                 data: total
               },
             ]
@@ -386,31 +383,21 @@
         })
       },
       drawGdrWebPdMemStatData: function () {
+        var self = this;
         var available = []
         var total = []
-        var formData = new URLSearchParams();
-        formData.append('hostip', '192.168.1.6')
-        this.chart_gdrWebProd = echarts.init(document.getElementById('chart_gdrWebProd'));
-        this.axios.post('http://operapi.uco2.com/zabbixapi/memstat/', formData, {
-          headers: {
-            'Content-Type': 'application/x-www-form-urlencoded',
-            'Authorization': JSON.parse(sessionStorage.getItem('token'))
-          }
+        self.chart_gdrWebProd = echarts.init(document.getElementById('chart_gdrWebProd'));
+        self.$http.post('/Interface/queryMemStatByIp', {
+          hostip: '192.168.1.212'
         }).then((response) => {
-          this.mem_load_data = response.data;
-          for (let data of this.mem_load_data) {
+          self.mem_load_data = response.data.retdata;
+          for (let data of self.mem_load_data) {
             available.push(data.available);
             total.push(data.total);
           };
-          this.chart_gdrWebProd.setOption({
+          self.chart_gdrWebProd.setOption({
             title: {
-              text: 'gdr_web_prod_1001',
-              textStyle: {
-                fontWeight: 'lighter',
-                fontSize: 14,
-              },
-              left: '10%',
-              bottom: '90%'
+              text: 'uco2_web_prod_1001',
             },
             tooltip : {
               trigger: 'axis'
@@ -419,7 +406,19 @@
               data:['available','total'],
               bottom: '90%'
             },
-            calculable : true,
+            grid: {
+              left: '3%',
+              right: '4%',
+              bottom: '3%',
+              containLabel: true
+            },
+            // calculable : true,
+            toolbox: {
+               show : true,
+                feature: {
+                    saveAsImage: {show:true}
+                }
+            },
             xAxis : [
               {
                 type : 'category',
@@ -437,14 +436,14 @@
                 name:'available',
                 type:'line',
                 stack: '总量',
-                areaStyle: {normal: {}},
+                // areaStyle: {normal: {}},
                 data: available
               },
               {
                 name:'total',
                 type:'line',
                 stack: '总量',
-                areaStyle: {normal: {}},
+                // areaStyle: {normal: {}},
                 data: total
               },
             ]
@@ -452,31 +451,21 @@
         })
       },
       drawGdrRDPdMemStatData: function () {
+        var self = this;
         var available = []
         var total = []
-        var formData = new URLSearchParams();
-        formData.append('hostip', '192.168.1.7')
-        this.chart_gdrRdProd = echarts.init(document.getElementById('chart_gdrRdProd'));
-        this.axios.post('http://operapi.uco2.com/zabbixapi/memstat/', formData, {
-          headers: {
-            'Content-Type': 'application/x-www-form-urlencoded',
-            'Authorization': JSON.parse(sessionStorage.getItem('token'))
-          }
+        self.chart_gdrRdProd = echarts.init(document.getElementById('chart_gdrRdProd'));
+        self.$http.post('/Interface/queryMemStatByIp', {
+          hostip: '192.168.1.213'
         }).then((response) => {
-          this.mem_load_data = response.data;
-          for (let data of this.mem_load_data) {
+          self.mem_load_data = response.data.retdata;
+          for (let data of self.mem_load_data) {
             available.push(data.available);
             total.push(data.total);
           };
-          this.chart_gdrRdProd.setOption({
+          self.chart_gdrRdProd.setOption({
             title: {
-              text: 'gdr_rd_prod',
-              textStyle: {
-                fontWeight: 'lighter',
-                fontSize: 14,
-              },
-              left: '10%',
-              bottom: '90%'
+              text: 'uco2_rd_prod',
             },
             tooltip : {
               trigger: 'axis'
@@ -485,7 +474,19 @@
               data:['available','total'],
               bottom: '90%'
             },
-            calculable : true,
+            grid: {
+              left: '3%',
+              right: '4%',
+              bottom: '3%',
+              containLabel: true
+            },
+            // calculable : true,
+            toolbox: {
+               show : true,
+                feature: {
+                    saveAsImage: {show:true}
+                }
+            },
             xAxis : [
               {
                 type : 'category',
@@ -503,14 +504,14 @@
                 name:'available',
                 type:'line',
                 stack: '总量',
-                areaStyle: {normal: {}},
+                // areaStyle: {normal: {}},
                 data: available
               },
               {
                 name:'total',
                 type:'line',
                 stack: '总量',
-                areaStyle: {normal: {}},
+                // areaStyle: {normal: {}},
                 data: total
               },
             ]

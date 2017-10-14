@@ -1,34 +1,28 @@
 <template>
   <div>
     <el-row :gutter="20" type="flex" class="row-bg">
-      <el-col :span="5">
-        <div class="grid-content bg-purple">
-          <el-select size="small" class="selectedProject" v-model="selectedproject">
-            <el-option v-for="project in projects" :value="project.name">{{ project.name }}</el-option>
-          </el-select>
-        </div>
-      </el-col>
-      <el-col :span="5">
-        <div class="grid-content bg-purple">
-          <el-select size="small" class="selectedBrance" v-model="selectedbranch">
-            <el-option v-for="branch in branches" :value="branch.name">{{ branch.name }}</el-option>
-          </el-select>
-        </div>
-      </el-col>
-      <el-col :span="5">
-        <div class="grid-content bg-purple">
-          <el-select size="small" class="selectedTag" v-model="selectedtag">
-            <el-option v-for="tag in tags" :value="tag.name">{{ tag.name }}</el-option>
-          </el-select>
-        </div>
-      </el-col>
-    </el-row>
-    <el-row :gutter="20" type="flex" class="row-btn">
-      <el-col :span="2" :push="5">
-        <el-button type="primary" v-on:click="pushTest" v-loading="loading1">提交测试</el-button>
-      </el-col>
-      <el-col :span="2" :push="6">
-        <el-button type="primary" v-on:click="pushProd" v-loading="loading2">提交生产</el-button>
+      <el-col :span="24" class="toolbar" style="padding-bottom: 0px;">
+        <el-form :inline="true" :model="deployForm" ref="deployForm">
+          <el-form-item label="项目名称" prop="projects">
+            <el-select v-model="deployForm.projects[-1]" placeholder="项目" @change="projectSelectionChange">
+              <el-option v-for="project in deployForm.projects" :value="project.name"></el-option>
+            </el-select>
+          </el-form-item>
+          <el-form-item label="所选分支" prop="branches">
+            <el-select v-model="deployForm.branches[-1]" placeholder="项目" @change="branchSelectionChange">
+              <el-option v-for="branch in deployForm.branches" :value="branch.name"></el-option>
+            </el-select>
+          </el-form-item>
+          <el-form-item label="所选标签" prop="projects">
+            <el-select v-model="deployForm.tags[-1]" placeholder="项目" @change="tagSelectionChange">
+              <el-option v-for="tag in deployForm.tags" :value="tag.name"></el-option>
+            </el-select>
+          </el-form-item>
+          <el-form-item>
+            <el-button type="primary" v-on:click="pushTest" v-loading="loading1">提交测试</el-button>
+            <el-button type="primary" v-on:click="pushProd" v-loading="loading2">提交生产</el-button>
+          </el-form-item>
+        </el-form>
       </el-col>
     </el-row>
     <el-row :gutter="20" type="flex">
@@ -51,9 +45,11 @@
   export default {
     data() {
       return {
-        projects: [],
-        branches: [],
-        tags: [],
+        deployForm: {
+          projects: [],
+          branches: [],
+          tags: []
+        },
         selectedproject: '',
         selectedbranch: '',
         selectedtag: '',
@@ -63,34 +59,38 @@
         active: 0
       }
     },
-    created() {
+    mounted() {
       this.getProject();
     },
-    watch: {
-      'selectedproject': function (val) {
-        for (var i=0;i<this.projects.length;i++) {
-          if (this.projects[i].name === val) {
-            this.getTags(this.projects[i].id);
-            this.getBranches(this.projects[i].id);
-          }
-        }
-      },
-    },
     methods: {
+      projectSelectionChange: function(val) {
+          // console.log(val);
+          this.selectedproject = val;
+          this.getBranches(val);
+          this.getTags(val);
+      },
+      branchSelectionChange: function(val) {
+          // console.log(val);
+          this.selectedbranch = val;
+      },
+      tagSelectionChange: function(val) {
+          // console.log(val);
+          this.selectedtag = val;
+      },
       getProject: function() {
         var self = this;
         self.$http.post('/Interface/GetProjects').then((response) => {
-          self.projects = response.data.retdata;
+          self.deployForm.projects = response.data.retdata;
         }).then(function(response) {
           console.log(response)
         });
       },
-      getTags: function(id) {
+      getTags: function(project) {
         var self = this;
         self.$http.post('/Interface/GetTags', {
-          project_id: id
+          project: project
         }).then((response) => {
-          self.tags = response.data.retdata;
+          self.deployForm.tags = response.data.retdata;
           // console.log(response);
           // return tags
         })
@@ -98,12 +98,12 @@
           console.log(error);
         });
       },
-      getBranches: function(id) {
+      getBranches: function(project) {
         var self = this;
         self.$http.post('/Interface/GetBranchs', {
-          project_id: id
+          project: project
         }).then((response) => {
-           self.branches = response.data.retdata;
+           self.deployForm.branches = response.data.retdata;
         })
         .catch(function (error) {
           console.log(error);
@@ -147,7 +147,7 @@
            self.$alert(self.msg.retdata, '发布情况', {
              confirmButtonText: '确定',
            });
-           this.loading2 = false;
+           self.loading2 = false;
         })
         .catch(function (error) {
           console.log(error);
