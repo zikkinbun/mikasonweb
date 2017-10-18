@@ -1,0 +1,570 @@
+10:09:02:[ RequestURL ]/getToken
+
+10:09:02:[ RequestMethod ]POST
+
+10:09:02:[ RequestParams ]{"username":"benson","password":"benson"}
+
+10:09:02:[ RequestURL ]/login
+
+10:09:02:[ RequestMethod ]POST
+
+10:09:02:[ RequestParams ]{"username":"benson","password":"benson"}
+
+10:09:02:[ Response ]登陆操作成功
+
+10:09:02:请求结束
+
+
+
+10:09:02:[ RequestURL ]/queryUpTime
+
+10:09:02:[ RequestMethod ]POST
+
+10:09:02:[ RequestParams ]{}
+
+10:09:02:[ RequestURL ]/queryRunProcess
+
+10:09:02:[ RequestMethod ]POST
+
+10:09:02:[ RequestParams ]{}
+
+10:09:02:[ RequestURL ]/queryRunProcess
+
+10:09:02:[ RequestMethod ]POST
+
+10:09:02:[ RequestParams ]{}
+
+10:09:02:[ RequestURL ]/queryRunProcess
+
+10:09:02:[ RequestMethod ]POST
+
+10:09:02:[ RequestParams ]{}
+
+10:09:02:[ RequestURL ]/queryRunProcess
+
+10:09:02:[ RequestMethod ]POST
+
+10:09:02:[ RequestParams ]{}
+
+10:09:02:[ Response ]获取进程状态操作成功
+
+10:09:02:请求结束
+
+
+
+10:09:02:[ RequestURL ]/queryRunProcess
+
+10:09:02:[ RequestMethod ]POST
+
+10:09:02:[ RequestParams ]{}
+
+10:09:02:[ Response ]获取进程状态操作成功
+
+10:09:02:请求结束
+
+
+
+10:09:02:[ Response ]获取在线状态操作成功
+
+10:09:02:请求结束
+
+
+
+10:09:02:[ Response ]获取进程状态操作成功
+
+10:09:02:请求结束
+
+
+
+10:09:02:[ Response ]获取进程状态操作成功
+
+10:09:02:请求结束
+
+
+
+10:09:03:[ Response ]获取进程状态操作成功
+
+10:09:03:请求结束
+
+
+
+10:09:06:[ RequestURL ]/ServerList
+
+10:09:06:[ RequestMethod ]POST
+
+10:09:06:[ RequestParams ]{}
+
+10:09:06:[ Response ]获取服务器列表操作成功
+
+10:09:06:请求结束
+
+
+
+10:09:16:[ RequestURL ]/ContainerList
+
+10:09:16:[ RequestMethod ]POST
+
+10:09:16:[ RequestParams ]{}
+
+10:09:16:[ Response ]获取容器列表操作成功
+
+10:09:16:请求结束
+
+
+
+10:09:19:[ RequestURL ]/ImageList
+
+10:09:19:[ RequestMethod ]POST
+
+10:09:19:[ RequestParams ]{}
+
+10:09:20:[ Response ]获取镜像列表操作成功
+
+10:09:20:请求结束
+
+
+
+10:09:22:[ RequestURL ]/GetProjectInfo
+
+10:09:22:[ RequestMethod ]POST
+
+10:09:22:[ RequestParams ]{}
+
+10:09:22:[ Response ]获取所有的项目操作成功
+
+10:09:22:请求结束
+
+
+
+12:00:21:[ RequestURL ]/GetProjectInfo
+
+12:00:21:[ RequestMethod ]POST
+
+12:00:21:[ RequestParams ]{}
+
+12:00:21:[ Response ]获取所有的项目操作成功
+
+12:00:21:请求结束
+
+
+
+13:58:47:[ RequestURL ]/getToken
+
+13:58:47:[ RequestMethod ]POST
+
+13:58:47:[ RequestParams ]{"username":"benson","password":"benson"}
+
+13:58:47:[ RequestURL ]/login
+
+13:58:47:[ RequestMethod ]POST
+
+13:58:47:[ RequestParams ]{"username":"benson","password":"benson"}
+
+13:58:47:[ Response ]登陆操作成功
+
+13:58:47:请求结束
+
+
+
+13:58:47:[ RequestURL ]/queryUpTime
+
+13:58:47:[ RequestMethod ]POST
+
+13:58:47:[ RequestParams ]{}
+
+13:58:47:[ RequestURL ]/queryRunProcess
+
+13:58:47:[ RequestMethod ]POST
+
+13:58:47:[ RequestParams ]{}
+
+13:58:47:[ RequestURL ]/queryRunProcess
+
+13:58:47:[ RequestMethod ]POST
+
+13:58:47:[ RequestParams ]{}
+
+13:58:47:[ RequestURL ]/queryRunProcess
+
+13:58:47:[ RequestMethod ]POST
+
+13:58:47:[ RequestParams ]{}
+
+13:58:48:[ RequestURL ]/queryRunProcess
+
+13:58:48:[ RequestMethod ]POST
+
+13:58:48:[ RequestParams ]{}
+
+13:58:48:[ Response ]获取在线状态操作成功
+
+13:58:48:请求结束
+
+
+
+13:58:48:[ Response ]获取进程状态操作成功
+
+13:58:48:请求结束
+
+
+
+13:58:48:[ RequestURL ]/queryRunProcess
+
+13:58:48:[ RequestMethod ]POST
+
+13:58:48:[ RequestParams ]{}
+
+13:58:48:[ Response ]获取进程状态操作成功
+
+13:58:48:请求结束
+
+
+
+13:58:48:[ Response ]获取进程状态操作成功
+
+13:58:48:请求结束
+
+
+
+13:58:48:[ Response ]获取进程状态操作成功
+
+13:58:48:请求结束
+
+
+
+13:58:48:[ Response ]获取进程状态操作成功
+
+13:58:48:请求结束
+
+
+
+14:25:05:[ RequestURL ]/ServerList
+
+14:25:05:[ RequestMethod ]POST
+
+14:25:05:[ RequestParams ]{}
+
+14:25:05:[ Response ]获取服务器列表操作成功
+
+14:25:05:请求结束
+
+
+
+15:00:25:[ RequestURL ]/ContainerList
+
+15:00:25:[ RequestMethod ]POST
+
+15:00:25:[ RequestParams ]{}
+
+15:00:25:[ Response ]获取容器列表操作成功
+
+15:00:25:请求结束
+
+
+
+15:00:30:[ RequestURL ]/ContainerList
+
+15:00:30:[ RequestMethod ]POST
+
+15:00:30:[ RequestParams ]{}
+
+15:00:30:[ Response ]获取容器列表操作成功
+
+15:00:30:请求结束
+
+
+
+16:04:46:[ RequestURL ]/ServerList
+
+16:04:46:[ RequestMethod ]POST
+
+16:04:46:[ RequestParams ]{}
+
+16:04:54:[ RequestURL ]/getToken
+
+16:04:54:[ RequestMethod ]POST
+
+16:04:54:[ RequestParams ]{"username":"benson","password":"benson"}
+
+16:04:54:[ RequestURL ]/login
+
+16:04:54:[ RequestMethod ]POST
+
+16:04:54:[ RequestParams ]{"username":"benson","password":"benson"}
+
+16:04:55:[ Response ]登陆操作成功
+
+16:04:55:请求结束
+
+
+
+16:04:55:[ RequestURL ]/queryUpTime
+
+16:04:55:[ RequestMethod ]POST
+
+16:04:55:[ RequestParams ]{}
+
+16:04:55:[ RequestURL ]/queryRunProcess
+
+16:04:55:[ RequestMethod ]POST
+
+16:04:55:[ RequestParams ]{}
+
+16:04:55:[ RequestURL ]/queryRunProcess
+
+16:04:55:[ RequestMethod ]POST
+
+16:04:55:[ RequestParams ]{}
+
+16:04:55:[ RequestURL ]/queryRunProcess
+
+16:04:55:[ RequestMethod ]POST
+
+16:04:55:[ RequestParams ]{}
+
+16:04:55:[ RequestURL ]/queryRunProcess
+
+16:04:55:[ RequestMethod ]POST
+
+16:04:55:[ RequestParams ]{}
+
+16:04:55:[ Response ]获取在线状态操作成功
+
+16:04:55:请求结束
+
+
+
+16:04:55:[ RequestURL ]/queryRunProcess
+
+16:04:55:[ RequestMethod ]POST
+
+16:04:55:[ RequestParams ]{}
+
+16:04:55:[ Response ]获取进程状态操作成功
+
+16:04:55:请求结束
+
+
+
+16:04:55:[ Response ]获取进程状态操作成功
+
+16:04:55:请求结束
+
+
+
+16:04:55:[ Response ]获取进程状态操作成功
+
+16:04:55:请求结束
+
+
+
+16:04:55:[ Response ]获取进程状态操作成功
+
+16:04:55:请求结束
+
+
+
+16:04:56:[ Response ]获取进程状态操作成功
+
+16:04:56:请求结束
+
+
+
+16:04:59:[ RequestURL ]/ServerList
+
+16:04:59:[ RequestMethod ]POST
+
+16:04:59:[ RequestParams ]{}
+
+16:04:59:[ Response ]获取服务器列表操作成功
+
+16:04:59:请求结束
+
+
+
+16:57:57:[ RequestURL ]/ServerList
+
+16:57:57:[ RequestMethod ]POST
+
+16:57:57:[ RequestParams ]{}
+
+16:57:57:[ Response ]获取服务器列表操作成功
+
+16:57:57:请求结束
+
+
+
+16:58:00:[ RequestURL ]/GetProjects
+
+16:58:00:[ RequestMethod ]POST
+
+16:58:00:[ RequestParams ]{}
+
+16:58:02:[ RequestURL ]/GetProjectInfo
+
+16:58:02:[ RequestMethod ]POST
+
+16:58:02:[ RequestParams ]{}
+
+16:58:02:[ Response ]获取所有的项目操作成功
+
+16:58:02:请求结束
+
+
+
+16:58:03:[ Response ]获取gitlab上的项目操作成功
+
+16:58:03:请求结束
+
+
+
+16:58:05:[ RequestURL ]/GetProjects
+
+16:58:05:[ RequestMethod ]POST
+
+16:58:05:[ RequestParams ]{}
+
+16:58:06:[ Response ]获取gitlab上的项目操作成功
+
+16:58:06:请求结束
+
+
+
+16:58:08:[ RequestURL ]/GetRecords
+
+16:58:08:[ RequestMethod ]POST
+
+16:58:08:[ RequestParams ]{}
+
+16:58:08:[ Response ]获取所有发布记录操作成功
+
+16:58:08:请求结束
+
+
+
+16:58:09:[ RequestURL ]/GetProjectInfo
+
+16:58:09:[ RequestMethod ]POST
+
+16:58:09:[ RequestParams ]{}
+
+16:58:09:[ Response ]获取所有的项目操作成功
+
+16:58:09:请求结束
+
+
+
+16:58:11:[ RequestURL ]/GetRecords
+
+16:58:11:[ RequestMethod ]POST
+
+16:58:11:[ RequestParams ]{}
+
+16:58:11:[ Response ]获取所有发布记录操作成功
+
+16:58:11:请求结束
+
+
+
+16:58:13:[ RequestURL ]/GetProjectInfo
+
+16:58:13:[ RequestMethod ]POST
+
+16:58:13:[ RequestParams ]{}
+
+16:58:13:[ Response ]获取所有的项目操作成功
+
+16:58:13:请求结束
+
+
+
+17:28:15:[ RequestURL ]/getToken
+
+17:28:15:[ RequestMethod ]POST
+
+17:28:15:[ RequestParams ]{"username":"benson","password":"benson"}
+
+17:28:15:[ RequestURL ]/login
+
+17:28:15:[ RequestMethod ]POST
+
+17:28:15:[ RequestParams ]{"username":"benson","password":"benson"}
+
+17:28:16:[ Response ]登陆操作成功
+
+17:28:16:请求结束
+
+
+
+17:28:16:[ RequestURL ]/queryUpTime
+
+17:28:16:[ RequestMethod ]POST
+
+17:28:16:[ RequestParams ]{}
+
+17:28:16:[ RequestURL ]/queryRunProcess
+
+17:28:16:[ RequestMethod ]POST
+
+17:28:16:[ RequestParams ]{}
+
+17:28:16:[ RequestURL ]/queryRunProcess
+
+17:28:16:[ RequestMethod ]POST
+
+17:28:16:[ RequestParams ]{}
+
+17:28:16:[ RequestURL ]/queryRunProcess
+
+17:28:16:[ RequestMethod ]POST
+
+17:28:16:[ RequestParams ]{}
+
+17:28:16:[ RequestURL ]/queryRunProcess
+
+17:28:16:[ RequestMethod ]POST
+
+17:28:16:[ RequestParams ]{}
+
+17:28:16:[ Response ]获取在线状态操作成功
+
+17:28:16:请求结束
+
+
+
+17:28:16:[ RequestURL ]/queryRunProcess
+
+17:28:16:[ RequestMethod ]POST
+
+17:28:16:[ RequestParams ]{}
+
+17:28:16:[ Response ]获取进程状态操作成功
+
+17:28:16:请求结束
+
+
+
+17:28:16:[ Response ]获取进程状态操作成功
+
+17:28:16:请求结束
+
+
+
+17:28:16:[ Response ]获取进程状态操作成功
+
+17:28:16:请求结束
+
+
+
+17:28:16:[ Response ]获取进程状态操作成功
+
+17:28:16:请求结束
+
+
+
+17:28:17:[ Response ]获取进程状态操作成功
+
+17:28:17:请求结束
+
+
+

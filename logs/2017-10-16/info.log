@@ -1,0 +1,7662 @@
+10:09:11:[ RequestURL ]/getToken
+
+10:09:11:[ RequestMethod ]POST
+
+10:09:11:[ RequestParams ]{"username":"benson","password":"benson"}
+
+10:09:11:[ RequestURL ]/login
+
+10:09:11:[ RequestMethod ]POST
+
+10:09:11:[ RequestParams ]{"username":"benson","password":"benson"}
+
+10:09:11:请求结束
+
+
+
+10:09:23:[ RequestURL ]/getToken
+
+10:09:23:[ RequestMethod ]POST
+
+10:09:23:[ RequestParams ]{"username":"benson","password":"benson"}
+
+10:09:23:[ RequestURL ]/login
+
+10:09:23:[ RequestMethod ]POST
+
+10:09:23:[ RequestParams ]{"username":"benson","password":"benson"}
+
+10:09:23:[ Response ]登陆操作成功
+
+10:09:23:请求结束
+
+
+
+10:09:23:[ RequestURL ]/queryUpTime
+
+10:09:23:[ RequestMethod ]POST
+
+10:09:23:[ RequestParams ]{}
+
+10:09:23:[ RequestURL ]/queryRunProcess
+
+10:09:23:[ RequestMethod ]POST
+
+10:09:23:[ RequestParams ]{}
+
+10:09:24:[ Response ]获取在线状态操作成功
+
+10:09:24:请求结束
+
+
+
+10:09:24:[ Response ]获取进程状态操作成功
+
+10:09:24:请求结束
+
+
+
+10:17:50:[ RequestURL ]/GetProjects
+
+10:17:50:[ RequestMethod ]POST
+
+10:17:50:[ RequestParams ]{}
+
+10:17:51:[ Response ]获取gitlab上的项目操作成功
+
+10:17:51:请求结束
+
+
+
+10:18:26:[ RequestURL ]/GetRecords
+
+10:18:26:[ RequestMethod ]POST
+
+10:18:26:[ RequestParams ]{}
+
+10:18:26:[ Response ]获取所有发布记录操作成功
+
+10:18:26:请求结束
+
+
+
+10:18:28:[ RequestURL ]/GetProjectInfo
+
+10:18:28:[ RequestMethod ]POST
+
+10:18:28:[ RequestParams ]{}
+
+10:18:28:[ Response ]获取所有的项目操作成功
+
+10:18:28:请求结束
+
+
+
+10:26:02:[ RequestURL ]/queryUpTime
+
+10:26:02:[ RequestMethod ]POST
+
+10:26:02:[ RequestParams ]{}
+
+10:26:02:[ RequestURL ]/queryRunProcess
+
+10:26:02:[ RequestMethod ]POST
+
+10:26:02:[ RequestParams ]{}
+
+10:26:03:[ Response ]获取在线状态操作成功
+
+10:26:03:请求结束
+
+
+
+10:26:03:[ Response ]获取进程状态操作成功
+
+10:26:03:请求结束
+
+
+
+10:27:51:[ RequestURL ]/queryUpTime
+
+10:27:51:[ RequestMethod ]POST
+
+10:27:51:[ RequestParams ]{}
+
+10:27:51:[ RequestURL ]/queryRunProcess
+
+10:27:51:[ RequestMethod ]POST
+
+10:27:51:[ RequestParams ]{}
+
+10:27:51:[ Response ]获取进程状态操作成功
+
+10:27:51:请求结束
+
+
+
+10:27:51:[ Response ]获取在线状态操作成功
+
+10:27:51:请求结束
+
+
+
+10:29:49:[ RequestURL ]/queryUpTime
+
+10:29:49:[ RequestMethod ]POST
+
+10:29:49:[ RequestParams ]{}
+
+10:29:49:[ RequestURL ]/queryRunProcess
+
+10:29:49:[ RequestMethod ]POST
+
+10:29:49:[ RequestParams ]{}
+
+10:29:49:[ Response ]获取进程状态操作成功
+
+10:29:49:请求结束
+
+
+
+10:29:49:[ Response ]获取在线状态操作成功
+
+10:29:49:请求结束
+
+
+
+10:31:43:[ RequestURL ]/ServerList
+
+10:31:43:[ RequestMethod ]POST
+
+10:31:43:[ RequestParams ]{}
+
+10:31:43:[ Response ]获取服务器列表操作成功
+
+10:31:43:请求结束
+
+
+
+11:00:01:[ RequestURL ]/queryUpTime
+
+11:00:01:[ RequestMethod ]POST
+
+11:00:01:[ RequestParams ]{}
+
+11:00:01:[ RequestURL ]/queryRunProcess
+
+11:00:01:[ RequestMethod ]POST
+
+11:00:01:[ RequestParams ]{}
+
+11:00:02:[ Response ]获取进程状态操作成功
+
+11:00:02:请求结束
+
+
+
+11:00:02:[ Response ]获取在线状态操作成功
+
+11:00:02:请求结束
+
+
+
+11:09:34:[ RequestURL ]/queryUpTime
+
+11:09:34:[ RequestMethod ]POST
+
+11:09:34:[ RequestParams ]{}
+
+11:09:34:[ RequestURL ]/queryRunProcess
+
+11:09:34:[ RequestMethod ]POST
+
+11:09:34:[ RequestParams ]{}
+
+11:09:34:[ Response ]获取进程状态操作成功
+
+11:09:34:请求结束
+
+
+
+11:09:34:[ Response ]获取在线状态操作成功
+
+11:09:34:请求结束
+
+
+
+11:09:53:[ RequestURL ]/GetProjectInfo
+
+11:09:53:[ RequestMethod ]POST
+
+11:09:53:[ RequestParams ]{}
+
+11:09:54:[ Response ]获取所有的项目操作成功
+
+11:09:54:请求结束
+
+
+
+11:09:59:[ RequestURL ]/GetProjects
+
+11:09:59:[ RequestMethod ]POST
+
+11:09:59:[ RequestParams ]{}
+
+11:09:59:[ Response ]获取gitlab上的项目操作成功
+
+11:09:59:请求结束
+
+
+
+11:10:00:[ RequestURL ]/GetRecords
+
+11:10:00:[ RequestMethod ]POST
+
+11:10:00:[ RequestParams ]{}
+
+11:10:00:[ Response ]获取所有发布记录操作成功
+
+11:10:00:请求结束
+
+
+
+11:10:04:[ RequestURL ]/queryMemStatByIp
+
+11:10:04:[ RequestMethod ]POST
+
+11:10:04:[ RequestParams ]{"hostip":"192.168.1.211"}
+
+11:10:04:[ RequestURL ]/queryMemStatByIp
+
+11:10:04:[ RequestMethod ]POST
+
+11:10:04:[ RequestParams ]{"hostip":"192.168.1.209"}
+
+11:10:04:[ RequestURL ]/queryMemStatByIp
+
+11:10:04:[ RequestMethod ]POST
+
+11:10:04:[ RequestParams ]{"hostip":"127.0.0.1"}
+
+11:10:04:[ RequestURL ]/queryMemStatByIp
+
+11:10:04:[ RequestMethod ]POST
+
+11:10:04:[ RequestParams ]{"hostip":"192.168.1.214"}
+
+11:10:04:[ RequestURL ]/queryMemStatByIp
+
+11:10:04:[ RequestMethod ]POST
+
+11:10:04:[ RequestParams ]{"hostip":"192.168.1.215"}
+
+11:10:05:[ Response ]获取单台内存状态操作成功
+
+11:10:05:请求结束
+
+
+
+11:10:05:[ RequestURL ]/queryMemStatByIp
+
+11:10:05:[ RequestMethod ]POST
+
+11:10:05:[ RequestParams ]{"hostip":"192.168.1.212"}
+
+11:10:05:[ Response ]获取单台内存状态操作成功
+
+11:10:05:请求结束
+
+
+
+11:10:05:[ RequestURL ]/queryMemStatByIp
+
+11:10:05:[ RequestMethod ]POST
+
+11:10:05:[ RequestParams ]{"hostip":"192.168.1.213"}
+
+11:10:05:[ Response ]获取单台内存状态操作成功
+
+11:10:05:请求结束
+
+
+
+11:10:05:[ Response ]获取单台内存状态操作成功
+
+11:10:05:请求结束
+
+
+
+11:10:05:[ Response ]获取单台内存状态操作成功
+
+11:10:05:请求结束
+
+
+
+11:10:06:[ Response ]获取单台内存状态操作成功
+
+11:10:06:请求结束
+
+
+
+11:10:06:[ Response ]获取单台内存状态操作成功
+
+11:10:06:请求结束
+
+
+
+11:10:28:[ RequestURL ]/queryUpTime
+
+11:10:28:[ RequestMethod ]POST
+
+11:10:28:[ RequestParams ]{}
+
+11:10:28:[ RequestURL ]/queryRunProcess
+
+11:10:28:[ RequestMethod ]POST
+
+11:10:28:[ RequestParams ]{}
+
+11:10:28:[ Response ]获取在线状态操作成功
+
+11:10:28:请求结束
+
+
+
+11:10:28:[ Response ]获取进程状态操作成功
+
+11:10:28:请求结束
+
+
+
+11:11:25:[ RequestURL ]/queryUpTime
+
+11:11:25:[ RequestMethod ]POST
+
+11:11:25:[ RequestParams ]{}
+
+11:11:25:[ RequestURL ]/queryRunProcess
+
+11:11:25:[ RequestMethod ]POST
+
+11:11:25:[ RequestParams ]{}
+
+11:11:25:[ Response ]获取在线状态操作成功
+
+11:11:25:请求结束
+
+
+
+11:11:25:[ Response ]获取进程状态操作成功
+
+11:11:25:请求结束
+
+
+
+11:12:36:[ RequestURL ]/queryUpTime
+
+11:12:36:[ RequestMethod ]POST
+
+11:12:36:[ RequestParams ]{}
+
+11:12:36:[ RequestURL ]/queryRunProcess
+
+11:12:36:[ RequestMethod ]POST
+
+11:12:36:[ RequestParams ]{}
+
+11:12:36:[ Response ]获取进程状态操作成功
+
+11:12:36:请求结束
+
+
+
+11:12:36:[ Response ]获取在线状态操作成功
+
+11:12:36:请求结束
+
+
+
+11:19:40:[ RequestURL ]/queryUpTime
+
+11:19:40:[ RequestMethod ]POST
+
+11:19:40:[ RequestParams ]{}
+
+11:19:40:[ RequestURL ]/queryRunProcess
+
+11:19:40:[ RequestMethod ]POST
+
+11:19:40:[ RequestParams ]{}
+
+11:19:41:[ Response ]获取进程状态操作成功
+
+11:19:41:请求结束
+
+
+
+11:19:41:[ Response ]获取在线状态操作成功
+
+11:19:41:请求结束
+
+
+
+11:20:19:[ RequestURL ]/queryUpTime
+
+11:20:19:[ RequestMethod ]POST
+
+11:20:19:[ RequestParams ]{}
+
+11:20:19:[ RequestURL ]/queryRunProcess
+
+11:20:19:[ RequestMethod ]POST
+
+11:20:19:[ RequestParams ]{}
+
+11:20:19:[ Response ]获取在线状态操作成功
+
+11:20:19:请求结束
+
+
+
+11:20:19:[ Response ]获取进程状态操作成功
+
+11:20:19:请求结束
+
+
+
+11:20:45:[ RequestURL ]/queryUpTime
+
+11:20:45:[ RequestMethod ]POST
+
+11:20:45:[ RequestParams ]{}
+
+11:20:45:[ RequestURL ]/queryRunProcess
+
+11:20:45:[ RequestMethod ]POST
+
+11:20:45:[ RequestParams ]{}
+
+11:20:45:[ Response ]获取在线状态操作成功
+
+11:20:45:请求结束
+
+
+
+11:20:45:[ Response ]获取进程状态操作成功
+
+11:20:45:请求结束
+
+
+
+11:22:53:[ RequestURL ]/queryUpTime
+
+11:22:53:[ RequestMethod ]POST
+
+11:22:53:[ RequestParams ]{}
+
+11:22:53:[ RequestURL ]/queryRunProcess
+
+11:22:53:[ RequestMethod ]POST
+
+11:22:53:[ RequestParams ]{}
+
+11:22:54:[ Response ]获取在线状态操作成功
+
+11:22:54:请求结束
+
+
+
+11:22:54:[ Response ]获取进程状态操作成功
+
+11:22:54:请求结束
+
+
+
+11:23:13:[ RequestURL ]/queryUpTime
+
+11:23:13:[ RequestMethod ]POST
+
+11:23:13:[ RequestParams ]{}
+
+11:23:13:[ RequestURL ]/queryRunProcess
+
+11:23:13:[ RequestMethod ]POST
+
+11:23:13:[ RequestParams ]{}
+
+11:23:13:[ Response ]获取在线状态操作成功
+
+11:23:13:请求结束
+
+
+
+11:23:13:[ Response ]获取进程状态操作成功
+
+11:23:13:请求结束
+
+
+
+11:26:25:[ RequestURL ]/queryUpTime
+
+11:26:25:[ RequestMethod ]POST
+
+11:26:25:[ RequestParams ]{}
+
+11:26:25:[ RequestURL ]/queryRunProcess
+
+11:26:25:[ RequestMethod ]POST
+
+11:26:25:[ RequestParams ]{}
+
+11:26:26:[ Response ]获取在线状态操作成功
+
+11:26:26:请求结束
+
+
+
+11:26:26:[ Response ]获取进程状态操作成功
+
+11:26:26:请求结束
+
+
+
+11:27:00:[ RequestURL ]/queryUpTime
+
+11:27:00:[ RequestMethod ]POST
+
+11:27:00:[ RequestParams ]{}
+
+11:27:00:[ RequestURL ]/queryRunProcess
+
+11:27:00:[ RequestMethod ]POST
+
+11:27:00:[ RequestParams ]{}
+
+11:27:00:[ Response ]获取在线状态操作成功
+
+11:27:00:请求结束
+
+
+
+11:27:00:[ Response ]获取进程状态操作成功
+
+11:27:00:请求结束
+
+
+
+11:29:18:[ RequestURL ]/queryUpTime
+
+11:29:18:[ RequestMethod ]POST
+
+11:29:18:[ RequestParams ]{}
+
+11:29:18:[ RequestURL ]/queryRunProcess
+
+11:29:18:[ RequestMethod ]POST
+
+11:29:18:[ RequestParams ]{}
+
+11:29:18:[ Response ]获取在线状态操作成功
+
+11:29:18:请求结束
+
+
+
+11:29:18:[ Response ]获取进程状态操作成功
+
+11:29:18:请求结束
+
+
+
+11:29:34:[ RequestURL ]/queryUpTime
+
+11:29:34:[ RequestMethod ]POST
+
+11:29:34:[ RequestParams ]{}
+
+11:29:34:[ RequestURL ]/queryRunProcess
+
+11:29:34:[ RequestMethod ]POST
+
+11:29:34:[ RequestParams ]{}
+
+11:29:34:[ Response ]获取在线状态操作成功
+
+11:29:34:请求结束
+
+
+
+11:29:34:[ Response ]获取进程状态操作成功
+
+11:29:34:请求结束
+
+
+
+11:30:08:[ RequestURL ]/queryUpTime
+
+11:30:08:[ RequestMethod ]POST
+
+11:30:08:[ RequestParams ]{}
+
+11:30:08:[ RequestURL ]/queryRunProcess
+
+11:30:08:[ RequestMethod ]POST
+
+11:30:08:[ RequestParams ]{}
+
+11:30:09:[ Response ]获取在线状态操作成功
+
+11:30:09:请求结束
+
+
+
+11:30:09:[ Response ]获取进程状态操作成功
+
+11:30:09:请求结束
+
+
+
+11:30:37:[ RequestURL ]/queryUpTime
+
+11:30:37:[ RequestMethod ]POST
+
+11:30:37:[ RequestParams ]{}
+
+11:30:37:[ RequestURL ]/queryRunProcess
+
+11:30:37:[ RequestMethod ]POST
+
+11:30:37:[ RequestParams ]{}
+
+11:30:37:[ Response ]获取在线状态操作成功
+
+11:30:37:请求结束
+
+
+
+11:30:37:[ Response ]获取进程状态操作成功
+
+11:30:37:请求结束
+
+
+
+11:30:57:[ RequestURL ]/queryUpTime
+
+11:30:57:[ RequestMethod ]POST
+
+11:30:57:[ RequestParams ]{}
+
+11:30:57:[ RequestURL ]/queryRunProcess
+
+11:30:57:[ RequestMethod ]POST
+
+11:30:57:[ RequestParams ]{}
+
+11:30:58:[ Response ]获取在线状态操作成功
+
+11:30:58:请求结束
+
+
+
+11:30:58:[ Response ]获取进程状态操作成功
+
+11:30:58:请求结束
+
+
+
+11:31:14:[ RequestURL ]/queryUpTime
+
+11:31:14:[ RequestMethod ]POST
+
+11:31:14:[ RequestParams ]{}
+
+11:31:14:[ RequestURL ]/queryRunProcess
+
+11:31:14:[ RequestMethod ]POST
+
+11:31:14:[ RequestParams ]{}
+
+11:31:15:[ Response ]获取在线状态操作成功
+
+11:31:15:请求结束
+
+
+
+11:31:15:[ Response ]获取进程状态操作成功
+
+11:31:15:请求结束
+
+
+
+11:31:36:[ RequestURL ]/queryUpTime
+
+11:31:36:[ RequestMethod ]POST
+
+11:31:36:[ RequestParams ]{}
+
+11:31:36:[ RequestURL ]/queryRunProcess
+
+11:31:36:[ RequestMethod ]POST
+
+11:31:36:[ RequestParams ]{}
+
+11:31:37:[ Response ]获取在线状态操作成功
+
+11:31:37:请求结束
+
+
+
+11:31:37:[ Response ]获取进程状态操作成功
+
+11:31:37:请求结束
+
+
+
+11:31:59:[ RequestURL ]/queryUpTime
+
+11:31:59:[ RequestMethod ]POST
+
+11:31:59:[ RequestParams ]{}
+
+11:31:59:[ RequestURL ]/queryRunProcess
+
+11:31:59:[ RequestMethod ]POST
+
+11:31:59:[ RequestParams ]{}
+
+11:31:59:[ Response ]获取在线状态操作成功
+
+11:31:59:请求结束
+
+
+
+11:31:59:[ Response ]获取进程状态操作成功
+
+11:31:59:请求结束
+
+
+
+11:32:21:[ RequestURL ]/queryUpTime
+
+11:32:21:[ RequestMethod ]POST
+
+11:32:21:[ RequestParams ]{}
+
+11:32:21:[ RequestURL ]/queryRunProcess
+
+11:32:21:[ RequestMethod ]POST
+
+11:32:21:[ RequestParams ]{}
+
+11:32:21:[ Response ]获取在线状态操作成功
+
+11:32:21:请求结束
+
+
+
+11:32:21:[ Response ]获取进程状态操作成功
+
+11:32:21:请求结束
+
+
+
+11:33:22:[ RequestURL ]/queryUpTime
+
+11:33:22:[ RequestMethod ]POST
+
+11:33:22:[ RequestParams ]{}
+
+11:33:22:[ RequestURL ]/queryRunProcess
+
+11:33:22:[ RequestMethod ]POST
+
+11:33:22:[ RequestParams ]{}
+
+11:33:23:[ Response ]获取在线状态操作成功
+
+11:33:23:请求结束
+
+
+
+11:33:23:[ Response ]获取进程状态操作成功
+
+11:33:23:请求结束
+
+
+
+11:33:27:[ RequestURL ]/queryUpTime
+
+11:33:27:[ RequestMethod ]POST
+
+11:33:27:[ RequestParams ]{}
+
+11:33:27:[ RequestURL ]/queryRunProcess
+
+11:33:27:[ RequestMethod ]POST
+
+11:33:27:[ RequestParams ]{}
+
+11:33:27:[ Response ]获取在线状态操作成功
+
+11:33:27:请求结束
+
+
+
+11:33:27:[ Response ]获取进程状态操作成功
+
+11:33:27:请求结束
+
+
+
+11:38:44:[ RequestURL ]/queryUpTime
+
+11:38:44:[ RequestMethod ]POST
+
+11:38:44:[ RequestParams ]{}
+
+11:38:44:[ RequestURL ]/queryRunProcess
+
+11:38:44:[ RequestMethod ]POST
+
+11:38:44:[ RequestParams ]{}
+
+11:38:44:[ Response ]获取在线状态操作成功
+
+11:38:44:请求结束
+
+
+
+11:38:45:[ Response ]获取进程状态操作成功
+
+11:38:45:请求结束
+
+
+
+11:50:41:[ RequestURL ]/queryUpTime
+
+11:50:41:[ RequestMethod ]POST
+
+11:50:41:[ RequestParams ]{}
+
+11:50:41:[ RequestURL ]/queryRunProcess
+
+11:50:41:[ RequestMethod ]POST
+
+11:50:41:[ RequestParams ]{}
+
+11:50:42:[ Response ]获取进程状态操作成功
+
+11:50:42:请求结束
+
+
+
+11:50:42:[ Response ]获取在线状态操作成功
+
+11:50:42:请求结束
+
+
+
+11:51:00:[ RequestURL ]/queryUpTime
+
+11:51:00:[ RequestMethod ]POST
+
+11:51:00:[ RequestParams ]{}
+
+11:51:00:[ RequestURL ]/queryRunProcess
+
+11:51:00:[ RequestMethod ]POST
+
+11:51:00:[ RequestParams ]{}
+
+11:51:00:[ Response ]获取在线状态操作成功
+
+11:51:00:请求结束
+
+
+
+11:51:00:[ Response ]获取进程状态操作成功
+
+11:51:00:请求结束
+
+
+
+11:51:13:[ RequestURL ]/queryUpTime
+
+11:51:13:[ RequestMethod ]POST
+
+11:51:13:[ RequestParams ]{}
+
+11:51:13:[ RequestURL ]/queryRunProcess
+
+11:51:13:[ RequestMethod ]POST
+
+11:51:13:[ RequestParams ]{}
+
+11:51:13:[ Response ]获取进程状态操作成功
+
+11:51:13:请求结束
+
+
+
+11:51:13:[ Response ]获取在线状态操作成功
+
+11:51:13:请求结束
+
+
+
+11:58:17:[ RequestURL ]/queryUpTime
+
+11:58:17:[ RequestMethod ]POST
+
+11:58:17:[ RequestParams ]{}
+
+11:58:17:[ RequestURL ]/queryRunProcess
+
+11:58:17:[ RequestMethod ]POST
+
+11:58:17:[ RequestParams ]{}
+
+11:58:18:[ Response ]获取在线状态操作成功
+
+11:58:18:请求结束
+
+
+
+11:58:18:[ Response ]获取进程状态操作成功
+
+11:58:18:请求结束
+
+
+
+11:58:31:[ RequestURL ]/queryUpTime
+
+11:58:31:[ RequestMethod ]POST
+
+11:58:31:[ RequestParams ]{}
+
+11:58:31:[ RequestURL ]/queryRunProcess
+
+11:58:31:[ RequestMethod ]POST
+
+11:58:31:[ RequestParams ]{}
+
+11:58:31:[ Response ]获取进程状态操作成功
+
+11:58:31:请求结束
+
+
+
+11:58:31:[ Response ]获取在线状态操作成功
+
+11:58:31:请求结束
+
+
+
+11:58:33:[ RequestURL ]/queryUpTime
+
+11:58:33:[ RequestMethod ]POST
+
+11:58:33:[ RequestParams ]{}
+
+11:58:33:[ RequestURL ]/queryRunProcess
+
+11:58:33:[ RequestMethod ]POST
+
+11:58:33:[ RequestParams ]{}
+
+11:58:33:[ Response ]获取进程状态操作成功
+
+11:58:33:请求结束
+
+
+
+11:58:33:[ Response ]获取在线状态操作成功
+
+11:58:33:请求结束
+
+
+
+11:58:38:[ RequestURL ]/queryUpTime
+
+11:58:38:[ RequestMethod ]POST
+
+11:58:38:[ RequestParams ]{}
+
+11:58:38:[ RequestURL ]/queryRunProcess
+
+11:58:38:[ RequestMethod ]POST
+
+11:58:38:[ RequestParams ]{}
+
+11:58:39:[ Response ]获取进程状态操作成功
+
+11:58:39:请求结束
+
+
+
+11:58:39:[ Response ]获取在线状态操作成功
+
+11:58:39:请求结束
+
+
+
+11:58:44:[ RequestURL ]/queryUpTime
+
+11:58:44:[ RequestMethod ]POST
+
+11:58:44:[ RequestParams ]{}
+
+11:58:44:[ RequestURL ]/queryRunProcess
+
+11:58:44:[ RequestMethod ]POST
+
+11:58:44:[ RequestParams ]{}
+
+11:58:44:[ Response ]获取在线状态操作成功
+
+11:58:44:请求结束
+
+
+
+11:58:44:[ Response ]获取进程状态操作成功
+
+11:58:44:请求结束
+
+
+
+11:59:15:[ RequestURL ]/queryUpTime
+
+11:59:15:[ RequestMethod ]POST
+
+11:59:15:[ RequestParams ]{}
+
+11:59:15:[ RequestURL ]/queryRunProcess
+
+11:59:15:[ RequestMethod ]POST
+
+11:59:15:[ RequestParams ]{}
+
+11:59:15:[ RequestURL ]/queryRunProcess
+
+11:59:15:[ RequestMethod ]POST
+
+11:59:15:[ RequestParams ]{}
+
+11:59:15:[ Response ]获取进程状态操作成功
+
+11:59:15:请求结束
+
+
+
+11:59:15:[ Response ]获取进程状态操作成功
+
+11:59:15:请求结束
+
+
+
+11:59:15:[ Response ]获取在线状态操作成功
+
+11:59:15:请求结束
+
+
+
+12:03:23:[ RequestURL ]/queryUpTime
+
+12:03:23:[ RequestMethod ]POST
+
+12:03:23:[ RequestParams ]{}
+
+12:03:23:[ RequestURL ]/queryRunProcess
+
+12:03:23:[ RequestMethod ]POST
+
+12:03:23:[ RequestParams ]{}
+
+12:03:23:[ RequestURL ]/queryRunProcess
+
+12:03:23:[ RequestMethod ]POST
+
+12:03:23:[ RequestParams ]{}
+
+12:03:23:[ Response ]获取进程状态操作成功
+
+12:03:23:请求结束
+
+
+
+12:03:23:[ Response ]获取在线状态操作成功
+
+12:03:23:请求结束
+
+
+
+12:03:23:[ Response ]获取进程状态操作成功
+
+12:03:23:请求结束
+
+
+
+13:31:58:[ RequestURL ]/getToken
+
+13:31:58:[ RequestMethod ]POST
+
+13:31:58:[ RequestParams ]{"username":"benson","password":"benson"}
+
+13:31:58:[ RequestURL ]/login
+
+13:31:58:[ RequestMethod ]POST
+
+13:31:58:[ RequestParams ]{"username":"benson","password":"benson"}
+
+13:31:59:[ Response ]登陆操作成功
+
+13:31:59:请求结束
+
+
+
+13:31:59:[ RequestURL ]/queryUpTime
+
+13:31:59:[ RequestMethod ]POST
+
+13:31:59:[ RequestParams ]{}
+
+13:31:59:[ RequestURL ]/queryRunProcess
+
+13:31:59:[ RequestMethod ]POST
+
+13:31:59:[ RequestParams ]{}
+
+13:31:59:[ RequestURL ]/queryRunProcess
+
+13:31:59:[ RequestMethod ]POST
+
+13:31:59:[ RequestParams ]{}
+
+13:32:00:[ Response ]获取在线状态操作成功
+
+13:32:00:请求结束
+
+
+
+13:32:00:[ Response ]获取进程状态操作成功
+
+13:32:00:请求结束
+
+
+
+13:32:00:[ Response ]获取进程状态操作成功
+
+13:32:00:请求结束
+
+
+
+13:33:37:[ RequestURL ]/queryUpTime
+
+13:33:37:[ RequestMethod ]POST
+
+13:33:37:[ RequestParams ]{}
+
+13:33:37:[ RequestURL ]/queryRunProcess
+
+13:33:37:[ RequestMethod ]POST
+
+13:33:37:[ RequestParams ]{}
+
+13:33:37:[ RequestURL ]/queryRunProcess
+
+13:33:37:[ RequestMethod ]POST
+
+13:33:37:[ RequestParams ]{}
+
+13:33:37:[ Response ]获取在线状态操作成功
+
+13:33:37:请求结束
+
+
+
+13:33:37:[ Response ]获取进程状态操作成功
+
+13:33:37:请求结束
+
+
+
+13:33:37:[ Response ]获取进程状态操作成功
+
+13:33:37:请求结束
+
+
+
+13:33:56:[ RequestURL ]/queryUpTime
+
+13:33:56:[ RequestMethod ]POST
+
+13:33:56:[ RequestParams ]{}
+
+13:33:56:[ RequestURL ]/queryRunProcess
+
+13:33:56:[ RequestMethod ]POST
+
+13:33:56:[ RequestParams ]{}
+
+13:33:56:[ RequestURL ]/queryRunProcess
+
+13:33:56:[ RequestMethod ]POST
+
+13:33:56:[ RequestParams ]{}
+
+13:33:56:[ Response ]获取在线状态操作成功
+
+13:33:56:请求结束
+
+
+
+13:33:56:[ Response ]获取进程状态操作成功
+
+13:33:56:请求结束
+
+
+
+13:33:56:[ Response ]获取进程状态操作成功
+
+13:33:56:请求结束
+
+
+
+13:34:55:[ RequestURL ]/queryUpTime
+
+13:34:55:[ RequestMethod ]POST
+
+13:34:55:[ RequestParams ]{}
+
+13:34:55:[ RequestURL ]/queryRunProcess
+
+13:34:55:[ RequestMethod ]POST
+
+13:34:55:[ RequestParams ]{}
+
+13:34:55:[ RequestURL ]/queryRunProcess
+
+13:34:55:[ RequestMethod ]POST
+
+13:34:55:[ RequestParams ]{}
+
+13:34:55:[ Response ]获取在线状态操作成功
+
+13:34:55:请求结束
+
+
+
+13:34:55:[ Response ]获取进程状态操作成功
+
+13:34:55:请求结束
+
+
+
+13:34:55:[ Response ]获取进程状态操作成功
+
+13:34:55:请求结束
+
+
+
+13:37:39:[ RequestURL ]/queryUpTime
+
+13:37:39:[ RequestMethod ]POST
+
+13:37:39:[ RequestParams ]{}
+
+13:37:39:[ RequestURL ]/queryRunProcess
+
+13:37:39:[ RequestMethod ]POST
+
+13:37:39:[ RequestParams ]{}
+
+13:37:39:[ RequestURL ]/queryRunProcess
+
+13:37:39:[ RequestMethod ]POST
+
+13:37:39:[ RequestParams ]{}
+
+13:37:40:[ Response ]获取在线状态操作成功
+
+13:37:40:请求结束
+
+
+
+13:37:40:[ Response ]获取进程状态操作成功
+
+13:37:40:请求结束
+
+
+
+13:37:40:[ Response ]获取进程状态操作成功
+
+13:37:40:请求结束
+
+
+
+13:38:41:[ RequestURL ]/queryUpTime
+
+13:38:41:[ RequestMethod ]POST
+
+13:38:41:[ RequestParams ]{}
+
+13:38:41:[ RequestURL ]/queryRunProcess
+
+13:38:41:[ RequestMethod ]POST
+
+13:38:41:[ RequestParams ]{}
+
+13:38:41:[ RequestURL ]/queryRunProcess
+
+13:38:41:[ RequestMethod ]POST
+
+13:38:41:[ RequestParams ]{}
+
+13:38:41:[ Response ]获取进程状态操作成功
+
+13:38:41:请求结束
+
+
+
+13:38:41:[ Response ]获取在线状态操作成功
+
+13:38:41:请求结束
+
+
+
+13:38:41:[ Response ]获取进程状态操作成功
+
+13:38:41:请求结束
+
+
+
+13:39:38:[ RequestURL ]/queryUpTime
+
+13:39:38:[ RequestMethod ]POST
+
+13:39:38:[ RequestParams ]{}
+
+13:39:38:[ RequestURL ]/queryRunProcess
+
+13:39:38:[ RequestMethod ]POST
+
+13:39:38:[ RequestParams ]{}
+
+13:39:38:[ RequestURL ]/queryRunProcess
+
+13:39:38:[ RequestMethod ]POST
+
+13:39:38:[ RequestParams ]{}
+
+13:39:39:[ Response ]获取在线状态操作成功
+
+13:39:39:请求结束
+
+
+
+13:39:39:[ Response ]获取进程状态操作成功
+
+13:39:39:请求结束
+
+
+
+13:39:39:[ Response ]获取进程状态操作成功
+
+13:39:39:请求结束
+
+
+
+13:40:45:[ RequestURL ]/queryUpTime
+
+13:40:45:[ RequestMethod ]POST
+
+13:40:45:[ RequestParams ]{}
+
+13:40:45:[ RequestURL ]/queryRunProcess
+
+13:40:45:[ RequestMethod ]POST
+
+13:40:45:[ RequestParams ]{}
+
+13:40:45:[ RequestURL ]/queryRunProcess
+
+13:40:45:[ RequestMethod ]POST
+
+13:40:45:[ RequestParams ]{}
+
+13:40:46:[ Response ]获取进程状态操作成功
+
+13:40:46:请求结束
+
+
+
+13:40:46:[ Response ]获取进程状态操作成功
+
+13:40:46:请求结束
+
+
+
+13:40:46:[ Response ]获取在线状态操作成功
+
+13:40:46:请求结束
+
+
+
+13:44:40:[ RequestURL ]/queryUpTime
+
+13:44:40:[ RequestMethod ]POST
+
+13:44:40:[ RequestParams ]{}
+
+13:44:40:[ RequestURL ]/queryRunProcess
+
+13:44:40:[ RequestMethod ]POST
+
+13:44:40:[ RequestParams ]{}
+
+13:44:40:[ RequestURL ]/queryRunProcess
+
+13:44:40:[ RequestMethod ]POST
+
+13:44:40:[ RequestParams ]{}
+
+13:44:40:[ Response ]获取进程状态操作成功
+
+13:44:40:请求结束
+
+
+
+13:44:40:[ Response ]获取在线状态操作成功
+
+13:44:40:请求结束
+
+
+
+13:44:40:[ Response ]获取进程状态操作成功
+
+13:44:40:请求结束
+
+
+
+13:45:55:[ RequestURL ]/queryUpTime
+
+13:45:55:[ RequestMethod ]POST
+
+13:45:55:[ RequestParams ]{}
+
+13:45:55:[ RequestURL ]/queryRunProcess
+
+13:45:55:[ RequestMethod ]POST
+
+13:45:55:[ RequestParams ]{}
+
+13:45:55:[ RequestURL ]/queryRunProcess
+
+13:45:55:[ RequestMethod ]POST
+
+13:45:55:[ RequestParams ]{}
+
+13:45:55:[ Response ]获取在线状态操作成功
+
+13:45:55:请求结束
+
+
+
+13:45:55:[ Response ]获取进程状态操作成功
+
+13:45:55:请求结束
+
+
+
+13:45:55:[ Response ]获取进程状态操作成功
+
+13:45:55:请求结束
+
+
+
+13:48:06:[ RequestURL ]/queryUpTime
+
+13:48:06:[ RequestMethod ]POST
+
+13:48:06:[ RequestParams ]{}
+
+13:48:06:[ RequestURL ]/queryRunProcess
+
+13:48:06:[ RequestMethod ]POST
+
+13:48:06:[ RequestParams ]{}
+
+13:48:06:[ RequestURL ]/queryRunProcess
+
+13:48:06:[ RequestMethod ]POST
+
+13:48:06:[ RequestParams ]{}
+
+13:48:07:[ Response ]获取进程状态操作成功
+
+13:48:07:请求结束
+
+
+
+13:48:07:[ Response ]获取在线状态操作成功
+
+13:48:07:请求结束
+
+
+
+13:48:07:[ Response ]获取进程状态操作成功
+
+13:48:07:请求结束
+
+
+
+13:48:26:[ RequestURL ]/queryUpTime
+
+13:48:26:[ RequestMethod ]POST
+
+13:48:26:[ RequestParams ]{}
+
+13:48:26:[ RequestURL ]/queryRunProcess
+
+13:48:26:[ RequestMethod ]POST
+
+13:48:26:[ RequestParams ]{}
+
+13:48:26:[ RequestURL ]/queryRunProcess
+
+13:48:26:[ RequestMethod ]POST
+
+13:48:26:[ RequestParams ]{}
+
+13:48:27:[ Response ]获取进程状态操作成功
+
+13:48:27:请求结束
+
+
+
+13:48:27:[ Response ]获取在线状态操作成功
+
+13:48:27:请求结束
+
+
+
+13:48:27:[ Response ]获取进程状态操作成功
+
+13:48:27:请求结束
+
+
+
+13:49:07:[ RequestURL ]/queryUpTime
+
+13:49:07:[ RequestMethod ]POST
+
+13:49:07:[ RequestParams ]{}
+
+13:49:07:[ RequestURL ]/queryRunProcess
+
+13:49:07:[ RequestMethod ]POST
+
+13:49:07:[ RequestParams ]{}
+
+13:49:07:[ RequestURL ]/queryRunProcess
+
+13:49:07:[ RequestMethod ]POST
+
+13:49:07:[ RequestParams ]{}
+
+13:49:07:[ Response ]获取在线状态操作成功
+
+13:49:07:请求结束
+
+
+
+13:49:07:[ Response ]获取进程状态操作成功
+
+13:49:07:请求结束
+
+
+
+13:49:07:[ Response ]获取进程状态操作成功
+
+13:49:07:请求结束
+
+
+
+13:49:57:[ RequestURL ]/queryUpTime
+
+13:49:57:[ RequestMethod ]POST
+
+13:49:57:[ RequestParams ]{}
+
+13:49:57:[ RequestURL ]/queryRunProcess
+
+13:49:57:[ RequestMethod ]POST
+
+13:49:57:[ RequestParams ]{}
+
+13:49:57:[ RequestURL ]/queryRunProcess
+
+13:49:57:[ RequestMethod ]POST
+
+13:49:57:[ RequestParams ]{}
+
+13:49:58:[ Response ]获取在线状态操作成功
+
+13:49:58:请求结束
+
+
+
+13:49:58:[ Response ]获取进程状态操作成功
+
+13:49:58:请求结束
+
+
+
+13:49:58:[ Response ]获取进程状态操作成功
+
+13:49:58:请求结束
+
+
+
+13:50:18:[ RequestURL ]/queryUpTime
+
+13:50:18:[ RequestMethod ]POST
+
+13:50:18:[ RequestParams ]{}
+
+13:50:18:[ RequestURL ]/queryRunProcess
+
+13:50:18:[ RequestMethod ]POST
+
+13:50:18:[ RequestParams ]{}
+
+13:50:18:[ RequestURL ]/queryRunProcess
+
+13:50:18:[ RequestMethod ]POST
+
+13:50:18:[ RequestParams ]{}
+
+13:50:18:[ RequestURL ]/queryRunProcess
+
+13:50:18:[ RequestMethod ]POST
+
+13:50:18:[ RequestParams ]{}
+
+13:50:19:[ Response ]获取进程状态操作成功
+
+13:50:19:请求结束
+
+
+
+13:50:19:[ Response ]获取进程状态操作成功
+
+13:50:19:请求结束
+
+
+
+13:50:19:[ Response ]获取在线状态操作成功
+
+13:50:19:请求结束
+
+
+
+13:50:19:[ Response ]获取进程状态操作成功
+
+13:50:19:请求结束
+
+
+
+13:50:47:[ RequestURL ]/queryUpTime
+
+13:50:47:[ RequestMethod ]POST
+
+13:50:47:[ RequestParams ]{}
+
+13:50:47:[ RequestURL ]/queryRunProcess
+
+13:50:47:[ RequestMethod ]POST
+
+13:50:47:[ RequestParams ]{}
+
+13:50:47:[ RequestURL ]/queryRunProcess
+
+13:50:47:[ RequestMethod ]POST
+
+13:50:47:[ RequestParams ]{}
+
+13:50:47:[ RequestURL ]/queryRunProcess
+
+13:50:47:[ RequestMethod ]POST
+
+13:50:47:[ RequestParams ]{}
+
+13:50:47:[ Response ]获取进程状态操作成功
+
+13:50:47:请求结束
+
+
+
+13:50:47:[ Response ]获取进程状态操作成功
+
+13:50:47:请求结束
+
+
+
+13:50:47:[ Response ]获取在线状态操作成功
+
+13:50:47:请求结束
+
+
+
+13:50:47:[ Response ]获取进程状态操作成功
+
+13:50:47:请求结束
+
+
+
+13:51:43:[ RequestURL ]/queryUpTime
+
+13:51:43:[ RequestMethod ]POST
+
+13:51:43:[ RequestParams ]{}
+
+13:51:43:[ RequestURL ]/queryRunProcess
+
+13:51:43:[ RequestMethod ]POST
+
+13:51:43:[ RequestParams ]{}
+
+13:51:43:[ RequestURL ]/queryRunProcess
+
+13:51:43:[ RequestMethod ]POST
+
+13:51:43:[ RequestParams ]{}
+
+13:51:43:[ RequestURL ]/queryRunProcess
+
+13:51:43:[ RequestMethod ]POST
+
+13:51:43:[ RequestParams ]{}
+
+13:51:43:[ Response ]获取进程状态操作成功
+
+13:51:43:请求结束
+
+
+
+13:51:44:[ Response ]获取进程状态操作成功
+
+13:51:44:请求结束
+
+
+
+13:51:44:[ Response ]获取在线状态操作成功
+
+13:51:44:请求结束
+
+
+
+13:51:44:[ Response ]获取进程状态操作成功
+
+13:51:44:请求结束
+
+
+
+13:52:21:[ RequestURL ]/queryUpTime
+
+13:52:21:[ RequestMethod ]POST
+
+13:52:21:[ RequestParams ]{}
+
+13:52:21:[ RequestURL ]/queryRunProcess
+
+13:52:21:[ RequestMethod ]POST
+
+13:52:21:[ RequestParams ]{}
+
+13:52:21:[ RequestURL ]/queryRunProcess
+
+13:52:21:[ RequestMethod ]POST
+
+13:52:21:[ RequestParams ]{}
+
+13:52:21:[ RequestURL ]/queryRunProcess
+
+13:52:21:[ RequestMethod ]POST
+
+13:52:21:[ RequestParams ]{}
+
+13:52:21:[ Response ]获取在线状态操作成功
+
+13:52:21:请求结束
+
+
+
+13:52:21:[ Response ]获取进程状态操作成功
+
+13:52:21:请求结束
+
+
+
+13:52:21:[ Response ]获取进程状态操作成功
+
+13:52:21:请求结束
+
+
+
+13:52:21:[ Response ]获取进程状态操作成功
+
+13:52:21:请求结束
+
+
+
+13:54:42:[ RequestURL ]/queryUpTime
+
+13:54:42:[ RequestMethod ]POST
+
+13:54:42:[ RequestParams ]{}
+
+13:54:42:[ RequestURL ]/queryRunProcess
+
+13:54:42:[ RequestMethod ]POST
+
+13:54:42:[ RequestParams ]{}
+
+13:54:42:[ RequestURL ]/queryRunProcess
+
+13:54:42:[ RequestMethod ]POST
+
+13:54:42:[ RequestParams ]{}
+
+13:54:42:[ RequestURL ]/queryRunProcess
+
+13:54:42:[ RequestMethod ]POST
+
+13:54:42:[ RequestParams ]{}
+
+13:54:42:[ Response ]获取进程状态操作成功
+
+13:54:42:请求结束
+
+
+
+13:54:42:[ Response ]获取进程状态操作成功
+
+13:54:42:请求结束
+
+
+
+13:54:42:[ Response ]获取在线状态操作成功
+
+13:54:42:请求结束
+
+
+
+13:54:42:[ Response ]获取进程状态操作成功
+
+13:54:42:请求结束
+
+
+
+13:56:31:[ RequestURL ]/queryUpTime
+
+13:56:31:[ RequestMethod ]POST
+
+13:56:31:[ RequestParams ]{}
+
+13:56:31:[ RequestURL ]/queryRunProcess
+
+13:56:31:[ RequestMethod ]POST
+
+13:56:31:[ RequestParams ]{}
+
+13:56:31:[ RequestURL ]/queryRunProcess
+
+13:56:31:[ RequestMethod ]POST
+
+13:56:31:[ RequestParams ]{}
+
+13:56:31:[ RequestURL ]/queryRunProcess
+
+13:56:31:[ RequestMethod ]POST
+
+13:56:31:[ RequestParams ]{}
+
+13:56:31:[ Response ]获取在线状态操作成功
+
+13:56:31:请求结束
+
+
+
+13:56:31:[ Response ]获取进程状态操作成功
+
+13:56:31:请求结束
+
+
+
+13:56:31:[ Response ]获取进程状态操作成功
+
+13:56:31:请求结束
+
+
+
+13:56:31:[ Response ]获取进程状态操作成功
+
+13:56:31:请求结束
+
+
+
+13:56:55:[ RequestURL ]/queryUpTime
+
+13:56:55:[ RequestMethod ]POST
+
+13:56:55:[ RequestParams ]{}
+
+13:56:55:[ RequestURL ]/queryRunProcess
+
+13:56:55:[ RequestMethod ]POST
+
+13:56:55:[ RequestParams ]{}
+
+13:56:55:[ RequestURL ]/queryRunProcess
+
+13:56:55:[ RequestMethod ]POST
+
+13:56:55:[ RequestParams ]{}
+
+13:56:55:[ RequestURL ]/queryRunProcess
+
+13:56:55:[ RequestMethod ]POST
+
+13:56:55:[ RequestParams ]{}
+
+13:56:55:[ Response ]获取在线状态操作成功
+
+13:56:55:请求结束
+
+
+
+13:56:55:[ Response ]获取进程状态操作成功
+
+13:56:55:请求结束
+
+
+
+13:56:55:[ Response ]获取进程状态操作成功
+
+13:56:55:请求结束
+
+
+
+13:56:55:[ Response ]获取进程状态操作成功
+
+13:56:55:请求结束
+
+
+
+13:57:33:[ RequestURL ]/queryUpTime
+
+13:57:33:[ RequestMethod ]POST
+
+13:57:33:[ RequestParams ]{}
+
+13:57:33:[ RequestURL ]/queryRunProcess
+
+13:57:33:[ RequestMethod ]POST
+
+13:57:33:[ RequestParams ]{}
+
+13:57:33:[ RequestURL ]/queryRunProcess
+
+13:57:33:[ RequestMethod ]POST
+
+13:57:33:[ RequestParams ]{}
+
+13:57:33:[ RequestURL ]/queryRunProcess
+
+13:57:33:[ RequestMethod ]POST
+
+13:57:33:[ RequestParams ]{}
+
+13:57:33:[ Response ]获取进程状态操作成功
+
+13:57:33:请求结束
+
+
+
+13:57:33:[ Response ]获取在线状态操作成功
+
+13:57:33:请求结束
+
+
+
+13:57:33:[ Response ]获取进程状态操作成功
+
+13:57:33:请求结束
+
+
+
+13:57:33:[ Response ]获取进程状态操作成功
+
+13:57:33:请求结束
+
+
+
+14:02:47:[ RequestURL ]/queryUpTime
+
+14:02:47:[ RequestMethod ]POST
+
+14:02:47:[ RequestParams ]{}
+
+14:02:47:[ RequestURL ]/queryRunProcess
+
+14:02:47:[ RequestMethod ]POST
+
+14:02:47:[ RequestParams ]{}
+
+14:02:47:[ RequestURL ]/queryRunProcess
+
+14:02:47:[ RequestMethod ]POST
+
+14:02:47:[ RequestParams ]{}
+
+14:02:47:[ RequestURL ]/queryRunProcess
+
+14:02:47:[ RequestMethod ]POST
+
+14:02:47:[ RequestParams ]{}
+
+14:02:47:[ Response ]获取进程状态操作成功
+
+14:02:47:请求结束
+
+
+
+14:02:48:[ Response ]获取在线状态操作成功
+
+14:02:48:请求结束
+
+
+
+14:02:48:[ Response ]获取进程状态操作成功
+
+14:02:48:请求结束
+
+
+
+14:02:49:[ Response ]获取进程状态操作成功
+
+14:02:49:请求结束
+
+
+
+14:02:56:[ RequestURL ]/queryUpTime
+
+14:02:56:[ RequestMethod ]POST
+
+14:02:56:[ RequestParams ]{}
+
+14:02:57:[ RequestURL ]/queryRunProcess
+
+14:02:57:[ RequestMethod ]POST
+
+14:02:57:[ RequestParams ]{}
+
+14:02:57:[ RequestURL ]/queryRunProcess
+
+14:02:57:[ RequestMethod ]POST
+
+14:02:57:[ RequestParams ]{}
+
+14:02:57:[ RequestURL ]/queryRunProcess
+
+14:02:57:[ RequestMethod ]POST
+
+14:02:57:[ RequestParams ]{}
+
+14:02:57:[ Response ]获取进程状态操作成功
+
+14:02:57:请求结束
+
+
+
+14:02:58:[ Response ]获取在线状态操作成功
+
+14:02:58:请求结束
+
+
+
+14:02:58:[ Response ]获取进程状态操作成功
+
+14:02:58:请求结束
+
+
+
+14:02:58:[ Response ]获取进程状态操作成功
+
+14:02:58:请求结束
+
+
+
+14:03:26:[ RequestURL ]/queryUpTime
+
+14:03:26:[ RequestMethod ]POST
+
+14:03:26:[ RequestParams ]{}
+
+14:03:26:[ RequestURL ]/queryRunProcess
+
+14:03:26:[ RequestMethod ]POST
+
+14:03:26:[ RequestParams ]{}
+
+14:03:26:[ RequestURL ]/queryRunProcess
+
+14:03:26:[ RequestMethod ]POST
+
+14:03:26:[ RequestParams ]{}
+
+14:03:26:[ RequestURL ]/queryRunProcess
+
+14:03:26:[ RequestMethod ]POST
+
+14:03:26:[ RequestParams ]{}
+
+14:03:26:[ RequestURL ]/queryRunProcess
+
+14:03:26:[ RequestMethod ]POST
+
+14:03:26:[ RequestParams ]{}
+
+14:03:27:[ Response ]获取在线状态操作成功
+
+14:03:27:请求结束
+
+
+
+14:03:27:[ Response ]获取进程状态操作成功
+
+14:03:27:请求结束
+
+
+
+14:03:27:[ Response ]获取进程状态操作成功
+
+14:03:27:请求结束
+
+
+
+14:03:28:[ Response ]获取进程状态操作成功
+
+14:03:28:请求结束
+
+
+
+14:03:28:[ Response ]获取进程状态操作成功
+
+14:03:28:请求结束
+
+
+
+14:07:19:[ RequestURL ]/queryUpTime
+
+14:07:19:[ RequestMethod ]POST
+
+14:07:19:[ RequestParams ]{}
+
+14:07:19:[ RequestURL ]/queryRunProcess
+
+14:07:19:[ RequestMethod ]POST
+
+14:07:19:[ RequestParams ]{}
+
+14:07:19:[ RequestURL ]/queryRunProcess
+
+14:07:19:[ RequestMethod ]POST
+
+14:07:19:[ RequestParams ]{}
+
+14:07:20:[ RequestURL ]/queryRunProcess
+
+14:07:20:[ RequestMethod ]POST
+
+14:07:20:[ RequestParams ]{}
+
+14:07:20:[ RequestURL ]/queryRunProcess
+
+14:07:20:[ RequestMethod ]POST
+
+14:07:20:[ RequestParams ]{}
+
+14:07:20:[ Response ]获取进程状态操作成功
+
+14:07:20:请求结束
+
+
+
+14:07:20:[ Response ]获取进程状态操作成功
+
+14:07:20:请求结束
+
+
+
+14:07:20:[ Response ]获取进程状态操作成功
+
+14:07:20:请求结束
+
+
+
+14:07:21:[ Response ]获取在线状态操作成功
+
+14:07:21:请求结束
+
+
+
+14:07:21:[ Response ]获取进程状态操作成功
+
+14:07:21:请求结束
+
+
+
+14:07:47:[ RequestURL ]/queryUpTime
+
+14:07:47:[ RequestMethod ]POST
+
+14:07:47:[ RequestParams ]{}
+
+14:07:47:[ RequestURL ]/queryRunProcess
+
+14:07:47:[ RequestMethod ]POST
+
+14:07:47:[ RequestParams ]{}
+
+14:07:48:[ RequestURL ]/queryRunProcess
+
+14:07:48:[ RequestMethod ]POST
+
+14:07:48:[ RequestParams ]{}
+
+14:07:48:[ RequestURL ]/queryRunProcess
+
+14:07:48:[ RequestMethod ]POST
+
+14:07:48:[ RequestParams ]{}
+
+14:07:48:[ RequestURL ]/queryRunProcess
+
+14:07:48:[ RequestMethod ]POST
+
+14:07:48:[ RequestParams ]{}
+
+14:07:48:[ Response ]获取进程状态操作成功
+
+14:07:48:请求结束
+
+
+
+14:07:48:[ Response ]获取在线状态操作成功
+
+14:07:48:请求结束
+
+
+
+14:07:48:[ Response ]获取进程状态操作成功
+
+14:07:48:请求结束
+
+
+
+14:07:48:[ Response ]获取进程状态操作成功
+
+14:07:48:请求结束
+
+
+
+14:07:48:[ Response ]获取进程状态操作成功
+
+14:07:48:请求结束
+
+
+
+14:09:45:[ RequestURL ]/queryUpTime
+
+14:09:45:[ RequestMethod ]POST
+
+14:09:45:[ RequestParams ]{}
+
+14:09:45:[ RequestURL ]/queryRunProcess
+
+14:09:45:[ RequestMethod ]POST
+
+14:09:45:[ RequestParams ]{}
+
+14:09:45:[ RequestURL ]/queryRunProcess
+
+14:09:45:[ RequestMethod ]POST
+
+14:09:45:[ RequestParams ]{}
+
+14:09:45:[ RequestURL ]/queryRunProcess
+
+14:09:45:[ RequestMethod ]POST
+
+14:09:45:[ RequestParams ]{}
+
+14:09:45:[ RequestURL ]/queryRunProcess
+
+14:09:45:[ RequestMethod ]POST
+
+14:09:45:[ RequestParams ]{}
+
+14:09:45:[ Response ]获取在线状态操作成功
+
+14:09:45:请求结束
+
+
+
+14:09:45:[ Response ]获取进程状态操作成功
+
+14:09:45:请求结束
+
+
+
+14:09:45:[ Response ]获取进程状态操作成功
+
+14:09:45:请求结束
+
+
+
+14:09:45:[ Response ]获取进程状态操作成功
+
+14:09:45:请求结束
+
+
+
+14:09:45:[ Response ]获取进程状态操作成功
+
+14:09:45:请求结束
+
+
+
+14:10:52:[ RequestURL ]/queryUpTime
+
+14:10:52:[ RequestMethod ]POST
+
+14:10:52:[ RequestParams ]{}
+
+14:10:52:[ RequestURL ]/queryRunProcess
+
+14:10:52:[ RequestMethod ]POST
+
+14:10:52:[ RequestParams ]{}
+
+14:10:52:[ RequestURL ]/queryRunProcess
+
+14:10:52:[ RequestMethod ]POST
+
+14:10:52:[ RequestParams ]{}
+
+14:10:52:[ RequestURL ]/queryRunProcess
+
+14:10:52:[ RequestMethod ]POST
+
+14:10:52:[ RequestParams ]{}
+
+14:10:52:[ RequestURL ]/queryRunProcess
+
+14:10:52:[ RequestMethod ]POST
+
+14:10:52:[ RequestParams ]{}
+
+14:10:53:[ Response ]获取在线状态操作成功
+
+14:10:53:请求结束
+
+
+
+14:10:53:[ Response ]获取进程状态操作成功
+
+14:10:53:请求结束
+
+
+
+14:10:53:[ Response ]获取进程状态操作成功
+
+14:10:53:请求结束
+
+
+
+14:10:53:[ Response ]获取进程状态操作成功
+
+14:10:53:请求结束
+
+
+
+14:10:53:[ Response ]获取进程状态操作成功
+
+14:10:53:请求结束
+
+
+
+14:11:08:[ RequestURL ]/queryUpTime
+
+14:11:08:[ RequestMethod ]POST
+
+14:11:08:[ RequestParams ]{}
+
+14:11:08:[ RequestURL ]/queryRunProcess
+
+14:11:08:[ RequestMethod ]POST
+
+14:11:08:[ RequestParams ]{}
+
+14:11:08:[ RequestURL ]/queryRunProcess
+
+14:11:08:[ RequestMethod ]POST
+
+14:11:08:[ RequestParams ]{}
+
+14:11:08:[ RequestURL ]/queryRunProcess
+
+14:11:08:[ RequestMethod ]POST
+
+14:11:08:[ RequestParams ]{}
+
+14:11:08:[ RequestURL ]/queryRunProcess
+
+14:11:08:[ RequestMethod ]POST
+
+14:11:08:[ RequestParams ]{}
+
+14:11:08:[ Response ]获取在线状态操作成功
+
+14:11:08:请求结束
+
+
+
+14:11:08:[ Response ]获取进程状态操作成功
+
+14:11:08:请求结束
+
+
+
+14:11:08:[ Response ]获取进程状态操作成功
+
+14:11:08:请求结束
+
+
+
+14:11:08:[ Response ]获取进程状态操作成功
+
+14:11:08:请求结束
+
+
+
+14:11:09:[ Response ]获取进程状态操作成功
+
+14:11:09:请求结束
+
+
+
+14:11:26:[ RequestURL ]/queryUpTime
+
+14:11:26:[ RequestMethod ]POST
+
+14:11:26:[ RequestParams ]{}
+
+14:11:26:[ RequestURL ]/queryRunProcess
+
+14:11:26:[ RequestMethod ]POST
+
+14:11:26:[ RequestParams ]{}
+
+14:11:26:[ RequestURL ]/queryRunProcess
+
+14:11:26:[ RequestMethod ]POST
+
+14:11:26:[ RequestParams ]{}
+
+14:11:26:[ RequestURL ]/queryRunProcess
+
+14:11:26:[ RequestMethod ]POST
+
+14:11:26:[ RequestParams ]{}
+
+14:11:26:[ RequestURL ]/queryRunProcess
+
+14:11:26:[ RequestMethod ]POST
+
+14:11:26:[ RequestParams ]{}
+
+14:11:26:[ Response ]获取在线状态操作成功
+
+14:11:26:请求结束
+
+
+
+14:11:26:[ Response ]获取进程状态操作成功
+
+14:11:26:请求结束
+
+
+
+14:11:26:[ Response ]获取进程状态操作成功
+
+14:11:26:请求结束
+
+
+
+14:11:26:[ Response ]获取进程状态操作成功
+
+14:11:26:请求结束
+
+
+
+14:11:26:[ Response ]获取进程状态操作成功
+
+14:11:26:请求结束
+
+
+
+14:12:40:[ RequestURL ]/ServerList
+
+14:12:40:[ RequestMethod ]POST
+
+14:12:40:[ RequestParams ]{}
+
+14:12:40:[ Response ]获取服务器列表操作成功
+
+14:12:40:请求结束
+
+
+
+14:12:41:[ RequestURL ]/ContainerList
+
+14:12:41:[ RequestMethod ]POST
+
+14:12:41:[ RequestParams ]{}
+
+14:12:41:[ Response ]获取容器列表操作成功
+
+14:12:41:请求结束
+
+
+
+14:12:42:[ RequestURL ]/ServerList
+
+14:12:42:[ RequestMethod ]POST
+
+14:12:42:[ RequestParams ]{}
+
+14:12:42:[ Response ]获取服务器列表操作成功
+
+14:12:42:请求结束
+
+
+
+14:12:50:[ RequestURL ]/queryUpTime
+
+14:12:50:[ RequestMethod ]POST
+
+14:12:50:[ RequestParams ]{}
+
+14:12:50:[ RequestURL ]/queryRunProcess
+
+14:12:50:[ RequestMethod ]POST
+
+14:12:50:[ RequestParams ]{}
+
+14:12:50:[ RequestURL ]/queryRunProcess
+
+14:12:50:[ RequestMethod ]POST
+
+14:12:50:[ RequestParams ]{}
+
+14:12:50:[ RequestURL ]/queryRunProcess
+
+14:12:50:[ RequestMethod ]POST
+
+14:12:50:[ RequestParams ]{}
+
+14:12:50:[ RequestURL ]/queryRunProcess
+
+14:12:50:[ RequestMethod ]POST
+
+14:12:50:[ RequestParams ]{}
+
+14:12:51:[ Response ]获取在线状态操作成功
+
+14:12:51:请求结束
+
+
+
+14:12:51:[ Response ]获取进程状态操作成功
+
+14:12:51:请求结束
+
+
+
+14:12:51:[ Response ]获取进程状态操作成功
+
+14:12:51:请求结束
+
+
+
+14:12:51:[ Response ]获取进程状态操作成功
+
+14:12:51:请求结束
+
+
+
+14:12:51:[ Response ]获取进程状态操作成功
+
+14:12:51:请求结束
+
+
+
+14:14:05:[ RequestURL ]/queryUpTime
+
+14:14:05:[ RequestMethod ]POST
+
+14:14:05:[ RequestParams ]{}
+
+14:14:05:[ RequestURL ]/queryRunProcess
+
+14:14:05:[ RequestMethod ]POST
+
+14:14:05:[ RequestParams ]{}
+
+14:14:05:[ RequestURL ]/queryRunProcess
+
+14:14:05:[ RequestMethod ]POST
+
+14:14:05:[ RequestParams ]{}
+
+14:14:05:[ RequestURL ]/queryRunProcess
+
+14:14:05:[ RequestMethod ]POST
+
+14:14:05:[ RequestParams ]{}
+
+14:14:05:[ RequestURL ]/queryRunProcess
+
+14:14:05:[ RequestMethod ]POST
+
+14:14:05:[ RequestParams ]{}
+
+14:14:06:[ Response ]获取在线状态操作成功
+
+14:14:06:请求结束
+
+
+
+14:14:06:[ Response ]获取进程状态操作成功
+
+14:14:06:请求结束
+
+
+
+14:14:06:[ Response ]获取进程状态操作成功
+
+14:14:06:请求结束
+
+
+
+14:14:06:[ Response ]获取进程状态操作成功
+
+14:14:06:请求结束
+
+
+
+14:14:06:[ Response ]获取进程状态操作成功
+
+14:14:06:请求结束
+
+
+
+14:14:19:[ RequestURL ]/queryUpTime
+
+14:14:19:[ RequestMethod ]POST
+
+14:14:19:[ RequestParams ]{}
+
+14:14:19:[ RequestURL ]/queryRunProcess
+
+14:14:19:[ RequestMethod ]POST
+
+14:14:19:[ RequestParams ]{}
+
+14:14:19:[ RequestURL ]/queryRunProcess
+
+14:14:19:[ RequestMethod ]POST
+
+14:14:19:[ RequestParams ]{}
+
+14:14:19:[ RequestURL ]/queryRunProcess
+
+14:14:19:[ RequestMethod ]POST
+
+14:14:19:[ RequestParams ]{}
+
+14:14:19:[ RequestURL ]/queryRunProcess
+
+14:14:19:[ RequestMethod ]POST
+
+14:14:19:[ RequestParams ]{}
+
+14:14:19:[ Response ]获取进程状态操作成功
+
+14:14:19:请求结束
+
+
+
+14:14:19:[ Response ]获取进程状态操作成功
+
+14:14:19:请求结束
+
+
+
+14:14:19:[ Response ]获取在线状态操作成功
+
+14:14:19:请求结束
+
+
+
+14:14:19:[ Response ]获取进程状态操作成功
+
+14:14:19:请求结束
+
+
+
+14:14:19:[ Response ]获取进程状态操作成功
+
+14:14:19:请求结束
+
+
+
+14:16:41:[ RequestURL ]/queryUpTime
+
+14:16:41:[ RequestMethod ]POST
+
+14:16:41:[ RequestParams ]{}
+
+14:16:41:[ RequestURL ]/queryRunProcess
+
+14:16:41:[ RequestMethod ]POST
+
+14:16:41:[ RequestParams ]{}
+
+14:16:41:[ RequestURL ]/queryRunProcess
+
+14:16:41:[ RequestMethod ]POST
+
+14:16:41:[ RequestParams ]{}
+
+14:16:41:[ RequestURL ]/queryRunProcess
+
+14:16:41:[ RequestMethod ]POST
+
+14:16:41:[ RequestParams ]{}
+
+14:16:41:[ RequestURL ]/queryRunProcess
+
+14:16:41:[ RequestMethod ]POST
+
+14:16:41:[ RequestParams ]{}
+
+14:16:42:[ Response ]获取进程状态操作成功
+
+14:16:42:请求结束
+
+
+
+14:16:42:[ Response ]获取进程状态操作成功
+
+14:16:42:请求结束
+
+
+
+14:16:42:[ Response ]获取进程状态操作成功
+
+14:16:42:请求结束
+
+
+
+14:16:42:[ Response ]获取在线状态操作成功
+
+14:16:42:请求结束
+
+
+
+14:16:42:[ Response ]获取进程状态操作成功
+
+14:16:42:请求结束
+
+
+
+14:18:54:[ RequestURL ]/queryUpTime
+
+14:18:54:[ RequestMethod ]POST
+
+14:18:54:[ RequestParams ]{}
+
+14:18:54:[ RequestURL ]/queryRunProcess
+
+14:18:54:[ RequestMethod ]POST
+
+14:18:54:[ RequestParams ]{}
+
+14:18:54:[ RequestURL ]/queryRunProcess
+
+14:18:54:[ RequestMethod ]POST
+
+14:18:54:[ RequestParams ]{}
+
+14:18:54:[ RequestURL ]/queryRunProcess
+
+14:18:54:[ RequestMethod ]POST
+
+14:18:54:[ RequestParams ]{}
+
+14:18:54:[ RequestURL ]/queryRunProcess
+
+14:18:54:[ RequestMethod ]POST
+
+14:18:54:[ RequestParams ]{}
+
+14:18:54:[ Response ]获取进程状态操作成功
+
+14:18:54:请求结束
+
+
+
+14:18:54:[ Response ]获取进程状态操作成功
+
+14:18:54:请求结束
+
+
+
+14:18:54:[ Response ]获取进程状态操作成功
+
+14:18:54:请求结束
+
+
+
+14:18:54:[ Response ]获取进程状态操作成功
+
+14:18:54:请求结束
+
+
+
+14:18:54:[ Response ]获取在线状态操作成功
+
+14:18:54:请求结束
+
+
+
+14:19:19:[ RequestURL ]/queryUpTime
+
+14:19:19:[ RequestMethod ]POST
+
+14:19:19:[ RequestParams ]{}
+
+14:19:19:[ RequestURL ]/queryRunProcess
+
+14:19:19:[ RequestMethod ]POST
+
+14:19:19:[ RequestParams ]{}
+
+14:19:19:[ RequestURL ]/queryRunProcess
+
+14:19:19:[ RequestMethod ]POST
+
+14:19:19:[ RequestParams ]{}
+
+14:19:19:[ RequestURL ]/queryRunProcess
+
+14:19:19:[ RequestMethod ]POST
+
+14:19:19:[ RequestParams ]{}
+
+14:19:19:[ RequestURL ]/queryRunProcess
+
+14:19:19:[ RequestMethod ]POST
+
+14:19:19:[ RequestParams ]{}
+
+14:19:19:[ Response ]获取在线状态操作成功
+
+14:19:19:请求结束
+
+
+
+14:19:19:[ Response ]获取进程状态操作成功
+
+14:19:19:请求结束
+
+
+
+14:19:19:[ Response ]获取进程状态操作成功
+
+14:19:19:请求结束
+
+
+
+14:19:19:[ Response ]获取进程状态操作成功
+
+14:19:19:请求结束
+
+
+
+14:19:19:[ Response ]获取进程状态操作成功
+
+14:19:19:请求结束
+
+
+
+14:20:13:[ RequestURL ]/queryUpTime
+
+14:20:13:[ RequestMethod ]POST
+
+14:20:13:[ RequestParams ]{}
+
+14:20:13:[ RequestURL ]/queryRunProcess
+
+14:20:13:[ RequestMethod ]POST
+
+14:20:13:[ RequestParams ]{}
+
+14:20:13:[ RequestURL ]/queryRunProcess
+
+14:20:13:[ RequestMethod ]POST
+
+14:20:13:[ RequestParams ]{}
+
+14:20:13:[ RequestURL ]/queryRunProcess
+
+14:20:13:[ RequestMethod ]POST
+
+14:20:13:[ RequestParams ]{}
+
+14:20:13:[ RequestURL ]/queryRunProcess
+
+14:20:13:[ RequestMethod ]POST
+
+14:20:13:[ RequestParams ]{}
+
+14:20:13:[ Response ]获取在线状态操作成功
+
+14:20:13:请求结束
+
+
+
+14:20:13:[ Response ]获取进程状态操作成功
+
+14:20:13:请求结束
+
+
+
+14:20:13:[ Response ]获取进程状态操作成功
+
+14:20:13:请求结束
+
+
+
+14:20:13:[ Response ]获取进程状态操作成功
+
+14:20:13:请求结束
+
+
+
+14:20:13:[ Response ]获取进程状态操作成功
+
+14:20:13:请求结束
+
+
+
+14:20:30:[ RequestURL ]/queryUpTime
+
+14:20:30:[ RequestMethod ]POST
+
+14:20:30:[ RequestParams ]{}
+
+14:20:30:[ RequestURL ]/queryRunProcess
+
+14:20:30:[ RequestMethod ]POST
+
+14:20:30:[ RequestParams ]{}
+
+14:20:30:[ RequestURL ]/queryRunProcess
+
+14:20:30:[ RequestMethod ]POST
+
+14:20:30:[ RequestParams ]{}
+
+14:20:30:[ RequestURL ]/queryRunProcess
+
+14:20:30:[ RequestMethod ]POST
+
+14:20:30:[ RequestParams ]{}
+
+14:20:30:[ RequestURL ]/queryRunProcess
+
+14:20:30:[ RequestMethod ]POST
+
+14:20:30:[ RequestParams ]{}
+
+14:20:30:[ Response ]获取在线状态操作成功
+
+14:20:30:请求结束
+
+
+
+14:20:30:[ Response ]获取进程状态操作成功
+
+14:20:30:请求结束
+
+
+
+14:20:30:[ Response ]获取进程状态操作成功
+
+14:20:30:请求结束
+
+
+
+14:20:30:[ Response ]获取进程状态操作成功
+
+14:20:30:请求结束
+
+
+
+14:20:30:[ Response ]获取进程状态操作成功
+
+14:20:30:请求结束
+
+
+
+15:13:24:[ RequestURL ]/queryUpTime
+
+15:13:24:[ RequestMethod ]POST
+
+15:13:24:[ RequestParams ]{}
+
+15:13:24:[ RequestURL ]/queryRunProcess
+
+15:13:24:[ RequestMethod ]POST
+
+15:13:24:[ RequestParams ]{}
+
+15:13:24:[ RequestURL ]/queryRunProcess
+
+15:13:24:[ RequestMethod ]POST
+
+15:13:24:[ RequestParams ]{}
+
+15:13:24:[ RequestURL ]/queryRunProcess
+
+15:13:24:[ RequestMethod ]POST
+
+15:13:24:[ RequestParams ]{}
+
+15:13:24:[ RequestURL ]/queryRunProcess
+
+15:13:24:[ RequestMethod ]POST
+
+15:13:24:[ RequestParams ]{}
+
+15:13:25:[ Response ]获取进程状态操作成功
+
+15:13:25:请求结束
+
+
+
+15:13:25:[ Response ]获取在线状态操作成功
+
+15:13:25:请求结束
+
+
+
+15:13:25:[ RequestURL ]/queryRunProcess
+
+15:13:25:[ RequestMethod ]POST
+
+15:13:25:[ RequestParams ]{}
+
+15:13:25:[ Response ]获取进程状态操作成功
+
+15:13:25:请求结束
+
+
+
+15:13:25:[ Response ]获取进程状态操作成功
+
+15:13:25:请求结束
+
+
+
+15:13:25:[ Response ]获取进程状态操作成功
+
+15:13:25:请求结束
+
+
+
+15:13:25:[ Response ]获取进程状态操作成功
+
+15:13:25:请求结束
+
+
+
+15:23:28:[ RequestURL ]/queryUpTime
+
+15:23:28:[ RequestMethod ]POST
+
+15:23:28:[ RequestParams ]{}
+
+15:23:29:[ RequestURL ]/queryRunProcess
+
+15:23:29:[ RequestMethod ]POST
+
+15:23:29:[ RequestParams ]{}
+
+15:23:29:[ RequestURL ]/queryRunProcess
+
+15:23:29:[ RequestMethod ]POST
+
+15:23:29:[ RequestParams ]{}
+
+15:23:29:[ RequestURL ]/queryRunProcess
+
+15:23:29:[ RequestMethod ]POST
+
+15:23:29:[ RequestParams ]{}
+
+15:23:29:[ RequestURL ]/queryRunProcess
+
+15:23:29:[ RequestMethod ]POST
+
+15:23:29:[ RequestParams ]{}
+
+15:23:29:[ Response ]获取进程状态操作成功
+
+15:23:29:请求结束
+
+
+
+15:23:29:[ Response ]获取进程状态操作成功
+
+15:23:29:请求结束
+
+
+
+15:23:29:[ RequestURL ]/queryRunProcess
+
+15:23:29:[ RequestMethod ]POST
+
+15:23:29:[ RequestParams ]{}
+
+15:23:29:[ Response ]获取在线状态操作成功
+
+15:23:29:请求结束
+
+
+
+15:23:29:[ Response ]获取进程状态操作成功
+
+15:23:29:请求结束
+
+
+
+15:23:30:[ Response ]获取进程状态操作成功
+
+15:23:30:请求结束
+
+
+
+15:23:30:[ Response ]获取进程状态操作成功
+
+15:23:30:请求结束
+
+
+
+15:23:45:[ RequestURL ]/queryUpTime
+
+15:23:45:[ RequestMethod ]POST
+
+15:23:45:[ RequestParams ]{}
+
+15:23:45:[ RequestURL ]/queryRunProcess
+
+15:23:45:[ RequestMethod ]POST
+
+15:23:45:[ RequestParams ]{}
+
+15:23:45:[ RequestURL ]/queryRunProcess
+
+15:23:45:[ RequestMethod ]POST
+
+15:23:45:[ RequestParams ]{}
+
+15:23:45:[ RequestURL ]/queryRunProcess
+
+15:23:45:[ RequestMethod ]POST
+
+15:23:45:[ RequestParams ]{}
+
+15:23:45:[ RequestURL ]/queryRunProcess
+
+15:23:45:[ RequestMethod ]POST
+
+15:23:45:[ RequestParams ]{}
+
+15:23:45:[ Response ]获取在线状态操作成功
+
+15:23:45:请求结束
+
+
+
+15:23:45:[ RequestURL ]/queryRunProcess
+
+15:23:45:[ RequestMethod ]POST
+
+15:23:45:[ RequestParams ]{}
+
+15:23:45:[ Response ]获取进程状态操作成功
+
+15:23:45:请求结束
+
+
+
+15:23:45:[ Response ]获取进程状态操作成功
+
+15:23:45:请求结束
+
+
+
+15:23:45:[ Response ]获取进程状态操作成功
+
+15:23:45:请求结束
+
+
+
+15:23:45:[ Response ]获取进程状态操作成功
+
+15:23:45:请求结束
+
+
+
+15:23:46:[ Response ]获取进程状态操作成功
+
+15:23:46:请求结束
+
+
+
+15:24:03:[ RequestURL ]/queryUpTime
+
+15:24:03:[ RequestMethod ]POST
+
+15:24:03:[ RequestParams ]{}
+
+15:24:03:[ RequestURL ]/queryRunProcess
+
+15:24:03:[ RequestMethod ]POST
+
+15:24:03:[ RequestParams ]{}
+
+15:24:03:[ RequestURL ]/queryRunProcess
+
+15:24:03:[ RequestMethod ]POST
+
+15:24:03:[ RequestParams ]{}
+
+15:24:03:[ RequestURL ]/queryRunProcess
+
+15:24:03:[ RequestMethod ]POST
+
+15:24:03:[ RequestParams ]{}
+
+15:24:03:[ RequestURL ]/queryRunProcess
+
+15:24:03:[ RequestMethod ]POST
+
+15:24:03:[ RequestParams ]{}
+
+15:24:04:[ Response ]获取进程状态操作成功
+
+15:24:04:请求结束
+
+
+
+15:24:04:[ Response ]获取进程状态操作成功
+
+15:24:04:请求结束
+
+
+
+15:24:04:[ RequestURL ]/queryRunProcess
+
+15:24:04:[ RequestMethod ]POST
+
+15:24:04:[ RequestParams ]{}
+
+15:24:04:[ Response ]获取在线状态操作成功
+
+15:24:04:请求结束
+
+
+
+15:24:04:[ Response ]获取进程状态操作成功
+
+15:24:04:请求结束
+
+
+
+15:24:04:[ Response ]获取进程状态操作成功
+
+15:24:04:请求结束
+
+
+
+15:24:04:[ Response ]获取进程状态操作成功
+
+15:24:04:请求结束
+
+
+
+15:24:19:[ RequestURL ]/queryUpTime
+
+15:24:19:[ RequestMethod ]POST
+
+15:24:19:[ RequestParams ]{}
+
+15:24:19:[ RequestURL ]/queryRunProcess
+
+15:24:19:[ RequestMethod ]POST
+
+15:24:19:[ RequestParams ]{}
+
+15:24:19:[ RequestURL ]/queryRunProcess
+
+15:24:19:[ RequestMethod ]POST
+
+15:24:19:[ RequestParams ]{}
+
+15:24:19:[ RequestURL ]/queryRunProcess
+
+15:24:19:[ RequestMethod ]POST
+
+15:24:19:[ RequestParams ]{}
+
+15:24:19:[ RequestURL ]/queryRunProcess
+
+15:24:19:[ RequestMethod ]POST
+
+15:24:19:[ RequestParams ]{}
+
+15:24:20:[ Response ]获取进程状态操作成功
+
+15:24:20:请求结束
+
+
+
+15:24:20:[ Response ]获取在线状态操作成功
+
+15:24:20:请求结束
+
+
+
+15:24:20:[ Response ]获取进程状态操作成功
+
+15:24:20:请求结束
+
+
+
+15:24:20:[ RequestURL ]/queryRunProcess
+
+15:24:20:[ RequestMethod ]POST
+
+15:24:20:[ RequestParams ]{}
+
+15:24:20:[ Response ]获取进程状态操作成功
+
+15:24:20:请求结束
+
+
+
+15:24:20:[ Response ]获取进程状态操作成功
+
+15:24:20:请求结束
+
+
+
+15:24:20:[ Response ]获取进程状态操作成功
+
+15:24:20:请求结束
+
+
+
+15:24:27:[ RequestURL ]/queryUpTime
+
+15:24:27:[ RequestMethod ]POST
+
+15:24:27:[ RequestParams ]{}
+
+15:24:27:[ RequestURL ]/queryRunProcess
+
+15:24:27:[ RequestMethod ]POST
+
+15:24:27:[ RequestParams ]{}
+
+15:24:27:[ RequestURL ]/queryRunProcess
+
+15:24:27:[ RequestMethod ]POST
+
+15:24:27:[ RequestParams ]{}
+
+15:24:27:[ RequestURL ]/queryRunProcess
+
+15:24:27:[ RequestMethod ]POST
+
+15:24:27:[ RequestParams ]{}
+
+15:24:27:[ RequestURL ]/queryRunProcess
+
+15:24:27:[ RequestMethod ]POST
+
+15:24:27:[ RequestParams ]{}
+
+15:24:28:[ Response ]获取进程状态操作成功
+
+15:24:28:请求结束
+
+
+
+15:24:28:[ RequestURL ]/queryRunProcess
+
+15:24:28:[ RequestMethod ]POST
+
+15:24:28:[ RequestParams ]{}
+
+15:24:28:[ Response ]获取进程状态操作成功
+
+15:24:28:请求结束
+
+
+
+15:24:28:[ Response ]获取在线状态操作成功
+
+15:24:28:请求结束
+
+
+
+15:24:28:[ Response ]获取进程状态操作成功
+
+15:24:28:请求结束
+
+
+
+15:24:28:[ Response ]获取进程状态操作成功
+
+15:24:28:请求结束
+
+
+
+15:24:28:[ Response ]获取进程状态操作成功
+
+15:24:28:请求结束
+
+
+
+15:24:38:[ RequestURL ]/queryUpTime
+
+15:24:38:[ RequestMethod ]POST
+
+15:24:38:[ RequestParams ]{}
+
+15:24:38:[ RequestURL ]/queryRunProcess
+
+15:24:38:[ RequestMethod ]POST
+
+15:24:38:[ RequestParams ]{}
+
+15:24:38:[ RequestURL ]/queryRunProcess
+
+15:24:38:[ RequestMethod ]POST
+
+15:24:38:[ RequestParams ]{}
+
+15:24:38:[ RequestURL ]/queryRunProcess
+
+15:24:38:[ RequestMethod ]POST
+
+15:24:38:[ RequestParams ]{}
+
+15:24:38:[ RequestURL ]/queryRunProcess
+
+15:24:38:[ RequestMethod ]POST
+
+15:24:38:[ RequestParams ]{}
+
+15:24:38:[ Response ]获取在线状态操作成功
+
+15:24:38:请求结束
+
+
+
+15:24:38:[ RequestURL ]/queryRunProcess
+
+15:24:38:[ RequestMethod ]POST
+
+15:24:38:[ RequestParams ]{}
+
+15:24:38:[ Response ]获取进程状态操作成功
+
+15:24:38:请求结束
+
+
+
+15:24:38:[ Response ]获取进程状态操作成功
+
+15:24:38:请求结束
+
+
+
+15:24:38:[ Response ]获取进程状态操作成功
+
+15:24:38:请求结束
+
+
+
+15:24:38:[ Response ]获取进程状态操作成功
+
+15:24:38:请求结束
+
+
+
+15:24:38:[ Response ]获取进程状态操作成功
+
+15:24:38:请求结束
+
+
+
+15:25:16:[ RequestURL ]/queryUpTime
+
+15:25:16:[ RequestMethod ]POST
+
+15:25:16:[ RequestParams ]{}
+
+15:25:16:[ RequestURL ]/queryRunProcess
+
+15:25:16:[ RequestMethod ]POST
+
+15:25:16:[ RequestParams ]{}
+
+15:25:16:[ RequestURL ]/queryRunProcess
+
+15:25:16:[ RequestMethod ]POST
+
+15:25:16:[ RequestParams ]{}
+
+15:25:16:[ RequestURL ]/queryRunProcess
+
+15:25:16:[ RequestMethod ]POST
+
+15:25:16:[ RequestParams ]{}
+
+15:25:16:[ RequestURL ]/queryRunProcess
+
+15:25:16:[ RequestMethod ]POST
+
+15:25:16:[ RequestParams ]{}
+
+15:25:16:[ Response ]获取在线状态操作成功
+
+15:25:16:请求结束
+
+
+
+15:25:16:[ RequestURL ]/queryRunProcess
+
+15:25:16:[ RequestMethod ]POST
+
+15:25:16:[ RequestParams ]{}
+
+15:25:16:[ Response ]获取进程状态操作成功
+
+15:25:16:请求结束
+
+
+
+15:25:16:[ Response ]获取进程状态操作成功
+
+15:25:16:请求结束
+
+
+
+15:25:16:[ Response ]获取进程状态操作成功
+
+15:25:16:请求结束
+
+
+
+15:25:16:[ Response ]获取进程状态操作成功
+
+15:25:16:请求结束
+
+
+
+15:25:17:[ Response ]获取进程状态操作成功
+
+15:25:17:请求结束
+
+
+
+15:25:31:[ RequestURL ]/queryUpTime
+
+15:25:31:[ RequestMethod ]POST
+
+15:25:31:[ RequestParams ]{}
+
+15:25:31:[ RequestURL ]/queryRunProcess
+
+15:25:31:[ RequestMethod ]POST
+
+15:25:31:[ RequestParams ]{}
+
+15:25:31:[ RequestURL ]/queryRunProcess
+
+15:25:31:[ RequestMethod ]POST
+
+15:25:31:[ RequestParams ]{}
+
+15:25:32:[ RequestURL ]/queryRunProcess
+
+15:25:32:[ RequestMethod ]POST
+
+15:25:32:[ RequestParams ]{}
+
+15:25:32:[ RequestURL ]/queryRunProcess
+
+15:25:32:[ RequestMethod ]POST
+
+15:25:32:[ RequestParams ]{}
+
+15:25:32:[ Response ]获取进程状态操作成功
+
+15:25:32:请求结束
+
+
+
+15:25:32:[ RequestURL ]/queryRunProcess
+
+15:25:32:[ RequestMethod ]POST
+
+15:25:32:[ RequestParams ]{}
+
+15:25:33:[ Response ]获取进程状态操作成功
+
+15:25:33:请求结束
+
+
+
+15:25:33:[ Response ]获取在线状态操作成功
+
+15:25:33:请求结束
+
+
+
+15:25:33:[ Response ]获取进程状态操作成功
+
+15:25:33:请求结束
+
+
+
+15:25:33:[ Response ]获取进程状态操作成功
+
+15:25:33:请求结束
+
+
+
+15:25:33:[ Response ]获取进程状态操作成功
+
+15:25:33:请求结束
+
+
+
+15:27:24:[ RequestURL ]/queryUpTime
+
+15:27:24:[ RequestMethod ]POST
+
+15:27:24:[ RequestParams ]{}
+
+15:27:24:[ RequestURL ]/queryRunProcess
+
+15:27:24:[ RequestMethod ]POST
+
+15:27:24:[ RequestParams ]{}
+
+15:27:24:[ RequestURL ]/queryRunProcess
+
+15:27:24:[ RequestMethod ]POST
+
+15:27:24:[ RequestParams ]{}
+
+15:27:24:[ RequestURL ]/queryRunProcess
+
+15:27:24:[ RequestMethod ]POST
+
+15:27:24:[ RequestParams ]{}
+
+15:27:24:[ RequestURL ]/queryRunProcess
+
+15:27:24:[ RequestMethod ]POST
+
+15:27:24:[ RequestParams ]{}
+
+15:27:24:[ Response ]获取在线状态操作成功
+
+15:27:24:请求结束
+
+
+
+15:27:24:[ Response ]获取进程状态操作成功
+
+15:27:24:请求结束
+
+
+
+15:27:25:[ Response ]获取进程状态操作成功
+
+15:27:25:请求结束
+
+
+
+15:27:25:[ Response ]获取进程状态操作成功
+
+15:27:25:请求结束
+
+
+
+15:27:25:[ Response ]获取进程状态操作成功
+
+15:27:25:请求结束
+
+
+
+15:27:33:[ RequestURL ]/queryUpTime
+
+15:27:33:[ RequestMethod ]POST
+
+15:27:33:[ RequestParams ]{}
+
+15:27:33:[ RequestURL ]/queryRunProcess
+
+15:27:33:[ RequestMethod ]POST
+
+15:27:33:[ RequestParams ]{}
+
+15:27:33:[ RequestURL ]/queryRunProcess
+
+15:27:33:[ RequestMethod ]POST
+
+15:27:33:[ RequestParams ]{}
+
+15:27:33:[ RequestURL ]/queryRunProcess
+
+15:27:33:[ RequestMethod ]POST
+
+15:27:33:[ RequestParams ]{}
+
+15:27:33:[ RequestURL ]/queryRunProcess
+
+15:27:33:[ RequestMethod ]POST
+
+15:27:33:[ RequestParams ]{}
+
+15:27:33:[ Response ]获取在线状态操作成功
+
+15:27:33:请求结束
+
+
+
+15:27:33:[ Response ]获取进程状态操作成功
+
+15:27:33:请求结束
+
+
+
+15:27:33:[ Response ]获取进程状态操作成功
+
+15:27:33:请求结束
+
+
+
+15:27:33:[ Response ]获取进程状态操作成功
+
+15:27:33:请求结束
+
+
+
+15:27:33:[ Response ]获取进程状态操作成功
+
+15:27:33:请求结束
+
+
+
+15:31:10:[ RequestURL ]/queryUpTime
+
+15:31:10:[ RequestMethod ]POST
+
+15:31:10:[ RequestParams ]{}
+
+15:31:10:[ RequestURL ]/queryRunProcess
+
+15:31:10:[ RequestMethod ]POST
+
+15:31:10:[ RequestParams ]{}
+
+15:31:10:[ RequestURL ]/queryRunProcess
+
+15:31:10:[ RequestMethod ]POST
+
+15:31:10:[ RequestParams ]{}
+
+15:31:10:[ RequestURL ]/queryRunProcess
+
+15:31:10:[ RequestMethod ]POST
+
+15:31:10:[ RequestParams ]{}
+
+15:31:10:[ RequestURL ]/queryRunProcess
+
+15:31:10:[ RequestMethod ]POST
+
+15:31:10:[ RequestParams ]{}
+
+15:31:11:[ Response ]获取进程状态操作成功
+
+15:31:11:请求结束
+
+
+
+15:31:11:[ Response ]获取在线状态操作成功
+
+15:31:11:请求结束
+
+
+
+15:31:11:[ Response ]获取进程状态操作成功
+
+15:31:11:请求结束
+
+
+
+15:31:11:[ Response ]获取进程状态操作成功
+
+15:31:11:请求结束
+
+
+
+15:31:11:[ Response ]获取进程状态操作成功
+
+15:31:11:请求结束
+
+
+
+15:31:52:[ RequestURL ]/queryUpTime
+
+15:31:52:[ RequestMethod ]POST
+
+15:31:52:[ RequestParams ]{}
+
+15:31:52:[ RequestURL ]/queryRunProcess
+
+15:31:52:[ RequestMethod ]POST
+
+15:31:52:[ RequestParams ]{}
+
+15:31:52:[ RequestURL ]/queryRunProcess
+
+15:31:52:[ RequestMethod ]POST
+
+15:31:52:[ RequestParams ]{}
+
+15:31:52:[ RequestURL ]/queryRunProcess
+
+15:31:52:[ RequestMethod ]POST
+
+15:31:52:[ RequestParams ]{}
+
+15:31:52:[ RequestURL ]/queryRunProcess
+
+15:31:52:[ RequestMethod ]POST
+
+15:31:52:[ RequestParams ]{}
+
+15:31:53:[ Response ]获取在线状态操作成功
+
+15:31:53:请求结束
+
+
+
+15:31:53:[ Response ]获取进程状态操作成功
+
+15:31:53:请求结束
+
+
+
+15:31:53:[ Response ]获取进程状态操作成功
+
+15:31:53:请求结束
+
+
+
+15:31:53:[ Response ]获取进程状态操作成功
+
+15:31:53:请求结束
+
+
+
+15:31:53:[ Response ]获取进程状态操作成功
+
+15:31:53:请求结束
+
+
+
+15:45:40:[ RequestURL ]/queryUpTime
+
+15:45:40:[ RequestMethod ]POST
+
+15:45:40:[ RequestParams ]{}
+
+15:45:40:[ RequestURL ]/queryRunProcess
+
+15:45:40:[ RequestMethod ]POST
+
+15:45:40:[ RequestParams ]{}
+
+15:45:40:[ RequestURL ]/queryRunProcess
+
+15:45:40:[ RequestMethod ]POST
+
+15:45:40:[ RequestParams ]{}
+
+15:45:40:[ RequestURL ]/queryRunProcess
+
+15:45:40:[ RequestMethod ]POST
+
+15:45:40:[ RequestParams ]{}
+
+15:45:40:[ RequestURL ]/queryRunProcess
+
+15:45:40:[ RequestMethod ]POST
+
+15:45:40:[ RequestParams ]{}
+
+15:45:53:[ RequestURL ]/queryUpTime
+
+15:45:53:[ RequestMethod ]POST
+
+15:45:53:[ RequestParams ]{}
+
+15:45:53:[ RequestURL ]/queryRunProcess
+
+15:45:53:[ RequestMethod ]POST
+
+15:45:53:[ RequestParams ]{}
+
+15:45:53:[ RequestURL ]/queryRunProcess
+
+15:45:53:[ RequestMethod ]POST
+
+15:45:53:[ RequestParams ]{}
+
+15:45:53:[ RequestURL ]/queryRunProcess
+
+15:45:53:[ RequestMethod ]POST
+
+15:45:53:[ RequestParams ]{}
+
+15:45:53:[ RequestURL ]/queryRunProcess
+
+15:45:53:[ RequestMethod ]POST
+
+15:45:53:[ RequestParams ]{}
+
+15:45:55:请求结束
+
+
+
+15:46:03:[ RequestURL ]/getToken
+
+15:46:03:[ RequestMethod ]POST
+
+15:46:03:[ RequestParams ]{"username":"benson","password":"benson"}
+
+15:46:03:[ RequestURL ]/login
+
+15:46:03:[ RequestMethod ]POST
+
+15:46:03:[ RequestParams ]{"username":"benson","password":"benson"}
+
+15:46:04:[ Response ]登陆操作成功
+
+15:46:04:请求结束
+
+
+
+15:46:04:[ RequestURL ]/queryUpTime
+
+15:46:04:[ RequestMethod ]POST
+
+15:46:04:[ RequestParams ]{}
+
+15:46:04:[ RequestURL ]/queryRunProcess
+
+15:46:04:[ RequestMethod ]POST
+
+15:46:04:[ RequestParams ]{}
+
+15:46:04:[ RequestURL ]/queryRunProcess
+
+15:46:04:[ RequestMethod ]POST
+
+15:46:04:[ RequestParams ]{}
+
+15:46:04:[ RequestURL ]/queryRunProcess
+
+15:46:04:[ RequestMethod ]POST
+
+15:46:04:[ RequestParams ]{}
+
+15:46:04:[ RequestURL ]/queryRunProcess
+
+15:46:04:[ RequestMethod ]POST
+
+15:46:04:[ RequestParams ]{}
+
+15:46:04:[ Response ]获取在线状态操作成功
+
+15:46:04:请求结束
+
+
+
+15:46:04:[ Response ]获取进程状态操作成功
+
+15:46:04:请求结束
+
+
+
+15:46:04:[ Response ]获取进程状态操作成功
+
+15:46:04:请求结束
+
+
+
+15:46:04:[ Response ]获取进程状态操作成功
+
+15:46:04:请求结束
+
+
+
+15:46:04:[ Response ]获取进程状态操作成功
+
+15:46:04:请求结束
+
+
+
+15:46:13:[ RequestURL ]/queryUpTime
+
+15:46:13:[ RequestMethod ]POST
+
+15:46:13:[ RequestParams ]{}
+
+15:46:13:[ RequestURL ]/queryRunProcess
+
+15:46:13:[ RequestMethod ]POST
+
+15:46:13:[ RequestParams ]{}
+
+15:46:13:[ RequestURL ]/queryRunProcess
+
+15:46:13:[ RequestMethod ]POST
+
+15:46:13:[ RequestParams ]{}
+
+15:46:13:[ RequestURL ]/queryRunProcess
+
+15:46:13:[ RequestMethod ]POST
+
+15:46:13:[ RequestParams ]{}
+
+15:46:13:[ RequestURL ]/queryRunProcess
+
+15:46:13:[ RequestMethod ]POST
+
+15:46:13:[ RequestParams ]{}
+
+15:46:14:[ Response ]获取在线状态操作成功
+
+15:46:14:请求结束
+
+
+
+15:46:14:[ Response ]获取进程状态操作成功
+
+15:46:14:请求结束
+
+
+
+15:46:14:[ Response ]获取进程状态操作成功
+
+15:46:14:请求结束
+
+
+
+15:46:14:[ Response ]获取进程状态操作成功
+
+15:46:14:请求结束
+
+
+
+15:46:14:[ Response ]获取进程状态操作成功
+
+15:46:14:请求结束
+
+
+
+15:46:50:[ RequestURL ]/queryUpTime
+
+15:46:50:[ RequestMethod ]POST
+
+15:46:50:[ RequestParams ]{}
+
+15:46:50:[ RequestURL ]/queryRunProcess
+
+15:46:50:[ RequestMethod ]POST
+
+15:46:50:[ RequestParams ]{}
+
+15:46:50:[ RequestURL ]/queryRunProcess
+
+15:46:50:[ RequestMethod ]POST
+
+15:46:50:[ RequestParams ]{}
+
+15:46:50:[ RequestURL ]/queryRunProcess
+
+15:46:50:[ RequestMethod ]POST
+
+15:46:50:[ RequestParams ]{}
+
+15:46:50:[ RequestURL ]/queryRunProcess
+
+15:46:50:[ RequestMethod ]POST
+
+15:46:50:[ RequestParams ]{}
+
+15:46:51:[ Response ]获取在线状态操作成功
+
+15:46:51:请求结束
+
+
+
+15:46:51:[ Response ]获取进程状态操作成功
+
+15:46:51:请求结束
+
+
+
+15:46:51:[ Response ]获取进程状态操作成功
+
+15:46:51:请求结束
+
+
+
+15:46:51:[ Response ]获取进程状态操作成功
+
+15:46:51:请求结束
+
+
+
+15:47:10:[ Response ]获取进程状态操作成功
+
+15:47:10:请求结束
+
+
+
+15:47:10:[ RequestURL ]/queryUpTime
+
+15:47:10:[ RequestMethod ]POST
+
+15:47:10:[ RequestParams ]{}
+
+15:47:10:[ RequestURL ]/queryRunProcess
+
+15:47:10:[ RequestMethod ]POST
+
+15:47:10:[ RequestParams ]{}
+
+15:47:10:[ RequestURL ]/queryRunProcess
+
+15:47:10:[ RequestMethod ]POST
+
+15:47:10:[ RequestParams ]{}
+
+15:47:10:[ RequestURL ]/queryRunProcess
+
+15:47:10:[ RequestMethod ]POST
+
+15:47:10:[ RequestParams ]{}
+
+15:47:10:[ RequestURL ]/queryRunProcess
+
+15:47:10:[ RequestMethod ]POST
+
+15:47:10:[ RequestParams ]{}
+
+15:47:11:[ Response ]获取进程状态操作成功
+
+15:47:11:请求结束
+
+
+
+15:47:11:[ Response ]获取在线状态操作成功
+
+15:47:11:请求结束
+
+
+
+15:47:11:[ Response ]获取进程状态操作成功
+
+15:47:11:请求结束
+
+
+
+15:47:11:[ Response ]获取进程状态操作成功
+
+15:47:11:请求结束
+
+
+
+15:47:11:[ Response ]获取进程状态操作成功
+
+15:47:11:请求结束
+
+
+
+15:47:31:[ RequestURL ]/queryUpTime
+
+15:47:31:[ RequestMethod ]POST
+
+15:47:31:[ RequestParams ]{}
+
+15:47:31:[ RequestURL ]/queryRunProcess
+
+15:47:31:[ RequestMethod ]POST
+
+15:47:31:[ RequestParams ]{}
+
+15:47:31:[ RequestURL ]/queryRunProcess
+
+15:47:31:[ RequestMethod ]POST
+
+15:47:31:[ RequestParams ]{}
+
+15:47:31:[ RequestURL ]/queryRunProcess
+
+15:47:31:[ RequestMethod ]POST
+
+15:47:31:[ RequestParams ]{}
+
+15:47:31:[ RequestURL ]/queryRunProcess
+
+15:47:31:[ RequestMethod ]POST
+
+15:47:31:[ RequestParams ]{}
+
+15:47:31:[ Response ]获取进程状态操作成功
+
+15:47:31:请求结束
+
+
+
+15:47:31:[ Response ]获取在线状态操作成功
+
+15:47:31:请求结束
+
+
+
+15:47:31:[ Response ]获取进程状态操作成功
+
+15:47:31:请求结束
+
+
+
+15:47:31:[ Response ]获取进程状态操作成功
+
+15:47:31:请求结束
+
+
+
+15:47:31:[ Response ]获取进程状态操作成功
+
+15:47:31:请求结束
+
+
+
+15:48:10:[ RequestURL ]/queryUpTime
+
+15:48:10:[ RequestMethod ]POST
+
+15:48:10:[ RequestParams ]{}
+
+15:48:10:[ RequestURL ]/queryRunProcess
+
+15:48:10:[ RequestMethod ]POST
+
+15:48:10:[ RequestParams ]{}
+
+15:48:10:[ RequestURL ]/queryRunProcess
+
+15:48:10:[ RequestMethod ]POST
+
+15:48:10:[ RequestParams ]{}
+
+15:48:10:[ RequestURL ]/queryRunProcess
+
+15:48:10:[ RequestMethod ]POST
+
+15:48:10:[ RequestParams ]{}
+
+15:48:10:[ Response ]获取进程状态操作成功
+
+15:48:10:请求结束
+
+
+
+15:48:10:[ Response ]获取进程状态操作成功
+
+15:48:10:请求结束
+
+
+
+15:48:10:[ Response ]获取在线状态操作成功
+
+15:48:10:请求结束
+
+
+
+15:48:10:[ Response ]获取进程状态操作成功
+
+15:48:10:请求结束
+
+
+
+15:48:18:[ RequestURL ]/queryUpTime
+
+15:48:18:[ RequestMethod ]POST
+
+15:48:18:[ RequestParams ]{}
+
+15:48:18:[ RequestURL ]/queryRunProcess
+
+15:48:18:[ RequestMethod ]POST
+
+15:48:18:[ RequestParams ]{}
+
+15:48:18:[ RequestURL ]/queryRunProcess
+
+15:48:18:[ RequestMethod ]POST
+
+15:48:18:[ RequestParams ]{}
+
+15:48:18:[ RequestURL ]/queryRunProcess
+
+15:48:18:[ RequestMethod ]POST
+
+15:48:18:[ RequestParams ]{}
+
+15:48:18:[ Response ]获取进程状态操作成功
+
+15:48:18:请求结束
+
+
+
+15:48:18:[ Response ]获取在线状态操作成功
+
+15:48:18:请求结束
+
+
+
+15:48:18:[ Response ]获取进程状态操作成功
+
+15:48:18:请求结束
+
+
+
+15:48:18:[ Response ]获取进程状态操作成功
+
+15:48:18:请求结束
+
+
+
+15:49:04:[ RequestURL ]/queryUpTime
+
+15:49:04:[ RequestMethod ]POST
+
+15:49:04:[ RequestParams ]{}
+
+15:49:04:[ RequestURL ]/queryRunProcess
+
+15:49:04:[ RequestMethod ]POST
+
+15:49:04:[ RequestParams ]{}
+
+15:49:04:[ RequestURL ]/queryRunProcess
+
+15:49:04:[ RequestMethod ]POST
+
+15:49:04:[ RequestParams ]{}
+
+15:49:04:[ RequestURL ]/queryRunProcess
+
+15:49:04:[ RequestMethod ]POST
+
+15:49:04:[ RequestParams ]{}
+
+15:49:04:[ RequestURL ]/queryRunProcess
+
+15:49:04:[ RequestMethod ]POST
+
+15:49:04:[ RequestParams ]{}
+
+15:49:05:[ Response ]获取进程状态操作成功
+
+15:49:05:请求结束
+
+
+
+15:49:05:[ Response ]获取进程状态操作成功
+
+15:49:05:请求结束
+
+
+
+15:49:05:[ Response ]获取在线状态操作成功
+
+15:49:05:请求结束
+
+
+
+15:49:05:[ Response ]获取进程状态操作成功
+
+15:49:05:请求结束
+
+
+
+15:49:05:[ Response ]获取进程状态操作成功
+
+15:49:05:请求结束
+
+
+
+15:58:09:[ RequestURL ]/queryUpTime
+
+15:58:09:[ RequestMethod ]POST
+
+15:58:09:[ RequestParams ]{}
+
+15:58:09:[ RequestURL ]/queryRunProcess
+
+15:58:09:[ RequestMethod ]POST
+
+15:58:09:[ RequestParams ]{}
+
+15:58:09:[ RequestURL ]/queryRunProcess
+
+15:58:09:[ RequestMethod ]POST
+
+15:58:09:[ RequestParams ]{}
+
+15:58:09:[ RequestURL ]/queryRunProcess
+
+15:58:09:[ RequestMethod ]POST
+
+15:58:09:[ RequestParams ]{}
+
+15:58:09:[ RequestURL ]/queryRunProcess
+
+15:58:09:[ RequestMethod ]POST
+
+15:58:09:[ RequestParams ]{}
+
+15:58:10:[ Response ]获取在线状态操作成功
+
+15:58:10:请求结束
+
+
+
+15:58:10:[ Response ]获取进程状态操作成功
+
+15:58:10:请求结束
+
+
+
+15:58:10:[ Response ]获取进程状态操作成功
+
+15:58:10:请求结束
+
+
+
+15:58:10:[ Response ]获取进程状态操作成功
+
+15:58:10:请求结束
+
+
+
+15:58:10:[ Response ]获取进程状态操作成功
+
+15:58:10:请求结束
+
+
+
+16:04:07:[ RequestURL ]/queryUpTime
+
+16:04:07:[ RequestMethod ]POST
+
+16:04:07:[ RequestParams ]{}
+
+16:04:07:[ RequestURL ]/queryRunProcess
+
+16:04:07:[ RequestMethod ]POST
+
+16:04:07:[ RequestParams ]{}
+
+16:04:07:[ RequestURL ]/queryRunProcess
+
+16:04:07:[ RequestMethod ]POST
+
+16:04:07:[ RequestParams ]{}
+
+16:04:07:[ RequestURL ]/queryRunProcess
+
+16:04:07:[ RequestMethod ]POST
+
+16:04:07:[ RequestParams ]{}
+
+16:04:07:[ RequestURL ]/queryRunProcess
+
+16:04:07:[ RequestMethod ]POST
+
+16:04:07:[ RequestParams ]{}
+
+16:04:07:[ Response ]获取进程状态操作成功
+
+16:04:07:请求结束
+
+
+
+16:04:07:[ Response ]获取进程状态操作成功
+
+16:04:07:请求结束
+
+
+
+16:04:07:[ Response ]获取进程状态操作成功
+
+16:04:07:请求结束
+
+
+
+16:04:07:[ Response ]获取在线状态操作成功
+
+16:04:07:请求结束
+
+
+
+16:04:07:[ Response ]获取进程状态操作成功
+
+16:04:07:请求结束
+
+
+
+16:09:33:[ RequestURL ]/queryUpTime
+
+16:09:33:[ RequestMethod ]POST
+
+16:09:33:[ RequestParams ]{}
+
+16:09:33:[ RequestURL ]/queryRunProcess
+
+16:09:33:[ RequestMethod ]POST
+
+16:09:33:[ RequestParams ]{}
+
+16:09:33:[ RequestURL ]/queryRunProcess
+
+16:09:33:[ RequestMethod ]POST
+
+16:09:33:[ RequestParams ]{}
+
+16:09:33:[ RequestURL ]/queryRunProcess
+
+16:09:33:[ RequestMethod ]POST
+
+16:09:33:[ RequestParams ]{}
+
+16:09:33:[ RequestURL ]/queryRunProcess
+
+16:09:33:[ RequestMethod ]POST
+
+16:09:33:[ RequestParams ]{}
+
+16:09:34:[ Response ]获取进程状态操作成功
+
+16:09:34:请求结束
+
+
+
+16:09:34:[ Response ]获取在线状态操作成功
+
+16:09:34:请求结束
+
+
+
+16:09:34:[ Response ]获取进程状态操作成功
+
+16:09:34:请求结束
+
+
+
+16:09:34:[ Response ]获取进程状态操作成功
+
+16:09:34:请求结束
+
+
+
+16:09:35:[ Response ]获取进程状态操作成功
+
+16:09:35:请求结束
+
+
+
+16:10:07:[ RequestURL ]/queryUpTime
+
+16:10:07:[ RequestMethod ]POST
+
+16:10:07:[ RequestParams ]{}
+
+16:10:07:[ RequestURL ]/queryRunProcess
+
+16:10:07:[ RequestMethod ]POST
+
+16:10:07:[ RequestParams ]{}
+
+16:10:07:[ RequestURL ]/queryRunProcess
+
+16:10:07:[ RequestMethod ]POST
+
+16:10:07:[ RequestParams ]{}
+
+16:10:07:[ RequestURL ]/queryRunProcess
+
+16:10:07:[ RequestMethod ]POST
+
+16:10:07:[ RequestParams ]{}
+
+16:10:07:[ RequestURL ]/queryRunProcess
+
+16:10:07:[ RequestMethod ]POST
+
+16:10:07:[ RequestParams ]{}
+
+16:10:08:[ Response ]获取进程状态操作成功
+
+16:10:08:请求结束
+
+
+
+16:10:08:[ Response ]获取进程状态操作成功
+
+16:10:08:请求结束
+
+
+
+16:10:08:[ Response ]获取在线状态操作成功
+
+16:10:08:请求结束
+
+
+
+16:10:08:[ Response ]获取进程状态操作成功
+
+16:10:08:请求结束
+
+
+
+16:10:08:[ Response ]获取进程状态操作成功
+
+16:10:08:请求结束
+
+
+
+16:17:43:[ RequestURL ]/queryUpTime
+
+16:17:43:[ RequestMethod ]POST
+
+16:17:43:[ RequestParams ]{}
+
+16:17:43:[ RequestURL ]/queryRunProcess
+
+16:17:43:[ RequestMethod ]POST
+
+16:17:43:[ RequestParams ]{}
+
+16:17:43:[ RequestURL ]/queryRunProcess
+
+16:17:43:[ RequestMethod ]POST
+
+16:17:43:[ RequestParams ]{}
+
+16:17:44:[ Response ]获取进程状态操作成功
+
+16:17:44:请求结束
+
+
+
+16:17:44:[ Response ]获取进程状态操作成功
+
+16:17:44:请求结束
+
+
+
+16:17:44:[ Response ]获取在线状态操作成功
+
+16:17:44:请求结束
+
+
+
+16:17:52:[ RequestURL ]/queryUpTime
+
+16:17:52:[ RequestMethod ]POST
+
+16:17:52:[ RequestParams ]{}
+
+16:17:52:[ RequestURL ]/queryRunProcess
+
+16:17:52:[ RequestMethod ]POST
+
+16:17:52:[ RequestParams ]{}
+
+16:17:52:[ RequestURL ]/queryRunProcess
+
+16:17:52:[ RequestMethod ]POST
+
+16:17:52:[ RequestParams ]{}
+
+16:17:53:[ Response ]获取在线状态操作成功
+
+16:17:53:请求结束
+
+
+
+16:17:53:[ Response ]获取进程状态操作成功
+
+16:17:53:请求结束
+
+
+
+16:17:53:[ Response ]获取进程状态操作成功
+
+16:17:53:请求结束
+
+
+
+16:18:53:[ RequestURL ]/queryUpTime
+
+16:18:53:[ RequestMethod ]POST
+
+16:18:53:[ RequestParams ]{}
+
+16:18:53:[ RequestURL ]/queryRunProcess
+
+16:18:53:[ RequestMethod ]POST
+
+16:18:53:[ RequestParams ]{}
+
+16:18:53:[ RequestURL ]/queryRunProcess
+
+16:18:53:[ RequestMethod ]POST
+
+16:18:53:[ RequestParams ]{}
+
+16:18:53:[ Response ]获取在线状态操作成功
+
+16:18:53:请求结束
+
+
+
+16:18:53:[ Response ]获取进程状态操作成功
+
+16:18:53:请求结束
+
+
+
+16:18:53:[ Response ]获取进程状态操作成功
+
+16:18:53:请求结束
+
+
+
+16:19:07:[ RequestURL ]/queryUpTime
+
+16:19:07:[ RequestMethod ]POST
+
+16:19:07:[ RequestParams ]{}
+
+16:19:07:[ RequestURL ]/queryRunProcess
+
+16:19:07:[ RequestMethod ]POST
+
+16:19:07:[ RequestParams ]{}
+
+16:19:07:[ RequestURL ]/queryRunProcess
+
+16:19:07:[ RequestMethod ]POST
+
+16:19:07:[ RequestParams ]{}
+
+16:19:08:[ Response ]获取进程状态操作成功
+
+16:19:08:请求结束
+
+
+
+16:19:08:[ Response ]获取进程状态操作成功
+
+16:19:08:请求结束
+
+
+
+16:19:08:[ Response ]获取在线状态操作成功
+
+16:19:08:请求结束
+
+
+
+16:19:11:[ RequestURL ]/queryUpTime
+
+16:19:11:[ RequestMethod ]POST
+
+16:19:11:[ RequestParams ]{}
+
+16:19:11:[ RequestURL ]/queryRunProcess
+
+16:19:11:[ RequestMethod ]POST
+
+16:19:11:[ RequestParams ]{}
+
+16:19:11:[ RequestURL ]/queryRunProcess
+
+16:19:11:[ RequestMethod ]POST
+
+16:19:11:[ RequestParams ]{}
+
+16:19:12:[ Response ]获取进程状态操作成功
+
+16:19:12:请求结束
+
+
+
+16:19:12:[ Response ]获取在线状态操作成功
+
+16:19:12:请求结束
+
+
+
+16:19:12:[ Response ]获取进程状态操作成功
+
+16:19:12:请求结束
+
+
+
+16:19:17:[ RequestURL ]/queryUpTime
+
+16:19:17:[ RequestMethod ]POST
+
+16:19:17:[ RequestParams ]{}
+
+16:19:17:[ RequestURL ]/queryRunProcess
+
+16:19:17:[ RequestMethod ]POST
+
+16:19:17:[ RequestParams ]{}
+
+16:19:17:[ RequestURL ]/queryRunProcess
+
+16:19:17:[ RequestMethod ]POST
+
+16:19:17:[ RequestParams ]{}
+
+16:19:18:[ Response ]获取在线状态操作成功
+
+16:19:18:请求结束
+
+
+
+16:19:18:[ Response ]获取进程状态操作成功
+
+16:19:18:请求结束
+
+
+
+16:19:18:[ Response ]获取进程状态操作成功
+
+16:19:18:请求结束
+
+
+
+16:19:50:[ RequestURL ]/queryUpTime
+
+16:19:50:[ RequestMethod ]POST
+
+16:19:50:[ RequestParams ]{}
+
+16:19:50:[ RequestURL ]/queryRunProcess
+
+16:19:50:[ RequestMethod ]POST
+
+16:19:50:[ RequestParams ]{}
+
+16:19:50:[ RequestURL ]/queryRunProcess
+
+16:19:50:[ RequestMethod ]POST
+
+16:19:50:[ RequestParams ]{}
+
+16:19:50:[ Response ]获取在线状态操作成功
+
+16:19:50:请求结束
+
+
+
+16:19:50:[ Response ]获取进程状态操作成功
+
+16:19:50:请求结束
+
+
+
+16:19:50:[ Response ]获取进程状态操作成功
+
+16:19:50:请求结束
+
+
+
+16:19:54:[ RequestURL ]/queryUpTime
+
+16:19:54:[ RequestMethod ]POST
+
+16:19:54:[ RequestParams ]{}
+
+16:19:54:[ RequestURL ]/queryRunProcess
+
+16:19:54:[ RequestMethod ]POST
+
+16:19:54:[ RequestParams ]{}
+
+16:19:54:[ RequestURL ]/queryRunProcess
+
+16:19:54:[ RequestMethod ]POST
+
+16:19:54:[ RequestParams ]{}
+
+16:19:54:[ Response ]获取进程状态操作成功
+
+16:19:54:请求结束
+
+
+
+16:19:54:[ Response ]获取在线状态操作成功
+
+16:19:54:请求结束
+
+
+
+16:19:54:[ Response ]获取进程状态操作成功
+
+16:19:54:请求结束
+
+
+
+16:26:10:[ RequestURL ]/queryUpTime
+
+16:26:10:[ RequestMethod ]POST
+
+16:26:10:[ RequestParams ]{}
+
+16:26:10:[ RequestURL ]/queryRunProcess
+
+16:26:10:[ RequestMethod ]POST
+
+16:26:10:[ RequestParams ]{}
+
+16:26:10:[ RequestURL ]/queryRunProcess
+
+16:26:10:[ RequestMethod ]POST
+
+16:26:10:[ RequestParams ]{}
+
+16:26:11:[ Response ]获取进程状态操作成功
+
+16:26:11:请求结束
+
+
+
+16:26:11:[ Response ]获取进程状态操作成功
+
+16:26:11:请求结束
+
+
+
+16:26:11:[ Response ]获取在线状态操作成功
+
+16:26:11:请求结束
+
+
+
+16:26:53:[ RequestURL ]/queryUpTime
+
+16:26:53:[ RequestMethod ]POST
+
+16:26:53:[ RequestParams ]{}
+
+16:26:53:[ RequestURL ]/queryRunProcess
+
+16:26:53:[ RequestMethod ]POST
+
+16:26:53:[ RequestParams ]{}
+
+16:26:53:[ RequestURL ]/queryRunProcess
+
+16:26:53:[ RequestMethod ]POST
+
+16:26:53:[ RequestParams ]{}
+
+16:26:53:[ RequestURL ]/queryRunProcess
+
+16:26:53:[ RequestMethod ]POST
+
+16:26:53:[ RequestParams ]{}
+
+16:26:53:[ RequestURL ]/queryRunProcess
+
+16:26:53:[ RequestMethod ]POST
+
+16:26:53:[ RequestParams ]{}
+
+16:26:54:[ Response ]获取在线状态操作成功
+
+16:26:54:请求结束
+
+
+
+16:26:54:[ RequestURL ]/queryRunProcess
+
+16:26:54:[ RequestMethod ]POST
+
+16:26:54:[ RequestParams ]{}
+
+16:26:54:[ Response ]获取进程状态操作成功
+
+16:26:54:请求结束
+
+
+
+16:26:54:[ Response ]获取进程状态操作成功
+
+16:26:54:请求结束
+
+
+
+16:26:54:[ Response ]获取进程状态操作成功
+
+16:26:54:请求结束
+
+
+
+16:26:54:[ Response ]获取进程状态操作成功
+
+16:26:54:请求结束
+
+
+
+16:26:54:[ Response ]获取进程状态操作成功
+
+16:26:54:请求结束
+
+
+
+16:27:08:[ RequestURL ]/queryUpTime
+
+16:27:08:[ RequestMethod ]POST
+
+16:27:08:[ RequestParams ]{}
+
+16:27:08:[ RequestURL ]/queryRunProcess
+
+16:27:08:[ RequestMethod ]POST
+
+16:27:08:[ RequestParams ]{}
+
+16:27:08:[ RequestURL ]/queryRunProcess
+
+16:27:08:[ RequestMethod ]POST
+
+16:27:08:[ RequestParams ]{}
+
+16:27:08:[ RequestURL ]/queryRunProcess
+
+16:27:08:[ RequestMethod ]POST
+
+16:27:08:[ RequestParams ]{}
+
+16:27:08:[ RequestURL ]/queryRunProcess
+
+16:27:08:[ RequestMethod ]POST
+
+16:27:08:[ RequestParams ]{}
+
+16:27:08:[ RequestURL ]/queryRunProcess
+
+16:27:08:[ RequestMethod ]POST
+
+16:27:08:[ RequestParams ]{}
+
+16:27:08:[ Response ]获取在线状态操作成功
+
+16:27:08:请求结束
+
+
+
+16:27:08:[ Response ]获取进程状态操作成功
+
+16:27:08:请求结束
+
+
+
+16:27:08:[ Response ]获取进程状态操作成功
+
+16:27:08:请求结束
+
+
+
+16:27:08:[ Response ]获取进程状态操作成功
+
+16:27:08:请求结束
+
+
+
+16:27:08:[ Response ]获取进程状态操作成功
+
+16:27:08:请求结束
+
+
+
+16:27:08:[ Response ]获取进程状态操作成功
+
+16:27:08:请求结束
+
+
+
+16:58:52:[ RequestURL ]/queryUpTime
+
+16:58:52:[ RequestMethod ]POST
+
+16:58:52:[ RequestParams ]{}
+
+16:58:52:[ RequestURL ]/queryRunProcess
+
+16:58:52:[ RequestMethod ]POST
+
+16:58:52:[ RequestParams ]{}
+
+16:58:52:[ RequestURL ]/queryRunProcess
+
+16:58:52:[ RequestMethod ]POST
+
+16:58:52:[ RequestParams ]{}
+
+16:58:52:[ RequestURL ]/queryRunProcess
+
+16:58:52:[ RequestMethod ]POST
+
+16:58:52:[ RequestParams ]{}
+
+16:58:52:[ RequestURL ]/queryRunProcess
+
+16:58:52:[ RequestMethod ]POST
+
+16:58:52:[ RequestParams ]{}
+
+16:58:53:[ Response ]获取在线状态操作成功
+
+16:58:53:请求结束
+
+
+
+16:58:53:[ RequestURL ]/queryRunProcess
+
+16:58:53:[ RequestMethod ]POST
+
+16:58:53:[ RequestParams ]{}
+
+16:58:53:[ Response ]获取进程状态操作成功
+
+16:58:53:请求结束
+
+
+
+16:58:53:[ Response ]获取进程状态操作成功
+
+16:58:53:请求结束
+
+
+
+16:58:53:[ Response ]获取进程状态操作成功
+
+16:58:53:请求结束
+
+
+
+16:58:53:[ Response ]获取进程状态操作成功
+
+16:58:53:请求结束
+
+
+
+16:58:54:[ Response ]获取进程状态操作成功
+
+16:58:54:请求结束
+
+
+
+17:01:36:[ RequestURL ]/queryUpTime
+
+17:01:36:[ RequestMethod ]POST
+
+17:01:36:[ RequestParams ]{}
+
+17:01:36:[ RequestURL ]/queryRunProcess
+
+17:01:36:[ RequestMethod ]POST
+
+17:01:36:[ RequestParams ]{}
+
+17:01:36:[ RequestURL ]/queryRunProcess
+
+17:01:36:[ RequestMethod ]POST
+
+17:01:36:[ RequestParams ]{}
+
+17:01:36:[ RequestURL ]/queryRunProcess
+
+17:01:36:[ RequestMethod ]POST
+
+17:01:36:[ RequestParams ]{}
+
+17:01:36:[ RequestURL ]/queryRunProcess
+
+17:01:36:[ RequestMethod ]POST
+
+17:01:36:[ RequestParams ]{}
+
+17:01:37:[ Response ]获取在线状态操作成功
+
+17:01:37:请求结束
+
+
+
+17:01:37:[ Response ]获取进程状态操作成功
+
+17:01:37:请求结束
+
+
+
+17:01:37:[ Response ]获取进程状态操作成功
+
+17:01:37:请求结束
+
+
+
+17:01:37:[ Response ]获取进程状态操作成功
+
+17:01:37:请求结束
+
+
+
+17:01:37:[ RequestURL ]/queryRunProcess
+
+17:01:37:[ RequestMethod ]POST
+
+17:01:37:[ RequestParams ]{}
+
+17:01:37:[ Response ]获取进程状态操作成功
+
+17:01:37:请求结束
+
+
+
+17:01:37:[ Response ]获取进程状态操作成功
+
+17:01:37:请求结束
+
+
+
+17:01:42:[ RequestURL ]/queryUpTime
+
+17:01:42:[ RequestMethod ]POST
+
+17:01:42:[ RequestParams ]{}
+
+17:01:42:[ RequestURL ]/queryRunProcess
+
+17:01:42:[ RequestMethod ]POST
+
+17:01:42:[ RequestParams ]{}
+
+17:01:42:[ RequestURL ]/queryRunProcess
+
+17:01:42:[ RequestMethod ]POST
+
+17:01:42:[ RequestParams ]{}
+
+17:01:42:[ RequestURL ]/queryRunProcess
+
+17:01:42:[ RequestMethod ]POST
+
+17:01:42:[ RequestParams ]{}
+
+17:01:42:[ RequestURL ]/queryRunProcess
+
+17:01:42:[ RequestMethod ]POST
+
+17:01:42:[ RequestParams ]{}
+
+17:01:42:[ RequestURL ]/queryRunProcess
+
+17:01:42:[ RequestMethod ]POST
+
+17:01:42:[ RequestParams ]{}
+
+17:01:43:[ Response ]获取进程状态操作成功
+
+17:01:43:请求结束
+
+
+
+17:01:43:[ Response ]获取在线状态操作成功
+
+17:01:43:请求结束
+
+
+
+17:01:43:[ Response ]获取进程状态操作成功
+
+17:01:43:请求结束
+
+
+
+17:01:43:[ Response ]获取进程状态操作成功
+
+17:01:43:请求结束
+
+
+
+17:01:43:[ Response ]获取进程状态操作成功
+
+17:01:43:请求结束
+
+
+
+17:01:43:[ Response ]获取进程状态操作成功
+
+17:01:43:请求结束
+
+
+
+17:02:08:[ RequestURL ]/queryUpTime
+
+17:02:08:[ RequestMethod ]POST
+
+17:02:08:[ RequestParams ]{}
+
+17:02:08:[ RequestURL ]/queryRunProcess
+
+17:02:08:[ RequestMethod ]POST
+
+17:02:08:[ RequestParams ]{}
+
+17:02:08:[ RequestURL ]/queryRunProcess
+
+17:02:08:[ RequestMethod ]POST
+
+17:02:08:[ RequestParams ]{}
+
+17:02:08:[ RequestURL ]/queryRunProcess
+
+17:02:08:[ RequestMethod ]POST
+
+17:02:08:[ RequestParams ]{}
+
+17:02:08:[ RequestURL ]/queryRunProcess
+
+17:02:08:[ RequestMethod ]POST
+
+17:02:08:[ RequestParams ]{}
+
+17:02:09:[ Response ]获取在线状态操作成功
+
+17:02:09:请求结束
+
+
+
+17:02:09:[ RequestURL ]/queryRunProcess
+
+17:02:09:[ RequestMethod ]POST
+
+17:02:09:[ RequestParams ]{}
+
+17:02:09:[ Response ]获取进程状态操作成功
+
+17:02:09:请求结束
+
+
+
+17:02:09:[ Response ]获取进程状态操作成功
+
+17:02:09:请求结束
+
+
+
+17:02:09:[ Response ]获取进程状态操作成功
+
+17:02:09:请求结束
+
+
+
+17:02:09:[ Response ]获取进程状态操作成功
+
+17:02:09:请求结束
+
+
+
+17:02:09:[ Response ]获取进程状态操作成功
+
+17:02:09:请求结束
+
+
+
+17:03:15:[ RequestURL ]/queryUpTime
+
+17:03:15:[ RequestMethod ]POST
+
+17:03:15:[ RequestParams ]{}
+
+17:03:15:[ RequestURL ]/queryRunProcess
+
+17:03:15:[ RequestMethod ]POST
+
+17:03:15:[ RequestParams ]{}
+
+17:03:15:[ RequestURL ]/queryRunProcess
+
+17:03:15:[ RequestMethod ]POST
+
+17:03:15:[ RequestParams ]{}
+
+17:03:15:[ RequestURL ]/queryRunProcess
+
+17:03:15:[ RequestMethod ]POST
+
+17:03:15:[ RequestParams ]{}
+
+17:03:15:[ RequestURL ]/queryRunProcess
+
+17:03:15:[ RequestMethod ]POST
+
+17:03:15:[ RequestParams ]{}
+
+17:03:16:[ Response ]获取进程状态操作成功
+
+17:03:16:请求结束
+
+
+
+17:03:16:[ RequestURL ]/queryRunProcess
+
+17:03:16:[ RequestMethod ]POST
+
+17:03:16:[ RequestParams ]{}
+
+17:03:16:[ Response ]获取进程状态操作成功
+
+17:03:16:请求结束
+
+
+
+17:03:16:[ Response ]获取进程状态操作成功
+
+17:03:16:请求结束
+
+
+
+17:03:16:[ Response ]获取在线状态操作成功
+
+17:03:16:请求结束
+
+
+
+17:03:16:[ Response ]获取进程状态操作成功
+
+17:03:16:请求结束
+
+
+
+17:03:16:[ Response ]获取进程状态操作成功
+
+17:03:16:请求结束
+
+
+
+17:03:29:[ RequestURL ]/queryUpTime
+
+17:03:29:[ RequestMethod ]POST
+
+17:03:29:[ RequestParams ]{}
+
+17:03:29:[ RequestURL ]/queryRunProcess
+
+17:03:29:[ RequestMethod ]POST
+
+17:03:29:[ RequestParams ]{}
+
+17:03:29:[ RequestURL ]/queryRunProcess
+
+17:03:29:[ RequestMethod ]POST
+
+17:03:29:[ RequestParams ]{}
+
+17:03:29:[ RequestURL ]/queryRunProcess
+
+17:03:29:[ RequestMethod ]POST
+
+17:03:29:[ RequestParams ]{}
+
+17:03:29:[ RequestURL ]/queryRunProcess
+
+17:03:29:[ RequestMethod ]POST
+
+17:03:29:[ RequestParams ]{}
+
+17:03:30:[ Response ]获取在线状态操作成功
+
+17:03:30:请求结束
+
+
+
+17:03:30:[ RequestURL ]/queryRunProcess
+
+17:03:30:[ RequestMethod ]POST
+
+17:03:30:[ RequestParams ]{}
+
+17:03:30:[ Response ]获取进程状态操作成功
+
+17:03:30:请求结束
+
+
+
+17:03:30:[ Response ]获取进程状态操作成功
+
+17:03:30:请求结束
+
+
+
+17:03:30:[ Response ]获取进程状态操作成功
+
+17:03:30:请求结束
+
+
+
+17:03:30:[ Response ]获取进程状态操作成功
+
+17:03:30:请求结束
+
+
+
+17:03:30:[ Response ]获取进程状态操作成功
+
+17:03:30:请求结束
+
+
+
+17:03:34:[ RequestURL ]/queryUpTime
+
+17:03:34:[ RequestMethod ]POST
+
+17:03:34:[ RequestParams ]{}
+
+17:03:34:[ RequestURL ]/queryRunProcess
+
+17:03:34:[ RequestMethod ]POST
+
+17:03:34:[ RequestParams ]{}
+
+17:03:34:[ RequestURL ]/queryRunProcess
+
+17:03:34:[ RequestMethod ]POST
+
+17:03:34:[ RequestParams ]{}
+
+17:03:34:[ RequestURL ]/queryRunProcess
+
+17:03:34:[ RequestMethod ]POST
+
+17:03:34:[ RequestParams ]{}
+
+17:03:34:[ RequestURL ]/queryRunProcess
+
+17:03:34:[ RequestMethod ]POST
+
+17:03:34:[ RequestParams ]{}
+
+17:03:34:[ Response ]获取在线状态操作成功
+
+17:03:34:请求结束
+
+
+
+17:03:34:[ RequestURL ]/queryRunProcess
+
+17:03:34:[ RequestMethod ]POST
+
+17:03:34:[ RequestParams ]{}
+
+17:03:34:[ Response ]获取进程状态操作成功
+
+17:03:34:请求结束
+
+
+
+17:03:34:[ Response ]获取进程状态操作成功
+
+17:03:34:请求结束
+
+
+
+17:03:34:[ Response ]获取进程状态操作成功
+
+17:03:34:请求结束
+
+
+
+17:03:35:[ Response ]获取进程状态操作成功
+
+17:03:35:请求结束
+
+
+
+17:03:35:[ Response ]获取进程状态操作成功
+
+17:03:35:请求结束
+
+
+
+17:03:38:[ RequestURL ]/queryUpTime
+
+17:03:38:[ RequestMethod ]POST
+
+17:03:38:[ RequestParams ]{}
+
+17:03:38:[ RequestURL ]/queryRunProcess
+
+17:03:38:[ RequestMethod ]POST
+
+17:03:38:[ RequestParams ]{}
+
+17:03:38:[ RequestURL ]/queryRunProcess
+
+17:03:38:[ RequestMethod ]POST
+
+17:03:38:[ RequestParams ]{}
+
+17:03:38:[ RequestURL ]/queryRunProcess
+
+17:03:38:[ RequestMethod ]POST
+
+17:03:38:[ RequestParams ]{}
+
+17:03:38:[ RequestURL ]/queryRunProcess
+
+17:03:38:[ RequestMethod ]POST
+
+17:03:38:[ RequestParams ]{}
+
+17:03:38:[ Response ]获取在线状态操作成功
+
+17:03:38:请求结束
+
+
+
+17:03:38:[ Response ]获取进程状态操作成功
+
+17:03:38:请求结束
+
+
+
+17:03:38:[ RequestURL ]/queryRunProcess
+
+17:03:38:[ RequestMethod ]POST
+
+17:03:38:[ RequestParams ]{}
+
+17:03:38:[ Response ]获取进程状态操作成功
+
+17:03:38:请求结束
+
+
+
+17:03:38:[ Response ]获取进程状态操作成功
+
+17:03:38:请求结束
+
+
+
+17:03:38:[ Response ]获取进程状态操作成功
+
+17:03:38:请求结束
+
+
+
+17:03:39:[ Response ]获取进程状态操作成功
+
+17:03:39:请求结束
+
+
+
+17:17:04:[ RequestURL ]/queryUpTime
+
+17:17:04:[ RequestMethod ]POST
+
+17:17:04:[ RequestParams ]{}
+
+17:17:04:[ RequestURL ]/queryRunProcess
+
+17:17:04:[ RequestMethod ]POST
+
+17:17:04:[ RequestParams ]{}
+
+17:17:04:[ RequestURL ]/queryRunProcess
+
+17:17:04:[ RequestMethod ]POST
+
+17:17:04:[ RequestParams ]{}
+
+17:17:04:[ RequestURL ]/queryRunProcess
+
+17:17:04:[ RequestMethod ]POST
+
+17:17:04:[ RequestParams ]{}
+
+17:17:04:[ RequestURL ]/queryRunProcess
+
+17:17:04:[ RequestMethod ]POST
+
+17:17:04:[ RequestParams ]{}
+
+17:17:04:[ Response ]获取进程状态操作成功
+
+17:17:04:请求结束
+
+
+
+17:17:04:[ Response ]获取进程状态操作成功
+
+17:17:04:请求结束
+
+
+
+17:18:15:[ RequestURL ]/queryUpTime
+
+17:18:15:[ RequestMethod ]POST
+
+17:18:15:[ RequestParams ]{}
+
+17:18:15:[ RequestURL ]/queryRunProcess
+
+17:18:15:[ RequestMethod ]POST
+
+17:18:15:[ RequestParams ]{}
+
+17:18:15:[ RequestURL ]/queryRunProcess
+
+17:18:15:[ RequestMethod ]POST
+
+17:18:15:[ RequestParams ]{}
+
+17:18:15:[ RequestURL ]/queryRunProcess
+
+17:18:15:[ RequestMethod ]POST
+
+17:18:15:[ RequestParams ]{}
+
+17:18:15:[ RequestURL ]/queryRunProcess
+
+17:18:15:[ RequestMethod ]POST
+
+17:18:15:[ RequestParams ]{}
+
+17:18:15:[ Response ]获取在线状态操作成功
+
+17:18:15:请求结束
+
+
+
+17:18:15:[ Response ]获取进程状态操作成功
+
+17:18:15:请求结束
+
+
+
+17:18:16:[ Response ]获取进程状态操作成功
+
+17:18:16:请求结束
+
+
+
+17:18:16:[ Response ]获取进程状态操作成功
+
+17:18:16:请求结束
+
+
+
+17:18:16:[ Response ]获取进程状态操作成功
+
+17:18:16:请求结束
+
+
+
+17:24:34:[ RequestURL ]/queryUpTime
+
+17:24:34:[ RequestMethod ]POST
+
+17:24:34:[ RequestParams ]{}
+
+17:24:34:[ RequestURL ]/queryRunProcess
+
+17:24:34:[ RequestMethod ]POST
+
+17:24:34:[ RequestParams ]{}
+
+17:24:34:[ RequestURL ]/queryRunProcess
+
+17:24:34:[ RequestMethod ]POST
+
+17:24:34:[ RequestParams ]{}
+
+17:24:34:[ RequestURL ]/queryRunProcess
+
+17:24:34:[ RequestMethod ]POST
+
+17:24:34:[ RequestParams ]{}
+
+17:24:34:[ RequestURL ]/queryRunProcess
+
+17:24:34:[ RequestMethod ]POST
+
+17:24:34:[ RequestParams ]{}
+
+17:24:34:[ Response ]获取进程状态操作成功
+
+17:24:34:请求结束
+
+
+
+17:24:34:[ Response ]获取进程状态操作成功
+
+17:24:34:请求结束
+
+
+
+17:24:34:[ Response ]获取进程状态操作成功
+
+17:24:34:请求结束
+
+
+
+17:24:34:[ Response ]获取在线状态操作成功
+
+17:24:34:请求结束
+
+
+
+17:24:34:[ Response ]获取进程状态操作成功
+
+17:24:34:请求结束
+
+
+
+17:33:07:[ RequestURL ]/queryUpTime
+
+17:33:07:[ RequestMethod ]POST
+
+17:33:07:[ RequestParams ]{}
+
+17:33:07:[ RequestURL ]/queryRunProcess
+
+17:33:07:[ RequestMethod ]POST
+
+17:33:07:[ RequestParams ]{}
+
+17:33:07:[ RequestURL ]/queryRunProcess
+
+17:33:07:[ RequestMethod ]POST
+
+17:33:07:[ RequestParams ]{}
+
+17:33:07:[ RequestURL ]/queryRunProcess
+
+17:33:07:[ RequestMethod ]POST
+
+17:33:07:[ RequestParams ]{}
+
+17:33:07:[ RequestURL ]/queryRunProcess
+
+17:33:07:[ RequestMethod ]POST
+
+17:33:07:[ RequestParams ]{}
+
+17:33:07:[ Response ]获取进程状态操作成功
+
+17:33:07:请求结束
+
+
+
+17:33:07:[ Response ]获取在线状态操作成功
+
+17:33:07:请求结束
+
+
+
+17:33:07:[ Response ]获取进程状态操作成功
+
+17:33:07:请求结束
+
+
+
+17:33:07:[ Response ]获取进程状态操作成功
+
+17:33:07:请求结束
+
+
+
+17:33:07:[ Response ]获取进程状态操作成功
+
+17:33:07:请求结束
+
+
+
+17:33:30:[ RequestURL ]/queryUpTime
+
+17:33:30:[ RequestMethod ]POST
+
+17:33:30:[ RequestParams ]{}
+
+17:33:30:[ RequestURL ]/queryRunProcess
+
+17:33:30:[ RequestMethod ]POST
+
+17:33:30:[ RequestParams ]{}
+
+17:33:30:[ RequestURL ]/queryRunProcess
+
+17:33:30:[ RequestMethod ]POST
+
+17:33:30:[ RequestParams ]{}
+
+17:33:30:[ RequestURL ]/queryRunProcess
+
+17:33:30:[ RequestMethod ]POST
+
+17:33:30:[ RequestParams ]{}
+
+17:33:30:[ RequestURL ]/queryRunProcess
+
+17:33:30:[ RequestMethod ]POST
+
+17:33:30:[ RequestParams ]{}
+
+17:33:30:[ Response ]获取在线状态操作成功
+
+17:33:30:请求结束
+
+
+
+17:33:30:[ RequestURL ]/queryRunProcess
+
+17:33:30:[ RequestMethod ]POST
+
+17:33:30:[ RequestParams ]{}
+
+17:33:30:[ Response ]获取进程状态操作成功
+
+17:33:30:请求结束
+
+
+
+17:33:30:[ Response ]获取进程状态操作成功
+
+17:33:30:请求结束
+
+
+
+17:33:30:[ Response ]获取进程状态操作成功
+
+17:33:30:请求结束
+
+
+
+17:33:30:[ Response ]获取进程状态操作成功
+
+17:33:30:请求结束
+
+
+
+17:33:31:[ Response ]获取进程状态操作成功
+
+17:33:31:请求结束
+
+
+
+17:33:38:[ RequestURL ]/queryUpTime
+
+17:33:38:[ RequestMethod ]POST
+
+17:33:38:[ RequestParams ]{}
+
+17:33:38:[ RequestURL ]/queryRunProcess
+
+17:33:38:[ RequestMethod ]POST
+
+17:33:38:[ RequestParams ]{}
+
+17:33:38:[ RequestURL ]/queryRunProcess
+
+17:33:38:[ RequestMethod ]POST
+
+17:33:38:[ RequestParams ]{}
+
+17:33:38:[ RequestURL ]/queryRunProcess
+
+17:33:38:[ RequestMethod ]POST
+
+17:33:38:[ RequestParams ]{}
+
+17:33:38:[ RequestURL ]/queryRunProcess
+
+17:33:38:[ RequestMethod ]POST
+
+17:33:38:[ RequestParams ]{}
+
+17:33:38:[ RequestURL ]/queryRunProcess
+
+17:33:38:[ RequestMethod ]POST
+
+17:33:38:[ RequestParams ]{}
+
+17:33:39:[ Response ]获取进程状态操作成功
+
+17:33:39:请求结束
+
+
+
+17:33:39:[ Response ]获取进程状态操作成功
+
+17:33:39:请求结束
+
+
+
+17:33:39:[ Response ]获取进程状态操作成功
+
+17:33:39:请求结束
+
+
+
+17:33:39:[ Response ]获取在线状态操作成功
+
+17:33:39:请求结束
+
+
+
+17:33:39:[ Response ]获取进程状态操作成功
+
+17:33:39:请求结束
+
+
+
+17:34:55:[ RequestURL ]/queryUpTime
+
+17:34:55:[ RequestMethod ]POST
+
+17:34:55:[ RequestParams ]{}
+
+17:34:55:[ RequestURL ]/queryRunProcess
+
+17:34:55:[ RequestMethod ]POST
+
+17:34:55:[ RequestParams ]{}
+
+17:34:55:[ RequestURL ]/queryRunProcess
+
+17:34:55:[ RequestMethod ]POST
+
+17:34:55:[ RequestParams ]{}
+
+17:34:55:[ RequestURL ]/queryRunProcess
+
+17:34:55:[ RequestMethod ]POST
+
+17:34:55:[ RequestParams ]{}
+
+17:34:55:[ RequestURL ]/queryRunProcess
+
+17:34:55:[ RequestMethod ]POST
+
+17:34:55:[ RequestParams ]{}
+
+17:34:55:[ Response ]获取进程状态操作成功
+
+17:34:55:请求结束
+
+
+
+17:34:55:[ Response ]获取在线状态操作成功
+
+17:34:55:请求结束
+
+
+
+17:34:55:[ RequestURL ]/queryRunProcess
+
+17:34:55:[ RequestMethod ]POST
+
+17:34:55:[ RequestParams ]{}
+
+17:34:55:[ Response ]获取进程状态操作成功
+
+17:34:55:请求结束
+
+
+
+17:34:55:[ Response ]获取进程状态操作成功
+
+17:34:55:请求结束
+
+
+
+17:34:55:[ Response ]获取进程状态操作成功
+
+17:34:55:请求结束
+
+
+
+17:34:56:[ Response ]获取进程状态操作成功
+
+17:34:56:请求结束
+
+
+
+17:36:32:[ RequestURL ]/queryUpTime
+
+17:36:32:[ RequestMethod ]POST
+
+17:36:32:[ RequestParams ]{}
+
+17:36:32:[ RequestURL ]/queryRunProcess
+
+17:36:32:[ RequestMethod ]POST
+
+17:36:32:[ RequestParams ]{}
+
+17:36:32:[ RequestURL ]/queryRunProcess
+
+17:36:32:[ RequestMethod ]POST
+
+17:36:32:[ RequestParams ]{}
+
+17:36:32:[ RequestURL ]/queryRunProcess
+
+17:36:32:[ RequestMethod ]POST
+
+17:36:32:[ RequestParams ]{}
+
+17:36:32:[ RequestURL ]/queryRunProcess
+
+17:36:32:[ RequestMethod ]POST
+
+17:36:32:[ RequestParams ]{}
+
+17:36:32:[ RequestURL ]/queryRunProcess
+
+17:36:32:[ RequestMethod ]POST
+
+17:36:32:[ RequestParams ]{}
+
+17:36:33:[ Response ]获取进程状态操作成功
+
+17:36:33:请求结束
+
+
+
+17:36:33:[ Response ]获取进程状态操作成功
+
+17:36:33:请求结束
+
+
+
+17:36:33:[ Response ]获取进程状态操作成功
+
+17:36:33:请求结束
+
+
+
+17:36:33:[ Response ]获取进程状态操作成功
+
+17:36:33:请求结束
+
+
+
+17:36:33:[ Response ]获取在线状态操作成功
+
+17:36:33:请求结束
+
+
+
+17:36:33:[ Response ]获取进程状态操作成功
+
+17:36:33:请求结束
+
+
+
+17:37:03:[ RequestURL ]/queryUpTime
+
+17:37:03:[ RequestMethod ]POST
+
+17:37:03:[ RequestParams ]{}
+
+17:37:03:[ RequestURL ]/queryRunProcess
+
+17:37:03:[ RequestMethod ]POST
+
+17:37:03:[ RequestParams ]{}
+
+17:37:03:[ RequestURL ]/queryRunProcess
+
+17:37:03:[ RequestMethod ]POST
+
+17:37:03:[ RequestParams ]{}
+
+17:37:03:[ RequestURL ]/queryRunProcess
+
+17:37:03:[ RequestMethod ]POST
+
+17:37:03:[ RequestParams ]{}
+
+17:37:03:[ RequestURL ]/queryRunProcess
+
+17:37:03:[ RequestMethod ]POST
+
+17:37:03:[ RequestParams ]{}
+
+17:37:03:[ RequestURL ]/queryRunProcess
+
+17:37:03:[ RequestMethod ]POST
+
+17:37:03:[ RequestParams ]{}
+
+17:37:04:[ Response ]获取进程状态操作成功
+
+17:37:04:请求结束
+
+
+
+17:37:04:[ Response ]获取进程状态操作成功
+
+17:37:04:请求结束
+
+
+
+17:37:04:[ Response ]获取进程状态操作成功
+
+17:37:04:请求结束
+
+
+
+17:37:04:[ Response ]获取在线状态操作成功
+
+17:37:04:请求结束
+
+
+
+17:37:04:[ Response ]获取进程状态操作成功
+
+17:37:04:请求结束
+
+
+
+17:37:04:[ Response ]获取进程状态操作成功
+
+17:37:04:请求结束
+
+
+
+17:37:32:[ RequestURL ]/ServerList
+
+17:37:32:[ RequestMethod ]POST
+
+17:37:32:[ RequestParams ]{}
+
+17:37:32:[ Response ]获取服务器列表操作成功
+
+17:37:32:请求结束
+
+
+
+17:37:35:[ RequestURL ]/ContainerList
+
+17:37:35:[ RequestMethod ]POST
+
+17:37:35:[ RequestParams ]{}
+
+17:37:35:[ Response ]获取容器列表操作成功
+
+17:37:35:请求结束
+
+
+
+17:37:37:[ RequestURL ]/ImageList
+
+17:37:37:[ RequestMethod ]POST
+
+17:37:37:[ RequestParams ]{}
+
+17:37:38:[ Response ]获取镜像列表操作成功
+
+17:37:38:请求结束
+
+
+
+17:37:45:[ RequestURL ]/getToken
+
+17:37:45:[ RequestMethod ]POST
+
+17:37:45:[ RequestParams ]{"username":"benson","password":"benson"}
+
+17:37:46:请求结束
+
+
+
+17:37:46:[ RequestURL ]/login
+
+17:37:46:[ RequestMethod ]POST
+
+17:37:46:[ RequestParams ]{"username":"benson","password":"benson"}
+
+17:37:46:[ Response ]登陆操作成功
+
+17:37:46:请求结束
+
+
+
+17:37:46:[ RequestURL ]/queryUpTime
+
+17:37:46:[ RequestMethod ]POST
+
+17:37:46:[ RequestParams ]{}
+
+17:37:46:[ RequestURL ]/queryRunProcess
+
+17:37:46:[ RequestMethod ]POST
+
+17:37:46:[ RequestParams ]{}
+
+17:37:46:[ RequestURL ]/queryRunProcess
+
+17:37:46:[ RequestMethod ]POST
+
+17:37:46:[ RequestParams ]{}
+
+17:37:46:[ RequestURL ]/queryRunProcess
+
+17:37:46:[ RequestMethod ]POST
+
+17:37:46:[ RequestParams ]{}
+
+17:37:46:[ RequestURL ]/queryRunProcess
+
+17:37:46:[ RequestMethod ]POST
+
+17:37:46:[ RequestParams ]{}
+
+17:37:46:[ Response ]获取进程状态操作成功
+
+17:37:46:请求结束
+
+
+
+17:37:46:[ RequestURL ]/queryRunProcess
+
+17:37:46:[ RequestMethod ]POST
+
+17:37:46:[ RequestParams ]{}
+
+17:37:46:[ Response ]获取进程状态操作成功
+
+17:37:46:请求结束
+
+
+
+17:37:46:[ Response ]获取进程状态操作成功
+
+17:37:46:请求结束
+
+
+
+17:37:46:[ Response ]获取在线状态操作成功
+
+17:37:46:请求结束
+
+
+
+17:37:46:[ Response ]获取进程状态操作成功
+
+17:37:46:请求结束
+
+
+
+17:37:47:[ Response ]获取进程状态操作成功
+
+17:37:47:请求结束
+
+
+
+17:40:46:[ RequestURL ]/queryUpTime
+
+17:40:46:[ RequestMethod ]POST
+
+17:40:46:[ RequestParams ]{}
+
+17:40:46:[ RequestURL ]/queryRunProcess
+
+17:40:46:[ RequestMethod ]POST
+
+17:40:46:[ RequestParams ]{}
+
+17:40:46:[ RequestURL ]/queryRunProcess
+
+17:40:46:[ RequestMethod ]POST
+
+17:40:46:[ RequestParams ]{}
+
+17:40:46:[ RequestURL ]/queryRunProcess
+
+17:40:46:[ RequestMethod ]POST
+
+17:40:46:[ RequestParams ]{}
+
+17:40:46:[ RequestURL ]/queryRunProcess
+
+17:40:46:[ RequestMethod ]POST
+
+17:40:46:[ RequestParams ]{}
+
+17:40:46:[ RequestURL ]/queryRunProcess
+
+17:40:46:[ RequestMethod ]POST
+
+17:40:46:[ RequestParams ]{}
+
+17:40:47:[ Response ]获取进程状态操作成功
+
+17:40:47:请求结束
+
+
+
+17:40:47:[ Response ]获取进程状态操作成功
+
+17:40:47:请求结束
+
+
+
+17:40:47:[ Response ]获取进程状态操作成功
+
+17:40:47:请求结束
+
+
+
+17:40:47:[ Response ]获取在线状态操作成功
+
+17:40:47:请求结束
+
+
+
+17:40:47:[ Response ]获取进程状态操作成功
+
+17:40:47:请求结束
+
+
+
+17:40:47:[ Response ]获取进程状态操作成功
+
+17:40:47:请求结束
+
+
+
+17:41:56:[ RequestURL ]/queryUpTime
+
+17:41:56:[ RequestMethod ]POST
+
+17:41:56:[ RequestParams ]{}
+
+17:41:56:[ RequestURL ]/queryRunProcess
+
+17:41:56:[ RequestMethod ]POST
+
+17:41:56:[ RequestParams ]{}
+
+17:41:56:[ RequestURL ]/queryRunProcess
+
+17:41:56:[ RequestMethod ]POST
+
+17:41:56:[ RequestParams ]{}
+
+17:41:56:[ RequestURL ]/queryRunProcess
+
+17:41:56:[ RequestMethod ]POST
+
+17:41:56:[ RequestParams ]{}
+
+17:41:56:[ RequestURL ]/queryRunProcess
+
+17:41:56:[ RequestMethod ]POST
+
+17:41:56:[ RequestParams ]{}
+
+17:41:56:[ Response ]获取进程状态操作成功
+
+17:41:56:请求结束
+
+
+
+17:41:56:[ RequestURL ]/queryRunProcess
+
+17:41:56:[ RequestMethod ]POST
+
+17:41:56:[ RequestParams ]{}
+
+17:41:56:[ Response ]获取进程状态操作成功
+
+17:41:56:请求结束
+
+
+
+17:41:56:[ Response ]获取在线状态操作成功
+
+17:41:56:请求结束
+
+
+
+17:41:56:[ Response ]获取进程状态操作成功
+
+17:41:56:请求结束
+
+
+
+17:41:56:[ Response ]获取进程状态操作成功
+
+17:41:56:请求结束
+
+
+
+17:41:57:[ Response ]获取进程状态操作成功
+
+17:41:57:请求结束
+
+
+
+17:42:18:[ RequestURL ]/queryUpTime
+
+17:42:18:[ RequestMethod ]POST
+
+17:42:18:[ RequestParams ]{}
+
+17:42:18:[ RequestURL ]/queryRunProcess
+
+17:42:18:[ RequestMethod ]POST
+
+17:42:18:[ RequestParams ]{}
+
+17:42:18:[ RequestURL ]/queryRunProcess
+
+17:42:18:[ RequestMethod ]POST
+
+17:42:18:[ RequestParams ]{}
+
+17:42:18:[ RequestURL ]/queryRunProcess
+
+17:42:18:[ RequestMethod ]POST
+
+17:42:18:[ RequestParams ]{}
+
+17:42:18:[ RequestURL ]/queryRunProcess
+
+17:42:18:[ RequestMethod ]POST
+
+17:42:18:[ RequestParams ]{}
+
+17:42:19:[ Response ]获取进程状态操作成功
+
+17:42:19:请求结束
+
+
+
+17:42:19:[ Response ]获取进程状态操作成功
+
+17:42:19:请求结束
+
+
+
+17:42:19:[ Response ]获取进程状态操作成功
+
+17:42:19:请求结束
+
+
+
+17:42:19:[ RequestURL ]/queryRunProcess
+
+17:42:19:[ RequestMethod ]POST
+
+17:42:19:[ RequestParams ]{}
+
+17:42:20:[ Response ]获取进程状态操作成功
+
+17:42:20:请求结束
+
+
+
+17:42:20:[ Response ]获取在线状态操作成功
+
+17:42:20:请求结束
+
+
+
+17:42:20:[ Response ]获取进程状态操作成功
+
+17:42:20:请求结束
+
+
+
+17:42:20:[ RequestURL ]/queryUpTime
+
+17:42:20:[ RequestMethod ]POST
+
+17:42:20:[ RequestParams ]{}
+
+17:42:20:[ RequestURL ]/queryRunProcess
+
+17:42:20:[ RequestMethod ]POST
+
+17:42:20:[ RequestParams ]{}
+
+17:42:20:[ RequestURL ]/queryRunProcess
+
+17:42:20:[ RequestMethod ]POST
+
+17:42:20:[ RequestParams ]{}
+
+17:42:20:[ RequestURL ]/queryRunProcess
+
+17:42:20:[ RequestMethod ]POST
+
+17:42:20:[ RequestParams ]{}
+
+17:42:20:[ RequestURL ]/queryRunProcess
+
+17:42:20:[ RequestMethod ]POST
+
+17:42:20:[ RequestParams ]{}
+
+17:42:20:[ Response ]获取进程状态操作成功
+
+17:42:20:请求结束
+
+
+
+17:42:20:[ Response ]获取进程状态操作成功
+
+17:42:20:请求结束
+
+
+
+17:42:21:[ Response ]获取进程状态操作成功
+
+17:42:21:请求结束
+
+
+
+17:42:21:[ RequestURL ]/queryRunProcess
+
+17:42:21:[ RequestMethod ]POST
+
+17:42:21:[ RequestParams ]{}
+
+17:42:21:[ Response ]获取在线状态操作成功
+
+17:42:21:请求结束
+
+
+
+17:42:21:[ Response ]获取进程状态操作成功
+
+17:42:21:请求结束
+
+
+
+17:42:21:[ Response ]获取进程状态操作成功
+
+17:42:21:请求结束
+
+
+
+18:09:17:[ RequestURL ]/getToken
+
+18:09:17:[ RequestMethod ]POST
+
+18:09:17:[ RequestParams ]{"username":"benson","password":"benson"}
+
+18:09:17:[ RequestURL ]/login
+
+18:09:17:[ RequestMethod ]POST
+
+18:09:17:[ RequestParams ]{"username":"benson","password":"benson"}
+
+18:09:17:[ Response ]登陆操作成功
+
+18:09:17:请求结束
+
+
+
+18:09:17:[ RequestURL ]/queryUpTime
+
+18:09:17:[ RequestMethod ]POST
+
+18:09:17:[ RequestParams ]{}
+
+18:09:18:[ RequestURL ]/queryRunProcess
+
+18:09:18:[ RequestMethod ]POST
+
+18:09:18:[ RequestParams ]{}
+
+18:09:18:[ RequestURL ]/queryRunProcess
+
+18:09:18:[ RequestMethod ]POST
+
+18:09:18:[ RequestParams ]{}
+
+18:09:18:[ RequestURL ]/queryRunProcess
+
+18:09:18:[ RequestMethod ]POST
+
+18:09:18:[ RequestParams ]{}
+
+18:09:18:[ RequestURL ]/queryRunProcess
+
+18:09:18:[ RequestMethod ]POST
+
+18:09:18:[ RequestParams ]{}
+
+18:09:18:[ Response ]获取进程状态操作成功
+
+18:09:18:请求结束
+
+
+
+18:09:18:[ Response ]获取进程状态操作成功
+
+18:09:18:请求结束
+
+
+
+18:09:18:[ RequestURL ]/queryRunProcess
+
+18:09:18:[ RequestMethod ]POST
+
+18:09:18:[ RequestParams ]{}
+
+18:09:18:[ Response ]获取进程状态操作成功
+
+18:09:18:请求结束
+
+
+
+18:09:18:[ Response ]获取进程状态操作成功
+
+18:09:18:请求结束
+
+
+
+18:09:18:[ Response ]获取在线状态操作成功
+
+18:09:18:请求结束
+
+
+
+18:09:18:[ Response ]获取进程状态操作成功
+
+18:09:18:请求结束
+
+
+
+18:09:54:[ RequestURL ]/queryUpTime
+
+18:09:54:[ RequestMethod ]POST
+
+18:09:54:[ RequestParams ]{}
+
+18:09:54:[ RequestURL ]/queryRunProcess
+
+18:09:54:[ RequestMethod ]POST
+
+18:09:54:[ RequestParams ]{}
+
+18:09:54:[ RequestURL ]/queryRunProcess
+
+18:09:54:[ RequestMethod ]POST
+
+18:09:54:[ RequestParams ]{}
+
+18:09:54:[ RequestURL ]/queryRunProcess
+
+18:09:54:[ RequestMethod ]POST
+
+18:09:54:[ RequestParams ]{}
+
+18:09:54:[ RequestURL ]/queryRunProcess
+
+18:09:54:[ RequestMethod ]POST
+
+18:09:54:[ RequestParams ]{}
+
+18:09:54:[ RequestURL ]/queryRunProcess
+
+18:09:54:[ RequestMethod ]POST
+
+18:09:54:[ RequestParams ]{}
+
+18:09:54:[ Response ]获取进程状态操作成功
+
+18:09:54:请求结束
+
+
+
+18:09:54:[ Response ]获取进程状态操作成功
+
+18:09:54:请求结束
+
+
+
+18:09:54:[ Response ]获取进程状态操作成功
+
+18:09:54:请求结束
+
+
+
+18:09:54:[ Response ]获取进程状态操作成功
+
+18:09:54:请求结束
+
+
+
+18:09:54:[ Response ]获取进程状态操作成功
+
+18:09:54:请求结束
+
+
+
+18:09:54:[ Response ]获取在线状态操作成功
+
+18:09:54:请求结束
+
+
+
+18:11:12:[ RequestURL ]/queryUpTime
+
+18:11:12:[ RequestMethod ]POST
+
+18:11:12:[ RequestParams ]{}
+
+18:11:12:[ RequestURL ]/queryRunProcess
+
+18:11:12:[ RequestMethod ]POST
+
+18:11:12:[ RequestParams ]{}
+
+18:11:12:[ RequestURL ]/queryRunProcess
+
+18:11:12:[ RequestMethod ]POST
+
+18:11:12:[ RequestParams ]{}
+
+18:11:12:[ RequestURL ]/queryRunProcess
+
+18:11:12:[ RequestMethod ]POST
+
+18:11:12:[ RequestParams ]{}
+
+18:11:12:[ RequestURL ]/queryRunProcess
+
+18:11:12:[ RequestMethod ]POST
+
+18:11:12:[ RequestParams ]{}
+
+18:11:12:[ RequestURL ]/queryRunProcess
+
+18:11:12:[ RequestMethod ]POST
+
+18:11:12:[ RequestParams ]{}
+
+18:11:12:[ Response ]获取在线状态操作成功
+
+18:11:12:请求结束
+
+
+
+18:11:12:[ Response ]获取进程状态操作成功
+
+18:11:12:请求结束
+
+
+
+18:11:12:[ Response ]获取进程状态操作成功
+
+18:11:12:请求结束
+
+
+
+18:11:12:[ Response ]获取进程状态操作成功
+
+18:11:12:请求结束
+
+
+
+18:11:12:[ Response ]获取进程状态操作成功
+
+18:11:12:请求结束
+
+
+
+18:11:12:[ Response ]获取进程状态操作成功
+
+18:11:12:请求结束
+
+
+
+18:41:01:[ RequestURL ]/queryUpTime
+
+18:41:01:[ RequestMethod ]POST
+
+18:41:01:[ RequestParams ]{}
+
+18:41:01:[ RequestURL ]/queryRunProcess
+
+18:41:01:[ RequestMethod ]POST
+
+18:41:01:[ RequestParams ]{}
+
+18:41:01:[ RequestURL ]/queryRunProcess
+
+18:41:01:[ RequestMethod ]POST
+
+18:41:01:[ RequestParams ]{}
+
+18:41:01:[ RequestURL ]/queryRunProcess
+
+18:41:01:[ RequestMethod ]POST
+
+18:41:01:[ RequestParams ]{}
+
+18:41:01:[ RequestURL ]/queryRunProcess
+
+18:41:01:[ RequestMethod ]POST
+
+18:41:01:[ RequestParams ]{}
+
+18:41:01:[ RequestURL ]/queryRunProcess
+
+18:41:01:[ RequestMethod ]POST
+
+18:41:01:[ RequestParams ]{}
+
+18:41:02:[ Response ]获取进程状态操作成功
+
+18:41:02:请求结束
+
+
+
+18:41:02:[ Response ]获取在线状态操作成功
+
+18:41:02:请求结束
+
+
+
+18:41:02:[ Response ]获取进程状态操作成功
+
+18:41:02:请求结束
+
+
+
+18:41:02:[ Response ]获取进程状态操作成功
+
+18:41:02:请求结束
+
+
+
+18:41:02:[ Response ]获取进程状态操作成功
+
+18:41:02:请求结束
+
+
+
+18:41:02:[ Response ]获取进程状态操作成功
+
+18:41:02:请求结束
+
+
+
+19:21:19:[ RequestURL ]/queryUpTime
+
+19:21:19:[ RequestMethod ]POST
+
+19:21:19:[ RequestParams ]{}
+
+19:21:19:[ RequestURL ]/queryRunProcess
+
+19:21:19:[ RequestMethod ]POST
+
+19:21:19:[ RequestParams ]{}
+
+19:21:19:[ RequestURL ]/queryRunProcess
+
+19:21:19:[ RequestMethod ]POST
+
+19:21:19:[ RequestParams ]{}
+
+19:21:19:[ RequestURL ]/queryRunProcess
+
+19:21:19:[ RequestMethod ]POST
+
+19:21:19:[ RequestParams ]{}
+
+19:21:19:[ RequestURL ]/queryRunProcess
+
+19:21:19:[ RequestMethod ]POST
+
+19:21:19:[ RequestParams ]{}
+
+19:21:19:[ RequestURL ]/queryRunProcess
+
+19:21:19:[ RequestMethod ]POST
+
+19:21:19:[ RequestParams ]{}
+
+19:21:19:[ Response ]获取进程状态操作成功
+
+19:21:19:请求结束
+
+
+
+19:21:19:[ Response ]获取进程状态操作成功
+
+19:21:19:请求结束
+
+
+
+19:21:19:[ Response ]获取进程状态操作成功
+
+19:21:19:请求结束
+
+
+
+19:21:20:[ Response ]获取在线状态操作成功
+
+19:21:20:请求结束
+
+
+
+19:21:20:[ Response ]获取进程状态操作成功
+
+19:21:20:请求结束
+
+
+
+19:21:20:[ Response ]获取进程状态操作成功
+
+19:21:20:请求结束
+
+
+
+19:21:41:[ RequestURL ]/queryUpTime
+
+19:21:41:[ RequestMethod ]POST
+
+19:21:41:[ RequestParams ]{}
+
+19:21:41:[ RequestURL ]/queryRunProcess
+
+19:21:41:[ RequestMethod ]POST
+
+19:21:41:[ RequestParams ]{}
+
+19:21:41:[ RequestURL ]/queryRunProcess
+
+19:21:41:[ RequestMethod ]POST
+
+19:21:41:[ RequestParams ]{}
+
+19:21:41:[ RequestURL ]/queryRunProcess
+
+19:21:41:[ RequestMethod ]POST
+
+19:21:41:[ RequestParams ]{}
+
+19:21:41:[ RequestURL ]/queryRunProcess
+
+19:21:41:[ RequestMethod ]POST
+
+19:21:41:[ RequestParams ]{}
+
+19:21:42:[ Response ]获取在线状态操作成功
+
+19:21:42:请求结束
+
+
+
+19:21:42:[ Response ]获取进程状态操作成功
+
+19:21:42:请求结束
+
+
+
+19:21:42:[ RequestURL ]/queryRunProcess
+
+19:21:42:[ RequestMethod ]POST
+
+19:21:42:[ RequestParams ]{}
+
+19:21:42:[ Response ]获取进程状态操作成功
+
+19:21:42:请求结束
+
+
+
+19:21:42:[ Response ]获取进程状态操作成功
+
+19:21:42:请求结束
+
+
+
+19:21:42:[ Response ]获取进程状态操作成功
+
+19:21:42:请求结束
+
+
+
+19:21:42:[ Response ]获取进程状态操作成功
+
+19:21:42:请求结束
+
+
+
+19:22:34:[ RequestURL ]/queryUpTime
+
+19:22:34:[ RequestMethod ]POST
+
+19:22:34:[ RequestParams ]{}
+
+19:22:34:[ RequestURL ]/queryRunProcess
+
+19:22:34:[ RequestMethod ]POST
+
+19:22:34:[ RequestParams ]{}
+
+19:22:34:[ RequestURL ]/queryRunProcess
+
+19:22:34:[ RequestMethod ]POST
+
+19:22:34:[ RequestParams ]{}
+
+19:22:34:[ RequestURL ]/queryRunProcess
+
+19:22:34:[ RequestMethod ]POST
+
+19:22:34:[ RequestParams ]{}
+
+19:22:34:[ RequestURL ]/queryRunProcess
+
+19:22:34:[ RequestMethod ]POST
+
+19:22:34:[ RequestParams ]{}
+
+19:22:34:[ Response ]获取进程状态操作成功
+
+19:22:34:请求结束
+
+
+
+19:22:34:[ RequestURL ]/queryRunProcess
+
+19:22:34:[ RequestMethod ]POST
+
+19:22:34:[ RequestParams ]{}
+
+19:22:34:[ Response ]获取进程状态操作成功
+
+19:22:34:请求结束
+
+
+
+19:22:34:[ Response ]获取在线状态操作成功
+
+19:22:34:请求结束
+
+
+
+19:22:34:[ Response ]获取进程状态操作成功
+
+19:22:34:请求结束
+
+
+
+19:22:34:[ Response ]获取进程状态操作成功
+
+19:22:34:请求结束
+
+
+
+19:22:35:[ Response ]获取进程状态操作成功
+
+19:22:35:请求结束
+
+
+
+19:23:19:[ RequestURL ]/queryUpTime
+
+19:23:19:[ RequestMethod ]POST
+
+19:23:19:[ RequestParams ]{}
+
+19:23:19:[ RequestURL ]/queryRunProcess
+
+19:23:19:[ RequestMethod ]POST
+
+19:23:19:[ RequestParams ]{}
+
+19:23:19:[ RequestURL ]/queryRunProcess
+
+19:23:19:[ RequestMethod ]POST
+
+19:23:19:[ RequestParams ]{}
+
+19:23:19:[ RequestURL ]/queryRunProcess
+
+19:23:19:[ RequestMethod ]POST
+
+19:23:19:[ RequestParams ]{}
+
+19:23:19:[ RequestURL ]/queryRunProcess
+
+19:23:19:[ RequestMethod ]POST
+
+19:23:19:[ RequestParams ]{}
+
+19:23:19:[ Response ]获取进程状态操作成功
+
+19:23:19:请求结束
+
+
+
+19:23:19:[ RequestURL ]/queryRunProcess
+
+19:23:19:[ RequestMethod ]POST
+
+19:23:19:[ RequestParams ]{}
+
+19:23:19:[ Response ]获取在线状态操作成功
+
+19:23:19:请求结束
+
+
+
+19:23:19:[ Response ]获取进程状态操作成功
+
+19:23:19:请求结束
+
+
+
+19:23:19:[ Response ]获取进程状态操作成功
+
+19:23:19:请求结束
+
+
+
+19:23:19:[ Response ]获取进程状态操作成功
+
+19:23:19:请求结束
+
+
+
+19:23:19:[ Response ]获取进程状态操作成功
+
+19:23:19:请求结束
+
+
+
+19:23:40:[ RequestURL ]/queryUpTime
+
+19:23:40:[ RequestMethod ]POST
+
+19:23:40:[ RequestParams ]{}
+
+19:23:40:[ RequestURL ]/queryRunProcess
+
+19:23:40:[ RequestMethod ]POST
+
+19:23:40:[ RequestParams ]{}
+
+19:23:40:[ RequestURL ]/queryRunProcess
+
+19:23:40:[ RequestMethod ]POST
+
+19:23:40:[ RequestParams ]{}
+
+19:23:40:[ RequestURL ]/queryRunProcess
+
+19:23:40:[ RequestMethod ]POST
+
+19:23:40:[ RequestParams ]{}
+
+19:23:40:[ RequestURL ]/queryRunProcess
+
+19:23:40:[ RequestMethod ]POST
+
+19:23:40:[ RequestParams ]{}
+
+19:23:40:[ Response ]获取在线状态操作成功
+
+19:23:40:请求结束
+
+
+
+19:23:40:[ RequestURL ]/queryRunProcess
+
+19:23:40:[ RequestMethod ]POST
+
+19:23:40:[ RequestParams ]{}
+
+19:23:40:[ Response ]获取进程状态操作成功
+
+19:23:40:请求结束
+
+
+
+19:23:40:[ Response ]获取进程状态操作成功
+
+19:23:40:请求结束
+
+
+
+19:23:41:[ Response ]获取进程状态操作成功
+
+19:23:41:请求结束
+
+
+
+19:23:41:[ Response ]获取进程状态操作成功
+
+19:23:41:请求结束
+
+
+
+19:23:41:[ Response ]获取进程状态操作成功
+
+19:23:41:请求结束
+
+
+
+19:24:09:[ RequestURL ]/queryUpTime
+
+19:24:09:[ RequestMethod ]POST
+
+19:24:09:[ RequestParams ]{}
+
+19:24:09:[ RequestURL ]/queryRunProcess
+
+19:24:09:[ RequestMethod ]POST
+
+19:24:09:[ RequestParams ]{}
+
+19:24:09:[ RequestURL ]/queryRunProcess
+
+19:24:09:[ RequestMethod ]POST
+
+19:24:09:[ RequestParams ]{}
+
+19:24:09:[ RequestURL ]/queryRunProcess
+
+19:24:09:[ RequestMethod ]POST
+
+19:24:09:[ RequestParams ]{}
+
+19:24:09:[ RequestURL ]/queryRunProcess
+
+19:24:09:[ RequestMethod ]POST
+
+19:24:09:[ RequestParams ]{}
+
+19:24:09:[ Response ]获取在线状态操作成功
+
+19:24:09:请求结束
+
+
+
+19:24:09:[ RequestURL ]/queryRunProcess
+
+19:24:09:[ RequestMethod ]POST
+
+19:24:09:[ RequestParams ]{}
+
+19:24:09:[ Response ]获取进程状态操作成功
+
+19:24:09:请求结束
+
+
+
+19:24:09:[ Response ]获取进程状态操作成功
+
+19:24:09:请求结束
+
+
+
+19:24:09:[ Response ]获取进程状态操作成功
+
+19:24:09:请求结束
+
+
+
+19:24:09:[ Response ]获取进程状态操作成功
+
+19:24:09:请求结束
+
+
+
+19:24:10:[ Response ]获取进程状态操作成功
+
+19:24:10:请求结束
+
+
+
+19:35:54:[ RequestURL ]/queryUpTime
+
+19:35:54:[ RequestMethod ]POST
+
+19:35:54:[ RequestParams ]{}
+
+19:35:54:[ RequestURL ]/queryRunProcess
+
+19:35:54:[ RequestMethod ]POST
+
+19:35:54:[ RequestParams ]{}
+
+19:35:54:[ RequestURL ]/queryRunProcess
+
+19:35:54:[ RequestMethod ]POST
+
+19:35:54:[ RequestParams ]{}
+
+19:35:54:[ RequestURL ]/queryRunProcess
+
+19:35:54:[ RequestMethod ]POST
+
+19:35:54:[ RequestParams ]{}
+
+19:35:54:[ RequestURL ]/queryRunProcess
+
+19:35:54:[ RequestMethod ]POST
+
+19:35:54:[ RequestParams ]{}
+
+19:35:54:[ RequestURL ]/queryRunProcess
+
+19:35:54:[ RequestMethod ]POST
+
+19:35:54:[ RequestParams ]{}
+
+19:35:55:[ Response ]获取进程状态操作成功
+
+19:35:55:请求结束
+
+
+
+19:35:55:[ Response ]获取在线状态操作成功
+
+19:35:55:请求结束
+
+
+
+19:35:55:[ Response ]获取进程状态操作成功
+
+19:35:55:请求结束
+
+
+
+19:35:55:[ Response ]获取进程状态操作成功
+
+19:35:55:请求结束
+
+
+
+19:35:55:[ Response ]获取进程状态操作成功
+
+19:35:55:请求结束
+
+
+
+19:35:55:[ Response ]获取进程状态操作成功
+
+19:35:55:请求结束
+
+
+
+19:50:48:[ RequestURL ]/queryUpTime
+
+19:50:48:[ RequestMethod ]POST
+
+19:50:48:[ RequestParams ]{}
+
+19:50:48:[ RequestURL ]/queryRunProcess
+
+19:50:48:[ RequestMethod ]POST
+
+19:50:48:[ RequestParams ]{}
+
+19:50:48:[ RequestURL ]/queryRunProcess
+
+19:50:48:[ RequestMethod ]POST
+
+19:50:48:[ RequestParams ]{}
+
+19:50:48:[ RequestURL ]/queryRunProcess
+
+19:50:48:[ RequestMethod ]POST
+
+19:50:48:[ RequestParams ]{}
+
+19:50:48:[ RequestURL ]/queryRunProcess
+
+19:50:48:[ RequestMethod ]POST
+
+19:50:48:[ RequestParams ]{}
+
+19:50:48:[ RequestURL ]/queryRunProcess
+
+19:50:48:[ RequestMethod ]POST
+
+19:50:48:[ RequestParams ]{}
+
+19:50:49:[ Response ]获取进程状态操作成功
+
+19:50:49:请求结束
+
+
+
+19:50:49:[ Response ]获取进程状态操作成功
+
+19:50:49:请求结束
+
+
+
+19:50:49:[ Response ]获取进程状态操作成功
+
+19:50:49:请求结束
+
+
+
+19:50:49:[ Response ]获取进程状态操作成功
+
+19:50:49:请求结束
+
+
+
+19:50:49:[ Response ]获取在线状态操作成功
+
+19:50:49:请求结束
+
+
+
+19:50:49:[ Response ]获取进程状态操作成功
+
+19:50:49:请求结束
+
+
+
