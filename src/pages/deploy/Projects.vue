@@ -209,6 +209,7 @@
           branch: self.branch,
           tag: self.tag,
           env: 'test',
+          project_type: row.type,
           configfile: row.configfile
           }).then((response) => {
            self.msg = response.data;
@@ -229,6 +230,7 @@
           branch: self.branch,
           tag: self.tag,
           env: 'prod',
+          project_type: row.type,
           configfile: row.configfile
           }).then((response) => {
            self.msg = response.data;
