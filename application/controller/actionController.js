@@ -239,7 +239,8 @@ ctrl.ProjectDeploy = function(req) {
 		branch: req.body.branch,
 		tag: req.body.tag,
 		env: req.body.env,
-		configfile: req.body.configfile
+		configfile: req.body.configfile,
+		project_type: req.body.project_type,
   }).then(
     result => {
       return {

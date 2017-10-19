@@ -1,0 +1,37 @@
+09:27:36:Problem with request:
+
+09:27:36:[ Response ] Object.exports._errnoException (util.js:1018:11)
+    
+
+09:27:36:[ Response ] unKnownError : Error: connect ECONNREFUSED 127.0.0.1:8888
+    at Object.exports._errnoException (util.js:1018:11)
+    at exports._exceptionWithHostPort (util.js:1041:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+From previous event:
+    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/debuggability.js:397:19)
+    at Function.Promise.attempt.Promise.try (/Users/benson/Projects/MikasonOperWeb/node_modules/_bluebird@3.5.0@bluebird/js/release/method.js:29:9)
+    at Controller.safeMode (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:50:13)
+    at Controller.(anonymous function) (/Users/benson/Projects/MikasonOperWeb/application/baseController.js:13:10)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:335:12)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:127:14)
+    at router.all (/Users/benson/Projects/MikasonOperWeb/routes/mainRouter.js:28:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/layer.js:95:5)
+    at /Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:281:22
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:354:14)
+    at param (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:365:14)
+    at Function.process_params (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:410:3)
+    at next (/Users/benson/Projects/MikasonOperWeb/node_modules/_express@4.15.5@express/lib/router/index.js:275:10)
+
+09:27:36:请求结束
+
+
+

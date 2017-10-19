@@ -368,3 +368,141 @@
 
 
 
+18:14:23:[ RequestURL ]/getToken
+
+18:14:23:[ RequestMethod ]POST
+
+18:14:23:[ RequestParams ]{"username":"benson","password":"benson"}
+
+18:14:23:[ RequestURL ]/login
+
+18:14:23:[ RequestMethod ]POST
+
+18:14:23:[ RequestParams ]{"username":"benson","password":"benson"}
+
+18:14:24:[ Response ]登陆操作成功
+
+18:14:24:请求结束
+
+
+
+18:14:24:[ RequestURL ]/queryUpTime
+
+18:14:24:[ RequestMethod ]POST
+
+18:14:24:[ RequestParams ]{}
+
+18:14:24:[ RequestURL ]/queryRunProcess
+
+18:14:24:[ RequestMethod ]POST
+
+18:14:24:[ RequestParams ]{}
+
+18:14:24:[ RequestURL ]/queryRunProcess
+
+18:14:24:[ RequestMethod ]POST
+
+18:14:24:[ RequestParams ]{}
+
+18:14:24:[ RequestURL ]/queryRunProcess
+
+18:14:24:[ RequestMethod ]POST
+
+18:14:24:[ RequestParams ]{}
+
+18:14:24:[ RequestURL ]/queryRunProcess
+
+18:14:24:[ RequestMethod ]POST
+
+18:14:24:[ RequestParams ]{}
+
+18:14:24:[ Response ]获取进程状态操作成功
+
+18:14:24:请求结束
+
+
+
+18:14:24:[ Response ]获取进程状态操作成功
+
+18:14:24:请求结束
+
+
+
+18:14:24:[ Response ]获取进程状态操作成功
+
+18:14:24:请求结束
+
+
+
+18:14:24:[ RequestURL ]/queryRunProcess
+
+18:14:24:[ RequestMethod ]POST
+
+18:14:24:[ RequestParams ]{}
+
+18:14:24:[ Response ]获取在线状态操作成功
+
+18:14:24:请求结束
+
+
+
+18:14:24:[ Response ]获取进程状态操作成功
+
+18:14:24:请求结束
+
+
+
+18:14:25:[ Response ]获取进程状态操作成功
+
+18:14:25:请求结束
+
+
+
+18:14:27:[ RequestURL ]/ServerList
+
+18:14:27:[ RequestMethod ]POST
+
+18:14:27:[ RequestParams ]{}
+
+18:14:27:[ Response ]获取服务器列表操作成功
+
+18:14:27:请求结束
+
+
+
+18:14:31:[ RequestURL ]/GetProjectInfo
+
+18:14:31:[ RequestMethod ]POST
+
+18:14:31:[ RequestParams ]{}
+
+18:14:38:[ Response ]获取所有的项目操作成功
+
+18:14:38:请求结束
+
+
+
+18:14:45:[ RequestURL ]/GetProjectInfo
+
+18:14:45:[ RequestMethod ]POST
+
+18:14:45:[ RequestParams ]{}
+
+18:14:51:[ Response ]获取所有的项目操作成功
+
+18:14:51:请求结束
+
+
+
+18:15:52:[ RequestURL ]/GetProjectInfo
+
+18:15:52:[ RequestMethod ]POST
+
+18:15:52:[ RequestParams ]{}
+
+18:15:52:[ Response ]获取所有的项目操作成功
+
+18:15:52:请求结束
+
+
+

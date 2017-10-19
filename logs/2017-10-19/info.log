@@ -1,0 +1,106 @@
+09:27:36:[ RequestURL ]/getToken
+
+09:27:36:[ RequestMethod ]POST
+
+09:27:36:[ RequestParams ]{"username":"benson","password":"benson"}
+
+09:27:36:[ RequestURL ]/login
+
+09:27:36:[ RequestMethod ]POST
+
+09:27:36:[ RequestParams ]{"username":"benson","password":"benson"}
+
+09:27:36:请求结束
+
+
+
+09:27:59:[ RequestURL ]/getToken
+
+09:27:59:[ RequestMethod ]POST
+
+09:27:59:[ RequestParams ]{"username":"benson","password":"benson"}
+
+09:27:59:[ RequestURL ]/login
+
+09:27:59:[ RequestMethod ]POST
+
+09:27:59:[ RequestParams ]{"username":"benson","password":"benson"}
+
+09:27:59:[ Response ]登陆操作成功
+
+09:27:59:请求结束
+
+
+
+09:27:59:[ RequestURL ]/queryUpTime
+
+09:27:59:[ RequestMethod ]POST
+
+09:27:59:[ RequestParams ]{}
+
+09:27:59:[ RequestURL ]/queryRunProcess
+
+09:27:59:[ RequestMethod ]POST
+
+09:27:59:[ RequestParams ]{}
+
+09:27:59:[ RequestURL ]/queryRunProcess
+
+09:27:59:[ RequestMethod ]POST
+
+09:27:59:[ RequestParams ]{}
+
+09:27:59:[ RequestURL ]/queryRunProcess
+
+09:27:59:[ RequestMethod ]POST
+
+09:27:59:[ RequestParams ]{}
+
+09:27:59:[ RequestURL ]/queryRunProcess
+
+09:27:59:[ RequestMethod ]POST
+
+09:27:59:[ RequestParams ]{}
+
+09:28:00:[ Response ]获取进程状态操作成功
+
+09:28:00:请求结束
+
+
+
+09:28:00:[ RequestURL ]/queryRunProcess
+
+09:28:00:[ RequestMethod ]POST
+
+09:28:00:[ RequestParams ]{}
+
+09:28:00:[ Response ]获取进程状态操作成功
+
+09:28:00:请求结束
+
+
+
+09:28:00:[ Response ]获取进程状态操作成功
+
+09:28:00:请求结束
+
+
+
+09:28:00:[ Response ]获取在线状态操作成功
+
+09:28:00:请求结束
+
+
+
+09:28:00:[ Response ]获取进程状态操作成功
+
+09:28:00:请求结束
+
+
+
+09:28:00:[ Response ]获取进程状态操作成功
+
+09:28:00:请求结束
+
+
+
