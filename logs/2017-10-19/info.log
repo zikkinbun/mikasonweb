@@ -104,3 +104,93 @@
 
 
 
+13:53:54:[ RequestURL ]/getToken
+
+13:53:54:[ RequestMethod ]POST
+
+13:53:54:[ RequestParams ]{"username":"benson","password":"benson"}
+
+13:53:54:[ RequestURL ]/login
+
+13:53:54:[ RequestMethod ]POST
+
+13:53:54:[ RequestParams ]{"username":"benson","password":"benson"}
+
+13:53:54:[ Response ]登陆操作成功
+
+13:53:54:请求结束
+
+
+
+13:53:54:[ RequestURL ]/queryUpTime
+
+13:53:54:[ RequestMethod ]POST
+
+13:53:54:[ RequestParams ]{}
+
+13:53:54:[ RequestURL ]/queryRunProcess
+
+13:53:54:[ RequestMethod ]POST
+
+13:53:54:[ RequestParams ]{}
+
+13:53:54:[ RequestURL ]/queryRunProcess
+
+13:53:54:[ RequestMethod ]POST
+
+13:53:54:[ RequestParams ]{}
+
+13:53:54:[ RequestURL ]/queryRunProcess
+
+13:53:54:[ RequestMethod ]POST
+
+13:53:54:[ RequestParams ]{}
+
+13:53:54:[ RequestURL ]/queryRunProcess
+
+13:53:54:[ RequestMethod ]POST
+
+13:53:54:[ RequestParams ]{}
+
+13:53:55:[ Response ]获取进程状态操作成功
+
+13:53:55:请求结束
+
+
+
+13:53:55:[ RequestURL ]/queryRunProcess
+
+13:53:55:[ RequestMethod ]POST
+
+13:53:55:[ RequestParams ]{}
+
+13:53:55:[ Response ]获取在线状态操作成功
+
+13:53:55:请求结束
+
+
+
+13:53:55:[ Response ]获取进程状态操作成功
+
+13:53:55:请求结束
+
+
+
+13:53:55:[ Response ]获取进程状态操作成功
+
+13:53:55:请求结束
+
+
+
+13:53:55:[ Response ]获取进程状态操作成功
+
+13:53:55:请求结束
+
+
+
+13:53:55:[ Response ]获取进程状态操作成功
+
+13:53:55:请求结束
+
+
+

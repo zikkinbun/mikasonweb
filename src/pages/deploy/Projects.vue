@@ -210,7 +210,7 @@
           tag: self.tag,
           env: 'test',
           project_type: row.type,
-          configfile: row.configfile
+          configfile: row.configfile.split(",")
           }).then((response) => {
            self.msg = response.data;
            self.$alert(self.msg.retmsg, '发布情况', {
@@ -231,7 +231,7 @@
           tag: self.tag,
           env: 'prod',
           project_type: row.type,
-          configfile: row.configfile
+          configfile: row.configfile.split(",")
           }).then((response) => {
            self.msg = response.data;
            self.$alert(self.msg.retmsg, '发布情况', {
