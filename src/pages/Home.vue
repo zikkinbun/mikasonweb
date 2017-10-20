@@ -2,7 +2,7 @@
 <div class="layout" :class="{'layout-hide-text': spanLeft < 4}">
 	<el-row type="flex" class="row-bg">
 			<el-col :span="spanLeft" class="layout-menu-left">
-				<el-menu :active-name="routerName" width="auto" theme="dark" @on-select="select" :router="true">
+				<el-menu :active-name="routerName" width="auto" theme="dark" @on-select="select" :router="true" :unique-opened="true">
 					<div class="layout-logo-left">
 						<img src="../assets/logo.png?v=1.0.0" height="100%">
 					</div>

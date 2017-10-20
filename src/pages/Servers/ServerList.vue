@@ -19,38 +19,47 @@
       :data="servers"
       style="width: 100%"
       highlight-current-row
+      border
       @selection-change="tableSelectionChange">
       <el-table-column
         label="服务器"
-        prop="Name">
+        prop="Name"
+        width="120px">
       </el-table-column>
       <el-table-column
         label="系统"
-        prop="System">
+        prop="System"
+        width="100px">
       </el-table-column>
       <el-table-column
         label="公网地址"
-        prop="GlobalIpAddr">
+        prop="GlobalIpAddr"
+        width="150px">
       </el-table-column>
       <el-table-column
         label="私网地址"
-        prop="PrivateIpAddr">
+        prop="PrivateIpAddr"
+        width="150px">
       </el-table-column>
       <el-table-column
         label="CPU"
-        prop="CpuStat">
+        prop="CpuStat"
+        width="80px">
       </el-table-column>
       <el-table-column
         label="内存"
-        prop="MemoryStat">
+        prop="MemoryStat"
+        width="80px">
       </el-table-column>
       <el-table-column
         label="硬盘"
-        prop="HDDStorage">
+        prop="HDDStorage"
+        width="80px">
       </el-table-column>
       <el-table-column
         label="网卡带宽"
-        prop="NetCard">
+        prop="NetCard"
+        width="100px">
       </el-table-column>
       <el-table-column
         prop="Status"
@@ -70,11 +79,11 @@
           <el-button
           size="small"
           type="warning"
-          @click="handleEdit(scope.$index, scope.row)">修改</el-button>
+          @click="handleEdit(scope.$index, scope.row)">修改配置</el-button>
           <el-button
           size="small"
           type="danger"
-          @click="handleDelete(scope.$index, scope.row)">删除</el-button>
+          @click="handleDelete(scope.$index, scope.row)">删除服务器</el-button>
         </template>
       </el-table-column>
     </el-table>

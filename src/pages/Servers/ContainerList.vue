@@ -15,11 +15,13 @@
   <el-table
     :data="containers"
     style="width: 100%"
+    border
     highlight-current-row
     @selection-change="tableSelectionChange">
     <el-table-column
       label="容器Id"
-      prop="containerId">
+      prop="containerId"
+      width="140px">
       <template scope="scope">
         <el-button
         size="small"
@@ -29,15 +31,18 @@
     </el-table-column>
     <el-table-column
     label="托管主机"
-    prop="hostName">
+    prop="hostName"
+    width="120px">
   </el-table-column>
     <el-table-column
       label="容器名"
-      prop="containerName">
+      prop="containerName"
+      width="180px">
     </el-table-column>
     <el-table-column
       label="镜像名"
-      prop="imageName">
+      prop="imageName"
+      width="100px">
     </el-table-column>
     <el-table-column
       label="启动命令"
@@ -45,11 +50,13 @@
     </el-table-column>
     <el-table-column
       label="创建时间"
-      prop="createdate">
+      prop="createdate"
+      width="180px">
     </el-table-column>
     <el-table-column
       label="运行时间"
-      prop="status">
+      prop="status"
+      width="120px">
     </el-table-column>
     <el-table-column
       prop="state"
@@ -69,11 +76,15 @@
         <el-button
         size="small"
         type="success"
-        @click="startContainer(scope.$index, scope.row)">开 启</el-button>
+        @click="startContainer(scope.$index, scope.row)">开启容器</el-button>
         <el-button
         size="small"
         type="warning"
-        @click="stopContainer(scope.$index, scope.row)">停 止</el-button>
+        @click="stopContainer(scope.$index, scope.row)">关闭容器</el-button>
+        <el-button
+        size="small"
+        type="danger"
+        @click="deleteContainer(scope.$index, scope.row)">删除容器</el-button>
       </template>
     </el-table-column>
   </el-table>
