@@ -13,11 +13,13 @@
 
     <el-table
       :data="projects"
+      border
       style="width: 100%"
       highlight-current-row>
       <el-table-column
         label="项目Id"
-        prop="pid">
+        prop="pid"
+        width="80">
       </el-table-column>
       <el-table-column
       label="项目名称"
@@ -25,7 +27,8 @@
       </el-table-column>
       <el-table-column
         label="项目类型"
-        prop="type">
+        prop="type"
+        width="100">
         <template scope="scope">
           <el-button :plain="true" type="success" size="small" @click="setConfigDialogShow(scope.$index, scope.row)">
             {{ scope.row.type ? scope.row.type : '未设置' }}
@@ -66,26 +69,19 @@
       </el-table-column>
       <el-table-column
         prop="configfile"
-        label="配置文件">
+        label="配置文件"
+        width="120">
       </el-table-column>
       <el-table-column
         prop="owner"
-        label="项目主人">
+        label="项目主人"
+        width="100">
       </el-table-column>
-      <el-table-column label="操作">
+      <el-table-column label="操作" width="200">
         <template scope="scope">
-          <el-button
-          size="small"
-          type="warning"
-          @click="pushTest(scope.$index, scope.row)">测 试</el-button>
-          <el-button
-          size="small"
-          type="success"
-          @click="pushProd(scope.$index, scope.row)">生 产</el-button>
-          <el-button
-          size="small"
-          type="danger"
-          @click="Rollback(scope.$index, scope.row)">回 滚</el-button>
+          <el-button size="small" type="warning" @click="pushTest(scope.$index, scope.row)">测试</el-button>
+          <el-button size="small" type="success" @click="pushProd(scope.$index, scope.row)">生产</el-button>
+          <el-button size="small" type="danger" @click="Rollback(scope.$index, scope.row)">回滚</el-button>
         </template>
       </el-table-column>
     </el-table>
