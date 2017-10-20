@@ -250,6 +250,24 @@ ctrl.ProjectDeploy = function(req) {
   });
 };
 
+// 项目回滚
+ctrl.ProjectRollback = function(req) {
+  return this.request(req, "/deploy/Rollback", {
+    project: req.body.project,
+		branch: req.body.branch,
+		tag: req.body.tag,
+		env: req.body.env,
+		configfile: req.body.configfile,
+		project_type: req.body.project_type,
+  }).then(
+    result => {
+      return {
+        data: result,
+        str: "项目回滚"
+      };
+  });
+};
+
 // 获取gitlab上的项目
 ctrl.GetProjects = function(req) {
   return this.request(req, "/deploy/GetProjects", {

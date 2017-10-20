@@ -82,6 +82,10 @@
           size="small"
           type="success"
           @click="pushProd(scope.$index, scope.row)">生 产</el-button>
+          <el-button
+          size="small"
+          type="danger"
+          @click="Rollback(scope.$index, scope.row)">回 滚</el-button>
         </template>
       </el-table-column>
     </el-table>
@@ -235,6 +239,27 @@
           }).then((response) => {
            self.msg = response.data;
            self.$alert(self.msg.retmsg, '发布情况', {
+             confirmButtonText: '确定',
+           });
+           self.loadProd = false;
+        })
+        .catch(function (error) {
+          console.log(error);
+        });
+      },
+      Rollback: function(index, row) {
+        var self = this;
+        self.loadProd = true;
+        self.$http.post('/Interface/ProjectRollback', {
+          project: row.name,
+          branch: self.branch,
+          tag: self.tag,
+          env: 'prod',
+          project_type: row.type,
+          configfile: row.configfile.split(",")
+          }).then((response) => {
+           self.msg = response.data;
+           self.$alert(self.msg.retmsg, '回滚情况', {
              confirmButtonText: '确定',
            });
            self.loadProd = false;
