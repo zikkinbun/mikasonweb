@@ -15,7 +15,7 @@
 			    <el-submenu index="2">
 			      <template slot="title"><i class="el-icon-upload"></i>发布管理</template>
 						<el-menu-item index="/dashboard/Projects"><i class="el-icon-edit"></i>项目一览</el-menu-item>
-			      <el-menu-item index="/dashboard/Deploy"><i class="el-icon-edit"></i>一键发布</el-menu-item>
+			      <el-menu-item index="/dashboard/Deploy"><i class="el-icon-edit"></i>定时发布</el-menu-item>
 						<el-menu-item index="/dashboard/deployRecord"><i class="el-icon-edit"></i>发布记录</el-menu-item>
 			    </el-submenu>
 			    <el-submenu index="3">

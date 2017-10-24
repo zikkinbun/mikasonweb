@@ -202,35 +202,27 @@ ctrl.ContainerDetail = function(req) {
   });
 };
 
-// 一键提测
-ctrl.OneKeyDeployTest = function(req) {
-  return this.request(req, "/deploy/pushTest", {
+// 定时提测
+ctrl.PeriodDeploy = function(req) {
+  return this.request(req, "/deploy/PeriodDeploy", {
+		name: req.body.name,
     project: req.body.project,
 		branch: req.body.branch,
-		tag: req.body.tag
+		tag: req.body.tag,
+		env: req.body.env,
+		config: req.body.config,
+		type: req.body.type,
+		date: req.body.date,
+		time: req.body.time
   }).then(
     result => {
       return {
         data: result,
-        str: "一键提测"
+        str: "定时提测"
       };
   });
 };
 
-// 一键提交生产
-ctrl.OneKeyDeployProd = function(req) {
-  return this.request(req, "/deploy/pushProd", {
-    project: req.body.project,
-		branch: req.body.branch,
-		tag: req.body.tag
-  }).then(
-    result => {
-      return {
-        data: result,
-        str: "一键提交生产"
-      };
-  });
-};
 
 // 项目上线
 ctrl.ProjectDeploy = function(req) {
