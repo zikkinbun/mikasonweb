@@ -6,7 +6,7 @@ import Login from '@/pages/Login';
 import ServerList from '@/pages/Servers/ServerList'
 import ContainerList from '@/pages/Servers/ContainerList'
 import ImageList from '@/pages/Servers/ImageList'
-import Deploy from '@/pages/deploy/Deploy'
+import deploy from '@/pages/deploy/deploy'
 import Projects from '@/pages/deploy/Projects'
 import deployRecord from '@/pages/deploy/deployRecord'
 import cpu from '@/pages/monitor/cpu'
@@ -40,9 +40,9 @@ const router = new Router({
 			name: "ImageList",
 			component: ImageList
 		}, {
-			path: "Deploy",
-			name: "Deploy",
-			component: Deploy
+			path: "deploy",
+			name: "deploy",
+			component: deploy
 		}, {
 			path: "Projects",
 			name: "Projects",

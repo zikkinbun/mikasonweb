@@ -167,14 +167,14 @@
         var date = Date.parse(self.deployForm.date);
         var time = Date.parse(self.deployForm.time);
         var config = new Array();
-        config_list = config.join(self.deployForm.configfile)
+        config.push(self.deployForm.configfile);
         self.$http.post('/Interface/PeriodDeploy', {
           name: self.deployForm.name,
           project: self.selectedproject,
       		branch: self.selectedbranch,
       		tag: self.selectedtag,
       		env: self.deployForm.env,
-      		config: config_list,
+      		config: config,
           type: self.deployForm.type,
       		date: date,
           time: time
