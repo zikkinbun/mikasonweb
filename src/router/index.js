@@ -12,6 +12,7 @@ import deployRecord from '@/pages/deploy/deployRecord'
 import cpu from '@/pages/monitor/cpu'
 import mem from '@/pages/monitor/mem'
 import monitor from '@/pages/monitor/monitor'
+import database from '@/pages/monitor/database'
 
 const router = new Router({
 	mode: "history",
@@ -58,6 +59,10 @@ const router = new Router({
 			path: "mem",
 			name: "mem",
 			component: mem
+		}, {
+			path: "database",
+			name: "database",
+			component: database
 		}]
 	}]
 });

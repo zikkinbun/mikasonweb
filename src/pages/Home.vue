@@ -22,7 +22,7 @@
 			      <template slot="title"><i class="el-icon-information"></i>在线监控</template>
 			      <el-menu-item index="/dashboard/cpu"><i class="el-icon-date "></i>CPU监控</el-menu-item>
 			      <el-menu-item index="/dashboard/mem"><i class="el-icon-date "></i>内存监控</el-menu-item>
-			      <el-menu-item index="3-4"><i class="el-icon-date "></i>流量监控</el-menu-item>
+			      <el-menu-item index="/dashboard/database"><i class="el-icon-date "></i>数据库监控</el-menu-item>
 			    </el-submenu>
 			    <el-submenu index="4">
 			      <template slot="title"><i class="el-icon-time"></i>任务管理</template>

@@ -172,7 +172,7 @@
       		branch: self.selectedbranch,
       		tag: self.selectedtag,
       		env: self.deployForm.env,
-      		config: self.deployForm.configfile,
+      		config: self.deployForm.configfile.split(","),
           type: self.deployForm.type,
       		date: date,
           time: time
