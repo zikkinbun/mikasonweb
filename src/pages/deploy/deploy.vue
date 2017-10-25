@@ -164,15 +164,17 @@
       },
       PeriodDeploy: function() {
         var self = this;
-        var date = Date.parse(self.deployForm.date)
-        var time = Date.parse(self.deployForm.time)
+        var date = Date.parse(self.deployForm.date);
+        var time = Date.parse(self.deployForm.time);
+        var config = new Array();
+        config_list = config.join(self.deployForm.configfile)
         self.$http.post('/Interface/PeriodDeploy', {
           name: self.deployForm.name,
           project: self.selectedproject,
       		branch: self.selectedbranch,
       		tag: self.selectedtag,
       		env: self.deployForm.env,
-      		config: self.deployForm.configfile.split(","),
+      		config: config_list,
           type: self.deployForm.type,
       		date: date,
           time: time
