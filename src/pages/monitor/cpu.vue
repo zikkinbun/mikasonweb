@@ -87,17 +87,13 @@
               containLabel: true
             },
             // calculable : true,
-            toolbox: {
-               show : true,
-                feature: {
-                    saveAsImage: {show:true}
-                }
-            },
-            xAxis : [
-              {
-                type : 'category',
-                boundaryGap : false,
-                data : (function (){
+            xAxis: [{
+                type: 'category',
+                boundaryGap: false,
+                axisLine: {
+                    onZero: true
+                },
+                data:  (function (){
                   var now = new Date();
                   var res = [];
                   var len = 10;
@@ -107,9 +103,9 @@
                     }
                     return res;
                 })()
-              }, {
-                  gridIndex: 1
-              }],
+            }, {
+                gridIndex: 1
+            }],
             yAxis : [
               {
                 type : 'value'
@@ -174,17 +170,13 @@
               containLabel: true
             },
             // calculable : true,
-            toolbox: {
-               show : true,
-                feature: {
-                    saveAsImage: {show:true}
-                }
-            },
-            xAxis : [
-              {
-                type : 'category',
-                boundaryGap : false,
-                data : (function (){
+            xAxis: [{
+                type: 'category',
+                boundaryGap: false,
+                axisLine: {
+                    onZero: true
+                },
+                data:  (function (){
                   var now = new Date();
                   var res = [];
                   var len = 10;
@@ -194,9 +186,9 @@
                     }
                     return res;
                 })()
-              }, {
-                  gridIndex: 1
-              }],
+            }, {
+                gridIndex: 1
+            }],
             yAxis : [
               {
                 type : 'value'
@@ -261,17 +253,13 @@
               containLabel: true
             },
             // calculable : true,
-            toolbox: {
-               show : true,
-                feature: {
-                    saveAsImage: {show:true}
-                }
-            },
-            xAxis : [
-              {
-                type : 'category',
-                boundaryGap : false,
-                data : (function (){
+            xAxis: [{
+                type: 'category',
+                boundaryGap: false,
+                axisLine: {
+                    onZero: true
+                },
+                data:  (function (){
                   var now = new Date();
                   var res = [];
                   var len = 10;
@@ -281,9 +269,9 @@
                     }
                     return res;
                 })()
-              }, {
-                  gridIndex: 1
-              }],
+            }, {
+                gridIndex: 1
+            }],
             yAxis : [
               {
                 type : 'value'
@@ -348,17 +336,13 @@
               containLabel: true
             },
             // calculable : true,
-            toolbox: {
-               show : true,
-                feature: {
-                    saveAsImage: {show:true}
-                }
-            },
-            xAxis : [
-              {
-                type : 'category',
-                boundaryGap : false,
-                data : (function (){
+            xAxis: [{
+                type: 'category',
+                boundaryGap: false,
+                axisLine: {
+                    onZero: true
+                },
+                data:  (function (){
                   var now = new Date();
                   var res = [];
                   var len = 10;
@@ -368,9 +352,9 @@
                     }
                     return res;
                 })()
-              }, {
-                  gridIndex: 1
-              }],
+            }, {
+                gridIndex: 1
+            }],
             yAxis : [
               {
                 type : 'value'
@@ -435,17 +419,13 @@
               containLabel: true
             },
             // calculable : true,
-            toolbox: {
-               show : true,
-                feature: {
-                    saveAsImage: {show:true}
-                }
-            },
-            xAxis : [
-              {
-                type : 'category',
-                boundaryGap : false,
-                data : (function (){
+            xAxis: [{
+                type: 'category',
+                boundaryGap: false,
+                axisLine: {
+                    onZero: true
+                },
+                data:  (function (){
                   var now = new Date();
                   var res = [];
                   var len = 10;
@@ -455,9 +435,9 @@
                     }
                     return res;
                 })()
-              }, {
-                  gridIndex: 1
-              }],
+            }, {
+                gridIndex: 1
+            }],
             yAxis : [
               {
                 type : 'value'
@@ -522,17 +502,13 @@
               containLabel: true
             },
             // calculable : true,
-            toolbox: {
-               show : true,
-                feature: {
-                    saveAsImage: {show:true}
-                }
-            },
-            xAxis : [
-              {
-                type : 'category',
-                boundaryGap : false,
-                data : (function (){
+            xAxis: [{
+                type: 'category',
+                boundaryGap: false,
+                axisLine: {
+                    onZero: true
+                },
+                data:  (function (){
                   var now = new Date();
                   var res = [];
                   var len = 10;
@@ -542,9 +518,9 @@
                     }
                     return res;
                 })()
-              }, {
-                  gridIndex: 1
-              }],
+            }, {
+                gridIndex: 1
+            }],
             yAxis : [
               {
                 type : 'value'
@@ -609,17 +585,13 @@
               containLabel: true
             },
             // calculable : true,
-            toolbox: {
-               show : true,
-                feature: {
-                    saveAsImage: {show:true}
-                }
-            },
-            xAxis : [
-              {
-                type : 'category',
-                boundaryGap : false,
-                data : (function (){
+            xAxis: [{
+                type: 'category',
+                boundaryGap: false,
+                axisLine: {
+                    onZero: true
+                },
+                data:  (function (){
                   var now = new Date();
                   var res = [];
                   var len = 10;
@@ -629,9 +601,9 @@
                     }
                     return res;
                 })()
-              }, {
-                  gridIndex: 1
-              }],
+            }, {
+                gridIndex: 1
+            }],
             yAxis : [
               {
                 type : 'value'
