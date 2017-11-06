@@ -83,15 +83,6 @@
                 data: ['available', 'total'],
                 x: 'left'
             },
-            toolbox: {
-                feature: {
-                    dataZoom: {
-                        yAxisIndex: 'none'
-                    },
-                    restore: {},
-                    saveAsImage: {}
-                }
-            },
             axisPointer: {
                 link: {
                     xAxisIndex: 'all'
@@ -193,15 +184,6 @@
             legend: {
                 data: ['available', 'total'],
                 x: 'left'
-            },
-            toolbox: {
-                feature: {
-                    dataZoom: {
-                        yAxisIndex: 'none'
-                    },
-                    restore: {},
-                    saveAsImage: {}
-                }
             },
             axisPointer: {
                 link: {
@@ -305,15 +287,6 @@
                 data: ['available', 'total'],
                 x: 'left'
             },
-            toolbox: {
-                feature: {
-                    dataZoom: {
-                        yAxisIndex: 'none'
-                    },
-                    restore: {},
-                    saveAsImage: {}
-                }
-            },
             axisPointer: {
                 link: {
                     xAxisIndex: 'all'
@@ -415,15 +388,6 @@
             legend: {
                 data: ['available', 'total'],
                 x: 'left'
-            },
-            toolbox: {
-                feature: {
-                    dataZoom: {
-                        yAxisIndex: 'none'
-                    },
-                    restore: {},
-                    saveAsImage: {}
-                }
             },
             axisPointer: {
                 link: {
@@ -527,15 +491,6 @@
                 data: ['available', 'total'],
                 x: 'left'
             },
-            toolbox: {
-                feature: {
-                    dataZoom: {
-                        yAxisIndex: 'none'
-                    },
-                    restore: {},
-                    saveAsImage: {}
-                }
-            },
             axisPointer: {
                 link: {
                     xAxisIndex: 'all'
@@ -638,15 +593,6 @@
                 data: ['available', 'total'],
                 x: 'left'
             },
-            toolbox: {
-                feature: {
-                    dataZoom: {
-                        yAxisIndex: 'none'
-                    },
-                    restore: {},
-                    saveAsImage: {}
-                }
-            },
             axisPointer: {
                 link: {
                     xAxisIndex: 'all'
@@ -748,15 +694,6 @@
             legend: {
                 data: ['available', 'total'],
                 x: 'left'
-            },
-            toolbox: {
-                feature: {
-                    dataZoom: {
-                        yAxisIndex: 'none'
-                    },
-                    restore: {},
-                    saveAsImage: {}
-                }
             },
             axisPointer: {
                 link: {

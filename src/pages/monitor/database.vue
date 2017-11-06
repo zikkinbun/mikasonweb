@@ -58,6 +58,7 @@
         activeName: '全量监测',
         chartSQL: null,
         connections: [],
+        sqlForm: {},
         option: {
            title: {},
            tooltip : {},

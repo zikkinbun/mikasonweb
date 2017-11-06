@@ -85,15 +85,6 @@
                 data: ['avg1', 'avg5', 'avg15'],
                 x: 'left'
             },
-            toolbox: {
-                feature: {
-                    dataZoom: {
-                        yAxisIndex: 'none'
-                    },
-                    restore: {},
-                    saveAsImage: {}
-                }
-            },
             axisPointer: {
                 link: {
                     xAxisIndex: 'all'
@@ -210,15 +201,6 @@
             legend: {
                 data: ['avg1', 'avg5', 'avg15'],
                 x: 'left'
-            },
-            toolbox: {
-                feature: {
-                    dataZoom: {
-                        yAxisIndex: 'none'
-                    },
-                    restore: {},
-                    saveAsImage: {}
-                }
             },
             axisPointer: {
                 link: {
@@ -337,15 +319,6 @@
                 data: ['avg1', 'avg5', 'avg15'],
                 x: 'left'
             },
-            toolbox: {
-                feature: {
-                    dataZoom: {
-                        yAxisIndex: 'none'
-                    },
-                    restore: {},
-                    saveAsImage: {}
-                }
-            },
             axisPointer: {
                 link: {
                     xAxisIndex: 'all'
@@ -462,15 +435,6 @@
             legend: {
                 data: ['avg1', 'avg5', 'avg15'],
                 x: 'left'
-            },
-            toolbox: {
-                feature: {
-                    dataZoom: {
-                        yAxisIndex: 'none'
-                    },
-                    restore: {},
-                    saveAsImage: {}
-                }
             },
             axisPointer: {
                 link: {
@@ -589,15 +553,6 @@
                 data: ['avg1', 'avg5', 'avg15'],
                 x: 'left'
             },
-            toolbox: {
-                feature: {
-                    dataZoom: {
-                        yAxisIndex: 'none'
-                    },
-                    restore: {},
-                    saveAsImage: {}
-                }
-            },
             axisPointer: {
                 link: {
                     xAxisIndex: 'all'
@@ -715,15 +670,6 @@
                 data: ['avg1', 'avg5', 'avg15'],
                 x: 'left'
             },
-            toolbox: {
-                feature: {
-                    dataZoom: {
-                        yAxisIndex: 'none'
-                    },
-                    restore: {},
-                    saveAsImage: {}
-                }
-            },
             axisPointer: {
                 link: {
                     xAxisIndex: 'all'
@@ -840,15 +786,6 @@
             legend: {
                 data: ['avg1', 'avg5', 'avg15'],
                 x: 'left'
-            },
-            toolbox: {
-                feature: {
-                    dataZoom: {
-                        yAxisIndex: 'none'
-                    },
-                    restore: {},
-                    saveAsImage: {}
-                }
             },
             axisPointer: {
                 link: {
