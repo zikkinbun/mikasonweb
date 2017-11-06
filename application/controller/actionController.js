@@ -213,7 +213,8 @@ ctrl.PeriodDeploy = function(req) {
 		config: req.body.config,
 		type: req.body.type,
 		date: req.body.date,
-		time: req.body.time
+		time: req.body.time,
+		target: req.body.target
   }).then(
     result => {
       return {
