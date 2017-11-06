@@ -97,9 +97,19 @@
               {
                 type : 'category',
                 boundaryGap : false,
-                data : ['0','1','2','3','4','5','6','7','8','9']
-              }
-            ],
+                data : (function (){
+                  var now = new Date();
+                  var res = [];
+                  var len = 10;
+                  while (len--) {
+                      res.unshift(now.toLocaleTimeString().replace(/^\D*/,''));
+                      now = new Date(now - 2000);
+                    }
+                    return res;
+                })()
+              }, {
+                  gridIndex: 1
+              }],
             yAxis : [
               {
                 type : 'value'
@@ -174,9 +184,19 @@
               {
                 type : 'category',
                 boundaryGap : false,
-                data : ['0','1','2','3','4','5','6','7','8','9']
-              }
-            ],
+                data : (function (){
+                  var now = new Date();
+                  var res = [];
+                  var len = 10;
+                  while (len--) {
+                      res.unshift(now.toLocaleTimeString().replace(/^\D*/,''));
+                      now = new Date(now - 2000);
+                    }
+                    return res;
+                })()
+              }, {
+                  gridIndex: 1
+              }],
             yAxis : [
               {
                 type : 'value'
@@ -251,9 +271,19 @@
               {
                 type : 'category',
                 boundaryGap : false,
-                data : ['0','1','2','3','4','5','6','7','8','9']
-              }
-            ],
+                data : (function (){
+                  var now = new Date();
+                  var res = [];
+                  var len = 10;
+                  while (len--) {
+                      res.unshift(now.toLocaleTimeString().replace(/^\D*/,''));
+                      now = new Date(now - 2000);
+                    }
+                    return res;
+                })()
+              }, {
+                  gridIndex: 1
+              }],
             yAxis : [
               {
                 type : 'value'
@@ -328,9 +358,19 @@
               {
                 type : 'category',
                 boundaryGap : false,
-                data : ['0','1','2','3','4','5','6','7','8','9']
-              }
-            ],
+                data : (function (){
+                  var now = new Date();
+                  var res = [];
+                  var len = 10;
+                  while (len--) {
+                      res.unshift(now.toLocaleTimeString().replace(/^\D*/,''));
+                      now = new Date(now - 2000);
+                    }
+                    return res;
+                })()
+              }, {
+                  gridIndex: 1
+              }],
             yAxis : [
               {
                 type : 'value'
@@ -405,9 +445,19 @@
               {
                 type : 'category',
                 boundaryGap : false,
-                data : ['0','1','2','3','4','5','6','7','8','9']
-              }
-            ],
+                data : (function (){
+                  var now = new Date();
+                  var res = [];
+                  var len = 10;
+                  while (len--) {
+                      res.unshift(now.toLocaleTimeString().replace(/^\D*/,''));
+                      now = new Date(now - 2000);
+                    }
+                    return res;
+                })()
+              }, {
+                  gridIndex: 1
+              }],
             yAxis : [
               {
                 type : 'value'
@@ -456,7 +506,7 @@
           };
           self.chart_gdrWebProd.setOption({
             title: {
-              text: 'uco2_web_prod_1001',
+              text: 'uco2_web_prod',
             },
             tooltip : {
               trigger: 'axis'
@@ -482,9 +532,19 @@
               {
                 type : 'category',
                 boundaryGap : false,
-                data : ['0','1','2','3','4','5','6','7','8','9']
-              }
-            ],
+                data : (function (){
+                  var now = new Date();
+                  var res = [];
+                  var len = 10;
+                  while (len--) {
+                      res.unshift(now.toLocaleTimeString().replace(/^\D*/,''));
+                      now = new Date(now - 2000);
+                    }
+                    return res;
+                })()
+              }, {
+                  gridIndex: 1
+              }],
             yAxis : [
               {
                 type : 'value'
@@ -559,9 +619,19 @@
               {
                 type : 'category',
                 boundaryGap : false,
-                data : ['0','1','2','3','4','5','6','7','8','9']
-              }
-            ],
+                data : (function (){
+                  var now = new Date();
+                  var res = [];
+                  var len = 10;
+                  while (len--) {
+                      res.unshift(now.toLocaleTimeString().replace(/^\D*/,''));
+                      now = new Date(now - 2000);
+                    }
+                    return res;
+                })()
+              }, {
+                  gridIndex: 1
+              }],
             yAxis : [
               {
                 type : 'value'
