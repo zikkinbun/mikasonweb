@@ -264,7 +264,7 @@
                 gridIndex: 1
             }],
             series: [{
-                name: '',
+                name: 'avg1',
                 type: 'line',
                 smooth: true,
                 symbol: 'circle',
@@ -277,7 +277,7 @@
                 },
                 data: avg1
             },{
-                name: '',
+                name: 'avg5',
                 type: 'line',
                 smooth: true,
                 symbol: 'circle',
@@ -290,7 +290,7 @@
                 },
                 data: avg5
             },{
-                name: '',
+                name: 'avg15',
                 type: 'line',
                 smooth: true,
                 symbol: 'circle',
@@ -390,7 +390,7 @@
                 gridIndex: 1
             }],
             series: [{
-                name: '',
+                name: 'avg1',
                 type: 'line',
                 smooth: true,
                 symbol: 'circle',
@@ -403,7 +403,7 @@
                 },
                 data: avg1
             },{
-                name: '',
+                name: 'avg5',
                 type: 'line',
                 smooth: true,
                 symbol: 'circle',
@@ -416,7 +416,7 @@
                 },
                 data: avg5
             },{
-                name: '',
+                name: 'avg15',
                 type: 'line',
                 smooth: true,
                 symbol: 'circle',
@@ -516,7 +516,7 @@
                 gridIndex: 1
             }],
             series: [{
-                name: '',
+                name: 'avg1',
                 type: 'line',
                 smooth: true,
                 symbol: 'circle',
@@ -529,7 +529,7 @@
                 },
                 data: avg1
             },{
-                name: '',
+                name: 'avg5',
                 type: 'line',
                 smooth: true,
                 symbol: 'circle',
@@ -542,7 +542,7 @@
                 },
                 data: avg5
             },{
-                name: '',
+                name: 'avg15',
                 type: 'line',
                 smooth: true,
                 symbol: 'circle',
@@ -642,7 +642,7 @@
                 gridIndex: 1
             }],
             series: [{
-                name: '',
+                name: 'avg1',
                 type: 'line',
                 smooth: true,
                 symbol: 'circle',
@@ -655,7 +655,7 @@
                 },
                 data: avg1
             },{
-                name: '',
+                name: 'avg5',
                 type: 'line',
                 smooth: true,
                 symbol: 'circle',
@@ -668,7 +668,7 @@
                 },
                 data: avg5
             },{
-                name: '',
+                name: 'avg15',
                 type: 'line',
                 smooth: true,
                 symbol: 'circle',
@@ -768,7 +768,7 @@
                 gridIndex: 1
             }],
             series: [{
-                name: '',
+                name: 'avg1',
                 type: 'line',
                 smooth: true,
                 symbol: 'circle',
@@ -781,7 +781,7 @@
                 },
                 data: avg1
             },{
-                name: '',
+                name: 'avg5',
                 type: 'line',
                 smooth: true,
                 symbol: 'circle',
@@ -794,7 +794,7 @@
                 },
                 data: avg5
             },{
-                name: '',
+                name: 'avg15',
                 type: 'line',
                 smooth: true,
                 symbol: 'circle',
@@ -894,7 +894,7 @@
                 gridIndex: 1
             }],
             series: [{
-                name: '',
+                name: 'avg1',
                 type: 'line',
                 smooth: true,
                 symbol: 'circle',
@@ -907,7 +907,7 @@
                 },
                 data: avg1
             },{
-                name: '',
+                name: 'avg5',
                 type: 'line',
                 smooth: true,
                 symbol: 'circle',
@@ -920,7 +920,7 @@
                 },
                 data: avg5
             },{
-                name: '',
+                name: 'avg15',
                 type: 'line',
                 smooth: true,
                 symbol: 'circle',

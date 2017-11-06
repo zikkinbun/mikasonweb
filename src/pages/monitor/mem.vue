@@ -69,33 +69,49 @@
           };
           self.chart_gdrDev.setOption({
             title: {
-              text: 'uco2_dev',
+                text: 'uco2_dev',
+                x: 'center',
             },
-            tooltip : {
-              trigger: 'axis'
-            },
-            legend: {
-              data:['available','total'],
-              bottom: '90%'
-            },
-            grid: {
-              left: '3%',
-              right: '4%',
-              bottom: '3%',
-              containLabel: true
-            },
-            // calculable : true,
-            toolbox: {
-               show : true,
-                feature: {
-                    saveAsImage: {show:true}
+            tooltip: {
+                trigger: 'axis',
+
+                axisPointer: {
+                    animation: false
                 }
             },
-            xAxis : [
-              {
-                type : 'category',
-                boundaryGap : false,
-                data : (function (){
+            legend: {
+                data: ['available', 'total'],
+                x: 'left'
+            },
+            toolbox: {
+                feature: {
+                    dataZoom: {
+                        yAxisIndex: 'none'
+                    },
+                    restore: {},
+                    saveAsImage: {}
+                }
+            },
+            axisPointer: {
+                link: {
+                    xAxisIndex: 'all'
+                }
+            },
+
+            grid: [{
+                left: 40,
+                right: 40,
+            }, {
+                left: 40,
+                right: 40,
+            }],
+            xAxis: [{
+                type: 'category',
+                boundaryGap: false,
+                axisLine: {
+                    onZero: true
+                },
+                data:  (function (){
                   var now = new Date();
                   var res = [];
                   var len = 10;
@@ -105,30 +121,47 @@
                     }
                     return res;
                 })()
-              }, {
-                  gridIndex: 1
-              }],
-            yAxis : [
-              {
-                type : 'value'
-              }
-            ],
-            series : [
-              {
-                name:'available',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            }, {
+                gridIndex: 1
+            }],
+
+            yAxis: [{
+
+                type: 'value',
+                name: '使用量:',
+                interval: 25,
+
+
+            }, {
+                gridIndex: 1
+            }],
+            series: [{
+                name: 'available',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: available
-              },
-              {
-                name:'total',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            },{
+                name: 'total',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: total
-              },
-            ]
+            }]
           })
         })
       },
@@ -147,33 +180,49 @@
           };
           self.chart_gdrTest.setOption({
             title: {
-              text: 'uco2_test',
+                text: 'uco2_test',
+                x: 'center',
             },
-            tooltip : {
-              trigger: 'axis'
-            },
-            legend: {
-              data:['available','total'],
-              bottom: '90%'
-            },
-            grid: {
-              left: '3%',
-              right: '4%',
-              bottom: '3%',
-              containLabel: true
-            },
-            // calculable : true,
-            toolbox: {
-               show : true,
-                feature: {
-                    saveAsImage: {show:true}
+            tooltip: {
+                trigger: 'axis',
+
+                axisPointer: {
+                    animation: false
                 }
             },
-            xAxis : [
-              {
-                type : 'category',
-                boundaryGap : false,
-                data : (function (){
+            legend: {
+                data: ['available', 'total'],
+                x: 'left'
+            },
+            toolbox: {
+                feature: {
+                    dataZoom: {
+                        yAxisIndex: 'none'
+                    },
+                    restore: {},
+                    saveAsImage: {}
+                }
+            },
+            axisPointer: {
+                link: {
+                    xAxisIndex: 'all'
+                }
+            },
+
+            grid: [{
+                left: 40,
+                right: 40,
+            }, {
+                left: 40,
+                right: 40,
+            }],
+            xAxis: [{
+                type: 'category',
+                boundaryGap: false,
+                axisLine: {
+                    onZero: true
+                },
+                data:  (function (){
                   var now = new Date();
                   var res = [];
                   var len = 10;
@@ -183,30 +232,47 @@
                     }
                     return res;
                 })()
-              }, {
-                  gridIndex: 1
-              }],
-            yAxis : [
-              {
-                type : 'value'
-              }
-            ],
-            series : [
-              {
-                name:'available',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            }, {
+                gridIndex: 1
+            }],
+
+            yAxis: [{
+
+                type: 'value',
+                name: '使用量:',
+                interval: 25,
+
+
+            }, {
+                gridIndex: 1
+            }],
+            series: [{
+                name: 'available',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: available
-              },
-              {
-                name:'total',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            },{
+                name: 'total',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: total
-              },
-            ]
+            }]
           })
         })
       },
@@ -225,21 +291,49 @@
           };
           self.chart_gdrOper.setOption({
             title: {
-              text: 'uco2_oper',
+                text: 'uco2_oper',
+                x: 'center',
             },
-            tooltip : {
-              trigger: 'axis'
+            tooltip: {
+                trigger: 'axis',
+
+                axisPointer: {
+                    animation: false
+                }
             },
             legend: {
-              data:['available','total'],
-              bottom: '90%'
+                data: ['available', 'total'],
+                x: 'left'
             },
-            calculable : true,
-            xAxis : [
-              {
-                type : 'category',
-                boundaryGap : false,
-                data : (function (){
+            toolbox: {
+                feature: {
+                    dataZoom: {
+                        yAxisIndex: 'none'
+                    },
+                    restore: {},
+                    saveAsImage: {}
+                }
+            },
+            axisPointer: {
+                link: {
+                    xAxisIndex: 'all'
+                }
+            },
+
+            grid: [{
+                left: 40,
+                right: 40,
+            }, {
+                left: 40,
+                right: 40,
+            }],
+            xAxis: [{
+                type: 'category',
+                boundaryGap: false,
+                axisLine: {
+                    onZero: true
+                },
+                data:  (function (){
                   var now = new Date();
                   var res = [];
                   var len = 10;
@@ -249,30 +343,47 @@
                     }
                     return res;
                 })()
-              }, {
-                  gridIndex: 1
-              }],
-            yAxis : [
-              {
-                type : 'value'
-              }
-            ],
-            series : [
-              {
-                name:'available',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            }, {
+                gridIndex: 1
+            }],
+
+            yAxis: [{
+
+                type: 'value',
+                name: '使用量:',
+                interval: 25,
+
+
+            }, {
+                gridIndex: 1
+            }],
+            series: [{
+                name: 'available',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: available
-              },
-              {
-                name:'total',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            },{
+                name: 'total',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: total
-              },
-            ]
+            }]
           })
         })
       },
@@ -291,33 +402,49 @@
           };
           self.chart_gdrSqlMt.setOption({
             title: {
-              text: 'uco2_sql_mt',
+                text: 'uco2_sql_mt',
+                x: 'center',
             },
-            tooltip : {
-              trigger: 'axis'
-            },
-            legend: {
-              data:['available','total'],
-              bottom: '90%'
-            },
-            grid: {
-              left: '3%',
-              right: '4%',
-              bottom: '3%',
-              containLabel: true
-            },
-            // calculable : true,
-            toolbox: {
-               show : true,
-                feature: {
-                    saveAsImage: {show:true}
+            tooltip: {
+                trigger: 'axis',
+
+                axisPointer: {
+                    animation: false
                 }
             },
-            xAxis : [
-              {
-                type : 'category',
-                boundaryGap : false,
-                data : (function (){
+            legend: {
+                data: ['available', 'total'],
+                x: 'left'
+            },
+            toolbox: {
+                feature: {
+                    dataZoom: {
+                        yAxisIndex: 'none'
+                    },
+                    restore: {},
+                    saveAsImage: {}
+                }
+            },
+            axisPointer: {
+                link: {
+                    xAxisIndex: 'all'
+                }
+            },
+
+            grid: [{
+                left: 40,
+                right: 40,
+            }, {
+                left: 40,
+                right: 40,
+            }],
+            xAxis: [{
+                type: 'category',
+                boundaryGap: false,
+                axisLine: {
+                    onZero: true
+                },
+                data:  (function (){
                   var now = new Date();
                   var res = [];
                   var len = 10;
@@ -327,30 +454,47 @@
                     }
                     return res;
                 })()
-              }, {
-                  gridIndex: 1
-              }],
-            yAxis : [
-              {
-                type : 'value'
-              }
-            ],
-            series : [
-              {
-                name:'available',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            }, {
+                gridIndex: 1
+            }],
+
+            yAxis: [{
+
+                type: 'value',
+                name: '使用量:',
+                interval: 25,
+
+
+            }, {
+                gridIndex: 1
+            }],
+            series: [{
+                name: 'available',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: available
-              },
-              {
-                name:'total',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            },{
+                name: 'total',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: total
-              },
-            ]
+            }]
           })
         })
       },
@@ -369,33 +513,49 @@
           };
           self.chart_gdrSqlSl.setOption({
             title: {
-              text: 'uco2_sql_sl',
+                text: 'uco2_sql_sl',
+                x: 'center',
             },
-            tooltip : {
-              trigger: 'axis'
-            },
-            legend: {
-              data:['available','total'],
-              bottom: '90%'
-            },
-            grid: {
-              left: '3%',
-              right: '4%',
-              bottom: '3%',
-              containLabel: true
-            },
-            // calculable : true,
-            toolbox: {
-               show : true,
-                feature: {
-                    saveAsImage: {show:true}
+            tooltip: {
+                trigger: 'axis',
+
+                axisPointer: {
+                    animation: false
                 }
             },
-            xAxis : [
-              {
-                type : 'category',
-                boundaryGap : false,
-                data : (function (){
+            legend: {
+                data: ['available', 'total'],
+                x: 'left'
+            },
+            toolbox: {
+                feature: {
+                    dataZoom: {
+                        yAxisIndex: 'none'
+                    },
+                    restore: {},
+                    saveAsImage: {}
+                }
+            },
+            axisPointer: {
+                link: {
+                    xAxisIndex: 'all'
+                }
+            },
+
+            grid: [{
+                left: 40,
+                right: 40,
+            }, {
+                left: 40,
+                right: 40,
+            }],
+            xAxis: [{
+                type: 'category',
+                boundaryGap: false,
+                axisLine: {
+                    onZero: true
+                },
+                data:  (function (){
                   var now = new Date();
                   var res = [];
                   var len = 10;
@@ -405,30 +565,47 @@
                     }
                     return res;
                 })()
-              }, {
-                  gridIndex: 1
-              }],
-            yAxis : [
-              {
-                type : 'value'
-              }
-            ],
-            series : [
-              {
-                name:'available',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            }, {
+                gridIndex: 1
+            }],
+
+            yAxis: [{
+
+                type: 'value',
+                name: '使用量:',
+                interval: 25,
+
+
+            }, {
+                gridIndex: 1
+            }],
+            series: [{
+                name: 'available',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: available
-              },
-              {
-                name:'total',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            },{
+                name: 'total',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: total
-              },
-            ]
+            }]
           })
         })
       },
@@ -447,33 +624,49 @@
           };
           self.chart_gdrWebProd.setOption({
             title: {
-              text: 'uco2_web_prod',
+                text: 'uco2_web_prod',
+                x: 'center',
             },
-            tooltip : {
-              trigger: 'axis'
-            },
-            legend: {
-              data:['available','total'],
-              bottom: '90%'
-            },
-            grid: {
-              left: '3%',
-              right: '4%',
-              bottom: '3%',
-              containLabel: true
-            },
-            // calculable : true,
-            toolbox: {
-               show : true,
-                feature: {
-                    saveAsImage: {show:true}
+            tooltip: {
+                trigger: 'axis',
+
+                axisPointer: {
+                    animation: false
                 }
             },
-            xAxis : [
-              {
-                type : 'category',
-                boundaryGap : false,
-                data : (function (){
+            legend: {
+                data: ['available', 'total'],
+                x: 'left'
+            },
+            toolbox: {
+                feature: {
+                    dataZoom: {
+                        yAxisIndex: 'none'
+                    },
+                    restore: {},
+                    saveAsImage: {}
+                }
+            },
+            axisPointer: {
+                link: {
+                    xAxisIndex: 'all'
+                }
+            },
+
+            grid: [{
+                left: 40,
+                right: 40,
+            }, {
+                left: 40,
+                right: 40,
+            }],
+            xAxis: [{
+                type: 'category',
+                boundaryGap: false,
+                axisLine: {
+                    onZero: true
+                },
+                data:  (function (){
                   var now = new Date();
                   var res = [];
                   var len = 10;
@@ -483,30 +676,47 @@
                     }
                     return res;
                 })()
-              }, {
-                  gridIndex: 1
-              }],
-            yAxis : [
-              {
-                type : 'value'
-              }
-            ],
-            series : [
-              {
-                name:'available',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            }, {
+                gridIndex: 1
+            }],
+
+            yAxis: [{
+
+                type: 'value',
+                name: '使用量:',
+                interval: 25,
+
+
+            }, {
+                gridIndex: 1
+            }],
+            series: [{
+                name: 'available',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: available
-              },
-              {
-                name:'total',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            },{
+                name: 'total',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: total
-              },
-            ]
+            }]
           })
         })
       },
@@ -525,33 +735,49 @@
           };
           self.chart_gdrRdProd.setOption({
             title: {
-              text: 'uco2_rd_prod',
+                text: 'uco2_rd_prod',
+                x: 'center',
             },
-            tooltip : {
-              trigger: 'axis'
-            },
-            legend: {
-              data:['available','total'],
-              bottom: '90%'
-            },
-            grid: {
-              left: '3%',
-              right: '4%',
-              bottom: '3%',
-              containLabel: true
-            },
-            // calculable : true,
-            toolbox: {
-               show : true,
-                feature: {
-                    saveAsImage: {show:true}
+            tooltip: {
+                trigger: 'axis',
+
+                axisPointer: {
+                    animation: false
                 }
             },
-            xAxis : [
-              {
-                type : 'category',
-                boundaryGap : false,
-                data : (function (){
+            legend: {
+                data: ['available', 'total'],
+                x: 'left'
+            },
+            toolbox: {
+                feature: {
+                    dataZoom: {
+                        yAxisIndex: 'none'
+                    },
+                    restore: {},
+                    saveAsImage: {}
+                }
+            },
+            axisPointer: {
+                link: {
+                    xAxisIndex: 'all'
+                }
+            },
+
+            grid: [{
+                left: 40,
+                right: 40,
+            }, {
+                left: 40,
+                right: 40,
+            }],
+            xAxis: [{
+                type: 'category',
+                boundaryGap: false,
+                axisLine: {
+                    onZero: true
+                },
+                data:  (function (){
                   var now = new Date();
                   var res = [];
                   var len = 10;
@@ -561,30 +787,47 @@
                     }
                     return res;
                 })()
-              }, {
-                  gridIndex: 1
-              }],
-            yAxis : [
-              {
-                type : 'value'
-              }
-            ],
-            series : [
-              {
-                name:'available',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            }, {
+                gridIndex: 1
+            }],
+
+            yAxis: [{
+
+                type: 'value',
+                name: '使用量:',
+                interval: 25,
+
+
+            }, {
+                gridIndex: 1
+            }],
+            series: [{
+                name: 'available',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: available
-              },
-              {
-                name:'total',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            },{
+                name: 'total',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: total
-              },
-            ]
+            }]
           })
         })
       },
