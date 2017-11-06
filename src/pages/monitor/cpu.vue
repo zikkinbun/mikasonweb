@@ -71,22 +71,42 @@
           };
           self.chart_gdrDev.setOption({
             title: {
-              text: 'uco2_dev',
+                text: 'uco2_dev',
+                x: 'center',
             },
-            tooltip : {
-              trigger: 'axis'
+            tooltip: {
+                trigger: 'axis',
+
+                axisPointer: {
+                    animation: false
+                }
             },
             legend: {
-              data:['avg1','avg5','avg15'],
-              // bottom: '90%'
+                data: ['avg1', 'avg5', 'avg15'],
+                x: 'left'
             },
-            grid: {
-              left: '3%',
-              right: '4%',
-              bottom: '3%',
-              containLabel: true
+            toolbox: {
+                feature: {
+                    dataZoom: {
+                        yAxisIndex: 'none'
+                    },
+                    restore: {},
+                    saveAsImage: {}
+                }
             },
-            // calculable : true,
+            axisPointer: {
+                link: {
+                    xAxisIndex: 'all'
+                }
+            },
+
+            grid: [{
+                left: 40,
+                right: 40,
+            }, {
+                left: 40,
+                right: 40,
+            }],
             xAxis: [{
                 type: 'category',
                 boundaryGap: false,
@@ -106,34 +126,57 @@
             }, {
                 gridIndex: 1
             }],
-            yAxis : [
-              {
-                type : 'value'
-              }
-            ],
-            series : [
-              {
-                name:'avg1',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+
+            yAxis: [{
+
+                type: 'value',
+                name: '内存:',
+                interval: 25,
+
+
+            }, {
+                gridIndex: 1
+            }],
+            series: [{
+                name: '',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: avg1
-              },
-              {
-                name:'avg5',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            },{
+                name: '',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: avg5
-              },
-              {
-                name:'avg15',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            },{
+                name: '',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: avg15
-              },
-            ]
+            }]
           })
         })
       },
@@ -154,22 +197,42 @@
           };
           self.chart_gdrTest.setOption({
             title: {
-              text: 'uco2_test',
+                text: 'uco2_test',
+                x: 'center',
             },
-            tooltip : {
-              trigger: 'axis'
+            tooltip: {
+                trigger: 'axis',
+
+                axisPointer: {
+                    animation: false
+                }
             },
             legend: {
-              data:['avg1','avg5','avg15'],
-              bottom: '90%'
+                data: ['avg1', 'avg5', 'avg15'],
+                x: 'left'
             },
-            grid: {
-              left: '3%',
-              right: '4%',
-              bottom: '3%',
-              containLabel: true
+            toolbox: {
+                feature: {
+                    dataZoom: {
+                        yAxisIndex: 'none'
+                    },
+                    restore: {},
+                    saveAsImage: {}
+                }
             },
-            // calculable : true,
+            axisPointer: {
+                link: {
+                    xAxisIndex: 'all'
+                }
+            },
+
+            grid: [{
+                left: 40,
+                right: 40,
+            }, {
+                left: 40,
+                right: 40,
+            }],
             xAxis: [{
                 type: 'category',
                 boundaryGap: false,
@@ -189,34 +252,57 @@
             }, {
                 gridIndex: 1
             }],
-            yAxis : [
-              {
-                type : 'value'
-              }
-            ],
-            series : [
-              {
-                name:'avg1',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+
+            yAxis: [{
+
+                type: 'value',
+                name: '内存:',
+                interval: 25,
+
+
+            }, {
+                gridIndex: 1
+            }],
+            series: [{
+                name: '',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: avg1
-              },
-              {
-                name:'avg5',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            },{
+                name: '',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: avg5
-              },
-              {
-                name:'avg15',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            },{
+                name: '',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: avg15
-              },
-            ]
+            }]
           })
         })
       },
@@ -237,22 +323,42 @@
           };
           self.chart_gdrOper.setOption({
             title: {
-              text: 'uco2_oper',
+                text: 'uco2_oper',
+                x: 'center',
             },
-            tooltip : {
-              trigger: 'axis'
+            tooltip: {
+                trigger: 'axis',
+
+                axisPointer: {
+                    animation: false
+                }
             },
             legend: {
-              data:['avg1','avg5','avg15'],
-              bottom: '90%'
+                data: ['avg1', 'avg5', 'avg15'],
+                x: 'left'
             },
-            grid: {
-              left: '3%',
-              right: '4%',
-              bottom: '3%',
-              containLabel: true
+            toolbox: {
+                feature: {
+                    dataZoom: {
+                        yAxisIndex: 'none'
+                    },
+                    restore: {},
+                    saveAsImage: {}
+                }
             },
-            // calculable : true,
+            axisPointer: {
+                link: {
+                    xAxisIndex: 'all'
+                }
+            },
+
+            grid: [{
+                left: 40,
+                right: 40,
+            }, {
+                left: 40,
+                right: 40,
+            }],
             xAxis: [{
                 type: 'category',
                 boundaryGap: false,
@@ -272,34 +378,57 @@
             }, {
                 gridIndex: 1
             }],
-            yAxis : [
-              {
-                type : 'value'
-              }
-            ],
-            series : [
-              {
-                name:'avg1',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+
+            yAxis: [{
+
+                type: 'value',
+                name: '内存:',
+                interval: 25,
+
+
+            }, {
+                gridIndex: 1
+            }],
+            series: [{
+                name: '',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: avg1
-              },
-              {
-                name:'avg5',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            },{
+                name: '',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: avg5
-              },
-              {
-                name:'avg15',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            },{
+                name: '',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: avg15
-              },
-            ]
+            }]
           })
         })
       },
@@ -320,22 +449,42 @@
           };
           self.chart_gdrSqlMt.setOption({
             title: {
-              text: 'uco2_sql_mt',
+                text: 'uco2_sql_mt',
+                x: 'center',
             },
-            tooltip : {
-              trigger: 'axis'
+            tooltip: {
+                trigger: 'axis',
+
+                axisPointer: {
+                    animation: false
+                }
             },
             legend: {
-              data:['avg1','avg5','avg15'],
-              bottom: '90%'
+                data: ['avg1', 'avg5', 'avg15'],
+                x: 'left'
             },
-            grid: {
-              left: '3%',
-              right: '4%',
-              bottom: '3%',
-              containLabel: true
+            toolbox: {
+                feature: {
+                    dataZoom: {
+                        yAxisIndex: 'none'
+                    },
+                    restore: {},
+                    saveAsImage: {}
+                }
             },
-            // calculable : true,
+            axisPointer: {
+                link: {
+                    xAxisIndex: 'all'
+                }
+            },
+
+            grid: [{
+                left: 40,
+                right: 40,
+            }, {
+                left: 40,
+                right: 40,
+            }],
             xAxis: [{
                 type: 'category',
                 boundaryGap: false,
@@ -355,34 +504,57 @@
             }, {
                 gridIndex: 1
             }],
-            yAxis : [
-              {
-                type : 'value'
-              }
-            ],
-            series : [
-              {
-                name:'avg1',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+
+            yAxis: [{
+
+                type: 'value',
+                name: '内存:',
+                interval: 25,
+
+
+            }, {
+                gridIndex: 1
+            }],
+            series: [{
+                name: '',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: avg1
-              },
-              {
-                name:'avg5',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            },{
+                name: '',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: avg5
-              },
-              {
-                name:'avg15',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            },{
+                name: '',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: avg15
-              },
-            ]
+            }]
           })
         })
       },
@@ -403,22 +575,42 @@
           };
           self.chart_gdrSqlSl.setOption({
             title: {
-              text: 'uco2_sql_sl',
+                text: 'uco2_sql_sl',
+                x: 'center',
             },
-            tooltip : {
-              trigger: 'axis'
+            tooltip: {
+                trigger: 'axis',
+
+                axisPointer: {
+                    animation: false
+                }
             },
             legend: {
-              data:['avg1','avg5','avg15'],
-              bottom: '90%'
+                data: ['avg1', 'avg5', 'avg15'],
+                x: 'left'
             },
-            grid: {
-              left: '3%',
-              right: '4%',
-              bottom: '3%',
-              containLabel: true
+            toolbox: {
+                feature: {
+                    dataZoom: {
+                        yAxisIndex: 'none'
+                    },
+                    restore: {},
+                    saveAsImage: {}
+                }
             },
-            // calculable : true,
+            axisPointer: {
+                link: {
+                    xAxisIndex: 'all'
+                }
+            },
+
+            grid: [{
+                left: 40,
+                right: 40,
+            }, {
+                left: 40,
+                right: 40,
+            }],
             xAxis: [{
                 type: 'category',
                 boundaryGap: false,
@@ -438,34 +630,57 @@
             }, {
                 gridIndex: 1
             }],
-            yAxis : [
-              {
-                type : 'value'
-              }
-            ],
-            series : [
-              {
-                name:'avg1',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+
+            yAxis: [{
+
+                type: 'value',
+                name: '内存:',
+                interval: 25,
+
+
+            }, {
+                gridIndex: 1
+            }],
+            series: [{
+                name: '',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: avg1
-              },
-              {
-                name:'avg5',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            },{
+                name: '',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: avg5
-              },
-              {
-                name:'avg15',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            },{
+                name: '',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: avg15
-              },
-            ]
+            }]
           })
         })
       },
@@ -486,22 +701,42 @@
           };
           self.chart_gdrWebProd.setOption({
             title: {
-              text: 'uco2_web_prod',
+                text: 'uco2_web_prod',
+                x: 'center',
             },
-            tooltip : {
-              trigger: 'axis'
+            tooltip: {
+                trigger: 'axis',
+
+                axisPointer: {
+                    animation: false
+                }
             },
             legend: {
-              data:['avg1','avg5','avg15'],
-              bottom: '90%'
+                data: ['avg1', 'avg5', 'avg15'],
+                x: 'left'
             },
-            grid: {
-              left: '3%',
-              right: '4%',
-              bottom: '3%',
-              containLabel: true
+            toolbox: {
+                feature: {
+                    dataZoom: {
+                        yAxisIndex: 'none'
+                    },
+                    restore: {},
+                    saveAsImage: {}
+                }
             },
-            // calculable : true,
+            axisPointer: {
+                link: {
+                    xAxisIndex: 'all'
+                }
+            },
+
+            grid: [{
+                left: 40,
+                right: 40,
+            }, {
+                left: 40,
+                right: 40,
+            }],
             xAxis: [{
                 type: 'category',
                 boundaryGap: false,
@@ -521,34 +756,57 @@
             }, {
                 gridIndex: 1
             }],
-            yAxis : [
-              {
-                type : 'value'
-              }
-            ],
-            series : [
-              {
-                name:'avg1',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+
+            yAxis: [{
+
+                type: 'value',
+                name: '内存:',
+                interval: 25,
+
+
+            }, {
+                gridIndex: 1
+            }],
+            series: [{
+                name: '',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: avg1
-              },
-              {
-                name:'avg5',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            },{
+                name: '',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: avg5
-              },
-              {
-                name:'avg15',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            },{
+                name: '',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: avg15
-              },
-            ]
+            }]
           })
         })
       },
@@ -569,22 +827,42 @@
           };
           self.chart_gdrRdProd.setOption({
             title: {
-              text: 'uco2_rd_prod',
+                text: 'uco2_rd_prod',
+                x: 'center',
             },
-            tooltip : {
-              trigger: 'axis'
+            tooltip: {
+                trigger: 'axis',
+
+                axisPointer: {
+                    animation: false
+                }
             },
             legend: {
-              data:['avg1','avg5','avg15'],
-              bottom: '90%'
+                data: ['avg1', 'avg5', 'avg15'],
+                x: 'left'
             },
-            grid: {
-              left: '3%',
-              right: '4%',
-              bottom: '3%',
-              containLabel: true
+            toolbox: {
+                feature: {
+                    dataZoom: {
+                        yAxisIndex: 'none'
+                    },
+                    restore: {},
+                    saveAsImage: {}
+                }
             },
-            // calculable : true,
+            axisPointer: {
+                link: {
+                    xAxisIndex: 'all'
+                }
+            },
+
+            grid: [{
+                left: 40,
+                right: 40,
+            }, {
+                left: 40,
+                right: 40,
+            }],
             xAxis: [{
                 type: 'category',
                 boundaryGap: false,
@@ -604,34 +882,57 @@
             }, {
                 gridIndex: 1
             }],
-            yAxis : [
-              {
-                type : 'value'
-              }
-            ],
-            series : [
-              {
-                name:'avg1',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+
+            yAxis: [{
+
+                type: 'value',
+                name: '内存:',
+                interval: 25,
+
+
+            }, {
+                gridIndex: 1
+            }],
+            series: [{
+                name: '',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: avg1
-              },
-              {
-                name:'avg5',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            },{
+                name: '',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: avg5
-              },
-              {
-                name:'avg15',
-                type:'line',
-                stack: '总量',
-                // areaStyle: {normal: {}},
+            },{
+                name: '',
+                type: 'line',
+                smooth: true,
+                symbol: 'circle',
+                symbolSize: 9,
+                showSymbol: false,
+                lineStyle: {
+                    normal: {
+                        width: 1
+                    }
+                },
                 data: avg15
-              },
-            ]
+            }]
           })
         })
       },
