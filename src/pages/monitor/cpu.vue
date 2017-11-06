@@ -130,7 +130,7 @@
             yAxis: [{
 
                 type: 'value',
-                name: '内存:',
+                name: '使用量:',
                 interval: 25,
 
 
@@ -256,7 +256,7 @@
             yAxis: [{
 
                 type: 'value',
-                name: '内存:',
+                name: '使用量:',
                 interval: 25,
 
 
@@ -382,7 +382,7 @@
             yAxis: [{
 
                 type: 'value',
-                name: '内存:',
+                name: '使用量:',
                 interval: 25,
 
 
@@ -508,7 +508,7 @@
             yAxis: [{
 
                 type: 'value',
-                name: '内存:',
+                name: '使用量:',
                 interval: 25,
 
 
@@ -634,7 +634,7 @@
             yAxis: [{
 
                 type: 'value',
-                name: '内存:',
+                name: '使用量:',
                 interval: 25,
 
 
@@ -760,7 +760,7 @@
             yAxis: [{
 
                 type: 'value',
-                name: '内存:',
+                name: '使用量:',
                 interval: 25,
 
 
@@ -886,7 +886,7 @@
             yAxis: [{
 
                 type: 'value',
-                name: '内存:',
+                name: '使用量:',
                 interval: 25,
 
 
