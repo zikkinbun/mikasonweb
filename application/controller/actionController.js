@@ -75,15 +75,15 @@ ctrl.ServerDetail = function(req) {
 // 新建服务器详情
 ctrl.CreateServer = function(req) {
   return this.request(req, "/asset/CreateServer", {
-    Name: req.body.Name,
-    System: req.body.System,
-    GlobalIpAddr: req.body.GlobalIpAddr,
-    PrivateIpAddr: req.body.PrivateIpAddr,
-    CpuStat: req.body.CpuStat,
-    MemoryStat: req.body.MemoryStat,
-    HDDStorage: req.body.HDDStorage,
-    NetCard: req.body.NetCard,
-    Status: req.body.Status
+		name: req.body.name,
+		system: req.body.system,
+		glabal_ip: req.body.glabal_ip,
+		private_ip: req.body.private_ip,
+		cpu_status: req.body.cpu_status,
+		mem_status: req.body.mem_status,
+		hdd_storage: req.body.hdd_storage,
+		net_flow: req.body.net_flow,
+		status: req.body.status
   }).then(
     result => {
       return {
@@ -97,15 +97,15 @@ ctrl.CreateServer = function(req) {
 ctrl.EditServer = function(req) {
   return this.request(req, "/asset/EditServer", {
     id: req.body.id,
-    Name: req.body.Name,
-    System: req.body.System,
-    GlobalIpAddr: req.body.GlobalIpAddr,
-    PrivateIpAddr: req.body.PrivateIpAddr,
-    CpuStat: req.body.CpuStat,
-    MemoryStat: req.body.MemoryStat,
-    HDDStorage: req.body.HDDStorage,
-    NetCard: req.body.NetCard,
-    Status: req.body.Status
+		name: req.body.name,
+		system: req.body.system,
+		glabal_ip: req.body.glabal_ip,
+		private_ip: req.body.private_ip,
+		cpu_status: req.body.cpu_status,
+		mem_status: req.body.mem_status,
+		hdd_storage: req.body.hdd_storage,
+		net_flow: req.body.net_flow,
+		status: req.body.status
   }).then(
     result => {
       return {
@@ -429,6 +429,19 @@ ctrl.queryBootTime = function(req) {
 	     return {
 	       data: result,
 	       str: "获取在线总时长"
+	    };
+	});
+};
+
+// 获取生产数据库连接数
+ctrl.getMysqlConns = function(req) {
+	 return this.request(req, "/db/MysqlConns", {
+		 ip: req.body.ip
+	 }).then(
+	   result => {
+	     return {
+	       data: result,
+	       str: "获取生产数据库连接数"
 	    };
 	});
 };

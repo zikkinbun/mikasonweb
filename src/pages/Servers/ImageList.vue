@@ -16,15 +16,15 @@
     highlight-current-row>
     <el-table-column
       label="镜像ID"
-      prop="imageId">
+      prop="image_id">
     </el-table-column>
     <el-table-column
       label="镜像名"
-      prop="imageName">
+      prop="image_name">
     </el-table-column>
     <el-table-column
       label="创建时间"
-      prop="createdate">
+      prop="create_date">
     </el-table-column>
     <el-table-column
       label="镜像大小"

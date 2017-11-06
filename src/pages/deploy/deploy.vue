@@ -50,6 +50,11 @@
         <el-radio-button label="生产环境"></el-radio-button>
         </el-radio-group>
       </el-form-item>
+      <el-form-item label="目标主机" prop="target">
+        <el-col :span="24">
+        <el-input v-model="deployForm.target" placeholder="请输入目标主机"></el-input>
+        </el-col>
+      </el-form-item>
       <el-form-item label=" ">
         <el-button type="primary" @click="PeriodDeploy">立即创建</el-button>
         <el-button>取消</el-button>
@@ -59,7 +64,7 @@
   </el-form>
   </el-col>
 </el-row>
-  </div>
+</div>
 </template>
 
 <script>
@@ -75,7 +80,8 @@
           configfile: '',
           date: '',
           time: '',
-          env: ''
+          env: '',
+          target: ''
         },
         deployRules: {
           name: [
@@ -166,18 +172,17 @@
         var self = this;
         var date = Date.parse(self.deployForm.date);
         var time = Date.parse(self.deployForm.time);
-        var config = new Array();
-        config.push(self.deployForm.configfile);
         self.$http.post('/Interface/PeriodDeploy', {
           name: self.deployForm.name,
           project: self.selectedproject,
       		branch: self.selectedbranch,
       		tag: self.selectedtag,
       		env: self.deployForm.env,
-      		config: config,
+      		config: self.deployForm.configfile,
           type: self.deployForm.type,
       		date: date,
-          time: time
+          time: time,
+          target: self.deployForm.target
         }).then((response) => {
           var data = response.data;
           switch (data.retcode) {

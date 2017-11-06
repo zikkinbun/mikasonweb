@@ -32,12 +32,12 @@
 			      <el-menu-item index="４-6"><i class="el-icon-date "></i>灰度计划</el-menu-item>
 			    </el-submenu>
 			    <el-submenu index="5">
-			      <template slot="title"><i class="el-icon-plus"></i>配置管理</template>
-			      <el-menu-item index="5-1"><i class="el-icon-date "></i>帐号管理</el-menu-item>
-			      <el-menu-item index="5-2"><i class="el-icon-date "></i>文件管理</el-menu-item>
-			      <el-menu-item index="5-3"><i class="el-icon-date "></i>脚本管理</el-menu-item>
-			      <el-menu-item index="5-5"><i class="el-icon-date "></i>软件管理</el-menu-item>
-			      <el-menu-item index="5-6"><i class="el-icon-date "></i>服务管理</el-menu-item>
+			      <template slot="title"><i class="el-icon-plus"></i>数据库管理</template>
+			      <el-menu-item index="5-1"><i class="el-icon-date "></i>表结构评审</el-menu-item>
+			      <el-menu-item index="5-2"><i class="el-icon-date "></i>语句评审</el-menu-item>
+			      <el-menu-item index="5-3"><i class="el-icon-date "></i>数据同步</el-menu-item>
+			      <el-menu-item index="5-5"><i class="el-icon-date "></i>数据迁移</el-menu-item>
+			      <el-menu-item index="5-6"><i class="el-icon-date "></i>脚本执行</el-menu-item>
 			    </el-submenu>
 				</el-menu>
 				<div class="layout-copy">&copy; Mikason 2017</div>

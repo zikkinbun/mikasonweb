@@ -20,28 +20,28 @@
     @selection-change="tableSelectionChange">
     <el-table-column
       label="容器Id"
-      prop="containerId"
+      prop="container_id"
       width="140px">
       <template scope="scope">
         <el-button
         size="small"
         type="info"
-        @click="getContainersDetail(scope.$index, scope.row)">{{ scope.row.containerId }}</el-button>
+        @click="getContainersDetail(scope.$index, scope.row)">{{ scope.row.container_id }}</el-button>
       </template>
     </el-table-column>
     <el-table-column
     label="托管主机"
-    prop="hostName"
+    prop="host_name"
     width="120px">
   </el-table-column>
     <el-table-column
       label="容器名"
-      prop="containerName"
+      prop="container_name"
       width="180px">
     </el-table-column>
     <el-table-column
       label="镜像名"
-      prop="imageName"
+      prop="image_name"
       width="100px">
     </el-table-column>
     <el-table-column
@@ -50,7 +50,7 @@
     </el-table-column>
     <el-table-column
       label="创建时间"
-      prop="createdate"
+      prop="create_date"
       width="180px">
     </el-table-column>
     <el-table-column
@@ -134,7 +134,7 @@
       getContainersDetail: function (index, row) {
         var self = this;
         self.$http.post('/Interface/ContainerDetail', {
-          container_id: row.containerId
+          container_id: row.container_id
         })
         .then((response, callback) => {
           this.detailVisible = true;
@@ -147,7 +147,7 @@
       stopContainer: function (index, row) {
         var self = this;
         self.$http.post('/Interface/stopContainer', {
-          container_id: row.containerId
+          container_id: row.container_id
         }).then((response, callback) => {
           var data = response.data;
           switch (data.retcode) {
@@ -168,7 +168,7 @@
       startContainer: function (index, row) {
         var self = this;
         self.$http.post('/Interface/startContainer', {
-          container_id: row.containerId
+          container_id: row.container_id
         }).then((response, callback) => {
           var data = response.data;
           switch (data.retcode) {
@@ -189,7 +189,7 @@
       deleteContainer: function (index, row) {
         var self = this;
         self.$http.post('/Interface/deleteContainer', {
-          container_id: row.containerId
+          container_id: row.container_id
         }).then((response, callback) => {
           var data = response.data;
           switch (data.retcode) {

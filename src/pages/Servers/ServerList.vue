@@ -23,46 +23,46 @@
       @selection-change="tableSelectionChange">
       <el-table-column
         label="服务器"
-        prop="Name"
-        width="120px">
+        prop="name"
+        width="130px">
       </el-table-column>
       <el-table-column
         label="系统"
-        prop="System"
+        prop="system"
         width="100px">
       </el-table-column>
       <el-table-column
         label="公网地址"
-        prop="GlobalIpAddr"
+        prop="glabal_ip"
         width="150px">
       </el-table-column>
       <el-table-column
         label="私网地址"
-        prop="PrivateIpAddr"
+        prop="private_ip"
         width="150px">
       </el-table-column>
       <el-table-column
         label="CPU"
-        prop="CpuStat"
+        prop="cpu_status"
         width="80px">
       </el-table-column>
       <el-table-column
         label="内存"
-        prop="MemoryStat"
+        prop="mem_status"
         width="80px">
       </el-table-column>
       <el-table-column
         label="硬盘"
-        prop="HDDStorage"
+        prop="hdd_storage"
         width="80px">
       </el-table-column>
       <el-table-column
         label="网卡带宽"
-        prop="NetCard"
+        prop="net_flow"
         width="100px">
       </el-table-column>
       <el-table-column
-        prop="Status"
+        prop="status"
         label="状态"
         width="100"
         :filters="[{ text: '在线', value: '在线' }, { text: '离线', value: '离线' }]"
@@ -70,8 +70,8 @@
         filter-placement="bottom-end">
         <template scope="scope">
           <el-tag
-            :type="scope.row.Status === '在线' ? 'success' : 'danger'"
-            close-transition>{{scope.row.Status}}</el-tag>
+            :type="scope.row.status === '在线' ? 'success' : 'danger'"
+            close-transition>{{scope.row.status}}</el-tag>
         </template>
       </el-table-column>
       <el-table-column label="操作">
@@ -91,45 +91,45 @@
     <!--新增界面-->
 	  <el-dialog title="新增" v-model="addFormVisible" :close-on-click-modal="false">
 			<el-form :model="addForm" label-width="80px" ref="addForm">
-        <el-form-item label="服务器" prop="Name" placeholder="请输入">
-					<el-input v-model="addForm.Name" auto-complete="off"></el-input>
+        <el-form-item label="服务器" prop="name" placeholder="请输入">
+					<el-input v-model="addForm.name" auto-complete="off"></el-input>
 				</el-form-item>
 				<el-form-item label="系统">
-					<el-select v-model="addForm.System">
+					<el-select v-model="addForm.system">
             <el-option label="Centos 7" value="Centos7"></el-option>
             <el-option label="Centos 6" value="Centos6"></el-option>
             <el-option label="Centos 5" value="Centos5"></el-option>
 					</el-select>
 				</el-form-item>
 				<el-form-item label="公网地址">
-					<el-input v-model="addForm.GlobalIpAddr" placeholder="请输入"></el-input>
+					<el-input v-model="addForm.glabal_ip" placeholder="请输入"></el-input>
 				</el-form-item>
         <el-form-item label="私网地址">
-          <el-input v-model="addForm.PrivateIpAddr" placeholder="请输入"></el-input>
+          <el-input v-model="addForm.private_ip" placeholder="请输入"></el-input>
         </el-form-item>
         <el-form-item label="CPU">
-          <el-select size="small" v-model="addForm.CpuStat" placeholder="请选择">
+          <el-select size="small" v-model="addForm.cpu_status" placeholder="请选择">
             <el-option label="16核" value="16"></el-option>
             <el-option label="8核" value="8"></el-option>
             <el-option label="4核" value="4"></el-option>
           </el-select>
         </el-form-item>
         <el-form-item label="内存">
-          <el-select size="small" v-model="addForm.MemoryStat" placeholder="请选择">
+          <el-select size="small" v-model="addForm.mem_status" placeholder="请选择">
             <el-option label="16G" value="16"></el-option>
             <el-option label="8G" value="8"></el-option>
             <el-option label="4G" value="4"></el-option>
           </el-select>
         </el-form-item>
         <el-form-item label="硬盘">
-          <el-select size="small" v-model="addForm.HDDStorage" placeholder="请选择">
+          <el-select size="small" v-model="addForm.hdd_storage" placeholder="请选择">
             <el-option label="200G" value="200"></el-option>
             <el-option label="100G" value="100"></el-option>
             <el-option label="50G" value="50"></el-option>
           </el-select>
         </el-form-item>
         <el-form-item label="带宽">
-          <el-select size="small" v-model="addForm.NetCard" placeholder="请选择">
+          <el-select size="small" v-model="addForm.net_flow" placeholder="请选择">
             <el-option label="100M" value="100"></el-option>
             <el-option label="50M" value="50"></el-option>
             <el-option label="20M" value="20"></el-option>
@@ -152,45 +152,45 @@
   <!--编辑界面-->
 		<el-dialog title="编辑" v-model="editFormVisible" :close-on-click-modal="false">
 			<el-form :model="editForm" label-width="80px" ref="editForm">
-				<el-form-item label="服务器" prop="Name" placeholder="请输入">
-					<el-input v-model="editForm.Name" auto-complete="off"></el-input>
+				<el-form-item label="服务器" prop="name" placeholder="请输入">
+					<el-input v-model="editForm.name" auto-complete="off"></el-input>
 				</el-form-item>
 				<el-form-item label="系统">
-					<el-select v-model="editForm.System">
+					<el-select v-model="editForm.system">
             <el-option label="Centos 7" value="Centos7"></el-option>
             <el-option label="Centos 6" value="Centos6"></el-option>
             <el-option label="Centos 5" value="Centos5"></el-option>
 					</el-select>
 				</el-form-item>
 				<el-form-item label="公网地址">
-					<el-input v-model="editForm.GlobalIpAddr" placeholder="请输入"></el-input>
+					<el-input v-model="editForm.glabal_ip" placeholder="请输入"></el-input>
 				</el-form-item>
         <el-form-item label="私网地址">
-          <el-input v-model="editForm.PrivateIpAddr" placeholder="请输入"></el-input>
+          <el-input v-model="editForm.private_ip" placeholder="请输入"></el-input>
         </el-form-item>
         <el-form-item label="CPU">
-          <el-select size="small" v-model="editForm.CpuStat" placeholder="请选择">
+          <el-select size="small" v-model="editForm.cpu_status" placeholder="请选择">
             <el-option label="16核" value="16"></el-option>
             <el-option label="8核" value="8"></el-option>
             <el-option label="4核" value="4"></el-option>
           </el-select>
         </el-form-item>
         <el-form-item label="内存">
-          <el-select size="small" v-model="editForm.MemoryStat" placeholder="请选择">
+          <el-select size="small" v-model="editForm.mem_status" placeholder="请选择">
             <el-option label="16G" value="16"></el-option>
             <el-option label="8G" value="8"></el-option>
             <el-option label="4G" value="4"></el-option>
           </el-select>
         </el-form-item>
         <el-form-item label="硬盘">
-          <el-select size="small" v-model="editForm.HDDStorage" placeholder="请选择">
+          <el-select size="small" v-model="editForm.hdd_storage" placeholder="请选择">
             <el-option label="200G" value="200"></el-option>
             <el-option label="100G" value="100"></el-option>
             <el-option label="50G" value="50"></el-option>
           </el-select>
         </el-form-item>
         <el-form-item label="带宽">
-          <el-select size="small" v-model="editForm.NetCard" placeholder="请选择">
+          <el-select size="small" v-model="editForm.net_flow" placeholder="请选择">
             <el-option label="100M" value="100"></el-option>
             <el-option label="50M" value="50"></el-option>
             <el-option label="20M" value="20"></el-option>
@@ -225,31 +225,31 @@
         editLoading: false,
         editForm: {
           id:'',
-					Name: '',
-					System: '',
-					GlobalIpAddr: '',
-					PrivateIpAddr: '',
-					CpuStat: '',
-					MemoryStat: '',
-          HDDStorage: '',
-          NetCard: '',
-          Status:''
+					name: '',
+					system: '',
+					glabal_ip: '',
+					private_ip: '',
+					cpu_status: '',
+					mem_status: '',
+          hdd_storage: '',
+          net_flow: '',
+          status:''
 				},
         addFormVisible: false,//新增界面是否显示
         addLoading: false,
         addForm: {
           id:'',
-          Name: '',
-          System: '',
-          GlobalIpAddr: '',
-          PrivateIpAddr: '',
-          CpuStat: '',
-          MemoryStat: '',
-          HDDStorage: '',
-          NetCard: '',
-          Status: '',
+					name: '',
+					system: '',
+					glabal_ip: '',
+					private_ip: '',
+					cpu_status: '',
+					mem_status: '',
+          hdd_storage: '',
+          net_flow: '',
+          status:'',
           comment: '',
-          CreateTime: '',
+          create_time: '',
         },
       }
     },
@@ -276,15 +276,15 @@
       handleAdd: function () {
         this.addFormVisible = true;
         this.addForm = {
-          Name: '',
-          System: '',
-          GlobalIpAddr: '',
-          PrivateIpAddr: '',
-          CpuStat: '',
-          MemoryStat: '',
-          HDDStorage: '',
-          NetCard: '',
-          Status: '',
+          name: '',
+					system: '',
+					glabal_ip: '',
+					private_ip: '',
+					cpu_status: '',
+					mem_status: '',
+          hdd_storage: '',
+          net_flow: '',
+          status:'',
           comment: '',
         };
       },
@@ -322,15 +322,15 @@
               // let para = Object.assign({}, this.editForm);
               self.$http.post('/Interface/EditServer', {
                 id: this.editForm.id,
-                Name: self.editForm.Name,
-                System: self.editForm.System,
-                GlobalIpAddr: self.editForm.GlobalIpAddr,
-                PrivateIpAddr: self.editForm.PrivateIpAddr,
-                CpuStat: self.editForm.CpuStat,
-                MemoryStat: self.editForm.MemoryStat,
-                HDDStorage: self.editForm.HDDStorage,
-                NetCard: self.editForm.NetCard,
-                Status: self.editForm.Status
+                name: self.editForm.name,
+                system: self.editForm.system,
+                glabal_ip: self.editForm.glabal_ip,
+                private_ip: self.editForm.private_ip,
+                cpu_status: self.editForm.cpu_status,
+                mem_status: self.editForm.mem_status,
+                hdd_storage: self.editForm.hdd_storage,
+                net_flow: self.editForm.net_flow,
+                status: self.editForm.status
               })
               .then((response) => {
                 this.editLoading = false;
@@ -349,15 +349,15 @@
       addSubmit: function() {
         var self = this;
         self.$http.post('/Interface/CreateServer', {
-          Name: self.addForm.Name,
-          System: self.addForm.System,
-          GlobalIpAddr: self.addForm.GlobalIpAddr,
-          PrivateIpAddr: self.addForm.PrivateIpAddr,
-          CpuStat: self.addForm.CpuStat,
-          MemoryStat: self.addForm.MemoryStat,
-          HDDStorage: self.addForm.HDDStorage,
-          NetCard: self.addForm.NetCard,
-          Status: self.addForm.Status
+          name: self.addForm.name,
+          system: self.addForm.system,
+          glabal_ip: self.addForm.glabal_ip,
+          private_ip: self.addForm.private_ip,
+          cpu_status: self.addForm.cpu_status,
+          mem_status: self.addForm.mem_status,
+          hdd_storage: self.addForm.hdd_storage,
+          net_flow: self.addForm.net_flow,
+          status: self.addForm.status
         })
         .then((response) => {
           // return response.data;

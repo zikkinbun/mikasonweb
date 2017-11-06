@@ -26,7 +26,7 @@ const router = new Router({
 		children: [{
 			path: "",
 			name: "dashboard",
-			component: monitor
+			component: ServerList
 		},{
 			path: "ServerList",
 			name: "ServerList",
