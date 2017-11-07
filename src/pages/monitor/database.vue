@@ -9,7 +9,7 @@
     <el-row :gutter="24" type="flex">
       <el-col :span="24">
       <el-table
-        :data="sqlForm"
+        :data="sqldatas"
         style="width: 100%">
         <el-table-column
         prop="id"
@@ -57,19 +57,9 @@
       return {
         activeName: '全量监测',
         chartSQL: null,
+        chartCom: null,
         connections: [],
-        sqlForm: {},
-        option: {
-           title: {},
-           tooltip : {},
-           legend: {},
-           toolbox: {},
-           grid: {},
-           xAxis : [],
-           dataZoom: [],
-           yAxis : [],
-           series:[]
-         }
+        sqldatas: [],
       };
     },
     mounted () {
@@ -93,25 +83,9 @@
                 text: '数据库当前连接数',
                 x: 'center',
             },
-            tooltip: {
-                trigger: 'axis',
-
-                axisPointer: {
-                    animation: false
-                }
-            },
             legend: {
                 data: ['流量'],
                 x: 'left'
-            },
-            toolbox: {
-                feature: {
-                    dataZoom: {
-                        yAxisIndex: 'none'
-                    },
-                    restore: {},
-                    saveAsImage: {}
-                }
             },
             axisPointer: {
                 link: {
