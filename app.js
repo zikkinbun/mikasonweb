@@ -79,7 +79,7 @@ let normalizePort = val => {
 };
 
 let server		=	http.createServer( app ),
-	port		=	normalizePort(	process.env.PORT || "3010"	);
+	port		=	normalizePort(	process.env.PORT || "8080"	);
 
 app.set( "port", port );
 
