@@ -14,9 +14,9 @@ function install() {
 
   wait $install_pid
 
-  nohup cnpm start >/dev/null &
+	nohup node app.js >/dev/null &
 
-  echo $! > node_project.pid
+	echo $! > node_project.pid
 
 }
 
@@ -28,7 +28,7 @@ function start() {
     fi
   fi
 
-  nohup cnpm start >/dev/null &
+  nohup node app.js >/dev/null &
 
   echo $! > node_project.pid
 
