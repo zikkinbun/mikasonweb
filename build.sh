@@ -9,20 +9,16 @@ fi
 
 function install() {
 
-  if [ -f $node_pid ]; then
-    if kill -0 `cat $node_pid` > /dev/null 2>&1; then
-      echo running as process `cat $node_pid`
-      exit 1
-    fi
-  fi
-
   nohup cnpm install >/dev/null &
   echo $! > node_install.pid
 
-  if [ -f $install_pid ]; then
-    nohup cnpm start >/dev/null &
-    echo $! > node_project.pid
-  fi
+  install_process = `cat $node_pid`
+
+  wait $install_process
+
+  nohup cnpm start >/dev/null &
+
+  echo $! > node_project.pid
 
 }
 
