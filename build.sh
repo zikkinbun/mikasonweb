@@ -10,11 +10,9 @@ function install() {
 
   nohup cnpm install >/dev/null &
 
-  echo $! > node_install.pid
+  install_pid=$!
 
-  install_process = `cat node_install.pid`
-
-  wait $install_process
+  wait $install_pid
 
   nohup cnpm start >/dev/null &
 
