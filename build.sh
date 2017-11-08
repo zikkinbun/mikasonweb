@@ -1,7 +1,7 @@
 #!/bin/bash
 
 node_pid=./node_project.pid
-install_pid=./install.pid
+install_pid=./node_install.pid
 
 if [[ $# -ne 1 ]]; then
 	echo "Usage: `basename $0` |init|start|stop|retart|"
@@ -10,9 +10,10 @@ fi
 function install() {
 
   nohup cnpm install >/dev/null &
+
   echo $! > node_install.pid
 
-  install_process = `cat $node_pid`
+  install_process = `cat $install_pid`
 
   wait $install_process
 
