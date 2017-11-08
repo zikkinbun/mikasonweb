@@ -1,7 +1,6 @@
 #!/bin/bash
 
 node_pid=./node_project.pid
-install_pid=./node_install.pid
 
 if [[ $# -ne 1 ]]; then
 	echo "Usage: `basename $0` |init|start|stop|retart|"
@@ -13,7 +12,7 @@ function install() {
 
   echo $! > node_install.pid
 
-  install_process = `cat $install_pid`
+  install_process = `cat node_install.pid`
 
   wait $install_process
 
