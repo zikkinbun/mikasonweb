@@ -1,6 +1,9 @@
 #!/bin/bash
 
-node_pid=./node_project.pid
+dir=`pwd`
+project=${dir##*/}
+node_pid=/var/run/$project.pid
+
 
 if [[ $# -ne 1 ]]; then
 	echo "Usage: `basename $0` |init|start|stop|retart|"
@@ -16,7 +19,7 @@ function install() {
 
 	nohup node app.js >/dev/null &
 
-	echo $! > node_project.pid
+	echo $! > $node_pid
 
 }
 
@@ -30,7 +33,7 @@ function start() {
 
   nohup node app.js >/dev/null &
 
-  echo $! > node_project.pid
+  echo $! > $node_pid
 
 }
 

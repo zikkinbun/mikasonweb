@@ -184,6 +184,7 @@
           time: time,
           target: self.deployForm.target
         }).then((response) => {
+          response.setTimeout(300*1000);
           var data = response.data;
           switch (data.retcode) {
             case 0:
