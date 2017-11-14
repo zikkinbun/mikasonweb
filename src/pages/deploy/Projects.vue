@@ -212,6 +212,7 @@
           project_type: row.type,
           configfile: row.configfile.split(",")
           }).then((response) => {
+          //  response.setTimeout(300*1000);
            self.msg = response.data;
            self.$alert(self.msg.retmsg, '发布情况', {
              confirmButtonText: '确定',
@@ -233,6 +234,7 @@
           project_type: row.type,
           configfile: row.configfile.split(",")
           }).then((response) => {
+          //  response.setTimeout(300*1000);
            self.msg = response.data;
            self.$alert(self.msg.retmsg, '发布情况', {
              confirmButtonText: '确定',
