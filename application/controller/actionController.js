@@ -651,4 +651,33 @@ ctrl.DelModule = function(req) {
 	});
 };
 
+// 编辑模块详情
+ctrl.CreateModuleDetail = function(req) {
+		return this.request(req, "/module/CreateModuleDetail", {
+			port: req.body.port,
+			configfile: req.body.configfile,
+	 }).then(
+		  result => {
+		    return {
+		      data: result,
+		      str: "编辑模块详情"
+		   };
+	});
+};
+
+// 激活模块
+ctrl.ActiveDetail = function(req) {
+		return this.request(req, "/module/ActiveDetail", {
+			moduleid: req.body.moduleid,
+			serverid: req.body.serverid,
+			is_actived: req.body.is_actived,
+	 }).then(
+		  result => {
+		    return {
+		      data: result,
+		      str: "激活模块"
+		   };
+	});
+};
+
 module.exports = new BaseController(ctrl);

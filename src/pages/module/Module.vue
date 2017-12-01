@@ -121,8 +121,8 @@
   <el-popover
     ref="detailTable"
     placement="right"
-    width="400"
     trigger="click"
+    width="800"
     v-model="popoverVisible">
     <el-table :data="detail" style="width: 100%">
       <el-table-column width="150" property="port" label="端口">
@@ -140,8 +140,42 @@
         </template>
       </el-table-column>
       <el-table-column width="300" property="configfile" label="配置文件"></el-table-column>
+      <el-table-column label="操作" property="id">
+        <template scope="scope">
+          <el-button
+          size="small"
+          type="success"
+          icon="el-icon-circle-check"
+          @click="activeDetail(scope.$index, scope.row, 1)"></el-button>
+          <el-button
+          size="small"
+          type="danger"
+          icon="el-icon-circle-close"
+          @click="activeDetail(scope.$index, scope.row, 0)"></el-button>
+        </template>
+      </el-table-column>
     </el-table>
+    <el-button
+    size="small"
+    type="primary"
+    icon="el-icon-edit"
+    @click="handleEditDetail">编辑</el-button>
   </el-popover>
+
+  <el-dialog title="编辑模块详情" :visible.sync="editDetialVisible" :close-on-click-modal="false">
+    <el-form :model="editDetialForm" ref="editDetialForm" label-width="80px" :rules="editDetialrules">
+      <el-form-item label="端口" prop="port">
+        <el-input v-model="editDetialForm.name" auto-complete="off"></el-input>
+      </el-form-item>
+      <el-form-item label="配置文件" prop="configfile">
+        <el-input v-model="editDetialForm.configfile" auto-complete="off"></el-input>
+      </el-form-item>
+    </el-form>
+      <div slot="footer" class="dialog-footer">
+        <el-button type="primary" @click="editModuleDetail" :loading="editDetialLoading">创建</el-button>
+        <el-button @click.native="editDetialVisible = false">取消</el-button>
+      </div>
+  </el-dialog>
 
   <el-dialog title="绑定模块" :visible.sync="bindVisible" :close-on-click-modal="false">
     <el-form :model="bindForm" ref="bindForm" label-width="80px">
@@ -160,10 +194,10 @@
         </el-select>
       </el-form-item>
     </el-form>
-      <div slot="footer" class="dialog-footer">
-        <el-button type="primary" @click="bindModuleServer">创建</el-button>
-        <el-button @click.native="bindVisible = false">取消</el-button>
-      </div>
+    <div slot="footer" class="dialog-footer">
+      <el-button type="primary" @click="bindModuleServer">创建</el-button>
+      <el-button @click.native="bindVisible = false">取消</el-button>
+    </div>
   </el-dialog>
 
 </section>
@@ -220,6 +254,20 @@
             { required: true, message: '请输入版本', trigger: 'blur' }
           ],
         },
+        editDetialForm: {
+          port: '',
+          configfile: ''
+        },
+        editDetialVisible: false,
+        editDetialLoading: false,
+        editDetialrules: {
+          port: [
+            { required: true, message: '请输入端口', trigger: 'blur' }
+          ],
+          configfile: [
+            { required: true, message: '请输入配置文件', trigger: 'blur' }
+          ],
+        },
         popoverVisible: false,
         bindVisible: false,
         bindLoading: false,
@@ -249,6 +297,10 @@
         var self = this;
         self.editVisible = true;
         self.editForm = Object.assign({}, row);
+      },
+      handleEditDetail: function () {
+        var self = this;
+        self.editDetialVisible = true;
       },
       handleBind: function (index, row) {
         var self = this;
@@ -359,6 +411,32 @@
           self.editVisible = false;
         })
       },
+      editModuleDetail: function() {
+        var self = this;
+        self.$http.post('/Interface/CreateModuleDetail', {
+          port: self.editDetialForm.name,
+          configfile: self.editDetialForm.type,
+        }).then((response) => {
+          self.editDetialLoading = true;
+          var data = response.data;
+          switch (data.retcode) {
+            case 0:
+              self.$message({
+                'message': '修改成功',
+                'type': 'success'
+              });
+              self.$refs['editDetialForm'].resetFields();
+              self.editDetialLoading = false;
+              break;
+            default:
+              self.$message({
+                'message': '修改失败',
+                'type': 'error'
+              });
+          }
+          self.editDetialVisible = false;
+        })
+      },
       bindModuleServer: function() {
         var self = this;
         self.$http.post('/Interface/SetModuleServer', {
@@ -381,6 +459,29 @@
               });
           }
           self.bindVisible = false;
+        })
+      },
+      activeDetail: function(index, row, activeId) {
+        var self = this;
+        self.$http.post('/Interface/ActiveDetail', {
+          moduleid: row.id,
+          serverid: row.serverid,
+          is_actived: activeId,
+        }).then((response) => {
+          var data = response.data;
+          switch (data.retcode) {
+            case 0:
+              self.$message({
+                'message': '变更成功',
+                'type': 'success'
+              });
+              break;
+            default:
+              self.$message({
+                'message': '变更失败',
+                'type': 'error'
+              });
+          }
         })
       },
     }
