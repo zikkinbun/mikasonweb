@@ -51,8 +51,8 @@ ctrl.getToken = function(req) {
 };
 
 // 获取服务器列表
-ctrl.ServerList = function(req) {
-  return this.request(req, "/asset/List", {}).then(
+ctrl.ListServer = function(req) {
+  return this.request(req, "/server/ListServer", {}).then(
     result => {
       return {
         data: result,
@@ -61,9 +61,20 @@ ctrl.ServerList = function(req) {
   });
 };
 
+// 获取服务器列表
+ctrl.ListServerName = function(req) {
+  return this.request(req, "/server/ListServerName", {}).then(
+    result => {
+      return {
+        data: result,
+        str: "获取服务器名"
+      };
+  });
+};
+
 // 获取服务器详情
-ctrl.ServerDetail = function(req) {
-  return this.request(req, "/asset/Detail", {}).then(
+ctrl.ListDetail = function(req) {
+  return this.request(req, "/server/ListDetail", {}).then(
     result => {
       return {
         data: result,
@@ -72,52 +83,58 @@ ctrl.ServerDetail = function(req) {
   });
 };
 
-// 新建服务器详情
+// 新建服务器
 ctrl.CreateServer = function(req) {
-  return this.request(req, "/asset/CreateServer", {
+  return this.request(req, "/server/CreateServer", {
 		name: req.body.name,
-		system: req.body.system,
-		glabal_ip: req.body.glabal_ip,
-		private_ip: req.body.private_ip,
-		cpu_status: req.body.cpu_status,
-		mem_status: req.body.mem_status,
-		hdd_storage: req.body.hdd_storage,
-		net_flow: req.body.net_flow,
+		alias: req.body.alias,
+		tag: req.body.tag,
+		is_monitor: req.body.is_monitor,
 		status: req.body.status
   }).then(
     result => {
       return {
         data: result,
-        str: "新建服务器详情"
+        str: "新建服务器"
       };
   });
 };
 
-// 编辑服务器详情
+// 更改服务器信息
 ctrl.EditServer = function(req) {
-  return this.request(req, "/asset/EditServer", {
-    id: req.body.id,
+  return this.request(req, "/server/EditServer", {
+		serverId: req.bodu.serverId,
 		name: req.body.name,
-		system: req.body.system,
-		glabal_ip: req.body.glabal_ip,
-		private_ip: req.body.private_ip,
-		cpu_status: req.body.cpu_status,
-		mem_status: req.body.mem_status,
-		hdd_storage: req.body.hdd_storage,
-		net_flow: req.body.net_flow,
+		alias: req.body.alias,
+		tag: req.body.tag,
+		is_monitor: req.body.is_monitor,
 		status: req.body.status
   }).then(
     result => {
       return {
         data: result,
-        str: "编辑服务器详情"
+        str: "更改服务器信息"
+      };
+  });
+};
+
+// 更改服务器监控状态
+ctrl.EditServerMonitor = function(req) {
+  return this.request(req, "/server/EditServerMonitor", {
+		serverId: req.body.serverId,
+		is_monitor: req.body.is_monitor,
+  }).then(
+    result => {
+      return {
+        data: result,
+        str: "更改服务器监控状态"
       };
   });
 };
 
 // 删除服务器
 ctrl.ServerDelete = function(req) {
-  return this.request(req, "/asset/DeleteServer", {
+  return this.request(req, "/server/DeleteServer", {
     id: req.body.id
   }).then(
     result => {
@@ -128,9 +145,128 @@ ctrl.ServerDelete = function(req) {
   });
 };
 
+// 创建服务器详情
+ctrl.CreateServerDetail = function(req) {
+  return this.request(req, "/server/CreateDetail", {
+    serverId: req.body.serverId,
+		system: req.body.system,
+		glabal_ip: req.body.glabal_ip,
+		private_ip: req.body.private_ip,
+		cpu: req.body.cpu,
+		mem: req.body.mem,
+		hdd: req.body.hdd,
+		netflow: req.body.netflow,
+		core: req.body.core
+  }).then(
+    result => {
+      return {
+        data: result,
+        str: "编辑服务器详情"
+      };
+  });
+};
+
+// 编辑服务器详情
+ctrl.EditServerDetail = function(req) {
+  return this.request(req, "/server/EditServerDetail", {
+    serverId: req.body.serverId,
+		name: req.body.name,
+		alias: req.body.alias,
+		tag: req.body.tag,
+		system: req.body.system,
+		global_ip: req.body.global_ip,
+		private_ip: req.body.private_ip,
+		cpu: req.body.cpu,
+		mem: req.body.mem,
+		hdd: req.body.hdd,
+		netflow: req.body.netflow,
+		core: req.body.core
+  }).then(
+    result => {
+      return {
+        data: result,
+        str: "编辑服务器详情"
+      };
+  });
+};
+
+// 获取服务器详情
+ctrl.GetServerDetail = function(req) {
+  return this.request(req, "/server/GetDetail", {
+    serverId: req.body.serverId,
+  }).then(
+    result => {
+      return {
+        data: result,
+        str: "获取服务器详情"
+      };
+  });
+};
+
+// 创建服务器内有服务
+ctrl.CreateServerService = function(req) {
+  return this.request(req, "/server/CreateService", {
+    serverId: req.body.serverId,
+		projectId: req.body.projectId,
+		name: req.body.name,
+		port: req.body.port,
+		version: req.body.version
+  }).then(
+    result => {
+      return {
+        data: result,
+        str: "创建服务器内有服务"
+      };
+  });
+};
+
+// 获取服务器内有服务
+ctrl.GetServerService = function(req) {
+  return this.request(req, "/server/GetService", {
+    serverId: req.body.serverId,
+  }).then(
+    result => {
+      return {
+        data: result,
+        str: "获取服务器内有服务"
+      };
+  });
+};
+
+// 编辑服务器内有服务
+ctrl.EditServerSevice = function(req) {
+  return this.request(req, "/server/EditService", {
+    serverId: req.body.serverId,
+		projectId: req.body.projectId,
+		name: req.body.name,
+		port: req.body.port,
+		version: req.body.version,
+		is_actived: req.body.actived
+  }).then(
+    result => {
+      return {
+        data: result,
+        str: "编辑服务器内有服务"
+      };
+  });
+};
+
+// 删除服务器内有服务
+ctrl.DeleteServerSevice = function(req) {
+  return this.request(req, "/server/DeleteService", {
+    serverId: req.body.serverId,
+  }).then(
+    result => {
+      return {
+        data: result,
+        str: "删除服务器内有服务"
+      };
+  });
+};
+
 // 获取容器列表
 ctrl.ContainerList = function(req) {
-  return this.request(req, "/asset/ListSwarmContainers", {}).then(
+  return this.request(req, "/server/ListSwarmContainers", {}).then(
     result => {
       return {
         data: result,
@@ -141,7 +277,7 @@ ctrl.ContainerList = function(req) {
 
 // 获取镜像列表
 ctrl.ImageList = function(req) {
-  return this.request(req, "/asset/ListImages", {}).then(
+  return this.request(req, "/server/ListImages", {}).then(
     result => {
       return {
         data: result,
@@ -152,7 +288,7 @@ ctrl.ImageList = function(req) {
 
 // 停止容器
 ctrl.stopContainer = function(req) {
-  return this.request(req, "/asset/StopContainer", {
+  return this.request(req, "/server/StopContainer", {
     container_id: req.body.container_id
   }).then(
     result => {
@@ -165,7 +301,7 @@ ctrl.stopContainer = function(req) {
 
 // 开启容器
 ctrl.startContainer = function(req) {
-  return this.request(req, "/asset/StartContainer", {
+  return this.request(req, "/server/StartContainer", {
     container_id: req.body.container_id
   }).then(
     result => {
@@ -178,7 +314,7 @@ ctrl.startContainer = function(req) {
 
 // 删除容器
 ctrl.deleteContainer = function(req) {
-  return this.request(req, "/asset/DeleteContainer", {
+  return this.request(req, "/server/DeleteContainer", {
     container_id: req.body.container_id
   }).then(
     result => {
@@ -191,7 +327,7 @@ ctrl.deleteContainer = function(req) {
 
 // 容器内部详情
 ctrl.ContainerDetail = function(req) {
-  return this.request(req, "/asset/ContainerDetail", {
+  return this.request(req, "/server/ContainerDetail", {
     container_id: req.body.container_id
   }).then(
     result => {
@@ -340,7 +476,7 @@ ctrl.GetRecords = function(req) {
 
 // 获取CPU负载
 ctrl.queryCpuLoad = function(req) {
-  return this.request(req, "/zabbixapi/CpuLoad", {
+  return this.request(req, "/monitor/CpuLoad", {
   }).then(
     result => {
       return {
@@ -352,7 +488,7 @@ ctrl.queryCpuLoad = function(req) {
 
 // 获取单台CPU负载
 ctrl.queryCpuLoadByIp = function(req) {
-  return this.request(req, "/zabbixapi/CpuLoadByIp", {
+  return this.request(req, "/monitor/CpuLoadByIp", {
 		hostip: req.body.hostip
   }).then(
     result => {
@@ -365,7 +501,7 @@ ctrl.queryCpuLoadByIp = function(req) {
 
 // 获取CPU状态
 ctrl.queryCpuStat = function(req) {
-  return this.request(req, "/zabbixapi/CpuStat", {
+  return this.request(req, "/monitor/CpuStat", {
   }).then(
     result => {
       return {
@@ -377,7 +513,7 @@ ctrl.queryCpuStat = function(req) {
 
 // 获取内存状态
 ctrl.queryMemStat = function(req) {
-  return this.request(req, "/zabbixapi/MemStat", {
+  return this.request(req, "/monitor/MemStat", {
   }).then(
     result => {
       return {
@@ -389,7 +525,7 @@ ctrl.queryMemStat = function(req) {
 
 // 获取单台内存状态
 ctrl.queryMemStatByIp = function(req) {
-  return this.request(req, "/zabbixapi/MemStatByIp", {
+  return this.request(req, "/monitor/MemStatByIp", {
 		hostip: req.body.hostip
   }).then(
     result => {
@@ -402,7 +538,7 @@ ctrl.queryMemStatByIp = function(req) {
 
 // 获取进程状态
 ctrl.queryRunProcess = function(req) {
-  return this.request(req, "/zabbixapi/RunProcess", {
+  return this.request(req, "/monitor/RunProcess", {
   }).then(
     result => {
       return {
@@ -413,7 +549,7 @@ ctrl.queryRunProcess = function(req) {
 };
 // 获取在线状态
 ctrl.queryUpTime = function(req) {
-	 return this.request(req, "/zabbixapi/UpTime", {
+	 return this.request(req, "/monitor/UpTime", {
 	 }).then(
 	   result => {
 	     return {
@@ -424,7 +560,7 @@ ctrl.queryUpTime = function(req) {
 };
 // 获取在线总时长
 ctrl.queryBootTime = function(req) {
-	 return this.request(req, "/zabbixapi/BootTime", {
+	 return this.request(req, "/monitor/BootTime", {
 	 }).then(
 	   result => {
 	     return {
@@ -436,7 +572,7 @@ ctrl.queryBootTime = function(req) {
 
 // 获取生产数据库连接数
 ctrl.getMysqlConns = function(req) {
-	 return this.request(req, "/db/MysqlConns", {
+	 return this.request(req, "/monitor/MysqlConns", {
 		 ip: req.body.ip
 	 }).then(
 	   result => {
@@ -444,6 +580,74 @@ ctrl.getMysqlConns = function(req) {
 	       data: result,
 	       str: "获取生产数据库连接数"
 	    };
+	});
+};
+
+// 获取模块列表
+ctrl.getModuleList = function(req) {
+	 return this.request(req, "/module/GetModule", {
+	 }).then(
+	   result => {
+	     return {
+	       data: result,
+	       str: "获取模块列表"
+	    };
+	});
+};
+
+// 新增模块
+ctrl.createModule = function(req) {
+	 return this.request(req, "/module/CreateModule", {
+		 name: req.body.name,
+		 type: req.body.type,
+		 version: req.body.version
+	 }).then(
+	   result => {
+	     return {
+	       data: result,
+	       str: "新增模块"
+	    };
+	});
+};
+
+// 获取模块详情
+ctrl.GetModuleDetail = function(req) {
+		return this.request(req, "/module/GetModuleDetail", {
+			moduleid: req.body.moduleid,
+			serverid: req.body.serverid,
+	 }).then(
+		  result => {
+		    return {
+		      data: result,
+		      str: "获取模块详情"
+		   };
+	});
+};
+
+// 绑定模块及服务器
+ctrl.SetModuleServer = function(req) {
+		return this.request(req, "/module/SetModuleServer", {
+			moduleid: req.body.moduleid,
+			serverid: req.body.serverid,
+	 }).then(
+		  result => {
+		    return {
+		      data: result,
+		      str: "绑定模块及服务器"
+		   };
+	});
+};
+
+// 删除模块
+ctrl.DelModule = function(req) {
+		return this.request(req, "/module/DelModule", {
+			moduleid: req.body.moduleid,
+	 }).then(
+		  result => {
+		    return {
+		      data: result,
+		      str: "删除模块"
+		   };
 	});
 };
 

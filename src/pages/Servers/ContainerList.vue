@@ -25,14 +25,14 @@
       <template scope="scope">
         <el-button
         size="small"
-        type="info"
+        type="primary"
         @click="getContainersDetail(scope.$index, scope.row)">{{ scope.row.container_id }}</el-button>
       </template>
     </el-table-column>
-    <el-table-column
+<!--    <el-table-column
     label="托管主机"
     prop="host_name"
-    width="120px">
+    width="120px"> -->
   </el-table-column>
     <el-table-column
       label="容器名"
@@ -50,7 +50,7 @@
     </el-table-column>
     <el-table-column
       label="创建时间"
-      prop="create_date"
+      prop="createdate"
       width="180px">
     </el-table-column>
     <el-table-column
@@ -89,7 +89,7 @@
     </el-table-column>
   </el-table>
 
-  <el-dialog title="容器详情" v-model="detailVisible" :close-on-click-modal="false">
+  <el-dialog title="容器详情" :visible.sync="detailVisible" :close-on-click-modal="false">
     <el-table :data="detail">
       <el-table-column property="COMMAND" label="执行命令"></el-table-column>
       <el-table-column property="CPU" label="CPU"></el-table-column>

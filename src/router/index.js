@@ -2,6 +2,7 @@ import Router from "vue-router";
 
 //	路由与对应的组件文件
 import Home from "@/pages/Home";
+import Dashboard from "@/pages/Dashboard"
 import Login from '@/pages/Login';
 import ServerList from '@/pages/Servers/ServerList'
 import ContainerList from '@/pages/Servers/ContainerList'
@@ -13,6 +14,7 @@ import cpu from '@/pages/monitor/cpu'
 import mem from '@/pages/monitor/mem'
 import monitor from '@/pages/monitor/monitor'
 import database from '@/pages/monitor/database'
+import Module from '@/pages/module/Module'
 
 const router = new Router({
 	mode: "history",
@@ -22,7 +24,7 @@ const router = new Router({
 		component: Login
 	}, {
 		path: "/dashboard",
-		component: Home,
+		component: Dashboard,
 		children: [{
 			path: "",
 			name: "dashboard",
@@ -63,6 +65,10 @@ const router = new Router({
 			path: "database",
 			name: "database",
 			component: database
+		}, {
+			path: "module",
+			name: "module",
+			component: Module
 		}]
 	}]
 });

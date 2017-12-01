@@ -24,7 +24,7 @@
     </el-table-column>
     <el-table-column
       label="创建时间"
-      prop="create_date">
+      prop="createdate">
     </el-table-column>
     <el-table-column
       label="镜像大小"
