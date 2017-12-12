@@ -11,11 +11,11 @@
         </el-form-item>
         <el-form-item prop="checkPass">
           <span class="svg-container"></span>
-          <el-input name="checkPass" type="password" @keyup.enter.native="handleSubmit2" v-model="ruleForm2.checkPass"
+          <el-input name="checkPass" type="password" @keyup.enter.native="login" v-model="ruleForm2.checkPass"
                          autoComplete="on" placeholder="密码"></el-input>
         </el-form-item>
         <el-form-item>
-          <el-button type="primary" style="width:100%;" :loading="loading" @click.native.prevent="handleSubmit2">
+          <el-button type="primary" style="width:100%;" :loading="loading" @click.native.prevent="login">
                 登录
           </el-button>
         </el-form-item>
@@ -25,6 +25,7 @@
 
 <script>
   import router from "../router";
+  import store from "../store/store";
 
   export default {
     name: "login",
@@ -86,6 +87,32 @@
 					}
 				});
 			},
+      login() {
+        var self = this;
+        self.$refs.ruleForm2.validate(function(valid) {
+          if (valid) {
+            self.$http.post('/Interface/login', {
+              username: self.ruleForm2.account,
+              password: self.ruleForm2.checkPass
+            }).then((response) => {
+              var data = response.data;
+              switch (data.retcode) {
+                case 0:
+                  router.replace({
+                    name: 'dashboard'
+                  });
+                  break;
+                case 1:
+                  self.$message.error(data.retmsg);
+                default:
+                  self.$message.error(data.retmsg);
+              }
+            })
+          } else {
+						self.$message.error("表单验证失败！");
+					}
+        })
+      }
     }
   }
 </script>

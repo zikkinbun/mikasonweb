@@ -29,6 +29,7 @@
           <el-button
           size="small"
           type="primary"
+          plain
           @click="getServerDetail(scope.$index, scope.row)">{{ scope.row.name }}</el-button>
         </template>
       </el-table-column>
@@ -73,18 +74,22 @@
           <el-button
           size="small"
           type="primary"
+          plain
           @click="handleEdit(scope.$index, scope.row)">查看状态</el-button>
           <el-button
           size="small"
           type="warning"
+          plain
           @click="handleEdit(scope.$index, scope.row)">修改配置</el-button>
           <el-button
           size="small"
           type="success"
+          plain
           @click="handleMonitor(scope.$index, scope.row)">监控操作</el-button>
           <el-button
           size="small"
           type="danger"
+          plain
           @click="handleDelete(scope.$index, scope.row)">删除服务器</el-button>
         </template>
       </el-table-column>

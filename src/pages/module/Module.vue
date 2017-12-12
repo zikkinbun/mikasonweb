@@ -88,7 +88,15 @@
         <el-input v-model="addForm.name" auto-complete="off"></el-input>
       </el-form-item>
       <el-form-item label="类型" prop="type">
-        <el-input v-model="addForm.type" auto-complete="off"></el-input>
+        <el-select v-model="tag" placeholder="请选择">
+          <el-option
+            v-for="tag in tags"
+            :key="tag.name"
+            :label="tag.name"
+            :value="tag.value">
+             <span style="float: left">{{ tag.name }}</span>
+          </el-option>
+        </el-select>
       </el-form-item>
       <el-form-item label="版本" prop="version">
         <el-input v-model="addForm.version" auto-complete="off"></el-input>
@@ -103,13 +111,21 @@
   <el-dialog title="修改模块" :visible.sync="editVisible" :close-on-click-modal="false">
     <el-form :model="editForm" ref="editForm" label-width="80px" :rules="editrules">
       <el-form-item label="模块名" prop="name">
-        <el-input v-model="addForm.name" auto-complete="off"></el-input>
+        <el-input v-model="editForm.name" auto-complete="off"></el-input>
       </el-form-item>
       <el-form-item label="类型" prop="type">
-        <el-input v-model="addForm.type" auto-complete="off"></el-input>
+        <el-select v-model="tag" placeholder="请选择">
+          <el-option
+            v-for="tag in tags"
+            :key="tag.name"
+            :label="tag.name"
+            :value="tag.value">
+             <span style="float: left">{{ tag.name }}</span>
+          </el-option>
+        </el-select>
       </el-form-item>
       <el-form-item label="版本" prop="version">
-        <el-input v-model="addForm.version" auto-complete="off"></el-input>
+        <el-input v-model="editForm.version" auto-complete="off"></el-input>
       </el-form-item>
     </el-form>
       <div slot="footer" class="dialog-footer">
@@ -165,7 +181,7 @@
   <el-dialog title="编辑模块详情" :visible.sync="editDetialVisible" :close-on-click-modal="false">
     <el-form :model="editDetialForm" ref="editDetialForm" label-width="80px" :rules="editDetialrules">
       <el-form-item label="端口" prop="port">
-        <el-input v-model="editDetialForm.name" auto-complete="off"></el-input>
+        <el-input v-model="editDetialForm.port" auto-complete="off"></el-input>
       </el-form-item>
       <el-form-item label="配置文件" prop="configfile">
         <el-input v-model="editDetialForm.configfile" auto-complete="off"></el-input>
@@ -183,7 +199,7 @@
         <el-tag type="success" size="medium">{{ bindForm.name }}</el-tag>
       </el-form-item>
       <el-form-item label="服务器名">
-        <el-select v-model="selected_server.id" placeholder="请选择">
+        <el-select v-model="selected_server.serverid" placeholder="请选择">
           <el-option
             v-for="server in servers"
             :key="server.serverName"
@@ -211,6 +227,7 @@
         detail: [],
         filters: [],
         servers: [],
+        tag: '',
         tags: [
           { name: 'WEB', value: 1, type: '' },
           { name: '数据库', value: 2, type: 'success' },
@@ -237,6 +254,7 @@
           ],
         },
         editForm: {
+          id: '',
           name: '',
           type: '',
           version: ''
@@ -255,6 +273,7 @@
           ],
         },
         editDetialForm: {
+          id: '',
           port: '',
           configfile: ''
         },
@@ -276,8 +295,8 @@
           name: '',
         },
         selected_server: {
-          id: '',
-          name: ''
+          moduleid: '',
+          serverid: ''
         }
       }
     },
@@ -340,6 +359,8 @@
       },
       getModleDetail: function(index, row, serverid) {
         var self = this;
+        self.selected_server.serverid = serverid;
+        self.selected_server.moduleid = row.id;
         self.$http.post('/Interface/GetModuleDetail', {
           moduleid: row.id,
           serverid: serverid
@@ -361,7 +382,7 @@
         var self = this;
         self.$http.post('/Interface/getModuleList', {
           name: self.addForm.name,
-          type: self.addForm.type,
+          type: self.tag,
           version: self.addForm.version
         }).then((response) => {
           self.addLoading = true;
@@ -386,9 +407,10 @@
       },
       editModule: function() {
         var self = this;
-        self.$http.post('/Interface/getModuleList', {
+        self.$http.post('/Interface/setModule', {
+          moduleid: self.editForm.id,
           name: self.editForm.name,
-          type: self.editForm.type,
+          type: self.tag,
           version: self.editForm.version
         }).then((response) => {
           self.editLoading = true;
@@ -413,9 +435,11 @@
       },
       editModuleDetail: function() {
         var self = this;
-        self.$http.post('/Interface/CreateModuleDetail', {
-          port: self.editDetialForm.name,
-          configfile: self.editDetialForm.type,
+        self.$http.post('/Interface/editModuleDetail', {
+          moduleid: self.selected_server.moduleid,
+          serverid: self.selected_server.serverid,
+          port: self.editDetialForm.port,
+          configfile: self.editDetialForm.configfile
         }).then((response) => {
           self.editDetialLoading = true;
           var data = response.data;

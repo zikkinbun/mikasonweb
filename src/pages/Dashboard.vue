@@ -16,25 +16,20 @@
 						<el-menu-item index="/dashboard/ContainerList"><i class="el-icon-menu"></i>Docker容器列表</el-menu-item>
 						<el-menu-item index="/dashboard/ImageList"><i class="el-icon-menu"></i>Docker镜像列表</el-menu-item>
 					</el-submenu>
-					<el-submenu index="1-2">
-						<template slot="title"><i class="el-icon-upload"></i>集群管理</template>
-							<el-menu-item index="/dashboard/Projects"><i class="el-icon-view"></i>新建集群</el-menu-item>
-							<el-menu-item index="/dashboard/deploy"><i class="el-icon-edit"></i>地区管理</el-menu-item>
-							<el-menu-item index="/dashboard/deployRecord"><i class="el-icon-tickets"></i>加入集群</el-menu-item>
-					</el-submenu>
-					<el-submenu index="1-3">
-						<template slot="title"><i class="el-icon-upload"></i>业务管理</template>
-							<el-menu-item index="/dashboard/Projects"><i class="el-icon-view"></i>业务列表</el-menu-item>
+					<el-submenu index="1-2s">
+						<template slot="title"><i class="el-icon-document"></i>业务管理</template>
+							<el-menu-item index="/dashboard/bussiness"><i class="el-icon-view"></i>业务列表</el-menu-item>
 							<el-menu-item index="/dashboard/deploy"><i class="el-icon-edit"></i>业务拓扑</el-menu-item>
 					</el-submenu>
+					<el-menu-item index="/dashboard/cluster"><i class="el-icon-upload"></i>集群管理</el-menu-item>
 					<el-menu-item index="/dashboard/module"><i class="el-icon-view"></i>模块列表</el-menu-item>
 					<el-menu-item index="1-4"><i class="el-icon-view"></i>操作审计</el-menu-item>
 					</el-submenu>
 			</el-submenu>
 			<el-submenu index="2">
-				<template slot="title"><i class="el-icon-upload"></i>作业平台</template>
+				<template slot="title"><i class="el-icon-mobile-phone"></i>作业平台</template>
 				<el-submenu index="2-1">
-					<template slot="title"><i class="el-icon-upload"></i>发布管理</template>
+					<template slot="title"><i class="el-icon-document"></i>发布管理</template>
 					<el-menu-item index="/dashboard/Projects"><i class="el-icon-view"></i>项目一览</el-menu-item>
 					<el-menu-item index="/dashboard/deploy"><i class="el-icon-edit"></i>定时发布</el-menu-item>
 					<el-menu-item index="/dashboard/deployRecord"><i class="el-icon-tickets"></i>发布记录</el-menu-item>
@@ -61,7 +56,7 @@
 				</el-submenu>
 			</el-submenu>
 			<el-submenu index="4">
-				<template slot="title"><i class="el-icon-mobile-phone"></i>监控平台</template>
+				<template slot="title"><i class="el-icon-phone-outline"></i>监控平台</template>
 				<el-submenu index="4-1">
 					<template slot="title"><i class="el-icon-mobile-phone"></i>主机监控</template>
 					<el-menu-item index="/dashboard/cpu"><i class="el-icon-mobile-phone"></i>CPU监控</el-menu-item>

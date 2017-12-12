@@ -26,6 +26,7 @@
         <el-button
         size="small"
         type="primary"
+        plain
         @click="getContainersDetail(scope.$index, scope.row)">{{ scope.row.container_id }}</el-button>
       </template>
     </el-table-column>
@@ -76,14 +77,17 @@
         <el-button
         size="small"
         type="success"
+        plain
         @click="startContainer(scope.$index, scope.row)">开启容器</el-button>
         <el-button
         size="small"
         type="warning"
+        plain
         @click="stopContainer(scope.$index, scope.row)">关闭容器</el-button>
         <el-button
         size="small"
         type="danger"
+        plain
         @click="deleteContainer(scope.$index, scope.row)">删除容器</el-button>
       </template>
     </el-table-column>

@@ -15,6 +15,8 @@ import mem from '@/pages/monitor/mem'
 import monitor from '@/pages/monitor/monitor'
 import database from '@/pages/monitor/database'
 import Module from '@/pages/module/Module'
+import Bussiness from '@/pages/bussiness/Bussiness'
+import Cluster from '@/pages/cluster/Cluster'
 
 const router = new Router({
 	mode: "history",
@@ -69,6 +71,14 @@ const router = new Router({
 			path: "module",
 			name: "module",
 			component: Module
+		}, {
+			path: "bussiness",
+			name: "bussiness",
+			component: Bussiness
+		}, {
+			path: "cluster",
+			name: "cluster",
+			component: Cluster
 		}]
 	}]
 });

@@ -31,9 +31,9 @@ Controller.prototype.request = function(req, url, data = null, type = "POST") {
 		type: type,
 		url: config.serverUrl + url,
 		data: data === null ? {} : data,
-		// header: {
-			// "Authorization": req.session.token
-		// }
+		header: {
+			// "Authorization": localStorage.getItem('token')
+		}
 	}).then(result => {
 		result = JSON.parse(result.body);
 		if (result.retcode === 0) {

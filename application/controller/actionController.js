@@ -12,12 +12,12 @@ ctrl.login = function(req) {
 	this.validEmpty([
 		"username", "password"
 	]);
-	return this.request(req, "/user/login/", {
+	return this.request(req, "/user/login", {
 		username: req.body.username,
 		password: req.body.password
 	}).then(result => {
 		req.session.user = result;
-		console.log(req.session.user);
+		// console.log(req.session.user);
 		return {
 			data: result,
 			str: "登陆"
@@ -39,15 +39,42 @@ ctrl.getToken = function(req) {
 	this.validEmpty([
 		"username", "password"
 	]);
-	return this.request(req, "/user/api-token-auth/", {
+	return this.request(req, "/user/getToken/", {
 		username: req.body.username,
 		password: req.body.password
 	}).then(result => {
+		// req.session.token = 'JWT ' + result;
 		return {
 			data: result,
 			str: "获取API TOKEN"
 		};
 	});
+};
+
+// 获取用户列表
+ctrl.ListUser = function(req) {
+  return this.request(req, "/user/getUser", {
+
+	}).then(
+    result => {
+      return {
+        data: result,
+        str: "获取用户列表"
+      };
+  });
+};
+
+// 获取用户列表
+ctrl.GetUser = function(req) {
+  return this.request(req, "/user/getUser", {
+		userid: req.body.userid
+	}).then(
+    result => {
+      return {
+        data: result,
+        str: "获取用户列表"
+      };
+  });
 };
 
 // 获取服务器列表
@@ -61,7 +88,7 @@ ctrl.ListServer = function(req) {
   });
 };
 
-// 获取服务器列表
+// 获取服务器名
 ctrl.ListServerName = function(req) {
   return this.request(req, "/server/ListServerName", {}).then(
     result => {
@@ -610,8 +637,24 @@ ctrl.createModule = function(req) {
 	});
 };
 
+// 修改模块
+ctrl.setModule = function(req) {
+	 return this.request(req, "/module/SetModule", {
+		 moduleid: req.body.moduleid,
+		 name: req.body.name,
+		 type: req.body.type,
+		 version: req.body.version
+	 }).then(
+	   result => {
+	     return {
+	       data: result,
+	       str: "修改模块"
+	    };
+	});
+};
+
 // 获取模块详情
-ctrl.GetModuleDetail = function(req) {
+ctrl.getModuleDetail = function(req) {
 		return this.request(req, "/module/GetModuleDetail", {
 			moduleid: req.body.moduleid,
 			serverid: req.body.serverid,
@@ -624,8 +667,24 @@ ctrl.GetModuleDetail = function(req) {
 	});
 };
 
+// 修改模块详情
+ctrl.editModuleDetail = function(req) {
+		return this.request(req, "/module/SetModuleDetail", {
+			moduleid: req.body.moduleid,
+			serverid: req.body.serverid,
+			port: req.body.port,
+			configfile: req.body.configfile
+	 }).then(
+		  result => {
+		    return {
+		      data: result,
+		      str: "修改模块详情"
+		   };
+	});
+};
+
 // 绑定模块及服务器
-ctrl.SetModuleServer = function(req) {
+ctrl.setModuleServer = function(req) {
 		return this.request(req, "/module/SetModuleServer", {
 			moduleid: req.body.moduleid,
 			serverid: req.body.serverid,
@@ -639,7 +698,7 @@ ctrl.SetModuleServer = function(req) {
 };
 
 // 删除模块
-ctrl.DelModule = function(req) {
+ctrl.delModule = function(req) {
 		return this.request(req, "/module/DelModule", {
 			moduleid: req.body.moduleid,
 	 }).then(
@@ -651,22 +710,9 @@ ctrl.DelModule = function(req) {
 	});
 };
 
-// 编辑模块详情
-ctrl.CreateModuleDetail = function(req) {
-		return this.request(req, "/module/CreateModuleDetail", {
-			port: req.body.port,
-			configfile: req.body.configfile,
-	 }).then(
-		  result => {
-		    return {
-		      data: result,
-		      str: "编辑模块详情"
-		   };
-	});
-};
 
 // 激活模块
-ctrl.ActiveDetail = function(req) {
+ctrl.activeDetail = function(req) {
 		return this.request(req, "/module/ActiveDetail", {
 			moduleid: req.body.moduleid,
 			serverid: req.body.serverid,
@@ -676,6 +722,148 @@ ctrl.ActiveDetail = function(req) {
 		    return {
 		      data: result,
 		      str: "激活模块"
+		   };
+	});
+};
+
+// 获取业务列表
+ctrl.getBusList = function(req) {
+	 return this.request(req, "/bussiness/GetBussiness", {
+	 }).then(
+	   result => {
+	     return {
+	       data: result,
+	       str: "获取业务列表"
+	    };
+	});
+};
+
+// 新增业务详情
+ctrl.addBussiness = function(req) {
+		return this.request(req, "/bussiness/CreateBussiness", {
+			name: req.body.name,
+			type: req.body.type,
+			operatorid: req.body.operatorid,
+			productorid: req.body.productorid,
+			hostnum: req.body.hostnum,
+			creator: req.body.creator
+	 }).then(
+		  result => {
+		    return {
+		      data: result,
+		      str: "新增业务详情"
+		   };
+	});
+};
+
+// 编辑业务详情
+ctrl.setBussiness = function(req) {
+		return this.request(req, "/bussiness/SetBussiness", {
+			bussinessid: req.body.bussinessid,
+			name: req.body.name,
+			operatorid: req.body.operatorid,
+			productorid: req.body.productorid,
+	 }).then(
+		  result => {
+		    return {
+		      data: result,
+		      str: "编辑业务详情"
+		   };
+	});
+};
+
+// 删除业务
+ctrl.delBussiness = function(req) {
+		return this.request(req, "/bussiness/DelBussiness", {
+			bussinessid: req.body.bussinessid,
+	 }).then(
+		  result => {
+		    return {
+		      data: result,
+		      str: "删除业务"
+		   };
+	});
+};
+
+// 获取集群列表
+ctrl.getClusterList = function(req) {
+	 return this.request(req, "/server/GetCluster", {
+	 }).then(
+	   result => {
+	     return {
+	       data: result,
+	       str: "获取集群列表"
+	    };
+	});
+};
+
+// 获取集群详情
+ctrl.getClusterDetail = function(req) {
+	 return this.request(req, "/server/GetCluster", {
+		 clusterid: req.body.clusterid
+	 }).then(
+	   result => {
+	     return {
+	       data: result,
+	       str: "获取集群详情"
+	    };
+	});
+};
+
+// 新增集群详情
+ctrl.addCluster = function(req) {
+		return this.request(req, "/server/CreateCluster", {
+			name: req.body.name,
+			type: req.body.type,
+			region: req.body.region
+	 }).then(
+		  result => {
+		    return {
+		      data: result,
+		      str: "新增集群详情"
+		   };
+	});
+};
+
+// 编辑集群详情
+ctrl.setCluster = function(req) {
+		return this.request(req, "/server/SetCluster", {
+			clusterid: req.body.clusterid,
+			name: req.body.name,
+			type: req.body.type,
+			region: req.body.region
+	 }).then(
+		  result => {
+		    return {
+		      data: result,
+		      str: "编辑集群详情"
+		   };
+	});
+};
+
+// 删除集群
+ctrl.delCluster = function(req) {
+		return this.request(req, "/server/DelCluster", {
+			clusterid: req.body.clusterid
+	 }).then(
+		  result => {
+		    return {
+		      data: result,
+		      str: "删除集群"
+		   };
+	});
+};
+
+// 绑定集群主机
+ctrl.bindServer = function(req) {
+		return this.request(req, "/server/BindServer", {
+			clusterid: req.body.clusterid,
+			serverids: req.body.serverids
+	 }).then(
+		  result => {
+		    return {
+		      data: result,
+		      str: "绑定集群主机"
 		   };
 	});
 };

@@ -7,6 +7,7 @@ import Element from 'element-ui'
 // import iView from 'iview'
 import Vue from 'vue'
 import VueI18n from "vue-i18n";
+import VueJWT from 'vuejs-jwt'
 import Router from 'vue-router'
 import App from './App'
 // import routes from './routes'
@@ -27,6 +28,7 @@ Vue.use( Vuex );
 Vue.use( VueResource );
 Vue.use( Router );
 Vue.use( VueI18n );
+// Vue.use( VueJWT );
 // const router = new VueRouter({
 //   routes
 // })

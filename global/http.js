@@ -119,7 +119,7 @@ exports.request = ({
 	}
 
 	headers["User-Agent"] = "javascript";
-	headers["Authorization"] = "Token f1fbcd9d770e1848c71ac7a05c23a8a55c87e68e";
+	headers["Authorization"] = "Token dbcbbddc955af48d24a02f64ba8b0fcb58f1345c";
 
 	options = {
 		hostname: url.hostname,
